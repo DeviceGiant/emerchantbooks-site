@@ -44,10 +44,10 @@ export function CtaBand({ source, heading, sub }: { source: string; heading?: st
     <section className="bg-navy-900 py-16">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2">
         <div>
-          <h2 className="text-3xl font-bold text-white">{heading || "Find out if your books would survive diligence"}</h2>
+          <h2 className="text-3xl font-bold text-white">{heading || "We'll do last month's books free, and show you what your bookkeeper missed"}</h2>
           <p className="mt-4 text-lg leading-relaxed text-slate-300">
             {sub ||
-              "The Diligence Readiness Assessment: $2,500, ten business days, your books scored against the 40 points buyers and lenders actually check. Credited in full against onboarding. For sellers doing $100K+/mo."}
+              "The free Ecommerce Books Audit: connect read-only access and within 3 business days you get a clean month of books plus a 10-minute recorded teardown of every margin leak, COGS error and sales-tax risk we found. Keep it all, even if you never hire us."}
           </p>
           <ul className="mt-6 space-y-2.5 text-sm text-slate-300">
             <li>✓ Books closed by day 10, guaranteed in writing</li>

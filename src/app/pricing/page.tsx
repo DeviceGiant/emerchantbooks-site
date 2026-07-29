@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs, CtaBand, FaqBlock } from "@/components/Sections";
+import PriceCalculator from "@/components/PriceCalculator";
 
 export const metadata: Metadata = {
   title: { absolute: "Published Pricing for $100K+/mo Ecommerce Brands | eMerchant Books" },
@@ -103,16 +104,21 @@ export default function Pricing() {
             close guarantee.
           </p>
           <div className="mx-auto mt-6 max-w-2xl rounded-xl border border-navy-800 bg-navy-900 p-5 text-left">
-            <p className="text-sm font-bold text-white">We only work with sellers doing $100K+ a month in revenue.</p>
+            <p className="text-sm font-bold text-white">Our specialist practice serves sellers doing $100K+ a month.</p>
             <p className="mt-1.5 text-sm leading-relaxed text-slate-300">
-              Minimums exist because our process is built for the complexity that starts at seven figures. Under $100K/mo?
-              Join the Foundations waitlist via the contact form and we&rsquo;ll introduce you to a vetted starter
-              bookkeeper, then take over when you cross the line.
+              Smaller operation? You&rsquo;re not turned away: Books Lite ($149/mo, first month free) and our DFW
+              full-service practice cover every earlier stage, and you graduate into the specialist tiers as you
+              grow. Every plan below shows its real price.
             </p>
           </div>
         </div>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-3">
+        <div className="mt-10">
+          <PriceCalculator />
+        </div>
+
+        <h2 className="mt-14 text-center text-2xl font-bold text-navy-900">Specialist ecommerce tiers ($100K+/mo)</h2>
+        <div className="mt-8 grid gap-6 lg:grid-cols-3">
           {TIERS.map((t) => (
             <div
               key={t.name}
@@ -148,6 +154,32 @@ export default function Pricing() {
               >
                 Start With the Assessment
               </Link>
+            </div>
+          ))}
+        </div>
+
+        <h2 className="mt-16 text-center text-2xl font-bold text-navy-900">Plans for every earlier stage</h2>
+        <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-slate-600">
+          Same discipline, right-sized. AI does the entry work; a named accountant reviews and signs every close.
+        </p>
+        <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          {[
+            { name: "DIY + Review", price: "$99/qtr", who: "You keep your own QuickBooks", items: ["Quarterly review, fixes and certification of your file", "Written punch list of what to change", "Priority upgrade path when you outgrow DIY"], offer: "First review half price" },
+            { name: "Books Lite", price: "$149–249/mo", who: "Simple businesses under $25K/mo", items: ["AI-automated feeds + human-reviewed monthly close", "P&L and balance sheet with a 3-minute video summary", "Year-end tax-ready package and 1099s"], offer: "First month free, no card" },
+            { name: "Local Full-Service (DFW)", price: "$299–1,200/mo", who: "Dallas–Fort Worth businesses, POS and brick-and-mortar welcome", items: ["A/P, A/R, payroll coordination, sales tax filings", "POS-to-QuickBooks data flow, organized A to Z", "We move you free: 3 months of catch-up + handled handoff"], offer: "Free 30-day trial + 90-day money-back guarantee" },
+            { name: "International Starter", price: "$499/mo", who: "Non-US sellers entering US platforms", items: ["US bookkeeping + sales-tax registrations and filings", "Form 5472 / pro-forma 1120 coordination", "Graduates into specialist tiers as you scale"], offer: "Free 20-min US Launch Compliance Check" },
+          ].map((t) => (
+            <div key={t.name} className="flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <p className="font-bold text-navy-900">{t.name}</p>
+              <p className="mt-1 text-2xl font-bold text-navy-900">{t.price}</p>
+              <p className="mt-1 text-xs text-slate-500">{t.who}</p>
+              <ul className="mt-4 flex-1 space-y-2 text-sm text-slate-700">
+                {t.items.map((f) => (
+                  <li key={f} className="flex items-start gap-2"><span className="mt-0.5 text-brand-500" aria-hidden>✓</span>{f}</li>
+                ))}
+              </ul>
+              <p className="mt-4 rounded-lg bg-brand-50 px-3 py-2 text-xs font-semibold text-brand-700">{t.offer}</p>
+              <Link href="/contact/" className="mt-4 rounded-lg bg-navy-900 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-navy-800">Start Here</Link>
             </div>
           ))}
         </div>
