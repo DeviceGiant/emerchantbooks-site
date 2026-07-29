@@ -1,0 +1,27 @@
+import type { MetadataRoute } from "next";
+import { SERVICES } from "@/content/services";
+import { ARTICLES } from "@/content/articles";
+
+const BASE = "https://emerchantbooks.com";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const now = new Date();
+  const core = ["", "/pricing", "/international-sellers", "/about-us", "/contact", "/faq", "/bookkeeping-tips"].map(
+    (p) => ({
+      url: `${BASE}${p}/`,
+      lastModified: now,
+      priority: p === "" ? 1 : 0.8,
+    })
+  );
+  const services = SERVICES.map((s) => ({
+    url: `${BASE}/${s.slug}/`,
+    lastModified: now,
+    priority: 0.9,
+  }));
+  const articles = ARTICLES.map((a) => ({
+    url: `${BASE}/bookkeeping-tips/${a.slug}/`,
+    lastModified: new Date(a.date),
+    priority: 0.7,
+  }));
+  return [...core, ...services, ...articles];
+}

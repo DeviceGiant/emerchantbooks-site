@@ -1,0 +1,77 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Breadcrumbs, CtaBand, Guarantees } from "@/components/Sections";
+import { SITE } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "About Us — Ecommerce Bookkeeping Specialists",
+  description:
+    "eMerchant Books is a Texas-based bookkeeping firm that works only with ecommerce sellers. 15+ years in ecommerce, specialist tools, and books you always own.",
+  alternates: { canonical: "/about-us/" },
+};
+
+export default function About() {
+  return (
+    <>
+      <Breadcrumbs items={[{ href: "/about-us/", label: "About Us" }]} />
+
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
+        <h1 className="text-4xl font-bold text-navy-900">The bookkeeping firm that only does ecommerce</h1>
+        <p className="mt-5 text-lg leading-relaxed text-slate-600">
+          eMerchant Books exists because of a conversation that happens thousands of times a year: a seller asks
+          their bookkeeper a question about settlement reports, reserves or FBA fees, and gets a blank look back.
+          &ldquo;My CPA doesn&rsquo;t know what Amazon is&rdquo; is a real quote from a real seller forum, and it
+          describes most of the industry.
+        </p>
+        <p className="mt-4 leading-relaxed text-slate-600">
+          We went the other way. No restaurants, no law firms, no landscapers. Every client sells online, so every
+          process, template and tool we run is built for marketplace payouts, multi-channel COGS and the reports
+          platforms actually produce. Fifteen-plus years of ecommerce experience means your edge cases are our
+          routine cases.
+        </p>
+
+        <h2 className="mt-12 text-2xl font-bold text-navy-900">What we believe</h2>
+        <div className="mt-6 space-y-5 leading-relaxed text-slate-600">
+          <p>
+            <strong className="text-navy-900">Your books belong to you.</strong> We work in your QuickBooks or Xero
+            file, under your login and ownership. The industry learned in December 2024 what happens when a
+            bookkeeping platform holding your ledger shuts down overnight. We made that failure structurally
+            impossible: there's nothing of yours on our side to lose.
+          </p>
+          <p>
+            <strong className="text-navy-900">Deadlines are commitments.</strong> Books closed by the 15th, monthly,
+            in writing. Financial statements that arrive six weeks late are history lessons, and you can't run a
+            business on history lessons.
+          </p>
+          <p>
+            <strong className="text-navy-900">Pricing belongs on the website.</strong> Most specialist firms hide
+            pricing behind a sales call. Ours is on the pricing page, starting at $229/mo, tiered by order volume.
+            If we're not the right fit, you find out in two minutes instead of two calls.
+          </p>
+          <p>
+            <strong className="text-navy-900">Small sellers deserve specialist work.</strong> The big ecommerce
+            accounting firms set $1M or even $3M revenue minimums. We built for the seller doing $10k to $500k a
+            month, and for international sellers on US platforms that most firms won't touch at all.
+          </p>
+        </div>
+
+        <h2 className="mt-12 text-2xl font-bold text-navy-900">Where we are</h2>
+        <p className="mt-4 leading-relaxed text-slate-600">
+          We&rsquo;re based in {SITE.address.city}, Texas, and work with sellers across the US and worldwide. Reach
+          us at <a className="font-medium text-brand-600 hover:underline" href={SITE.phoneHref}>{SITE.phone}</a>, at{" "}
+          <a className="font-medium text-brand-600 hover:underline" href={`mailto:${SITE.email}`}>{SITE.email}</a>, or
+          through the <Link href="/contact/" className="font-medium text-brand-600 hover:underline">contact page</Link>.
+          {" "}Hours are {SITE.hours}, and existing clients reach their bookkeeper directly by text or WhatsApp.
+        </p>
+      </section>
+
+      <section className="bg-slate-50 py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <Guarantees />
+        </div>
+      </section>
+
+      <CtaBand source="about-bottom" />
+    </>
+  );
+}

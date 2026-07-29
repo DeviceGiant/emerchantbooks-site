@@ -1,0 +1,94 @@
+import { NextRequest, NextResponse } from "next/server";
+import nodemailer from "nodemailer";
+
+export const runtime = "nodejs";
+
+type LeadPayload = {
+  name: string;
+  email: string;
+  phone?: string;
+  platforms?: string[];
+  monthlyRevenue?: string;
+  software?: string;
+  message?: string;
+  source?: string; // which form/CTA on the site
+};
+
+function bad(msg: string, status = 400) {
+  return NextResponse.json({ ok: false, error: msg }, { status });
+}
+
+const transporter = nodemailer.createTransport({
+  host: "smtp.migadu.com",
+  port: 465,
+  secure: true,
+  auth: {
+    user: process.env.LEAD_SMTP_USER, // noreply@emerchantbooks.com
+    pass: process.env.LEAD_SMTP_PASS,
+  },
+});
+
+// naive in-memory rate limit: 5 submissions / 10 min / IP
+const hits = new Map<string, number[]>();
+function rateLimited(ip: string) {
+  const now = Date.now();
+  const windowStart = now - 10 * 60 * 1000;
+  const arr = (hits.get(ip) || []).filter((t) => t > windowStart);
+  arr.push(now);
+  hits.set(ip, arr);
+  return arr.length > 5;
+}
+
+export async function POST(req: NextRequest) {
+  let body: LeadPayload;
+  try {
+    body = await req.json();
+  } catch {
+    return bad("invalid JSON");
+  }
+
+  const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+  if (rateLimited(ip)) return bad("too many requests", 429);
+
+  const name = (body.name || "").trim().slice(0, 200);
+  const email = (body.email || "").trim().slice(0, 200);
+  if (!name) return bad("name is required");
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return bad("valid email is required");
+
+  // honeypot: real users never fill this
+  if ((body as Record<string, unknown>)["company_website"]) {
+    return NextResponse.json({ ok: true }); // silently drop bots
+  }
+
+  const lines = [
+    `New lead from emerchantbooks.com`,
+    ``,
+    `Name: ${name}`,
+    `Email: ${email}`,
+    body.phone ? `Phone: ${String(body.phone).slice(0, 50)}` : null,
+    body.platforms?.length ? `Platforms: ${body.platforms.slice(0, 10).join(", ")}` : null,
+    body.monthlyRevenue ? `Monthly revenue: ${String(body.monthlyRevenue).slice(0, 50)}` : null,
+    body.software ? `Accounting software: ${String(body.software).slice(0, 100)}` : null,
+    body.message ? `` : null,
+    body.message ? `Message:\n${String(body.message).slice(0, 3000)}` : null,
+    ``,
+    `Source: ${String(body.source || "unknown").slice(0, 100)}`,
+    `IP: ${ip}`,
+    `Time: ${new Date().toISOString()}`,
+  ].filter((l): l is string => l !== null);
+
+  try {
+    await transporter.sendMail({
+      from: `"eMerchant Books Leads" <${process.env.LEAD_SMTP_USER}>`,
+      to: process.env.LEAD_TO || "sales@emerchantbooks.com",
+      replyTo: email,
+      subject: `New lead: ${name} (${body.source || "website"})`,
+      text: lines.join("\n"),
+    });
+  } catch (e) {
+    console.error("lead mail failed", e);
+    return bad("failed to send — please email us directly at sales@emerchantbooks.com", 500);
+  }
+
+  return NextResponse.json({ ok: true });
+}
