@@ -103,6 +103,30 @@ export const IMAGES: Record<string, { src: string; alt: string }> = {
     src: "/images/article-form-5472-international-mail.webp",
     alt: "Official document, passport and airmail envelope for Form 5472 foreign-owned LLC filing",
   },
+  "tiktok-shop-seller-bookkeeping": {
+    src: "/images/ecommerce-bookkeeping-services-desk.webp",
+    alt: "TikTok Shop seller's bookkeeping desk with financial charts and shipping boxes ready for settlement reconciliation",
+  },
+  "content-creator-bookkeeping": {
+    src: "/images/contact-ecommerce-bookkeeper-consultation.webp",
+    alt: "Phone and notebook on a content creator's desk, set up for tracking influencer income and taxes",
+  },
+  "ebay-seller-bookkeeping-problems": {
+    src: "/images/ebay-bookkeeping-reseller-workspace.webp",
+    alt: "eBay reseller workspace with shipping scale and padded mailers, where managed payments bookkeeping problems start",
+  },
+  "walmart-seller-bookkeeping-problems": {
+    src: "/images/walmart-marketplace-accounting-warehouse.webp",
+    alt: "Walmart Marketplace fulfillment boxes next to a calculator and laptop during a WFS settlement review",
+  },
+  "shopify-bookkeeping-problems": {
+    src: "/images/shopify-bookkeeping-storefront-analytics.webp",
+    alt: "Laptop showing Shopify store analytics beside bookkeeping records of multi-gateway payouts",
+  },
+  "back-market-reebelo-seller-bookkeeping": {
+    src: "/images/custom-integrations-ops-engineering.webp",
+    alt: "Refurbished electronics operations workstation with shipping boxes, where Back Market and Reebelo settlements get posted",
+  },
 };
 
 export function pageImage(key: string) {
