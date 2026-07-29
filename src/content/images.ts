@@ -95,6 +95,10 @@ export const IMAGES: Record<string, { src: string; alt: string }> = {
     src: "/images/article-quality-of-earnings-review.webp",
     alt: "Analyst reviewing a bound quality of earnings report with financial charts",
   },
+  "amazon-seller-bookkeeping-problems": {
+    src: "/images/amazon-seller-accountant-settlement-review.webp",
+    alt: "Amazon seller bookkeeping problems: reviewing settlement report spreadsheets beside a shipping box",
+  },
   "form-5472-foreign-owned-llc-guide": {
     src: "/images/article-form-5472-international-mail.webp",
     alt: "Official document, passport and airmail envelope for Form 5472 foreign-owned LLC filing",

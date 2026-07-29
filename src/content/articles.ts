@@ -323,6 +323,59 @@ export const ARTICLES: Article[] = [
 <p><strong>Do I need one to sell a business under $1M?</strong> A formal QoE, often not. QoE-style scrutiny, always: every serious buyer runs the same checks informally, and broker vetting applies the same standards.</p>
 `,
   },
+  {
+    slug: "amazon-seller-bookkeeping-problems",
+    title: "Amazon Seller Bookkeeping: The 9 Problems That Wreck Sellers' Books",
+    metaTitle: "Amazon Seller Bookkeeping: 9 Problems That Wreck Your Books",
+    metaDescription:
+      "The 9 Amazon bookkeeping problems that ruin sellers' numbers: settlement reports, FBA fees, reserves, reimbursements, 1099-K mismatches and COGS. With fixes.",
+    date: "2026-07-29",
+    readMinutes: 9,
+    excerpt: "Amazon bookkeeping fails in predictable ways: deposits booked as sales, fee blobs, ignored reserves, unclaimed reimbursements. Here are all nine problems and the fix for each.",
+    html: `
+<p>Amazon seller bookkeeping goes wrong in nine predictable ways. We know because fixing them is most of our onboarding work: nearly every Amazon seller's books arrive with at least three of these problems, and the expensive ones hide until tax season, a loan application, or a buyer's diligence team finds them. Here's the complete list, why each happens, and the fix.</p>
+
+<h2>1. The deposit is booked as revenue</h2>
+<p>The classic. Amazon pays every two weeks; the bookkeeper categorizes the deposit as "Amazon sales" and moves on. But a settlement deposit is gross sales minus referral fees, FBA fees, refunds, ad spend and reserve holds. A $50,000 deposit can hide $78,500 of actual sales. Book the net number and your revenue is understated, your fees are invisible, and your 1099-K reconciliation is broken before the year ends.</p>
+<p><strong>Fix:</strong> post from settlement reports, not bank deposits, via A2X or Link My Books, so gross sales, each fee type and refunds land in their own accounts and the deposit just clears the balance.</p>
+
+<h2>2. FBA fees treated as one blob</h2>
+<p>Referral fees, FBA fulfillment, monthly storage, long-term storage, removal fees, ad spend: each says something different about your business. Lumped into "Amazon fees," they say nothing. Sellers running 15% referral categories with creeping storage costs literally cannot see which products are profitable.</p>
+<p><strong>Fix:</strong> a chart of accounts that itemizes fee types. Ten minutes of setup, permanent visibility. Our free <a href="/bookkeeping-tips/ecommerce-chart-of-accounts/">ecommerce chart of accounts template</a> includes the full breakdown.</p>
+
+<h2>3. Reserves ignored until cash gets tight</h2>
+<p>Amazon's rolling reserve means money you earned isn't money you have. Sellers who don't track unavailable balances think they have more cash than they do, then a reserve increase lands during Q4 inventory buying and the "profitable" business can't pay a supplier.</p>
+<p><strong>Fix:</strong> book reserves as a receivable so the balance sheet shows the truth: earned, not yet paid.</p>
+
+<h2>4. Unclaimed FBA reimbursements</h2>
+<p>Amazon loses and damages inventory constantly, and reimburses far from automatically. Claims expire, auto-reimbursements come in below your real cost, and refunded orders where the buyer never returned the item quietly become free products. For a seller doing $200K/mo this is commonly thousands per year of unclaimed money.</p>
+<p><strong>Fix:</strong> monthly reconciliation of inventory adjustments against reimbursements. It's section one of our <a href="/money-leak-checklist/">27-Point Money Leak Checklist</a> for a reason: it's where sellers find money fastest.</p>
+
+<h2>5. COGS booked on purchase date, not sale date</h2>
+<p>Expense a $60,000 inventory order in March and your books show a disastrous March and six artificially great months after it. Lenders discount books like that on sight; buyers reprice deals over it; and your real per-unit margins are unknowable all year.</p>
+<p><strong>Fix:</strong> inventory goes to the balance sheet, COGS gets recognized as units sell. This is the accrual-with-inventory discipline that separates books a bank trusts from books it doesn't.</p>
+
+<h2>6. Landed cost that isn't landed</h2>
+<p>If COGS is just the supplier invoice, your margins are overstated by freight, duties and, since the 2025-2026 tariff rounds, a lot more than they used to be. Sellers discover their "30% margin" product is a 19% margin product, usually after the reorder.</p>
+<p><strong>Fix:</strong> capitalize freight and duties into inventory cost (ASC 330 treatment). Lenders and buyers now specifically ask how tariffs are being accounted for.</p>
+
+<h2>7. Sales tax booked as income</h2>
+<p>Marketplace facilitator laws mean Amazon remits most marketplace sales tax, but the tax still flows through settlement data, and sloppy books let it inflate revenue. That means overstated income, overstated tax, and a mess for whoever files your return.</p>
+<p><strong>Fix:</strong> collected tax goes to a liability account, always. If your P&L revenue includes sales tax, your books have this problem today.</p>
+
+<h2>8. The 1099-K mismatch</h2>
+<p>Amazon reports your gross payment volume to the IRS. If your return shows revenue that looks like deposits, the IRS computer sees the gap and mismatch notices follow. The gap between gross and net is routinely 25 to 35% of sales, so this isn't a rounding issue.</p>
+<p><strong>Fix:</strong> books built from settlement reports tie to the 1099-K by construction. Full walkthrough in our <a href="/bookkeeping-tips/amazon-1099-k-explained/">Amazon 1099-K guide</a>.</p>
+
+<h2>9. Multi-marketplace numbers blended into one</h2>
+<p>Selling on Amazon US, Canada and Mexico, or Amazon plus Walmart and eBay, with all revenue in one account means you can't see that one channel runs 40% margins while another quietly loses money on every order. The blended average hides both.</p>
+<p><strong>Fix:</strong> per-channel P&L via classes or tracking categories, so every marketplace defends its own economics.</p>
+
+<h2>What clean Amazon books look like</h2>
+<p>Gross sales that tie to settlement reports and the 1099-K. Fees itemized by type. Reserves visible on the balance sheet. Reimbursements reconciled monthly. COGS on inventory movement with true landed cost. Sales tax in a liability account. Per-channel margins. Closed by the 10th business day, every month.</p>
+<p>That's the standard our <a href="/amazon-bookkeeping-services/">Amazon bookkeeping service</a> maintains for $100K+/mo sellers, and the fastest way to see how far your books are from it costs nothing: our free books teardown rebuilds your most recent month properly and sends you a 10-minute video of every problem on this list we found in your file, with dollar figures. <a href="/contact/">Claim it here</a>, no card, keep everything.</p>
+`,
+  },
 ];
 
 export function getArticle(slug: string) {
