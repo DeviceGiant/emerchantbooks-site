@@ -28,6 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
+  verification: { google: "9aSna9Fa689KvtU-wKy-qHex8mmfjTXBGtBF4CIAnOQ" },
 };
 
 const ORG_SCHEMA = {
