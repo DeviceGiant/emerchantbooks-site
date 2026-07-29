@@ -38,6 +38,7 @@ const COLS: { heading: string; links: { href: string; label: string }[] }[] = [
       { href: "/ecommerce-accountant-dallas/", label: "Dallas–Fort Worth" },
       { href: "/faq/", label: "FAQ" },
       { href: "/bookkeeping-tips/", label: "Bookkeeping Tips" },
+      { href: "/money-leak-checklist/", label: "Money Leak Checklist" },
       { href: "/contact/", label: "Contact" },
     ],
   },

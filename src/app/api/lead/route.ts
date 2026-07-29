@@ -92,5 +92,33 @@ export async function POST(req: NextRequest) {
     return bad("failed to send — please email us directly at sales@emerchantbooks.com", 500);
   }
 
+  // magnet requests also get the checklist delivered to the lead
+  if ((body as Record<string, unknown>)["magnet"]) {
+    fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        from: process.env.LEAD_FROM || "eMerchant Books <leads@kloqk.com>",
+        to: [email],
+        subject: "Your 27-Point Ecommerce Money Leak Checklist",
+        text: [
+          "Here it is — the exact checks our accountants run on every new client's books:",
+          "",
+          "https://emerchantbooks.com/money-leak-checklist/",
+          "",
+          "Work through it with your books open and total what you find. Most sellers hit their first leak in section one (marketplace money they owe you).",
+          "",
+          "And if you'd rather we run all 27 checks for you: the Ecommerce Books Teardown is free. We rebuild your most recent month properly and send you a 10-minute video of every leak we found, with dollar figures. No card, no contract, keep everything.",
+          "",
+          "Claim it here: https://emerchantbooks.com/contact/",
+          "",
+          "— eMerchant Books",
+          "(469) 294-1807 · emerchantbooks.com",
+        ].join("\n"),
+      }),
+      signal: AbortSignal.timeout(15000),
+    }).catch((e) => console.error("magnet mail failed", e));
+  }
+
   return NextResponse.json({ ok: true });
 }
