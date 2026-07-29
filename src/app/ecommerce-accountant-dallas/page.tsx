@@ -81,7 +81,8 @@ export default function DallasPage() {
               month from anywhere in the metroplex, you can sit down with the people who keep your books, this
               week. West of the Trinity? We run a dedicated practice for{" "}
               <Link href="/bookkeeping-services-fort-worth/" className="font-medium text-brand-600 underline">bookkeeping services in Fort Worth</Link>{" "}
-              and the Alliance corridor.
+              and the Alliance corridor. And up the tollway, our home turf has its own page:{" "}
+              <Link href="/bookkeeping-services-plano-frisco/" className="font-medium text-brand-600 underline">accounting in Plano and Frisco</Link>.
             </p>
           </div>
 

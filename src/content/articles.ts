@@ -1355,6 +1355,447 @@ export const ARTICLES: Article[] = [
 <p>Pull up three things: your marketplace tax interview, your bank account title, and last year's 1099-Ks. All three should show the same name and the same TIN, and that pair should match your current entity. If they don't agree, you've found this year's cleanup project, and it's dramatically cheaper to fix before the IRS's matching computers or a platform's compliance team find it first. Whether you're a US reseller who leveled up from <a href="/bookkeeping-tips/reseller-taxes-bookkeeping-guide/">hobby to business</a> or an international founder with a Delaware LLC and a compliance stack you inherited from a YouTube video, we'll look at the whole picture in a free Ecommerce Books Teardown; <a href="/contact/">request one here</a>.</p>
 `,
   },
+  {
+    slug: "tariff-accounting-ecommerce-guide",
+    title: "Tariff Accounting for Ecommerce Sellers: The 2026 Guide",
+    metaTitle: "Tariff Accounting for Ecommerce Sellers (2026 Guide)",
+    metaDescription:
+      "How to account for tariff costs: capitalizing duties into inventory under ASC 330, landed cost per SKU by country of origin, booking tariff refunds, and the repricing math.",
+    date: "2026-07-30",
+    readMinutes: 12,
+    excerpt: "Duties are inventory cost, not a shipping expense. Here's the accounting that keeps margins honest when tariffs move: landed cost per SKU, refund booking, repricing math and a cash plan for duty payments.",
+    html: `
+<p>Import duties are part of your inventory cost. Under ASC 330 they get capitalized into the value of the goods you bought, sit on the balance sheet until those units sell, and hit your P&amp;L through cost of goods sold. They're not a shipping expense, not an "other cost," and not a lump you can dump into whatever month you happened to pay Customs. That one rule, applied consistently, is the difference between books that show what tariffs did to your margins and books that just show a scary freight number.</p>
+<p>In 2026 the difference is real money. Duty rates that sat at 3% for a decade now run 10% to 30%-plus depending on product and country, the $800 de minimis exemption that let small direct-import parcels skip duty entirely is gone as of August 2025, and every importer we work with is paying Customs more this year than in any prior year of their business. Here's the full accounting picture: capitalize vs expense, landed cost per SKU, refunds, repricing math, and the cash plan for duty payments.</p>
+
+<h2>Capitalize or expense? ASC 330 already answered it</h2>
+<p>Accounting standards treat inventory cost as everything "directly or indirectly incurred in bringing an article to its existing condition and location." Duties qualify on the plainest reading: the goods legally can't reach your warehouse without them. So do inbound freight, brokerage fees, and merchandise processing fees. All of it belongs in inventory, then flows to COGS as units sell.</p>
+<p>Watch what happens when a seller expenses duties instead. Say you land a container in March with $40,000 of duty on it, and the goods sell evenly over the next five months. Expensed, March shows a $40,000 hit against sales that mostly haven't happened yet: margins crater, and the owner spends a week hunting for a problem that doesn't exist. April through August then show margins several points better than reality, because those months sell duty-loaded inventory that carries no duty cost on paper. Every month is wrong. The year total is right, which is exactly why the error survives: the tax return looks fine while every operating decision made off monthly numbers gets made on fiction.</p>
+<p>Capitalized, the same $40,000 rides with the units. March margin is normal. Each sale from that container carries its true cost. Your gross margin line finally answers the question you're actually asking: are we still making money on this product at the new duty rate?</p>
+
+<h2>Why lenders and buyers check this line first</h2>
+<p>Diligence teams learned fast that tariffs are where 2025-era books lie. A <a href="/bookkeeping-tips/quality-of-earnings-report-guide/">quality of earnings analyst</a> looking at an importer now tests duty treatment almost immediately, for two reasons. First, expensed tariffs make monthly margins volatile, and volatile margins get discounted or rebuilt on the buyer's assumptions rather than yours. Second, expensing duties understates the inventory number on your balance sheet, which understates working capital, and the working capital peg moves purchase price dollar for dollar.</p>
+<p>Lenders run the same check from the other direction. An inventory-backed line of credit advances against inventory value; if your $500,000 of inventory is really $560,000 once duties are capitalized properly, you've been leaving borrowing capacity on the table. And if it's booked at $560,000 without support, expect the field exam to haircut it. Either way, the seller with per-SKU landed costs and a consistent capitalization policy gets believed, and belief is what both lenders and buyers are pricing.</p>
+<p>Doing this properly generally requires accrual books with a real inventory asset, which is its own project if you're on cash basis today. Our <a href="/bookkeeping-tips/cash-to-accrual-conversion-guide/">cash to accrual conversion guide</a> walks through that step by step.</p>
+
+<h2>The tax side: Section 263A and the small-seller exemption</h2>
+<p>Tax law mostly agrees with GAAP here. Section 263A (the uniform capitalization rules) requires resellers to capitalize duties and inbound freight into inventory for tax purposes. There's a small-business exemption for taxpayers under roughly $31 million in average annual gross receipts (the threshold adjusts for inflation), which covers most sellers reading this. But exemption from UNICAP doesn't mean "expense whatever you like": if you account for inventory at all, duties that attach to specific goods belong in the cost of those goods, and the IRS's book-conformity rules for small taxpayers point your tax treatment back at your books anyway.</p>
+<p>The practical takeaway: capitalize duties in your books, let the tax treatment follow, and stop maintaining two theories of what your inventory cost. Your CPA will thank you, and so will whoever eventually reads the file.</p>
+
+<h2>Landed cost per SKU, by country of origin</h2>
+<p>Landed cost accounting is the operational half of this. The formula per unit:</p>
+<p><strong>Landed cost = supplier unit price + allocated inbound freight + duty (HTS rate x customs value) + brokerage and entry fees, divided down to the unit.</strong></p>
+<p>Country of origin is now the biggest swing in that formula, which means the same SKU can carry two different landed costs in the same warehouse. Here's a real-shaped example for a kitchen gadget with an $8.00 FOB price:</p>
+<table>
+<thead><tr><th>Cost component</th><th>Sourced from China</th><th>Sourced from Vietnam</th></tr></thead>
+<tbody>
+<tr><td>Supplier unit price (FOB)</td><td>$8.00</td><td>$8.60</td></tr>
+<tr><td>Duty (rate x customs value)</td><td>$2.40 (30%)</td><td>$0.86 (10%)</td></tr>
+<tr><td>Freight + brokerage per unit</td><td>$0.95</td><td>$1.10</td></tr>
+<tr><td><strong>Landed cost per unit</strong></td><td><strong>$11.35</strong></td><td><strong>$10.56</strong></td></tr>
+</tbody>
+</table>
+<p>The Vietnam supplier quotes 7.5% higher and still wins by 79 cents a unit. You cannot see that from supplier invoices, and you can't see it from a books file where duty sits in one undifferentiated expense account. Sourcing decisions in 2026 are landed-cost decisions, full stop.</p>
+<p>Track it at the SKU-and-origin level: when you receive a shipment, allocate the entry's total duty and freight across the units on it (by value for duty, by weight or cubes for freight), and record that batch's landed cost. Inventory software handles this natively; a disciplined spreadsheet handles it fine at smaller scale. What doesn't handle it is nothing, which is the most common system we see. The mechanics of turning landed cost into monthly COGS are in our <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">COGS formula guide</a>.</p>
+
+<h2>Where tariffs live in your chart of accounts</h2>
+<p>Two accounts do the work. On the balance sheet, inventory (1310 in <a href="/bookkeeping-tips/ecommerce-chart-of-accounts/">our chart of accounts template</a>) holds capitalized duty as part of item cost. In COGS, an account like 5020 Inbound Freight &amp; Duties receives the duty portion as goods sell, so you can watch duty as a percent of COGS trend over time instead of losing it inside blended product cost.</p>
+<p>A workable monthly routine for sellers without inventory software: post duty payments to inventory when paid, then release them to 5020 in proportion to units sold from the affected receipts. It's one journal entry a month once the landed-cost sheet exists. Crude allocation beats no allocation by a mile; the sin isn't imprecision, it's expensing on payment date.</p>
+
+<h2>Accounting for tariff refunds</h2>
+<p>Tariff refunds went from an obscure topic to a live one, because sellers now have three ways money comes back from Customs:</p>
+<ul>
+<li><strong>Duty drawback.</strong> Export goods you imported (or destroy them under supervision) and you can recover 99% of the duty paid. For ecommerce that mostly means international sales fulfilled from US inventory and returns you re-export. Claims can reach back years, and at 2026 duty rates the math that wasn't worth the paperwork at 3% often is at 25%.</li>
+<li><strong>Corrections and protests.</strong> Misclassified HTS codes and overstated customs values get fixed through post-summary corrections (available for roughly 300 days after entry) or protests (180 days after liquidation). Classification reviews are finding real money this year; a two-point rate difference on a year of imports adds up.</li>
+<li><strong>Litigation outcomes.</strong> Court challenges to specific tariff programs have periodically produced refunds for importers who paid under them and preserved their rights. Whether that applies to you is a customs-counsel question, not a bookkeeping one, but the accounting below still governs the day a check arrives.</li>
+</ul>
+<p>How to book a refund: it is not revenue. If the related units are still in inventory, reduce inventory (the goods now cost less). If they've sold, credit COGS in the period the refund becomes both probable and reasonably estimable, which for most sellers means when the claim is approved, not when it's filed. Don't book hoped-for refunds early; accounting treats contingent gains with a raised eyebrow, and so does every diligence analyst. Booked as revenue instead, a refund inflates your top line and overstates the very margin problem the tariff created, so the books lie twice.</p>
+<p>The prerequisite for every refund path is the same paper trail: entry summaries tied to receipts tied to per-SKU landed costs. Sellers who kept that trail file drawback claims from a report. Sellers who didn't pay a consultant to reconstruct it for a cut of the recovery.</p>
+
+<h2>The repricing math: what a tariff actually does to your price</h2>
+<p>Now the decision the accounting exists to support. Take that China-sourced gadget: landed cost went from $8.95 pre-tariff to $11.35, a $2.40 increase. It sells for $24.99 on Amazon with a 15% referral fee and $6.50 of fulfillment cost. The temptation is to raise price by $2.40. That's wrong, because every added dollar of price gives 15 cents back to the marketplace.</p>
+<p>To recover a $2.40 cost increase through price, divide by one minus the fee percentage: $2.40 / 0.85 = <strong>$2.82</strong>. New price $27.81, call it $27.99. Check the margins: before, $24.99 brought $3.79 of contribution after referral fee, fulfillment and landed cost. At $27.99 with the tariffed cost, contribution lands within a few cents of the same dollar figure. Your margin <em>percentage</em> still falls (same dollars on a bigger price), which matters if you steer by percentages, and your conversion rate at $27.99 is a real question the accounting can't answer. But at least you're deciding with the true numbers instead of discovering the gap at year end.</p>
+<p>Run this SKU by SKU, not storewide. Products from low-tariff origins may need no change, and a blanket 10% price increase quietly donates margin on some SKUs while under-recovering on the ones that got hit. That per-SKU visibility is the entire payoff of landed cost accounting, and skipping the price response is one of the leaks our <a href="/money-leak-checklist/">money leak checklist</a> makes sellers check for a reason.</p>
+
+<h2>Cash-flow planning for duty payments</h2>
+<p>Here's the part the P&amp;L hides: capitalized or not, duty is cash out the door months before the related revenue shows up. Duties are generally due within about ten days of entry, or consolidated to the following month if you're on a periodic monthly statement with your broker. A $60,000 container at a 25% rate means writing a $15,000 check while the goods are still on a truck to the warehouse, weeks before a single unit sells and longer before the marketplace pays out.</p>
+<p>Plan it like the real liability it is:</p>
+<ul>
+<li><strong>Build a duty calendar from your PO schedule.</strong> Each planned shipment's estimated duty (customs value x current rate) goes on the cash forecast at its expected entry date. When rates move, the forecast moves with the next PO, not the next surprise.</li>
+<li><strong>Get on a periodic monthly statement</strong> if you're not; consolidating entries to one payment date simplifies both cash timing and reconciliation.</li>
+<li><strong>Price deferral options against your cost of cash.</strong> Bonded warehouses and foreign-trade zones defer duty until goods leave the facility, which converts a lump at entry into payments matched to sell-through. The fees only pencil at meaningful volume, but at 25% rates they pencil far sooner than they used to.</li>
+<li><strong>Hold a duty reserve.</strong> A seller importing $80,000 a month at blended 20% needs roughly $16,000 of monthly cash earmarked before ads, payroll or draws. Sellers who skip this end up funding Customs on a credit card at 24% interest, which is a worse tariff.</li>
+</ul>
+
+<h2>What to do this quarter</h2>
+<p>The list is short. Get duties out of your expense accounts and into inventory with a consistent policy. Build the per-SKU, per-origin landed cost sheet, then reprice the SKUs the math says to reprice. Pull your last twelve months of entry summaries and look for drawback and classification money. Put next quarter's duty on the cash forecast.</p>
+<p>If your books currently show tariffs as one growing lump in a freight account, that's fixable, and it's the kind of thing our free Books Teardown catches in the first pass; <a href="/contact/">request one here</a> and we'll show you what your real margins look like with duty where it belongs. Landed cost tracking and duty-aware COGS are standard in <a href="/monthly-ecommerce-bookkeeping/">our monthly bookkeeping plans</a>, and if lost import paperwork is part of the story, that's what <a href="/catch-up-bookkeeping-services/">a catch-up project</a> is for. Tariffs are expensive enough without your books making them look worse than they are.</p>
+`,
+  },
+  {
+    slug: "cash-to-accrual-conversion-guide",
+    title: "Cash to Accrual Conversion: Step-by-Step for Ecommerce",
+    metaTitle: "Cash to Accrual Conversion for Ecommerce (Step-by-Step)",
+    metaDescription:
+      "How to convert cash basis books to accrual: AR, AP, inventory and deferred revenue adjustments with a worked example, IRS Form 3115 basics, and the dual-track option.",
+    date: "2026-07-30",
+    readMinutes: 11,
+    excerpt: "Lenders and buyers won't take cash-basis books seriously, and for an inventory business they're right not to. Here's the conversion, adjustment by adjustment, with real numbers.",
+    html: `
+<p>Cash to accrual conversion means restating your books so revenue is recorded when earned and costs when incurred, instead of when money moved. For an ecommerce business the work comes down to five adjustments: accounts receivable, accounts payable, inventory, deferred revenue, and prepaids. None of them is hard individually. Done together and carried forward consistently, they turn a cash ledger into financial statements a lender, buyer or broker will actually rely on.</p>
+<p>And that's usually why sellers show up asking. Nobody converts for fun; they convert because a broker said "we can't list you without 24 months of accrual financials," or a lender's underwriter bounced the package, or a buyer's diligence team started rebuilding the numbers themselves. Better to do it on your schedule than theirs.</p>
+
+<h2>Why cash basis fails an inventory business</h2>
+<p>Cash books record inventory purchases as expenses when paid. So the month you buy a container, profit collapses; the months you sell it down, profit looks fantastic. A seller stocking up in September for Q4 shows a disastrous September and a heroic November, when the underlying business did nothing of the kind. Cost of goods "goes up and down like a seesaw," as one broker we work with puts it, and nobody can compute your real margin from it, including you.</p>
+<p>Accrual fixes the timing on both sides. Sales count when the order is earned (not when Amazon deposits two weeks later), and inventory cost counts when units sell (not when you paid the supplier). The result is a margin line that means something, month after month. That's the property every outside reader is checking for, and it's also how you catch your own problems: a real margin slide in March looks exactly like a purchase-timing artifact on cash books, and only one of them deserves a panic. A <a href="/bookkeeping-tips/quality-of-earnings-report-guide/">quality of earnings analyst</a> lists cash-basis books among the top reasons ecommerce deals reprice, and brokers routinely won't take an inventory business to market without the conversion done.</p>
+
+<h2>The five adjustments, in order</h2>
+<p><strong>1. Accounts receivable (and settlements in transit).</strong> Find money you've earned but not received at the conversion date. For marketplace sellers this is mostly the settlement pipeline: orders shipped whose payout hasn't landed, plus reserves Amazon is holding. Book it as a receivable and as revenue. A seller with a two-week Amazon settlement cycle typically has one to two weeks of sales sitting here at any month end, which is not a small number.</p>
+<p><strong>2. Accounts payable.</strong> The mirror image: bills for goods and services received but unpaid. Supplier invoices on terms, the freight bill that arrived yesterday, the December ad spend Meta will charge in January. Book the liability and the expense (or inventory, for goods) now.</p>
+<p><strong>3. Inventory.</strong> The big one for ecommerce, and the one that moves profit the most. Count or value what you own at the conversion date, including goods in transit you've paid for and stock sitting at FBA and 3PLs, valued at landed cost (product plus freight plus duties, per <a href="/bookkeeping-tips/tariff-accounting-ecommerce-guide/">our tariff accounting guide</a>). That value comes off expenses and onto the balance sheet as an asset. From then on, purchases go to inventory first and move to COGS as units sell, using the <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">standard COGS formula</a>.</p>
+<p><strong>4. Deferred revenue.</strong> Money received for things you haven't delivered: gift cards outstanding, preorders, subscription boxes paid in advance. Cash books call this revenue; accrual calls it a liability until you ship. Most sellers have a little of this. Some (preorder-heavy brands, subscription businesses) have a lot, and it's the adjustment buyers check hardest because it's literally revenue you'd be selling them twice.</p>
+<p><strong>5. Prepaids and accruals.</strong> The annual software subscription you paid in January covers twelve months, so eleven of them are an asset at the end of month one. Insurance, annual marketplace fees, and retainers work the same way. On the flip side, accrue expenses you've incurred but haven't been billed for. This adjustment is smaller than the others and still worth doing; it's what makes month twelve comparable to month one.</p>
+
+<h2>A worked example with real numbers</h2>
+<p>Meet a Shopify-plus-Amazon seller closing 2025 on cash basis, converting as of December 31. Cash books show: deposits of $610,000, inventory purchases expensed of $310,000, other expenses of $255,000, for a reported profit of $45,000.</p>
+<table>
+<thead><tr><th>Adjustment</th><th>Amount</th><th>Effect on profit</th></tr></thead>
+<tbody>
+<tr><td>Settlements in transit + reserves at Dec 31</td><td>$24,000 receivable</td><td>+$24,000</td></tr>
+<tr><td>Prior-year equivalent already collected in January</td><td>$16,000</td><td>-$16,000</td></tr>
+<tr><td>Ending inventory on hand at landed cost</td><td>$95,000 asset</td><td>+$95,000</td></tr>
+<tr><td>Beginning inventory (Jan 1, 2025)</td><td>$60,000</td><td>-$60,000</td></tr>
+<tr><td>Unpaid supplier and freight invoices at Dec 31</td><td>$22,000 payable</td><td>-$22,000</td></tr>
+<tr><td>Gift cards sold, not yet redeemed</td><td>$4,000 liability</td><td>-$4,000</td></tr>
+<tr><td>Prepaid annual software (11 months remaining)</td><td>$3,300 asset</td><td>+$3,300</td></tr>
+</tbody>
+</table>
+<p>Accrual profit: $45,000 + $24,000 - $16,000 + $95,000 - $60,000 - $22,000 - $4,000 + $3,300 = <strong>$65,300</strong>. This seller was more profitable than their cash books admitted, by 45%, mostly because they'd been stocking inventory ahead of growth and expensing it. At a typical 3.5x SDE multiple, that reporting difference is worth roughly $70,000 of purchase price. It cuts the other way too: a seller drawing down inventory shows the opposite swing, and finding that out during diligence instead of before is how deals die.</p>
+<p>One more step makes the statements marketplace-grade: replace deposit-based revenue with gross sales, fees and refunds from settlement reports, so your top line ties to the 1099-K instead of the bank feed. That's the same fix behind <a href="/bookkeeping-tips/amazon-1099-k-explained/">the 1099-K mismatch problem</a> and most of <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">the classic Amazon bookkeeping failures</a>, and there's no point converting to accrual while leaving net deposits masquerading as revenue.</p>
+
+<h2>Form 3115: the tax side of switching</h2>
+<p>Changing your books doesn't require IRS permission. Changing your <em>tax accounting method</em> does, and that's Form 3115, Application in Change in Accounting Method. The good news: the overall cash-to-accrual change qualifies as an automatic change, meaning no user fee and no advance approval; you file the form with your tax return for the year of change and send a duplicate copy to the IRS separately.</p>
+<p>The interesting mechanic is the Section 481(a) adjustment, which catches up the cumulative difference between methods so nothing is double-counted or skipped. If the switch increases your income (common when there's inventory to capitalize), the IRS lets you spread that catch-up over four tax years; if it decreases income, you take the whole deduction in year one. Timing the year of change around a big inventory build or drawdown is legitimate planning, and it's a conversation to have with your tax preparer before year end, not at filing time. This is squarely CPA territory; our job is delivering books clean enough that the 3115 numbers fall out of a report, and coordinating with the preparer is part of <a href="/ecommerce-tax-services/">our ecommerce tax services</a>.</p>
+
+<h2>The dual-track option: accrual books, cash tax return</h2>
+<p>Here's the part many sellers don't realize: you don't have to change your tax method to fix your books. Businesses under the small-business gross receipts threshold (about $31 million average annual receipts, inflation-adjusted) may generally file on cash basis even while keeping accrual books. Plenty of our clients run exactly this dual track: accrual financials for management, lenders and an eventual sale, converted to cash at year end for the return, because cash-basis filing usually defers tax for a growing seller.</p>
+<p>That year-end step is the accrual to cash conversion, and it's the same five adjustments run in reverse: pull out the receivables, payables and accruals, and (subject to the inventory rules your preparer applies) restate the inventory effect. Direction matters for the sign of each adjustment and nothing else; a bookkeeper who can run the conversion one way can run it the other, and keeping both working papers in the file means either audience (a buyer wanting accrual, the IRS wanting your elected method) gets a documented bridge instead of a shrug.</p>
+<p>One caution on the dual track: pick a lane per audience and stay in it. Sellers who hand a lender accrual statements one quarter and cash statements the next, without labeling either, manufacture exactly the credibility problem the conversion was meant to solve. Every report that leaves the building should say which basis it's on. If you've searched for an accrual to cash conversion worksheet, this is what it does: a column of book numbers, a column of reversing adjustments, a column of tax-basis results. We're building a free downloadable conversion worksheet that runs both directions with the marketplace-specific rows built in; it'll live on this site shortly. Until then, the tables above are the blueprint, and the Teardown below gets you the answers with a human attached.</p>
+
+<h2>Common conversion mistakes</h2>
+<ul>
+<li><strong>Converting revenue but not COGS.</strong> Accrual sales against cash-basis inventory expensing is the worst of both worlds: a bigger top line with the same seesaw margins.</li>
+<li><strong>Leaving sales tax in revenue.</strong> Collected tax is a liability at every step of this process. It's a five-figure restatement at diligence time if it's been riding in your top line.</li>
+<li><strong>Forgetting reserves and in-transit settlements.</strong> Marketplace holds are receivables; skipping them understates every December and overstates every January.</li>
+<li><strong>Doing it once and drifting back.</strong> A conversion isn't a report, it's a method. It only has value if next month closes on the same basis, which is an argument for building it into <a href="/monthly-ecommerce-bookkeeping/">a monthly close routine</a> rather than treating it as a annual heroic effort.</li>
+<li><strong>Converting only the latest year.</strong> Brokers and buyers want 24 to 36 months of comparable accrual history. Converting 2026 while 2024 and 2025 stay cash-basis gives them a trend line that breaks in the middle, which is barely better than no trend line. Rebuilding those prior periods is standard <a href="/catch-up-bookkeeping-services/">catch-up work</a>.</li>
+</ul>
+
+<h2>Questions sellers ask about the conversion</h2>
+<p><strong>Can't QuickBooks just toggle between cash and accrual?</strong> The report toggle is the most common misconception in this whole topic. QuickBooks' cash/accrual switch only re-times invoices and bills you actually entered; it cannot invent an inventory asset, accrue a payable nobody recorded, or split gross sales out of a lump deposit. If your file was built cash-style (deposits in, payments out), toggling the report to "accrual" changes almost nothing and proves less. The conversion is real accounting work on the underlying records, not a report setting.</p>
+<p><strong>How long does it take?</strong> For a seller under a few million in revenue with reasonably complete records, converting the current year is days of work, not months. What stretches the timeline is history: rebuilding 24 months of settlement-level detail, or reconstructing inventory counts nobody took. The inventory count is the one input we can't conjure; if you've never counted, the first count sets the anchor and estimates fill backward from purchase records.</p>
+<p><strong>Who actually requires accrual books?</strong> Business brokers, as a listing condition for inventory businesses. Buyers and their QoE teams, always. Lenders vary: small credit lines may not ask, SBA-scale acquisition financing and inventory-backed facilities will. And you, arguably most of all, because you're the one making pricing and purchasing decisions off the monthly numbers every week.</p>
+<p><strong>Do I have to file Form 3115 if only my books change?</strong> No. The 3115 governs your tax method. Keep filing on cash while your books go accrual and there's no method change to report, just the year-end conversion working paper your preparer keeps.</p>
+<p><strong>Is monthly accrual bookkeeping much more expensive?</strong> Somewhat, because it's more work: settlement postings, inventory movement, accrual entries each month. The market rates in <a href="/bookkeeping-tips/how-much-does-ecommerce-bookkeeping-cost/">our cost guide</a> show the spread. Against a five-figure valuation swing at exit or a declined loan, it's the cheapest line item in the story.</p>
+
+<h2>What it costs and where to start</h2>
+<p>A conversion is a bounded project: scoped from the state of your file, priced flat, done once, then maintained. The place to start is knowing exactly what's between your books and accrual-grade, and that's precisely what our free Books Teardown tells you; <a href="/contact/">request one here</a> and we'll walk your file and hand you the gap list. If the goal is a sale or financing, our <a href="/pricing/">Exit-Grade tier</a> maintains the converted books month over month so the history exists when the buyer shows up. The sellers who do this two years early sell from a position of strength. The ones who do it during diligence pay for it twice.</p>
+`,
+  },
+  {
+    slug: "amazon-fba-reimbursement-guide",
+    title: "Amazon FBA Reimbursements: Claim Every Dollar (2026)",
+    metaTitle: "Amazon FBA Reimbursements: Claim Every Dollar (2026)",
+    metaDescription:
+      "What Amazon owes FBA sellers, the shortened claim windows, manual claims vs 20-25% reimbursement services, and how to book reimbursements so they don't distort your margins.",
+    date: "2026-07-30",
+    readMinutes: 11,
+    excerpt: "Amazon loses, damages and mis-measures seller inventory constantly, and auto-reimbursement doesn't catch all of it. What's claimable, the deadlines that got short, and how to book the money correctly.",
+    html: `
+<p>Amazon owes most FBA sellers money right now. Warehouses lose and damage inventory, customers get refunds for items they never send back, and fee calculations run on wrong dimensions, and while Amazon reimburses much of this automatically, audits of seller accounts routinely surface unclaimed money equal to 1% to 3% of annual FBA revenue. On $800,000 of FBA sales, that's $8,000 to $24,000, sitting behind reports most sellers never open.</p>
+<p>The catch: the window to claim it has gotten short. Amazon cut its claim deadlines dramatically in late 2024, and changed how much it pays in 2025. Here's the current state of play: what's reimbursable, the deadlines, DIY vs paying a service, and (the part everyone skips) how to book the money so it doesn't wreck your margins twice.</p>
+
+<h2>What Amazon actually owes you for</h2>
+<ul>
+<li><strong>Inventory lost in the warehouse.</strong> Units that disappear from your inventory ledger without a sale, removal or disposal to explain them.</li>
+<li><strong>Inventory damaged by Amazon.</strong> Warehouse-damaged units, including damage during Amazon's own handling and transfers between fulfillment centers.</li>
+<li><strong>Customer refunds without returns.</strong> Amazon refunds the buyer instantly; the buyer has a return window to actually send the item back. When it never arrives, you're owed a reimbursement, and this category alone is often the biggest bucket.</li>
+<li><strong>Returns mishandled.</strong> Items returned in unsellable condition but graded sellable (or vice versa), wrong items returned to your inventory, refunds issued for more than the order amount.</li>
+<li><strong>Inbound shipment discrepancies.</strong> You ship 500 units, Amazon receives 488, and the 12 never get reconciled.</li>
+<li><strong>Disposals and removals gone wrong.</strong> Inventory destroyed without permission, or lost in transit during a removal order.</li>
+<li><strong>Fee overcharges.</strong> Fulfillment fees computed on wrong weights or dimensions, sometimes for months across thousands of units. Not a reimbursement in the inventory sense, but claimable money in the same workflow, and re-measurement requests fix it going forward.</li>
+</ul>
+
+<h2>The deadlines: everything got shorter</h2>
+<p>For years sellers could claim up to 18 months back, which made "do a big cleanup annually" a workable strategy. That era ended in October 2024. The windows now run roughly like this: claims for inventory lost or damaged in fulfillment centers must be filed within <strong>60 days</strong>; customer-return claims sit in a window that opens after the return deadline passes and closes about <strong>105 days after the refund</strong>; removal-order claims run from 15 to 75 days after shipment creation; inbound discrepancies keep a longer window with a required waiting period while Amazon finishes receiving. Check the current policy in Seller Central before relying on any of these numbers, because Amazon shortened them once with modest notice and can do it again.</p>
+<p>The strategic consequence is bigger than the details: <strong>reimbursement recovery is now a monthly discipline, not an annual cleanup.</strong> Money not claimed inside the window isn't late, it's gone. A seller who reconciles quarterly forfeits every 60-day claim from the first two months of the quarter, permanently, which is exactly the kind of quiet leak our <a href="/money-leak-checklist/">money leak checklist</a> exists to catch.</p>
+
+<h2>What auto-reimbursement misses, and the 2025 payout change</h2>
+<p>Amazon does auto-reimburse many warehouse losses, and in 2025 it moved to paying claims based on your product's <strong>manufacturing cost</strong> rather than its sale price. Amazon estimates that cost itself unless you tell it otherwise, and its estimates skew low. You can supply your own figures through the manufacturing-cost settings in Seller Central, and you should: a seller whose true unit cost is $14 collecting auto-reimbursements at Amazon's $9 estimate donates $5 per lost unit indefinitely.</p>
+<p>This is where reimbursements connect to landed cost. Your defensible number comes from purchase invoices, freight allocations, and the duty tracking covered in <a href="/bookkeeping-tips/tariff-accounting-ecommerce-guide/">our tariff accounting guide</a>. At 2026 duty rates, the gap between "factory invoice price" and true cost is wider than it's ever been, and Amazon isn't going to include your tariffs in its estimate voluntarily. Documented landed cost also means claim disputes end quickly: you attach the invoice trail, they pay.</p>
+<p>Beyond low valuations, auto-reimbursement has coverage gaps: refund-no-return cases that resolve wrong, grading errors, inbound shrinkage below Amazon's attention threshold, fee mis-measurement. The gaps are exactly why the audit-and-claim workflow exists.</p>
+
+<h2>The manual claim workflow</h2>
+<p>The raw material is three reports in Seller Central: the <strong>Inventory Ledger</strong> (every movement of every unit), the <strong>Reimbursements report</strong> (what Amazon already paid), and the FBA customer returns report. The monthly pass looks like this:</p>
+<ol>
+<li>Pull the inventory ledger and isolate unreconciled events: lost, damaged, and disposed units that lack a matching reimbursement or recovery.</li>
+<li>Cross-reference refunds against returns: every refund older than the return window without a received return and without a reimbursement is a claim.</li>
+<li>Compare received quantities to shipped quantities on inbound shipments past their reconciliation window.</li>
+<li>File cases through Seller Central's fulfillment help flow, one issue type per case, with the ledger extract and (where relevant) cost documentation attached.</li>
+<li>Log claim IDs and chase anything unresolved after two weeks. Persistence changes outcomes; first-response denials on legitimate claims are common and often reverse on appeal with the same evidence restated.</li>
+</ol>
+<p>Budget two to three hours a month for a mid-six-figure account. It's dull work with a triple-digit hourly rate attached, which is a rare combination.</p>
+<p>Two habits raise your win rate substantially. Keep an evidence pack per SKU: supplier invoice, freight allocation, and the manufacturing-cost figure you filed with Amazon, so any claim attaches proof in one step instead of a scavenger hunt. And write case notes like someone else will read them, because someone will: claims get transferred between Amazon associates, and a case that restates the facts cleanly (shipment ID, event date, ledger line, amount) survives the handoff, while "see previous message" dies in it. Sellers treat claim-writing as customer service; it's closer to small-claims litigation, and the tidy filer wins.</p>
+
+<h2>Reimbursement services vs DIY</h2>
+<p>An industry exists to do this for you: Getida, Seller Investigators, Refunds Manager, Carbon6 and a dozen others, all on contingency, typically <strong>20% to 25% of recovered funds</strong> (a few advertise lower headline rates with narrower coverage). No recovery, no fee. They're competent at what they do, and for a seller with a big back catalog and zero internal process, the first sweep usually finds real money and the fee is fair value.</p>
+<p>Two honest caveats. First, the services work from the same reports you have; there's no privileged access, so what you're buying is diligence and case-handling stamina, not secret data. Second, at 25% the arithmetic turns against you as your own process improves: a seller recovering $20,000 a year pays $5,000 for roughly 30 hours of work they could increasingly do in-house. Our usual advice: let a service run the historical sweep, then bring the monthly discipline inside, either DIY or bundled with your bookkeeping, since the person reconciling your settlements is already staring at the relevant reports. That's exactly how our <a href="/amazon-bookkeeping-services/">Amazon bookkeeping service</a> treats it: reimbursement review is part of the monthly close, not a separate industry.</p>
+
+<h2>How to book reimbursements (not as revenue)</h2>
+<p>Here's the accounting mistake that undoes the good work: reimbursements land inside your settlement deposits, and books that post deposits as sales quietly count reimbursements as revenue. They're not revenue. Nobody bought anything. A reimbursement is compensation for an inventory loss, and the clean booking runs through your shrinkage account:</p>
+<ul>
+<li>When units go missing or get destroyed, your inventory accounting records the loss: credit inventory, debit shrinkage (5030 in <a href="/bookkeeping-tips/ecommerce-chart-of-accounts/">our chart of accounts</a>).</li>
+<li>When the reimbursement arrives, it offsets that shrinkage: debit cash (via the settlement), credit shrinkage.</li>
+<li>The net of the two is your true unrecovered loss, which is a number worth watching: it's the scorecard for this whole process.</li>
+</ul>
+<p>Booked as revenue instead, you inflate sales, overstate shrinkage, and hand yourself a top line that no longer ties to gross marketplace sales, which resurrects <a href="/bookkeeping-tips/amazon-1099-k-explained/">the 1099-K mismatch problem</a> from a different direction. It also matters at exit: a <a href="/bookkeeping-tips/quality-of-earnings-report-guide/">quality of earnings analyst</a> will strip reimbursements out of revenue in an afternoon, and finding them there makes every other line suspect. Reimbursements sitting correctly against shrinkage, with a documented monthly recovery process, reads as operational maturity. Same money, opposite signal.</p>
+<p>One nuance: when Amazon reimburses at your cost, the credit fully offsets the inventory loss. It doesn't replace the profit you'd have earned selling the unit; that margin is simply gone, which is one more reason the manufacturing-cost figure you feed Amazon should be your full landed cost rather than a bare factory price.</p>
+
+<h2>What an audit actually finds: a worked example</h2>
+<p>Here's the shape of a first-time audit on a real-scale account: a seller doing $600,000 a year through FBA, three years in, never audited, decent operations. Twelve months back (where windows still allowed) plus the current claimable period turned up:</p>
+<table>
+<thead><tr><th>Category</th><th>Found</th></tr></thead>
+<tbody>
+<tr><td>Refunds issued, item never returned</td><td>$4,100</td></tr>
+<tr><td>Warehouse-lost units, never auto-reimbursed</td><td>$2,600</td></tr>
+<tr><td>Inbound shipment shortfalls</td><td>$1,800</td></tr>
+<tr><td>Fee overcharges from wrong dimensions</td><td>$1,450</td></tr>
+<tr><td>Warehouse-damaged units, unresolved</td><td>$1,200</td></tr>
+<tr><td><strong>Total recovered</strong></td><td><strong>$11,150</strong></td></tr>
+</tbody>
+</table>
+<p>That's 1.9% of annual revenue, right in the typical band. Through a 25% contingency service, $2,788 of it goes to the service; run in-house as part of the monthly close, the whole amount stays. Either beats the third option, which is what this seller had been doing: nothing, at a cost of about $900 a month in quiet forfeitures. The dimension-fee find is worth a special mention because it compounds: a wrong measurement doesn't just owe you back-fees, it overcharges every future unit until someone requests a re-measure. Fixing it was worth more going forward than the claim itself.</p>
+
+<h2>FBA reimbursement FAQ</h2>
+<p><strong>Are reimbursements taxable income?</strong> They net against the inventory losses they compensate, so booked correctly there's no windfall to tax: the loss deduction shrinks by the recovery. Booked as revenue, you'll overpay tax on money that was never profit, one more argument for the shrinkage-offset treatment above.</p>
+<p><strong>Do reimbursements show up on my 1099-K?</strong> No. The 1099-K reports gross buyer payments; reimbursements arrive inside settlements but aren't sales. They're one of the standard reconciling items between your settlement activity and the 1099-K figure, which is why the reconciliation needs line-level care.</p>
+<p><strong>Can I still claim losses from last year?</strong> Almost certainly not; the old 18-month lookback is gone and expired windows don't reopen. The rational response is to grieve briefly and set up the monthly cycle so it never happens again.</p>
+<p><strong>Is it worth filing a $14 claim?</strong> Individually, marginal. As a policy, yes: the workflow finds claims in batches, small ones ride along with big ones, and Amazon's error rate doesn't confine itself to cheap SKUs. Sellers who set a "worth my time" floor tend to discover the floor was hiding a pattern.</p>
+<p><strong>Will filing lots of claims hurt my account?</strong> Legitimate, well-documented claims are a normal part of the FBA relationship; Amazon's own policies invite them. What draws trouble is sloppy or duplicative claims, which is another reason evidence-first beats volume-first.</p>
+
+<h2>The monthly reconciliation workflow, end to end</h2>
+<p>Pulling it together, the routine we run for clients looks like: reconcile settlements to gross sales, fees and refunds (the fix for <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">the nine classic Amazon bookkeeping problems</a>); tie inventory ledger movements to the books' inventory balance; flag and file every claimable event inside its window; post reimbursements received against shrinkage; and report unrecovered shrinkage as its own line so it can't hide. Sellers who run this loop keep the leak near zero and their COGS honest per <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">the COGS formula</a>. Sellers who don't fund Amazon's error rate out of margin, at a landed cost that tariffs just made 20% more expensive.</p>
+<p>If you've never audited your account, the historical sweep plus a monthly process is a solved problem: it's built into <a href="/monthly-ecommerce-bookkeeping/">our monthly bookkeeping plans</a>, and the free Books Teardown will tell you whether reimbursements are being booked as revenue right now (they usually are); <a href="/contact/">request one here</a>. Amazon runs the best logistics network on earth and still misplaces a measurable slice of everything it touches; the sellers who get paid for that are simply the ones who check. Amazon's own error rate is the one expense line you can actually send back.</p>
+`,
+  },
+  {
+    slug: "texas-sales-tax-ecommerce-guide",
+    title: "Texas Sales Tax for Ecommerce Sellers (2026 Guide)",
+    metaTitle: "Texas Sales Tax for Ecommerce Sellers (2026)",
+    metaDescription:
+      "Texas sales tax for online sellers: 6.25% plus local up to 8.25%, the $500K economic nexus threshold, the single local rate election, marketplace rules and franchise tax.",
+    date: "2026-07-30",
+    readMinutes: 12,
+    excerpt: "Texas charges 6.25% plus local taxes up to 8.25%, sets economic nexus at $500,000 (the most generous threshold in the country), and offers remote sellers a flat-rate shortcut most never use. Here's the whole system.",
+    html: `
+<p>Texas sales tax is 6.25% at the state level, with local jurisdictions adding up to 2% for a maximum combined rate of 8.25%. Remote sellers owe collection once their Texas revenue passes <strong>$500,000 in the preceding twelve months</strong>, the highest economic nexus threshold in the country. Marketplaces collect for you, remote sellers can elect a single flat local rate instead of tracking hundreds of jurisdictions, and there's no personal income tax waiting behind any of it, though a franchise tax is. That's the system in four sentences; the details are where the money is.</p>
+
+<h2>The rate: 6.25% state, capped at 8.25% combined</h2>
+<p>The state takes 6.25%. Cities, counties, transit authorities and special purpose districts can stack up to 2% more, and state law hard-caps the combined rate at 8.25%. Most urban Texas (Houston, Dallas, San Antonio, Austin) sits right at the cap; rural deliveries can come in lower. Compared with states where combined rates float past 10%, the cap makes Texas pleasantly predictable: you'll never charge more than 8.25%, period.</p>
+<p>Which local rate applies is the interesting part. Texas is origin-based for in-state sellers in many cases: a Texas business collects local tax based on its own place of business for orders it fulfills there, one of the few big states that still works this way. Remote sellers with no Texas location charge based on the delivery address instead, unless they take the flat-rate election below. If you're a Texas-based seller shipping from a Texas warehouse, get the sourcing configured correctly in your cart, because origin sourcing done wrong in either direction is a classic audit finding.</p>
+
+<h2>Economic nexus: $500,000, and what counts toward it</h2>
+<p>Since October 2019, a remote seller must register once total Texas revenue exceeds $500,000 in the preceding twelve calendar months. Three points sellers get wrong:</p>
+<ul>
+<li><strong>It's a rolling twelve months,</strong> not a calendar year. You re-measure as each month closes, and the obligation kicks in on the first day of the fourth month after the month you cross.</li>
+<li><strong>It counts gross revenue,</strong> including marketplace sales, taxable and exempt alike. Amazon volume counts toward whether you cross, even though Amazon handles the tax on those orders.</li>
+<li><strong>There's no transaction count.</strong> Half a million dollars is the only trigger. Compare that to the $100,000 thresholds in <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">Florida</a> and <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">Washington</a>: Texas gives remote sellers five times the runway.</li>
+</ul>
+<p>If you sell only through marketplaces that certify they're collecting (Amazon, Walmart, eBay, Etsy all do), you generally don't need your own permit even above the threshold. The moment you add a direct channel, Shopify or otherwise, the calculus changes and the permit question is live. Measuring all of this requires knowing your Texas revenue by channel on demand, which is a books problem before it's a tax problem; it's a standard report out of <a href="/monthly-ecommerce-bookkeeping/">a proper monthly close</a>.</p>
+
+<h2>The single local use tax rate: the shortcut most remote sellers miss</h2>
+<p>Here's a genuinely seller-friendly feature almost nobody uses. Instead of computing the exact local rate for every delivery address, a remote seller can elect to collect one flat <strong>single local use tax rate</strong> statewide, published annually by the Comptroller. It has held at 1.75% in recent years, making a flat 8% combined on every Texas order. You elect it by notifying the Comptroller (Form 01-799), and it stays in effect for the calendar year.</p>
+<p>Who wins with the election: sellers on platforms with clumsy rate handling, sellers invoicing B2B orders by hand, anyone who'd rather reconcile one rate than 1,500 jurisdictions. Who doesn't: if most of your deliveries go to sub-8% jurisdictions, the flat rate slightly over-collects from those customers, and a tax engine that already resolves addresses perfectly makes the election unnecessary. It's an option, not an obligation, but you should know it exists before you pay for jurisdiction-level automation you might not need.</p>
+
+<h2>Marketplace rules: handled, mostly</h2>
+<p>Marketplace providers above $500,000 in Texas revenue must collect and remit on all marketplace sales, so the tax on your Amazon, Walmart, eBay, Etsy and TikTok Shop orders into Texas is genuinely handled. What remains yours: collection on direct channels once you have nexus, keeping marketplace-collected tax out of your revenue line (it arrives inside settlement gross and inflates sales if your books post deposits as income, one of the recurring themes in <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">our Amazon bookkeeping guide</a>), and, if you hold a permit, reporting marketplace volume correctly on your return rather than skipping filings. Zero-due returns still have to be filed; Texas assesses a $50 late-filing penalty even when no tax is owed.</p>
+
+<h2>Physical nexus: FBA inventory and everything else</h2>
+<p>Amazon operates a long list of Texas fulfillment centers across the Dallas-Fort Worth, Houston, San Antonio and El Paso metros, and inventory sitting in one is physical presence with no dollar threshold attached. Same for a 3PL in Grand Prairie, an employee in Austin, or booth selling at Canton's flea markets. The practical pattern mirrors other states: marketplace orders are collected for you regardless, so FBA-created nexus matters mainly when you also sell direct. A seller doing $200,000 of Shopify sales into Texas, comfortably under $500,000, still owes collection from dollar one if their FBA stock has been rotating through Wilmer all year. Check where Amazon actually stores your goods; it's a report, not a guess.</p>
+
+<h2>Filing: frequencies, the 20th, and two discounts</h2>
+<p>Returns are due the 20th of the month after the period. The Comptroller assigns frequency by volume: monthly for most active sellers, quarterly and annual for smaller accounts. Two features are unusually generous:</p>
+<ul>
+<li><strong>Timely filing discount:</strong> file and pay on time and keep 0.5% of the tax due.</li>
+<li><strong>Prepayment discount:</strong> prepay your estimated liability and take another 1.25%.</li>
+</ul>
+<p>Combined that's 1.75% of your tax liability back for being organized, real money for a high-volume seller and one of the better deals any state offers. The flip side: late filing costs $50 plus penalties of 5% to 10% of tax due, and Texas is quick with estimated assessments on silent accounts. Registration itself is free, done online through the Comptroller, and international sellers can register with an EIN rather than an SSN; getting that EIN without an SSN is its own fax-and-phone process, mapped in <a href="/bookkeeping-tips/ein-tax-id-number-guide-sellers/">our tax ID guide</a>, and the rest of the non-resident stack lives on <a href="/international-sellers/">our international sellers page</a>.</p>
+
+<h2>The franchise tax: what "no income tax" actually costs</h2>
+<p>Texas famously has no personal or corporate income tax. What it has instead is the <strong>franchise tax</strong>, a margin tax on entities doing business in Texas, and remote sellers keep discovering it the hard way because it uses its own $500,000 economic nexus threshold: cross it in Texas receipts and you owe a franchise tax filing even with no physical presence, entirely separate from sales tax.</p>
+<p>The saving grace is the no-tax-due threshold: entities under about $2.47 million in annualized revenue (indexed every two years) owe no franchise tax, and since 2024 they don't even file the No-Tax-Due Report anymore, just an information report (the Public Information Report for LLCs and corporations). Above the threshold, retailers and wholesalers pay 0.375% of taxable margin, half the general rate, and the margin calculation itself (revenue minus the best of several deductions, including cost of goods sold) rewards sellers whose <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">COGS records are clean</a>. Reports are due May 15. If you're an out-of-state LLC over $500,000 in Texas receipts and this paragraph is news, that's a catch-up conversation for <a href="/ecommerce-tax-services/">our tax services team</a> before the Comptroller starts it.</p>
+
+<h2>The no-income-tax angle for sellers</h2>
+<p>For the seller personally, Texas residency means no state tax on your business profit, your salary, or your eventual exit, which is why so many ecommerce operators relocate here (we're Texans ourselves, so we've heard every version of the move story). Two clarifications keep it honest. First, your customers' states don't care where you live: sales tax obligations follow delivery, and moving to Texas changes none of your Florida or Washington analysis. Second, federal tax doesn't move an inch; the full picture of what a seller owes stays as described in <a href="/bookkeeping-tips/amazon-seller-taxes-guide/">our Amazon seller taxes guide</a>. Texas removes one layer, not the cake.</p>
+
+<h2>A worked example: what a typical remote seller owes Texas</h2>
+<p>Say you're an Oklahoma-based brand doing $530,000 into Texas over the trailing twelve months: $450,000 through Amazon and $80,000 direct through Shopify. You're over $500,000, so you're in the system. The annual picture:</p>
+<ul>
+<li><strong>Sales tax on Amazon orders:</strong> $0 out of pocket. Amazon collects and remits as the marketplace provider.</li>
+<li><strong>Sales tax on the Shopify orders:</strong> you elect the single local rate and collect a flat 8% at checkout, about $6,400 across the year, remitted on monthly returns. Cost to you if collected properly: nothing but setup time. Cost if your cart wasn't configured: the full $6,400 out of margin, because uncollected tax doesn't transfer to customers retroactively.</li>
+<li><strong>The discounts:</strong> filing on time keeps 0.5% of the tax, prepaying adds 1.25%. Call it $110 a year back for punctuality. Small, but it's the only state money you'll ever be paid for paperwork besides Florida's.</li>
+<li><strong>Franchise tax:</strong> $530,000 of Texas receipts crosses the franchise nexus line too, but sits far below the $2.47 million no-tax-due threshold. You owe an information report in May and zero dollars.</li>
+<li><strong>The filings:</strong> twelve sales tax returns, one information report, maybe three hours a year with clean channel-level books.</li>
+</ul>
+<p>Total real cost: a few hours and rounding error. The same facts ignored for three years: back tax on the direct channel that you now eat yourself, $50-per-return late penalties, 5% to 10% penalty on the tax, interest, and an estimated assessment computed in the Comptroller's favor. Texas compliance is about as cheap as multistate compliance gets; the expensive version is exclusively self-inflicted.</p>
+
+<h2>Texas sales tax FAQ</h2>
+<p><strong>What is the Texas sales tax rate in 2026?</strong> 6.25% state plus up to 2% local, capped at 8.25% combined. Most metro deliveries land at the cap.</p>
+<p><strong>Is shipping taxable in Texas?</strong> Generally yes. If the sale is taxable, delivery and handling charges are part of the taxable price, separately stated or not. Configure your cart accordingly; exempting shipping under-collects on every order.</p>
+<p><strong>Are groceries and clothing taxable?</strong> Most unprepared food is exempt; clothing is taxable, with an August back-to-school holiday exempting items under $100. Dietary supplements are exempt in Texas, a pleasant surprise for supplement brands used to other states.</p>
+<p><strong>Are digital products and SaaS taxable in Texas?</strong> Largely yes. Texas taxes digital goods that would be taxable in physical form, and taxes data processing services (a category that captures a lot of SaaS) on 80% of the charge. Digital sellers should assume taxable until a specific exemption says otherwise.</p>
+<p><strong>I only sell through Amazon. Do I need a Texas permit?</strong> Generally no, if every channel is a certifying marketplace, even above $500,000. Watch the franchise tax threshold separately, and revisit the moment you open a direct channel or place inventory in Texas.</p>
+<p><strong>Can I buy inventory tax-free in Texas?</strong> Yes, with a resale certificate (Form 01-339), which any permitted seller can issue to suppliers for goods genuinely bought for resale. The usual rules apply: packaging that ships with the product qualifies, your office equipment doesn't, and inventory you pull for personal use or promo giveaways owes use tax on your cost. Keep certificates from your own wholesale customers on file too; in an audit, an untaxed B2B sale without one becomes your tax plus penalty plus interest, four years back.</p>
+
+<h2>The bookkeeping that makes Texas easy</h2>
+<p>Every obligation above resolves to three numbers your books should produce on demand: rolling twelve-month Texas revenue (all channels), direct-channel Texas sales by delivery jurisdiction, and tax collected sitting in a liability account where it belongs. Settlement-level books produce them in minutes; deposit-based books can't produce them at all. If yours are the second kind, our free Books Teardown will show you the gap precisely, <a href="/contact/">request one here</a>, and registrations, elections and filings are all part of <a href="/ecommerce-tax-services/">our ecommerce tax services</a>. Texas is the easiest big state to comply with, but only from books that know what happened.</p>
+`,
+  },
+  {
+    slug: "california-sales-tax-ecommerce-guide",
+    title: "California Sales Tax for Ecommerce Sellers (2026 Guide)",
+    metaTitle: "California Sales Tax for Ecommerce Sellers (2026)",
+    metaDescription:
+      "California sales tax for online sellers: the 7.25% base rate, district taxes past 10%, the $500K threshold, CDTFA registration, marketplace rules and the FBA back-tax saga.",
+    date: "2026-07-30",
+    readMinutes: 12,
+    excerpt: "California starts at 7.25%, stacks district taxes past 10% in some cities, and sets its threshold at $500,000 including marketplace sales. Plus the FBA back-tax saga every Amazon seller should know about.",
+    html: `
+<p>California sales tax starts at 7.25%, the highest base rate in the country, and district taxes push combined rates past 10% in parts of the Bay Area and Los Angeles County. Remote sellers must register with the CDTFA once total California sales exceed <strong>$500,000</strong> in the current or preceding calendar year, marketplace sales included. Marketplaces collect on their own orders, districts add genuine complexity, and hanging over all of it is the FBA back-tax saga, the most aggressive state enforcement campaign ecommerce has seen. Here's the whole system, piece by piece.</p>
+
+<h2>The rate: what's inside 7.25%</h2>
+<p>The statewide base is 7.25%: 6% state, plus a mandatory 1.25% local portion (the Bradley-Burns rate) that goes to cities and counties. That's the floor everywhere in California; no address pays less. On top sit <strong>district taxes</strong>, voter-approved add-ons ranging from 0.10% to 1.5% or more each, and they stack. Combined rates run 7.25% in the few district-free areas to 10.25% in much of LA County and up to 10.75% in a handful of Alameda County cities. Rates shift as districts pass and expire, so use the CDTFA's address-level lookup (or a tax engine that does), not a county table from last year.</p>
+
+<h2>District taxes: the complexity that's actually yours</h2>
+<p>Districts are where California differs from a simple destination-rate state. Technically, a seller must collect a given district's tax only if "engaged in business" in that district; sales into other districts obligate the <em>customer</em> to self-report use tax, which consumers essentially never do. Sellers used to thread this needle district by district. AB 147 ended the game for anyone at scale: once your statewide sales pass $500,000, you're deemed engaged in business in <strong>every</strong> district and must collect the full combined rate at every delivery address.</p>
+<p>The compliance load shows up on the return: California wants collected tax allocated by district on Schedule A, which for a seller shipping statewide means an allocation across dozens of jurisdictions every period. This is the single best argument in any state for automated rate calculation, and equally for books that can regenerate the by-district detail when the CDTFA asks. Hand-built spreadsheets survive contact with most states; California's Schedule A is not most states.</p>
+
+<h2>Economic nexus: $500,000, marketplace sales included</h2>
+<p>The threshold is $500,000 of total combined sales of tangible personal property delivered into California in the current or preceding calendar year. No transaction count, and unlike <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">Florida's taxable-sales-only test</a>, California counts everything: marketplace sales, direct sales, exempt sales, wholesale. Amazon doing $450,000 of your California volume plus $80,000 through Shopify puts you over, even though Amazon handles its share of the tax. Same headline number as <a href="/bookkeeping-tips/texas-sales-tax-ecommerce-guide/">Texas</a>, measured differently: Texas looks at the preceding twelve months rolling; California uses calendar years, current or prior.</p>
+<p>Cross it and the obligations come as a pair: register with the CDTFA, and collect at full combined rates in every district (the AB 147 rule above). For a marketplace-only seller, registration can still technically be required while actual collection is nearly all handled by the platforms; the return mostly reports facilitator-collected volume. Tedious, not expensive, and skipping it invites the letters discussed below.</p>
+
+<h2>Marketplace facilitator rules</h2>
+<p>Since October 2019, marketplaces over the threshold (Amazon, Walmart, eBay, Etsy, TikTok Shop, all of them) collect and remit on marketplace orders into California, and the facilitator, not you, is the retailer of record for those sales. What stays on your plate is the familiar list: your direct channels once you're over $500,000 or otherwise engaged in business here; keeping facilitator-collected tax out of your revenue line (it flows through settlements and inflates sales on deposit-based books, the core failure in <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">our Amazon bookkeeping problems guide</a>); and filing whatever returns your open account requires, on time, even at zero due. California's penalties run 10% of tax for late filing with interest on top, and the CDTFA issues estimated assessments against silent accounts with the state's usual optimism.</p>
+
+<h2>The FBA saga: how California chased warehouse inventory</h2>
+<p>This history matters because it explains every scary letter an FBA seller has ever received. California's position, dating to the mid-2010s under the CDTFA's predecessor, was that inventory sitting in an in-state Amazon warehouse gave the seller physical nexus, and therefore an obligation to have been registered and collecting, reaching back to whenever the inventory first arrived. Amazon handed over seller data under legal demand, and the CDTFA mailed tens of thousands of letters demanding registration and back taxes, in some cases claiming up to eight years of liability from sellers who'd never set foot in California and had no idea which warehouse Amazon chose for their goods.</p>
+<p>The campaign produced litigation (the Online Merchants Guild fight), legislative patches, and eventually partial relief: marketplace collection from October 2019 mooted the go-forward issue, and later guidance and settlement programs softened lookback for many sellers. But the CDTFA never formally abandoned the theory, old assessments still exist, and the lesson generalizes: <strong>where a marketplace stores your inventory is a fact with tax consequences, and states can get the data.</strong> If a pre-2019 California exposure letter is sitting in your drawer, that's a case for professional help through <a href="/ecommerce-tax-services/">our tax services team</a>, not a form to fill out casually; limitation periods and settlement postures make the order of operations matter.</p>
+<p>Today's practical FBA picture is calmer: marketplace orders are collected by Amazon, so in-state inventory mainly matters if you also sell direct, where it creates collection obligations from dollar one regardless of the $500,000 test. Amazon's California footprint is enormous, so assume your FBA stock is in state unless your reports say otherwise.</p>
+
+<h2>Registering with the CDTFA</h2>
+<p>Registration is free, done online through the CDTFA's portal, and issues a seller's permit per location (remote sellers register as a single out-of-state location). You'll be asked for projected sales, which drives filing frequency: quarterly is the default for most, monthly for large accounts, annual for tiny ones, and sellers averaging $17,000 or more per month in taxable sales get quarterly prepayments layered on, a cash-flow wrinkle worth planning for. Returns are due the last day of the month following the period, ten days later than Texas's 20th, and there's no California equivalent of Florida's collection allowance or Texas's timely-filing discount: compliance here pays nothing but avoided penalties.</p>
+<p>International sellers can register: the CDTFA accepts foreign businesses, and the practical prerequisite is a US EIN, which non-residents get through the fax-and-phone process in <a href="/bookkeeping-tips/ein-tax-id-number-guide-sellers/">our tax ID guide</a>. Foreign-owned LLCs should have the federal house in order first, Form 5472 above all; the full stack is on <a href="/international-sellers/">our international sellers page</a>.</p>
+<p>With the permit comes a resale certificate, so you buy inventory tax-free for resale, and the matching use-tax duty when you pull inventory for personal use, giveaways or influencer seeding: those units come out at cost and the use tax gets reported. Auditors check it precisely because nobody bothers, and clean inventory records make it a report instead of an estimate.</p>
+
+<h2>A worked example: what a typical remote seller owes California</h2>
+<p>Take a Texas-based brand doing $520,000 into California this year: $430,000 through Amazon and $90,000 direct through Shopify. Over the $500,000 line, so the obligations attach. The annual picture:</p>
+<ul>
+<li><strong>Sales tax on Amazon orders:</strong> $0 out of pocket; Amazon is the retailer of record and remits it all.</li>
+<li><strong>Sales tax on Shopify orders:</strong> collected at each delivery address's full combined rate under the AB 147 rule, roughly $8,100 across the year at typical blended rates, then allocated by district on Schedule A and remitted quarterly. Collected properly, it costs you checkout configuration and filing time. Collected wrong (say, at 7.25% flat into a 9.5% district), the shortfall comes out of your margin, order after order.</li>
+<li><strong>Prepayments:</strong> only if your taxable direct sales average $17,000 or more a month. At $7,500 a month, this seller files plain quarterly returns.</li>
+<li><strong>The filings:</strong> four returns with district schedules, maybe five hours a year with books that produce by-district detail automatically, an unpleasant weekend per quarter without them.</li>
+</ul>
+<p>Total real cost of compliance: modest and predictable. The alternative compounds the way state problems always do: an eight-year lookback applies to sellers who never filed, versus three years for those who did, which is among the strongest arguments in any state for registering once the threshold is genuinely crossed.</p>
+
+<h2>If the CDTFA writes to you first</h2>
+<p>California finds sellers; it doesn't wait for them. Marketplace data, customs records and FBA inventory reports all feed discovery, and the standard opener is a letter or questionnaire about your California activity: inventory locations, channels, sales volume, dates. Three rules for that moment. Don't ignore it; silence converts a questionnaire into an estimated assessment, computed generously in the state's favor. Don't answer it casually either, because your answers define the scope of everything that follows, including how many years are on the table. And know your leverage before responding: out-of-state sellers who come forward through voluntary disclosure generally get the lookback capped at three years with penalty relief, an option that can evaporate once the state initiates contact, which is exactly why the order of operations matters. Answering with settlement-level books behind you is a half-hour exercise; answering from bank statements is how sellers concede nexus and years they never owed. Get <a href="/ecommerce-tax-services/">a specialist</a> into the conversation before your first reply, not after your second.</p>
+
+<h2>California sales tax FAQ</h2>
+<p><strong>What is the California sales tax rate in 2026?</strong> 7.25% minimum statewide; combined rates with district taxes commonly run 8.75% to 10.25%, topping out around 10.75%. Always resolve the rate by delivery address, not by city name; district lines don't follow zip codes.</p>
+<p><strong>Is shipping taxable in California?</strong> Not if you do it right: separately stated shipping at your actual cost, sent by common carrier, is exempt. Charge $7 flat when the label cost $5.20 and the markup portion is taxable. Handling is taxable, and combined "shipping and handling" lines are presumed taxable. This is the fussiest shipping rule of any state we cover; configure it deliberately.</p>
+<p><strong>Are digital products and SaaS taxable in California?</strong> Generally no. Electronically delivered software and digital goods with nothing tangible attached sit outside the sales tax, same friendly posture as <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">Florida</a> and the opposite of <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">Washington</a>.</p>
+<p><strong>Are groceries and clothing taxable?</strong> Most food products for home consumption are exempt; clothing is fully taxable at any price, unlike states with apparel exemptions or holidays.</p>
+<p><strong>I only sell through Amazon FBA. Do I owe California anything?</strong> Amazon collects the tax on your marketplace orders. Whether you personally must register turns on inventory presence and your total California volume; many marketplace-only sellers over the threshold register and file simple facilitator-reported returns, and anyone with pre-2019 FBA history in the state should know the saga above before responding to any CDTFA mail.</p>
+<p><strong>What if I drop back under $500,000 next year?</strong> The threshold tests the current and preceding calendar year, so falling below it for a full cycle can end the collection obligation prospectively, but not automatically: the permit stays open, and open permits owe returns, until you close or update the account with the CDTFA. Sellers who quietly stop filing because "we're under the line now" collect late notices on zero-due periods, which is the most avoidable penalty in the whole system. Measure every January, and if the answer changes, tell the state rather than assuming it noticed.</p>
+
+<h2>The bookkeeping that survives a CDTFA audit</h2>
+<p>California audits are thorough and data-driven: they'll want marketplace reports, by-district sales detail, resale certificates from wholesale customers, and books whose revenue ties to settlements and <a href="/bookkeeping-tips/amazon-1099-k-explained/">1099-Ks</a> rather than bank deposits. The three-year standard lookback (eight if you never filed) rewards sellers whose monthly close already produces state-and-district-level gross by channel; that's a first-week deliverable of <a href="/monthly-ecommerce-bookkeeping/">a real monthly bookkeeping engagement</a>. If your books can't tell you your California sales by channel for last year in five minutes, start with our free Books Teardown, <a href="/contact/">request one here</a>, and we'll show you exactly where the gaps are before the state does.</p>
+`,
+  },
+  {
+    slug: "etsy-seller-bookkeeping-problems",
+    title: "Etsy Bookkeeping: 8 Problems That Wreck Shop Finances",
+    metaTitle: "Etsy Bookkeeping: 8 Problems That Wreck Shop Finances",
+    metaDescription:
+      "The 8 Etsy bookkeeping problems that ruin makers' numbers: payment account netting, six fee types, Offsite Ads, materials COGS, the 1099-K and multi-channel selling. With fixes.",
+    date: "2026-07-30",
+    readMinutes: 11,
+    excerpt: "Etsy nets its fees out before you ever see the money, charges six different fee types, and takes 12% or 15% on some orders but not others. Here are the eight problems that wreck shop books, with the fix for each.",
+    html: `
+<p>Etsy bookkeeping fails the same way for almost every shop: the deposit hits the bank, the seller books it as sales, and from that moment the books understate revenue, hide fees, and can't compute a margin. Multiply that by six fee types, an advertising charge that hits some orders and not others, and the materials accounting that handmade goods require, and you get books that can't answer whether the shop actually makes money. Here are the eight problems we see in Etsy shops' books, and the fix for each.</p>
+
+<h2>Problem 1: The payment account nets everything before you see it</h2>
+<p>Etsy doesn't charge fees separately; it runs everything through your Etsy Payments account. Sales flow in, then listing fees, transaction fees, processing fees, ad charges, label costs and refunds all come out of the balance, and whatever's left lands in your bank on your deposit schedule. Sell $1,000 in a week and the deposit might be $840. Book that $840 as sales and you've understated revenue by 16% and recorded zero deductible fees; run a slow week where fees exceed sales and Etsy charges your card, producing a "negative deposit" your bank feed can't classify at all.</p>
+<p><strong>The fix:</strong> book gross sales, fees and refunds from the monthly Etsy Payment account CSV, and treat the deposit as what it is: a transfer of the remaining balance. It's the same gross-versus-net discipline Amazon sellers need for <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">settlement accounting</a>, at friendlier volume.</p>
+
+<h2>Problem 2: Six fee types, one blurry expense line</h2>
+<p>The current Etsy fee stack for a US shop: $0.20 listing fees (per listing, renewing every four months and on every sale), a 6.5% transaction fee on the item price <em>plus shipping and gift wrap</em>, payment processing at 3% plus $0.25, Offsite Ads at 12% or 15% on attributed orders, a 2.5% currency conversion fee where it applies, optional Etsy Plus at $10 a month, and a one-time setup fee for new shops. Booked as one "Etsy fees" blob, you can't see that transaction fees scale with revenue while listing fees scale with catalog size, or that your effective total take is drifting from 11% toward 17% as Offsite Ads bite harder.</p>
+<p><strong>The fix:</strong> separate accounts for transaction/processing fees, listing fees, and advertising, per <a href="/bookkeeping-tips/ecommerce-chart-of-accounts/">our chart of accounts template</a>. Fee creep is visible in an itemized ledger and invisible in a blob, and Etsy's take as a percent of gross is a number every shop should track quarterly.</p>
+
+<h2>Problem 3: Offsite Ads hits some orders and not others</h2>
+<p>Offsite Ads is Etsy advertising your listings on Google, Facebook and elsewhere, then charging you 15% of any attributed order (12% once your trailing twelve-month revenue passes $10,000, at which point participation also stops being optional; the fee caps at $100 per order). The bookkeeping problem is its randomness: two identical $60 orders, one costing you $9 more than the other because of where the buyer clicked. Shops that budget advertising as a steady percent get surprised, and shops that don't isolate the charge can't tell whether Offsite Ads orders are profitable at all, which for low-margin items at 15% they sometimes aren't.</p>
+<p><strong>The fix:</strong> book Offsite Ads to its own advertising account and check the math per affected order once a quarter. If a $12 item nets negative after a 15% ad fee, that's a pricing decision waiting for data, and the mandatory-participation threshold means "just turn it off" stops being an option right as your volume makes it matter.</p>
+
+<h2>Problem 4: Materials COGS, the maker's version of inventory accounting</h2>
+<p>A maker's cost of goods is built, not bought: fabric, clasps, glaze, lumber, resin, packaging. The IRS treats handmade inventory like any other: materials are inventory when purchased and cost of goods sold when the finished piece sells, which means valuing raw materials, works in progress and finished goods, at least at year end. Expensing every Michaels run on purchase date overstates costs in stock-up months and understates them later, the same seesaw that plagues resellers, just measured in beads.</p>
+<p>And the rule that stings: <strong>your own labor is not COGS</strong> for a sole proprietor. The forty hours in a quilt never touches the books as a cost; you're paid through profit. Price accordingly.</p>
+<p><strong>The fix:</strong> a per-product materials cost sheet (the handmade equivalent of a landed-cost sheet), a year-end count of materials and finished goods, and COGS computed with <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">the standard formula</a>. It's an afternoon per quarter, and it's the difference between knowing a product line's margin and guessing it.</p>
+
+<h2>Problem 5: Sales tax looks handled, and mostly is</h2>
+<p>Etsy is a marketplace facilitator, so it collects and remits sales tax on Etsy orders in every state with a sales tax. Genuinely handled, with two leftovers. First, the collected tax shows up in your payment account flows, and books that don't strip it out inflate gross sales. Second, the moment you sell anywhere else (craft fairs, your own site), that channel's tax is yours, measured under each state's rules: thresholds run from $100,000 in most states to $500,000 in <a href="/bookkeeping-tips/texas-sales-tax-ecommerce-guide/">Texas</a> and <a href="/bookkeeping-tips/california-sales-tax-ecommerce-guide/">California</a>, and in-person sales at a Texas fair are taxable from the first dollar with no threshold at all.</p>
+<p><strong>The fix:</strong> tax collected by Etsy stays out of revenue entirely; tax you collect directly sits in a liability account until remitted. Never in income, ever.</p>
+
+<h2>Problem 6: The 1099-K whiplash</h2>
+<p>Etsy 1099-K rules have changed direction three times in five years, and 2025 legislation settled them back where they started: the federal threshold is <strong>$20,000 and 200 transactions</strong> again. But several states set their own, far lower triggers ($600 in Virginia, Maryland and Massachusetts among others, around $1,000 in New Jersey and Illinois), and Etsy issues forms accordingly. So whether a form arrives depends on where you live, and either way the form reports <strong>gross</strong> sales, before every fee and refund, the same trap that catches <a href="/bookkeeping-tips/amazon-1099-k-explained/">Amazon sellers every January</a>.</p>
+<p><strong>The fix:</strong> report gross, deduct fees, and never file from deposits. And remember the form is informational: no 1099-K doesn't mean no taxable income. A profitable shop owes tax at $6,000 of sales exactly as it does at $60,000, quarterly estimates included; hobby-versus-business classification is its own question with its own rules, covered in <a href="/bookkeeping-tips/content-creator-bookkeeping/">our creator bookkeeping guide</a> for the side-income crowd.</p>
+
+<h2>Problem 7: Multi-channel makers with one pile of records</h2>
+<p>The successful maker's arc: Etsy first, then craft fairs on Square, then a Shopify site, then maybe wholesale to local boutiques on invoices. Each channel has its own fees, its own payout rhythm, its own tax posture, and shops that pour it all into one undifferentiated ledger can't answer the only strategic question that matters: which channel is worth the next hour? Etsy's 17% all-in take versus Shopify's 3% processing looks damning until you price in the traffic Etsy brings and the ads Shopify needs, and only channel-level books can run that comparison honestly.</p>
+<p><strong>The fix:</strong> revenue and fees by channel, one inventory pool, and channel tagging on shared costs, the same architecture Shopify sellers and <a href="/bookkeeping-tips/reseller-taxes-bookkeeping-guide/">multi-platform resellers</a> need. Square and fair sales also mean handling your own sales tax at in-person rates, one more reason the channels can't share a shoebox.</p>
+
+<h2>Problem 8: Bookkeeping once a year, at tax time</h2>
+<p>The most common Etsy bookkeeping system is a January spreadsheet marathon over twelve months of cold records: mystery deposits, a shoebox of materials receipts, and an Offsite Ads total nobody can reconstruct per order. Annual bookkeeping means every pricing decision all year ran on instinct, every quarterly estimate was a guess, and problems compounded for months before anyone saw them (ask the shops that found out in January that their bestseller lost money all fall).</p>
+<p><strong>The fix:</strong> a monthly close, even a light one: post the Etsy CSV, reconcile the payment account, update the materials sheet, glance at margin by product line. Two hours a month, and January becomes a non-event. The monthly rhythm has a side benefit nobody advertises: it's when you notice the anomalies worth money, like a refund rate creeping up on one product (a supplier quality problem surfacing) or a listing quietly renewing $6 a month in fees on items that stopped selling in March. Yearly books can't catch what monthly eyes would.</p>
+
+<h2>What Etsy actually keeps: a $1,000 month, itemized</h2>
+<p>Numbers make the netting problem concrete. Here's a plausible month for a small US shop: 25 orders averaging $40 including shipping charged, one $40 refund, three orders attributed to Offsite Ads at the 15% tier:</p>
+<table>
+<thead><tr><th>Line</th><th>Amount</th></tr></thead>
+<tbody>
+<tr><td>Gross sales (25 orders, incl. shipping charged)</td><td>$1,000.00</td></tr>
+<tr><td>Transaction fees (6.5% of item + shipping)</td><td>-$65.00</td></tr>
+<tr><td>Payment processing (3% + $0.25 x 25)</td><td>-$36.25</td></tr>
+<tr><td>Listing fees (30 listings at $0.20)</td><td>-$6.00</td></tr>
+<tr><td>Offsite Ads (15% of $120 attributed)</td><td>-$18.00</td></tr>
+<tr><td>Shipping labels purchased</td><td>-$95.00</td></tr>
+<tr><td>Refund issued</td><td>-$40.00</td></tr>
+<tr><td><strong>Deposited to bank</strong></td><td><strong>$739.75</strong></td></tr>
+</tbody>
+</table>
+<p>Etsy's take before labels and the refund is $125.25, about 12.5% of gross, and it climbs toward 17% for shops with heavier Offsite Ads attribution. Book the $739.75 as sales and every one of those lines vanishes: revenue understated by 26%, zero deductible fees on the books, and a "profit margin" that's really just a deposit ratio. Book the gross and the lines separately and you can see, for instance, that labels ran 9.5% of sales this month, which is a shipping-price conversation worth having. The CSV has every number; the whole game is posting them.</p>
+
+<h2>Etsy taxes FAQ</h2>
+<p><strong>Are Etsy fees tax deductible?</strong> All of them: listing, transaction, processing, Offsite Ads, subscriptions, labels. But only if your books capture them, which deposit-based books don't. Shops that record net deposits routinely overpay income tax by deducting nothing Etsy kept.</p>
+<p><strong>Does Etsy report my sales to the IRS?</strong> Above the federal 1099-K threshold ($20,000 and 200 transactions), yes, and above much lower thresholds in several states. Below the thresholds, no form is issued, but the income is just as taxable and marketplace data is just as discoverable.</p>
+<p><strong>Do I owe quarterly estimated taxes on my shop?</strong> If the shop is profitable enough that you'll owe $1,000 or more at filing, generally yes: four payments a year, with a safe harbor pegged to last year's tax. It's the most commonly skipped obligation among makers who crossed from hobby scale to business scale mid-year.</p>
+<p><strong>Is my shop a hobby or a business?</strong> It matters more than people think: business losses can offset other income, hobby losses can't, and hobby income is still taxable with no deductions against it. Profit motive, regular activity and businesslike records are the factors, and ironically, keeping real books is itself evidence in your favor.</p>
+<p><strong>Does Etsy collect sales tax for me?</strong> On Etsy orders, yes, in every state with a marketplace facilitator law, which is now all of the sales tax states. Fairs and your own website remain your job.</p>
+
+<h2>When to hire it out (and what it costs)</h2>
+<p>DIY is the right answer for a small shop: under roughly $3,000 a month in sales, a spreadsheet plus the monthly routine above genuinely suffices. Past that, and certainly once multiple channels or quarterly estimates enter the picture, the hours and the error risk start costing more than help does; the full market pricing is in <a href="/bookkeeping-tips/how-much-does-ecommerce-bookkeeping-cost/">our bookkeeping cost guide</a>, and our own rates start at $149 a month for Books Lite. We built <a href="/etsy-bookkeeping-services/">a bookkeeping service specifically for Etsy sellers</a>: gross-not-net revenue from the payment CSV, every fee type itemized, materials COGS handled, channels separated, books in your own QuickBooks or Xero file.</p>
+<p>Not sure which side of the line you're on? Two free tools answer it: our <a href="/money-leak-checklist/">money leak checklist</a> takes ten minutes and flags the expensive gaps (Offsite Ads math and fee creep are perennial finds for Etsy shops), and the free Books Teardown goes deeper: we'll walk your actual books with you and show you what they're hiding; <a href="/contact/">request one here</a>. A shop that knows its numbers prices with confidence, raises prices when materials costs say to, and drops the products that only felt profitable. Pricing is where handmade businesses live or die, and pricing runs on books.</p>
+`,
+  },
 ];
 
 export function getArticle(slug: string) {

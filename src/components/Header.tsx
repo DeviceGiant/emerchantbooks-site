@@ -39,6 +39,7 @@ const NAV = [
   },
   { label: "Pricing", href: "/pricing/" },
   { label: "Blog", href: "/bookkeeping-tips/" },
+  { label: "Glossary", href: "/glossary/" },
 ];
 
 export default function Header() {
@@ -48,8 +49,16 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-navy-800 bg-navy-900/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
-        <Link href="/" className="flex items-baseline gap-0.5 text-xl font-bold text-white">
-          eMerchant<span className="text-brand-500">Books</span>
+        <Link href="/" className="flex items-center gap-2.5 text-xl font-bold text-white">
+          <svg width="28" height="28" viewBox="0 0 512 512" aria-hidden="true" className="shrink-0 rounded-lg">
+            <rect width="512" height="512" rx="112" fill="#122845"/>
+            <rect x="92" y="300" width="80" height="116" rx="22" fill="#0d9e6e" opacity="0.85"/>
+            <rect x="216" y="228" width="80" height="188" rx="22" fill="#10b981"/>
+            <rect x="340" y="132" width="80" height="284" rx="22" fill="#34d399"/>
+            <path d="M116 236 L236 164 L326 204 L400 96" fill="none" stroke="#eafff5" strokeWidth="30" strokeLinecap="round" strokeLinejoin="round"/>
+            <circle cx="400" cy="96" r="26" fill="#eafff5"/>
+          </svg>
+          <span className="flex items-baseline gap-0.5">eMerchant<span className="text-brand-500">Books</span></span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

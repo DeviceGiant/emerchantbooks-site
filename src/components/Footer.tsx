@@ -41,8 +41,10 @@ const COLS: { heading: string; links: { href: string; label: string }[] }[] = [
     links: [
       { href: "/about-us/", label: "About Us" },
       { href: "/ecommerce-accountant-dallas/", label: "Dallas–Fort Worth" },
+      { href: "/bookkeeping-services-plano-frisco/", label: "Plano & Frisco" },
       { href: "/faq/", label: "FAQ" },
       { href: "/bookkeeping-tips/", label: "Bookkeeping Tips" },
+      { href: "/glossary/", label: "Accounting Glossary" },
       { href: "/money-leak-checklist/", label: "Money Leak Checklist" },
       { href: "/contact/", label: "Contact" },
     ],

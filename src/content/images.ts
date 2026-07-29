@@ -178,6 +178,31 @@ export const IMAGES: Record<string, { src: string; alt: string }> = {
     src: "/images/about-ecommerce-accounting-firm-office.webp",
     alt: "eMerchant Books accountants who serve Fort Worth and Tarrant County businesses",
   },
+  // July 30 batch
+  "tariff-accounting-ecommerce-guide": {
+    src: "/images/walmart-marketplace-accounting-warehouse.webp",
+    alt: "Imported inventory boxes beside a calculator and laptop while duties are capitalized into landed cost per SKU",
+  },
+  "cash-to-accrual-conversion-guide": {
+    src: "/images/ecommerce-accounting-team-review.webp",
+    alt: "Accountants reviewing financial statements during a cash to accrual conversion for an ecommerce business",
+  },
+  "amazon-fba-reimbursement-guide": {
+    src: "/images/amazon-seller-accountant-settlement-review.webp",
+    alt: "Accountant checking Amazon settlement spreadsheets for missing FBA reimbursement claims beside a shipping box",
+  },
+  "texas-sales-tax-ecommerce-guide": {
+    src: "/images/ecommerce-tax-accountant-documents.webp",
+    alt: "Tax documents and calculator arranged for a Texas ecommerce seller's sales tax and franchise tax filings",
+  },
+  "california-sales-tax-ecommerce-guide": {
+    src: "/images/article-amazon-seller-taxes-forms.webp",
+    alt: "Sales tax forms and a shipping box for a California ecommerce seller's CDTFA district tax filing",
+  },
+  "etsy-seller-bookkeeping-problems": {
+    src: "/images/etsy-bookkeeping-maker-studio.webp",
+    alt: "Maker's studio with craft materials and a laptop where Etsy payment account fees get reconciled",
+  },
   // hub page
   "who-we-serve": {
     src: "/images/ecommerce-accounting-team-review.webp",
