@@ -122,11 +122,11 @@ export default function LeadForm({
           <label className={label} htmlFor={`${source}-rev`}>Monthly sales</label>
           <select id={`${source}-rev`} name="monthlyRevenue" className={input} defaultValue="">
             <option value="" disabled>Select range</option>
-            <option>Under $10k/mo</option>
-            <option>$10k–$50k/mo</option>
-            <option>$50k–$200k/mo</option>
-            <option>$200k–$1M/mo</option>
-            <option>Over $1M/mo</option>
+            <option>$1M–$3M/yr</option>
+            <option>$3M–$10M/yr</option>
+            <option>$10M–$30M/yr</option>
+            <option>Over $30M/yr</option>
+            <option>Under $1M/yr (join waitlist)</option>
           </select>
         </div>
       </div>
@@ -143,12 +143,12 @@ export default function LeadForm({
         disabled={state === "sending"}
         className="w-full rounded-lg bg-brand-500 px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-brand-600 disabled:opacity-60"
       >
-        {state === "sending" ? "Sending…" : "Get My Free Month"}
+        {state === "sending" ? "Sending…" : "Talk to a Partner"}
       </button>
 
       {state === "error" && <p className="text-sm text-red-500">{error}</p>}
       <p className={`text-center text-xs ${dark ? "text-slate-400" : "text-slate-500"}`}>
-        No commitment. We reply within one business day.
+        No commitment. A partner replies within one business day.
       </p>
     </form>
   );

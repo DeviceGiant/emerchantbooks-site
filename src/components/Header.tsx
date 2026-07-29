@@ -12,6 +12,7 @@ const NAV = [
       { href: "/catch-up-bookkeeping-services/", label: "Catch-Up & Cleanup" },
       { href: "/ecommerce-tax-services/", label: "Ecommerce Tax" },
       { href: "/international-sellers/", label: "International Sellers" },
+      { href: "/custom-integrations/", label: "Integrations & Ops Engineering" },
     ],
   },
   {
@@ -75,7 +76,7 @@ export default function Header() {
             (469) 294-1807
           </a>
           <Link href="/contact/" className="rounded-lg bg-brand-500 px-4 py-2 text-sm font-bold text-white hover:bg-brand-600">
-            Get My Free Month
+            Book an Assessment
           </Link>
         </div>
 
@@ -116,7 +117,7 @@ export default function Header() {
             )
           )}
           <Link href="/contact/" onClick={() => setOpen(false)} className="mt-4 block rounded-lg bg-brand-500 px-4 py-3 text-center text-sm font-bold text-white">
-            Get My Free Month
+            Book an Assessment
           </Link>
           <a href={SITE.phoneHref} className="mt-3 block text-center text-sm text-slate-300">
             Call (469) 294-1807

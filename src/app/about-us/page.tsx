@@ -48,19 +48,26 @@ export default function About() {
             impossible: there's nothing of yours on our side to lose.
           </p>
           <p>
-            <strong className="text-navy-900">Deadlines are commitments.</strong> Books closed by the 15th, monthly,
-            in writing. Financial statements that arrive six weeks late are history lessons, and you can't run a
+            <strong className="text-navy-900">Deadlines are guarantees.</strong> Books closed by the 10th business
+            day, monthly, in writing, or that month is 50% off. Financial statements that arrive six weeks late are history lessons, and you can't run a
             business on history lessons.
           </p>
           <p>
             <strong className="text-navy-900">Pricing belongs on the website.</strong> Most specialist firms hide
-            pricing behind a sales call. Ours is on the pricing page, starting at $229/mo, tiered by order volume.
+            pricing behind a sales call. Ours is on the pricing page, starting at $1,250/mo, tiered by revenue band.
             If we're not the right fit, you find out in two minutes instead of two calls.
           </p>
           <p>
-            <strong className="text-navy-900">Small sellers deserve specialist work.</strong> The big ecommerce
-            accounting firms set $1M or even $3M revenue minimums. We built for the seller doing $10k to $500k a
-            month, and for international sellers on US platforms that most firms won't touch at all.
+            <strong className="text-navy-900">Focus beats volume.</strong> We work exclusively with sellers doing
+            $1M+ in trailing-twelve-month revenue, including international sellers on US platforms that most firms
+            won&rsquo;t touch. The gate isn&rsquo;t snobbery; it&rsquo;s what lets us hold an exit-grade standard on
+            every file instead of running a bookkeeping assembly line. And unlike the roll-ups consolidating this
+            industry, we&rsquo;re independent and intend to stay that way.
+          </p>
+          <p>
+            <strong className="text-navy-900">Accounting firms should be able to build.</strong> Sellers run on
+            software glued together with exports and hope. We employ engineers, so beyond the books we build custom
+            integrations, workflow automation and ops tooling. No other firm in this market can.
           </p>
         </div>
 

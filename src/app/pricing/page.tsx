@@ -3,90 +3,89 @@ import Link from "next/link";
 import { Breadcrumbs, CtaBand, FaqBlock } from "@/components/Sections";
 
 export const metadata: Metadata = {
-  title: { absolute: "Bookkeeping Pricing for Ecommerce Sellers | eMerchant Books" },
+  title: { absolute: "Published Pricing for $1M+ Ecommerce Brands | eMerchant Books" },
   description:
-    "Transparent monthly bookkeeping pricing from $229/mo, tiered by order volume and channels. No quote gate, no annual contract, first month free.",
+    "The only ecommerce-exclusive accounting firm with published pricing. Foundation $1,250/mo, Command $3,500/mo, Exit-Grade $7,500/mo. $1M+ TTM revenue required.",
   alternates: { canonical: "/pricing/" },
 };
 
 const TIERS = [
   {
-    name: "Starter",
-    price: "$229",
-    for: "One channel, up to 300 orders/mo",
+    name: "Foundation",
+    price: "$1,250",
+    for: "$1M–$3M revenue · accounting",
     features: [
-      "1 sales channel reconciled",
-      "QuickBooks or Xero (your file)",
-      "Settlement-accurate revenue",
-      "COGS on inventory movement",
-      "P&L, balance sheet, cash flow by the 15th",
-      "Email + text support",
+      "Accrual books, true landed-cost COGS",
+      "Tariffs capitalized per ASC 330, not buried in opex",
+      "Channel-level P&L, every marketplace reconciled",
+      "Closed by day 10 — or that month is 50% off",
+      "Monthly close memo + video walkthrough",
+      "Dual-track: accrual books, cash-basis tax where allowed",
+      "Sales tax nexus monitoring (filings +$150/state/mo)",
+      "Your QuickBooks or Xero file, owned by you",
     ],
+    fineprint: "+$250/mo per channel beyond 3 · multi-entity +40%",
     highlight: false,
   },
   {
-    name: "Growth",
-    price: "$429",
-    for: "Up to 3 channels, up to 1,500 orders/mo",
+    name: "Command",
+    price: "$3,500",
+    for: "$3M–$10M revenue · + controller",
     features: [
-      "Everything in Starter",
-      "Up to 3 channels with per-channel P&L",
-      "A2X / Link My Books managed for you",
-      "Monthly video walkthrough of your numbers",
-      "Sales tax liability tracking + nexus flags",
-      "WhatsApp access to your bookkeeper",
+      "Everything in Foundation",
+      "Controller review on every close",
+      "SKU + contribution-margin reporting (CM2/CM3 by channel)",
+      "13-week cash-flow forecast, maintained",
+      "Inventory, AP and AR aging schedules",
+      "Lender-ready reporting pack",
+      "Quarterly strategy call",
     ],
+    fineprint: "Inventory financing and 3PL complexity welcome",
     highlight: true,
   },
   {
-    name: "Scale",
-    price: "$749",
-    for: "Up to 6 channels, up to 5,000 orders/mo",
+    name: "Exit-Grade",
+    price: "$7,500",
+    for: "$8M–$30M or selling within 36 months · + CFO",
     features: [
-      "Everything in Growth",
-      "Multi-warehouse / 3PL inventory accounting",
-      "Multi-currency support",
-      "Quarterly margin review call",
-      "Priority month-end close (target the 10th)",
-      "CPA coordination at year end included",
+      "Everything in Command",
+      "Fractional CFO: monthly board-style review",
+      "Budget vs actual + NWC management",
+      "Maintained addback schedule",
+      "Annual data-room refresh",
+      "Buyer, broker and lender liaison",
+      "Diligence-passable at any moment, as a standard",
+      "NetSuite fully supported",
     ],
-    highlight: false,
-  },
-  {
-    name: "Custom",
-    price: "Let's talk",
-    for: "Higher volume, NetSuite, multi-entity, international",
-    features: [
-      "NetSuite and multi-entity closes",
-      "International seller compliance stack",
-      "Catch-up and cleanup projects (flat quote)",
-      "Aggregator / lender-ready reporting",
-      "Dedicated senior bookkeeper",
-    ],
+    fineprint: "For brands where the books ARE the valuation",
     highlight: false,
   },
 ];
 
 const FAQS = [
   {
-    q: "Why do you price by orders instead of expenses or revenue?",
-    a: "Because order volume is what actually drives bookkeeping work. Expense-based tiers punish you for spending on inventory and ads, which is how growing sellers get surprise price jumps at other firms. Your order count is visible to both of us, so pricing stays predictable.",
+    q: "Why do you require $1M+ in revenue?",
+    a: "Because our process, accrual inventory accounting, landed-cost COGS, channel-level closes, controller review, is built for operating complexity that doesn't exist below seven figures, and diluting it downmarket would make us worse at the job you'd hire us for. Under $1M: take our free close checklist, use a vetted starter bookkeeper we can introduce you to, and come back when you cross the line. We never fire existing clients for a soft quarter; the gate applies at intake, on trailing-twelve-month revenue.",
   },
   {
-    q: "Is the first month really free?",
-    a: "Yes. We do a full month of your bookkeeping at no cost, in your own file, before you pay anything. If the work doesn't convince you, walk away and keep it. No card required to start.",
+    q: "What is the Diligence Readiness Assessment?",
+    a: "The usual way engagements start: $2,500, ten business days. We score your books against a 40-point checklist of what buyers and lenders actually verify (accrual COGS, addback provability, NWC schedules, channel P&L, 1099-K ties) and quantify each gap in dollars. The fee is credited in full against onboarding. Context: a buyer-side QoE runs $25,000 to $50,000, and unprepared books routinely cost sellers $50,000 to $500,000 at exit.",
   },
   {
-    q: "What's not included in these prices?",
-    a: "Tax return filing (we prepare the books and coordinate with a CPA, yours or ours), sales tax filing subscriptions like TaxJar or Avalara, and your own QuickBooks or Xero subscription. Catch-up projects for existing backlogs are quoted separately at a discounted rate. No other surprises, and no 'complexity fees' appearing on month three.",
+    q: "Why is your pricing public when every competitor's is hidden?",
+    a: "Because hidden pricing is a tax on your time, and sellers know it: quote-only firms get described as 'overcharging' in every seller forum. Publishing the rate card pre-qualifies both sides. The number you see is the number, adjusted only for the fine print listed on each tier.",
   },
   {
-    q: "What happens if my volume grows past my tier?",
-    a: "We tell you before anything changes, and the next tier applies from the following month. No retroactive charges, no mid-month surprises, and moving down works the same way in reverse.",
+    q: "What's not included?",
+    a: "Tax return filing (we prepare tax-ready books and coordinate with a CPA, yours or one from our partner network), sales tax filing subscriptions, your accounting software license, and catch-up projects for existing backlogs, which are quoted flat at a discount before we start. Custom integrations and ops engineering are scoped separately. No surprise 'complexity fees' ever appear mid-engagement.",
   },
   {
-    q: "Do I have to sign a contract?",
-    a: "No. Month-to-month, cancel with 30 days' notice, and your file goes with you fully intact because it was always yours. Annual prepayment traps are how firms with bad service keep clients. We'd rather earn the renewal monthly.",
+    q: "How does the day-10 guarantee actually work?",
+    a: "Your prior month's reconciled P&L, balance sheet and cash flow are delivered by the 10th business day. If we miss it for any reason that isn't missing information we've chased in writing, that month's fee is 50% off, automatically. No competitor guarantees a close date at all.",
+  },
+  {
+    q: "Do I have to sign an annual contract?",
+    a: "No. Month-to-month, 30 days' notice, and your file leaves with you fully intact because it was always yours. Annual prepayment traps are how firms with bad service keep clients.",
   },
 ];
 
@@ -97,14 +96,23 @@ export default function Pricing() {
 
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-navy-900">Transparent pricing, priced by order volume</h1>
+          <h1 className="text-4xl font-bold text-navy-900">Published pricing. Yes, really.</h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
-            No quote gate. No discovery-call gauntlet. No annual contract. The first month is free on every plan, and
-            every plan works inside your own QuickBooks or Xero file.
+            We&rsquo;re the only ecommerce-exclusive accounting firm that puts its rate card on the website. Every
+            tier is month-to-month, works in your own QuickBooks, Xero or NetSuite file, and carries the day-10
+            close guarantee.
           </p>
+          <div className="mx-auto mt-6 max-w-2xl rounded-xl border border-navy-800 bg-navy-900 p-5 text-left">
+            <p className="text-sm font-bold text-white">We only work with sellers doing $1M+ in trailing-twelve-month revenue.</p>
+            <p className="mt-1.5 text-sm leading-relaxed text-slate-300">
+              Minimums exist because our process is built for the complexity that starts at seven figures. Under $1M?
+              Join the Foundations waitlist via the contact form and we&rsquo;ll introduce you to a vetted starter
+              bookkeeper, then take over when you cross the line.
+            </p>
+          </div>
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-12 grid gap-6 lg:grid-cols-3">
           {TIERS.map((t) => (
             <div
               key={t.name}
@@ -114,13 +122,13 @@ export default function Pricing() {
             >
               {t.highlight && (
                 <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-brand-500 px-3 py-1 text-xs font-bold text-white">
-                  Most popular
+                  Most common
                 </span>
               )}
               <p className="font-bold text-navy-900">{t.name}</p>
               <p className="mt-3 text-4xl font-bold text-navy-900">
                 {t.price}
-                {t.price.startsWith("$") && <span className="text-base font-medium text-slate-500">/mo</span>}
+                <span className="text-base font-medium text-slate-500">/mo from</span>
               </p>
               <p className="mt-2 text-sm text-slate-500">{t.for}</p>
               <ul className="mt-6 flex-1 space-y-2.5 text-sm text-slate-700">
@@ -131,30 +139,45 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
+              <p className="mt-4 text-xs text-slate-500">{t.fineprint}</p>
               <Link
                 href="/contact/"
-                className={`mt-7 rounded-lg px-4 py-3 text-center text-sm font-bold ${
+                className={`mt-5 rounded-lg px-4 py-3 text-center text-sm font-bold ${
                   t.highlight ? "bg-brand-500 text-white hover:bg-brand-600" : "bg-navy-900 text-white hover:bg-navy-800"
                 }`}
               >
-                Start With a Free Month
+                Start With the Assessment
               </Link>
             </div>
           ))}
         </div>
 
-        <div className="mx-auto mt-12 max-w-3xl rounded-xl border border-slate-200 bg-slate-50 p-6 text-center text-sm text-slate-600">
+        <div className="mx-auto mt-10 max-w-4xl rounded-2xl border border-brand-500/40 bg-brand-50 p-7">
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <p className="text-lg font-bold text-navy-900">Diligence Readiness Assessment — $2,500</p>
+              <p className="mt-1 max-w-xl text-sm leading-relaxed text-slate-600">
+                Ten business days. Your books scored against the 40 points buyers and lenders actually check, with
+                every gap quantified in dollars. Credited in full against onboarding.
+              </p>
+            </div>
+            <Link href="/contact/" className="rounded-lg bg-navy-900 px-5 py-3 text-sm font-bold text-white hover:bg-navy-800">
+              Book the Assessment
+            </Link>
+          </div>
+        </div>
+
+        <div className="mx-auto mt-10 max-w-3xl rounded-xl border border-slate-200 bg-slate-50 p-6 text-center text-sm text-slate-600">
           <p>
-            <strong className="text-navy-900">How we compare:</strong> specialist ecommerce firms typically start at
-            $395–$995/mo, several won&rsquo;t take clients under $1M in revenue, and most hide pricing behind a sales
-            call. Generalists are cheaper but book your deposits as revenue. We built the middle that should have
-            existed: specialist work at a price a growing seller can justify.
+            <strong className="text-navy-900">Market context:</strong> comparable specialist firms charge $1,500 to
+            $15,000/mo for these bands, quoted only after a sales call. Custom integrations and ops-engineering work
+            is scoped per project alongside any tier.
           </p>
         </div>
       </section>
 
       <FaqBlock faqs={FAQS} title="Pricing FAQs" />
-      <CtaBand source="pricing-bottom" heading="Not sure which tier fits?" sub="Tell us your channels and rough order volume. We'll answer with an exact number, not a sales sequence, within one business day." />
+      <CtaBand source="pricing-bottom" heading="Not sure which tier fits?" sub="Tell us your channels and trailing-twelve-month revenue. A partner answers with a specific recommendation, not a sales sequence, within one business day." />
     </>
   );
 }

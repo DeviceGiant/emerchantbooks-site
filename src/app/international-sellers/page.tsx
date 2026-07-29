@@ -111,7 +111,7 @@ export default function InternationalSellers() {
               "EIN without SSN, ITIN via CAA when needed",
               "Related-party transaction tracking (5472's core input)",
               "Sales tax registration and filing coordination",
-              "Books closed by the 15th, questions answered on WhatsApp",
+              "Books closed by day 10, questions answered on WhatsApp",
             ].map((d) => (
               <li key={d} className="flex items-start gap-2.5 rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-700">
                 <span className="mt-0.5 text-brand-500" aria-hidden>✓</span>
@@ -144,7 +144,7 @@ export default function InternationalSellers() {
                 <tr className="bg-brand-50/60">
                   <td className="py-3 pr-4 font-bold text-navy-900">eMerchant Books</td>
                   <td className="py-3 pr-4">Real marketplace bookkeeping + full compliance coordination, one team</td>
-                  <td className="py-3 font-semibold">From $229/mo, quoted flat</td>
+                  <td className="py-3 font-semibold">From $1,250/mo, published rate card</td>
                 </tr>
               </tbody>
             </table>
@@ -177,7 +177,7 @@ export default function InternationalSellers() {
       <CtaBand
         source="international-bottom"
         heading="Get compliant and get real books, in one move"
-        sub="First month of bookkeeping free. We'll scope your compliance backlog honestly, quote it flat, and never bill you hourly for answering a question."
+        sub="We'll scope your compliance backlog honestly, quote it flat, and never bill you hourly for answering a question. Published pricing, month-to-month, in a file you own."
       />
 
       <script

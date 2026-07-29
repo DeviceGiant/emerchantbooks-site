@@ -45,6 +45,10 @@ export const IMAGES: Record<string, { src: string; alt: string }> = {
     src: "/images/ecommerce-tax-accountant-documents.webp",
     alt: "Ecommerce tax accountant's desk with organized tax documents and calculator",
   },
+  "custom-integrations": {
+    src: "/images/custom-integrations-ops-engineering.webp",
+    alt: "Ecommerce operations engineering workstation with code and workflow diagrams beside shipping boxes",
+  },
   // standalone pages
   home: {
     src: "/images/ecommerce-bookkeeping-services-desk.webp",

@@ -44,15 +44,15 @@ export function CtaBand({ source, heading, sub }: { source: string; heading?: st
     <section className="bg-navy-900 py-16">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2">
         <div>
-          <h2 className="text-3xl font-bold text-white">{heading || "Your first month of bookkeeping is free"}</h2>
+          <h2 className="text-3xl font-bold text-white">{heading || "Find out if your books would survive diligence"}</h2>
           <p className="mt-4 text-lg leading-relaxed text-slate-300">
             {sub ||
-              "Tell us where you sell and we'll reply within one business day with a plan and an exact monthly price. Judge the work before you pay a dollar."}
+              "The Diligence Readiness Assessment: $2,500, ten business days, your books scored against the 40 points buyers and lenders actually check. Credited in full against onboarding. For sellers doing $1M+ TTM."}
           </p>
           <ul className="mt-6 space-y-2.5 text-sm text-slate-300">
-            <li>✓ Books closed by the 15th, guaranteed</li>
-            <li>✓ Everything stays in your QuickBooks or Xero file</li>
-            <li>✓ Month-to-month, cancel anytime</li>
+            <li>✓ Books closed by day 10, guaranteed in writing</li>
+            <li>✓ Everything stays in your QuickBooks, Xero or NetSuite file</li>
+            <li>✓ Published pricing, month-to-month, no lock-in</li>
           </ul>
         </div>
         <div className="rounded-2xl border border-navy-700 bg-navy-800 p-6 sm:p-8">

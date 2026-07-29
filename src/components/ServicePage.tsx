@@ -74,7 +74,7 @@ export default function ServicePage({ s }: { s: ServiceContent }) {
         <aside className="lg:sticky lg:top-24 lg:col-span-2">
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-lg sm:p-8">
             <p className="text-lg font-bold text-navy-900">Get a custom quote</p>
-            <p className="mb-5 mt-1 text-sm text-slate-500">First month free. Reply within one business day.</p>
+            <p className="mb-5 mt-1 text-sm text-slate-500">For $1M+ brands. A partner replies within one business day.</p>
             <LeadForm source={s.slug} />
           </div>
         </aside>

@@ -4,9 +4,9 @@ import { Breadcrumbs } from "@/components/Sections";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Get Your Free Month",
+  title: "Contact Us — Talk to a Partner",
   description:
-    "Get a custom bookkeeping quote within one business day. Call (469) 294-1807 or send the form. First month free, no contract.",
+    "Talk to the accounting firm for $1M+ ecommerce brands. Call (469) 294-1807 or send the form; a partner replies within one business day.",
   alternates: { canonical: "/contact/" },
 };
 
@@ -19,9 +19,9 @@ export default function Contact() {
         <div>
           <h1 className="text-4xl font-bold text-navy-900">Let&rsquo;s look at your books</h1>
           <p className="mt-4 text-lg leading-relaxed text-slate-600">
-            Tell us where you sell and roughly how many orders you do. You&rsquo;ll get a reply from a real
-            bookkeeper within one business day with an exact monthly price and, if you want it, your first month
-            free.
+            Tell us where you sell and roughly how many orders you do. A partner replies within one
+            business day with an exact tier recommendation from our published rate card, or a scope for the
+            Diligence Readiness Assessment if that&rsquo;s the right starting point.
           </p>
 
           <div className="mt-8 space-y-4 text-slate-700">
@@ -48,7 +48,7 @@ export default function Contact() {
             <ol className="mt-2 list-decimal space-y-1 pl-5">
               <li>We look at your channels and volume (no access needed yet)</li>
               <li>You get an exact quote and an honest fit assessment</li>
-              <li>If you want to proceed, onboarding starts with your free month</li>
+              <li>If you want to proceed, most engagements start with the $2,500 assessment, credited against onboarding</li>
             </ol>
           </div>
         </div>

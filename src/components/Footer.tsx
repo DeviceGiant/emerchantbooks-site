@@ -9,6 +9,7 @@ const COLS: { heading: string; links: { href: string; label: string }[] }[] = [
       { href: "/catch-up-bookkeeping-services/", label: "Catch-Up & Cleanup" },
       { href: "/ecommerce-tax-services/", label: "Ecommerce Tax Services" },
       { href: "/international-sellers/", label: "International Sellers" },
+      { href: "/custom-integrations/", label: "Custom Integrations" },
       { href: "/pricing/", label: "Pricing" },
     ],
   },
@@ -51,8 +52,8 @@ export default function Footer() {
               eMerchant<span className="text-brand-500">Books</span>
             </p>
             <p className="mt-3 max-w-xs text-sm leading-relaxed">
-              Done-for-you bookkeeping for Amazon, eBay, Shopify, Walmart and Etsy sellers. Your books, your
-              QuickBooks or Xero file, closed by the 15th.
+              The ecommerce accounting firm for $1M+ sellers. Exit-grade books plus custom ops integrations, in your
+              own QuickBooks, Xero or NetSuite file, closed by day 10.
             </p>
             <div className="mt-5 space-y-1.5 text-sm">
               <p><a href={SITE.phoneHref} className="hover:text-white">{SITE.phone}</a></p>

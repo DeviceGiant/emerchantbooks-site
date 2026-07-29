@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "What exactly do I get every month?",
-    a: "Reconciled books across every channel, settlement-accurate revenue and fees, COGS on inventory movement, a P&L, balance sheet and cash flow statement delivered by the 15th, and a short video walking through what changed. Plus a bookkeeper you can text.",
+    a: "Reconciled books across every channel, settlement-accurate revenue and fees, true landed-cost COGS, a P&L, balance sheet and cash flow statement delivered by the 10th business day (guaranteed in writing), a monthly close memo, and an accountant you can text.",
   },
   {
     q: "How much does it cost?",
-    a: "Plans start at $229/mo and scale by order volume and channel count. The full rate card is public on our pricing page, and the first month is free on every plan.",
+    a: "Foundation starts at $1,250/mo ($1M-$3M brands), Command at $3,500/mo ($3M-$10M, adds controller work), Exit-Grade at $7,500/mo (adds fractional CFO). The full rate card is public on our pricing page, which no other ecommerce-exclusive firm offers. Most engagements start with the $2,500 Diligence Readiness Assessment, credited against onboarding.",
   },
   {
     q: "Which platforms do you support?",
