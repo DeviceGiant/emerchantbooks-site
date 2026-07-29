@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import nodemailer from "nodemailer";
 
 export const runtime = "nodejs";
 
@@ -17,16 +16,6 @@ type LeadPayload = {
 function bad(msg: string, status = 400) {
   return NextResponse.json({ ok: false, error: msg }, { status });
 }
-
-const transporter = nodemailer.createTransport({
-  host: "smtp.migadu.com",
-  port: 465,
-  secure: true,
-  auth: {
-    user: process.env.LEAD_SMTP_USER, // noreply@emerchantbooks.com
-    pass: process.env.LEAD_SMTP_PASS,
-  },
-});
 
 // naive in-memory rate limit: 5 submissions / 10 min / IP
 const hits = new Map<string, number[]>();
@@ -77,14 +66,27 @@ export async function POST(req: NextRequest) {
     `Time: ${new Date().toISOString()}`,
   ].filter((l): l is string => l !== null);
 
+  // DigitalOcean blocks outbound SMTP, so delivery goes over Resend's HTTPS API.
   try {
-    await transporter.sendMail({
-      from: `"eMerchant Books Leads" <${process.env.LEAD_SMTP_USER}>`,
-      to: process.env.LEAD_TO || "sales@emerchantbooks.com",
-      replyTo: email,
-      subject: `New lead: ${name} (${body.source || "website"})`,
-      text: lines.join("\n"),
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        from: process.env.LEAD_FROM || "eMerchant Books Leads <leads@send.kloqk.com>",
+        to: [process.env.LEAD_TO || "sales@emerchantbooks.com"],
+        reply_to: email,
+        subject: `New lead: ${name} (${body.source || "website"})`,
+        text: lines.join("\n"),
+      }),
+      signal: AbortSignal.timeout(15000),
     });
+    if (!res.ok) {
+      console.error("lead mail failed", res.status, await res.text().catch(() => ""));
+      return bad("failed to send — please email us directly at sales@emerchantbooks.com", 500);
+    }
   } catch (e) {
     console.error("lead mail failed", e);
     return bad("failed to send — please email us directly at sales@emerchantbooks.com", 500);
