@@ -91,6 +91,10 @@ export const IMAGES: Record<string, { src: string; alt: string }> = {
     src: "/images/article-chart-of-accounts-organized.webp",
     alt: "Neatly organized file folders representing an ecommerce chart of accounts",
   },
+  "quality-of-earnings-report-guide": {
+    src: "/images/article-quality-of-earnings-review.webp",
+    alt: "Analyst reviewing a bound quality of earnings report with financial charts",
+  },
   "form-5472-foreign-owned-llc-guide": {
     src: "/images/article-form-5472-international-mail.webp",
     alt: "Official document, passport and airmail envelope for Form 5472 foreign-owned LLC filing",

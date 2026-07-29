@@ -19,7 +19,7 @@ export const ARTICLES: Article[] = [
       "Real 2026 prices for ecommerce bookkeeping: DIY, freelancers, specialist firms and what drives cost. Includes actual published rates from 8 providers.",
     date: "2026-07-28",
     readMinutes: 7,
-    excerpt: "Between $229 and $995 a month for a specialist, with wide variation that comes down to five factors. Here are the actual numbers firms publish, and the ones they hide.",
+    excerpt: "Between $149 and $1,250+ a month depending on scale, with wide variation that comes down to five factors. Here are the actual numbers firms publish, and the ones they hide.",
     html: `
 <p>Short answer: a specialist ecommerce bookkeeping service in 2026 runs between $229 and $995 per month for a small-to-midsize seller, and the wide range comes down to five factors covered below. Generalist bookkeepers charge less. They also tend to book your Amazon deposits as revenue, which is why sellers end up switching.</p>
 
@@ -28,7 +28,7 @@ export const ARTICLES: Article[] = [
 <table>
 <thead><tr><th>Provider</th><th>Entry price</th><th>Notes</th></tr></thead>
 <tbody>
-<tr><td>eMerchant Books</td><td>$229/mo</td><td>Ecommerce specialist, priced by order volume, first month free</td></tr>
+<tr><td>eMerchant Books</td><td>$1,250/mo ($100K+/mo brands); Books Lite $149/mo</td><td>Ecommerce specialist, published rate card, free books audit</td></tr>
 <tr><td>Finaloop</td><td>$245/mo</td><td>Proprietary ledger, DTC-focused, price rises with revenue</td></tr>
 <tr><td>Xendoo</td><td>$395/mo</td><td>Generalist with ecommerce vertical, tiered by monthly expenses</td></tr>
 <tr><td>EcomBalance</td><td>"from $499/mo"</td><td>Specialist, but final price requires a quote call</td></tr>
@@ -54,7 +54,7 @@ export const ARTICLES: Article[] = [
 <p>A 1099-K that doesn't match your filed return can trigger an IRS notice; resolving one typically costs more in professional fees than a year of bookkeeping. A lender or aggregator that can't verify your margins discounts your valuation or walks. And a mispriced product line can quietly lose money for years. Cheap books that are wrong are the most expensive option on this page.</p>
 
 <h2>Bottom line</h2>
-<p>Budget $229–$500/mo for a specialist if you're doing $10k–$200k/mo in sales, more with heavy inventory complexity or many channels. Insist on: accrual books, settlement-level reconciliation, pricing that scales on orders (not expenses), your own QuickBooks or Xero file, and no annual contract. Our <a href="/pricing/">full rate card is public</a>, and the first month is free.</p>
+<p>Budget $400–$1,500/mo for real specialist work depending on scale and inventory complexity, more at controller depth. Insist on: accrual books, settlement-level reconciliation, transparent pricing, your own QuickBooks or Xero file, and no annual contract. Our <a href="/pricing/">full rate card is public</a>, from $149/mo Books Lite to specialist tiers, and the books audit is free.</p>
 `,
   },
   {
@@ -248,6 +248,79 @@ export const ARTICLES: Article[] = [
 
 <h2>Getting this handled</h2>
 <p>The cheap route is a filing shop ($399–$999 per year) that files the form using whatever numbers you give them, plus a separate bookkeeper who has never seen an Amazon settlement report. The expensive route is a formation platform's $1,999/yr compliance bundle with software-first books underneath. The route we built: <a href="/international-sellers/">marketplace-grade monthly bookkeeping plus coordination of the full compliance stack</a>, so the numbers on the form come from books that can defend them. From $229/mo, first month free, and your books live in your own QuickBooks or Xero file either way.</p>
+`,
+  },
+  {
+    slug: "quality-of-earnings-report-guide",
+    title: "Quality of Earnings Report: What It Is, What It Costs, and How to Pass One",
+    metaTitle: "Quality of Earnings Report Explained (Cost, Example, How to Pass)",
+    metaDescription:
+      "What a quality of earnings (QoE) report is, what it costs ($5K-$35K), what's inside one, and how ecommerce sellers pass QoE analysis without losing 20-40% of their sale price.",
+    date: "2026-07-29",
+    readMinutes: 11,
+    excerpt: "A QoE report is the financial exam your business takes before someone buys it. Here's what's inside one, what it costs, and the eight things that make ecommerce sellers fail it.",
+    html: `
+<p>A quality of earnings report (QoE) is an independent analysis of how real your profits are. When someone offers to buy your business, their diligence team produces one to answer a single question: if we own this company next year, does the money keep showing up? It examines revenue quality, expense completeness, owner addbacks, and working capital, and it is the document that most often reprices or kills a deal.</p>
+<p>If you sell online and ever plan to exit, raise debt, or take on a partner, understanding QoE analysis now is worth real money later. Sellers who show up prepared protect their multiple. Sellers who don't routinely lose 20 to 40% of the outcome, or the deal itself.</p>
+
+<h2>What a quality of earnings report actually contains</h2>
+<p>A typical QoE report runs 30 to 80 pages. The core sections:</p>
+<ul>
+<li><strong>Adjusted EBITDA (or SDE) analysis.</strong> The headline. The analyst starts from your reported profit and adjusts it: removing one-time events, normalizing owner compensation, and testing every addback you claimed. This adjusted figure, not your P&amp;L's bottom line, is what the purchase price gets multiplied against.</li>
+<li><strong>Revenue quality.</strong> Concentration by channel, customer and SKU; refund and chargeback rates; whether revenue is recognized correctly (gross vs net, gift cards, marketplace settlement timing). For ecommerce: does gross revenue tie to the 1099-Ks and settlement reports? A gap here is a red flag with a spotlight on it.</li>
+<li><strong>Proof of margins.</strong> COGS tested against inventory movement, not purchase invoices. If cost of goods was booked when you paid suppliers, your monthly margins are noise, and the analyst rebuilds them, on the buyer's assumptions, not yours.</li>
+<li><strong>Working capital analysis.</strong> What level of inventory, receivables and payables the business needs to operate. The buyer sets a working capital "peg" from this section; inventory-heavy brands routinely overstate working capital by 20 to 40%, and the difference comes out of the purchase price dollar for dollar.</li>
+<li><strong>Proof-of-cash.</strong> Bank statements reconciled against reported revenue and expenses, month by month. This is where deposit-based bookkeeping falls apart in front of an audience.</li>
+</ul>
+
+<h2>What does a quality of earnings report cost?</h2>
+<p>Depends on who orders it and the size of the business:</p>
+<table>
+<thead><tr><th>Type</th><th>Typical cost</th><th>Ordered by</th></tr></thead>
+<tbody>
+<tr><td>Buy-side QoE, boutique firm (SMB deals)</td><td>$5,000-$15,000</td><td>Buyer</td></tr>
+<tr><td>Buy-side QoE, regional CPA firm</td><td>$25,000-$35,000</td><td>Buyer</td></tr>
+<tr><td>Sell-side QoE ("reverse diligence")</td><td>$10,000-$30,000</td><td>Seller, before going to market</td></tr>
+<tr><td>QoE-lite / diligence readiness assessment</td><td>$2,500-$7,500</td><td>Seller, 12-36 months before selling</td></tr>
+</tbody>
+</table>
+<p>The buyer usually pays for the buy-side report. What the seller pays for, voluntarily or not, is being unprepared for it. The asymmetry is the whole argument for sell-side preparation: a $2,500 readiness assessment against a documented $50,000-to-$500,000 range of value lost to messy books.</p>
+
+<h2>Quality of earnings vs. an audit</h2>
+<p>An audit asks "do these statements follow accounting standards?" A QoE asks "how much recurring, transferable profit does this business really produce?" You can pass an audit and fail a QoE. Audits accept your accounting policies if consistently applied; QoE analysts re-cut the numbers the way a skeptical buyer would. For small-business deals, buyers almost never request audits. They always do QoE work.</p>
+
+<h2>A quality of earnings example: what analysis actually looks like</h2>
+<p>A sample from an ecommerce deal, simplified. Seller reports $850,000 EBITDA. The QoE adjustments:</p>
+<ul>
+<li>+$120,000 owner salary addback (accepted, market rate documented at $60,000, so +$60,000 survives)</li>
+<li>-$85,000: COGS understated because Q4 inventory purchases were expensed in January (accrual restatement)</li>
+<li>-$40,000: revenue included sales tax collected in three states</li>
+<li>-$25,000: "one-time" ad-agency fee claimed as addback, rejected: it recurred in two of three years</li>
+<li>-$30,000: unreconciled difference between 1099-K gross and reported revenue, treated conservatively</li>
+</ul>
+<p>Adjusted EBITDA: $730,000. At a 4x multiple, that seller just lost $480,000 of purchase price, and every adjustment except the salary was a bookkeeping quality problem, not a business problem.</p>
+
+<h2>The 8 things that make ecommerce sellers fail QoE analysis</h2>
+<ol>
+<li><strong>Cash-basis books.</strong> Brokers won't even list some businesses without accrual conversion. Cash-basis COGS "goes up and down like a seesaw" and depresses your calculated earnings.</li>
+<li><strong>Deposits booked as revenue.</strong> Settlement deposits are net of fees and refunds; the analyst rebuilds gross, and every discrepancy reads as a misstatement.</li>
+<li><strong>Unprovable addbacks.</strong> If you can't show a receipt and a clean ledger entry, the addback dies, and your multiple applies to the lower number.</li>
+<li><strong>Inventory games.</strong> No physical counts, no landed-cost tracking, tariffs expensed instead of capitalized. Inventory is both a margin input and a working-capital input; errors hit twice.</li>
+<li><strong>Sales tax in revenue.</strong> Instantly found, instantly adjusted, and it makes every other number suspect.</li>
+<li><strong>Commingled personal spending.</strong> Legitimate as addbacks in principle, toxic in volume.</li>
+<li><strong>Revenue that doesn't tie to the 1099-K.</strong> The computer-matching problem, in front of a human analyst.</li>
+<li><strong>No monthly closes.</strong> If the books were written once a year at tax time, monthly trends, seasonality and working-capital patterns can't be verified, and unverifiable means discounted.</li>
+</ol>
+
+<h2>How to prepare: the 12-to-36-month runway</h2>
+<p>QoE preparation is mostly just running real accounting, early enough that history exists when you need it. In order: convert to accrual with proper inventory (buyers want 24-36 months of accrual history, so start 3 years before you want to sell); reconcile every channel monthly with settlement-level detail; maintain an addback schedule as things happen rather than reconstructing at deal time; document related-party anything; and get a sell-side readiness review before the buyer's team shows up, because finding your own problems is dramatically cheaper than having them found.</p>
+<p>This is exactly what our <a href="/pricing/">Exit-Grade service</a> maintains monthly, and what our <a href="/contact/">$2,500 Exit-Ready Assessment</a> scores in ten business days (credited in full if we end up doing the work). If a sale is even a maybe within three years, the assessment tells you today what a buyer's QoE team would say, while there's still time to fix it.</p>
+
+<h2>Quality of earnings FAQ</h2>
+<p><strong>What is a quality of earnings report in one sentence?</strong> An independent analysis of how much recurring, transferable profit a business actually generates, produced during the due diligence phase of a sale or financing.</p>
+<p><strong>Who prepares QoE reports?</strong> CPA firms and specialist transaction-advisory boutiques, independent of both parties even when one side pays.</p>
+<p><strong>How long does one take?</strong> Three to six weeks for SMB deals, longer if the books need reconstruction, which is the polite way diligence timelines die.</p>
+<p><strong>Do I need one to sell a business under $1M?</strong> A formal QoE, often not. QoE-style scrutiny, always: every serious buyer runs the same checks informally, and broker vetting applies the same standards.</p>
 `,
   },
 ];

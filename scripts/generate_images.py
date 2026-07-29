@@ -43,6 +43,7 @@ SUBJECTS = {
     "article-1099k-reconciliation-desk": "two printed spreadsheet pages side by side on a desk with a magnifying glass resting on one, comparison and reconciliation concept",
     "article-chart-of-accounts-organized": "wooden desk organizer trays holding neatly sorted colored file folders beside a laptop, organization-system concept, overhead angle",
     "custom-integrations-ops-engineering": "two monitors on a clean desk showing soft out-of-focus code and flowchart shapes beside a small stack of shipping boxes, ecommerce operations engineering concept",
+    "article-quality-of-earnings-review": "a professional reviewing a thick bound financial report with charts at a mahogany desk, due-diligence review concept, serious and premium",
     "article-form-5472-international-mail": "an official-looking blank document beside a passport and an airmail envelope on a clean desk, international-compliance concept",
 }
 
