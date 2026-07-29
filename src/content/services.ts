@@ -81,7 +81,7 @@ export const SERVICES: ServiceContent[] = [
     faqs: [
       {
         q: "How much does ecommerce accounting cost at the $100K+/mo level?",
-        a: "Our Foundation tier starts at $1,250/mo for brands doing $100K-$250K a month, Command at $3,500/mo adds controller-level work for $250K-$850K/mo, and Exit-Grade at $7,500/mo adds fractional CFO support. The full rate card is public on our pricing page, which no ecommerce-exclusive competitor offers. Market context: comparable firms run $1,500 to $15,000/mo, quoted only after a sales call.",
+        a: "Our Foundation tier starts at $1,250/mo for brands doing $100K-$250K a month, Command at $3,500/mo adds controller-level work for $250K-$850K/mo, and Exit-Grade at $7,500/mo adds senior-controller exit preparation. The full rate card is public on our pricing page, which no ecommerce-exclusive competitor offers. Market context: comparable firms run $1,500 to $15,000/mo, quoted only after a sales call.",
       },
       {
         q: "Do you use my QuickBooks account or yours?",

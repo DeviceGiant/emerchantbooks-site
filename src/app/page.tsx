@@ -31,7 +31,7 @@ const PILLARS = [
     cta: "Monthly accounting",
   },
   {
-    title: "Controller & CFO",
+    title: "Controller & Exit Prep",
     body: "SKU and contribution-margin truth, 13-week cash-flow forecasts, lender-ready reporting packs, and a maintained addback schedule so your books are diligence-passable at any moment.",
     href: "/ecommerce-tax-services/",
     cta: "Finance & tax services",
@@ -57,7 +57,7 @@ const HOME_FAQS = [
   },
   {
     q: "What does it cost?",
-    a: "Foundation (accounting) from $1,250/mo for brands doing $100K-$250K a month. Command (plus controller work) from $3,500/mo for $250K-$850K/mo. Exit-Grade (plus fractional CFO) from $7,500/mo. The full rate card is public on our pricing page. We're the only ecommerce-exclusive firm that publishes pricing; everyone else makes you book a call to hear a number.",
+    a: "Foundation (accounting) from $1,250/mo for brands doing $100K-$250K a month. Command (plus controller work) from $3,500/mo for $250K-$850K/mo. Exit-Grade (plus senior-controller exit preparation) from $7,500/mo. The full rate card is public on our pricing page. We're the only ecommerce-exclusive firm that publishes pricing; everyone else makes you book a call to hear a number.",
   },
   {
     q: "What is the Diligence Readiness Assessment?",

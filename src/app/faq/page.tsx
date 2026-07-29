@@ -15,7 +15,7 @@ const FAQS = [
   },
   {
     q: "How much does it cost?",
-    a: "Foundation starts at $1,250/mo ($100K-$250K/mo brands), Command at $3,500/mo ($250K-$850K/mo, adds controller work), Exit-Grade at $7,500/mo (adds fractional CFO). The full rate card is public on our pricing page, which no other ecommerce-exclusive firm offers. Most engagements start with the $2,500 Diligence Readiness Assessment, credited against onboarding.",
+    a: "Foundation starts at $1,250/mo ($100K-$250K/mo brands), Command at $3,500/mo ($250K-$850K/mo, adds controller work), Exit-Grade at $7,500/mo (adds senior-controller exit preparation). The full rate card is public on our pricing page, which no other ecommerce-exclusive firm offers. Most engagements start with the $2,500 Diligence Readiness Assessment, credited against onboarding.",
   },
   {
     q: "Which platforms do you support?",

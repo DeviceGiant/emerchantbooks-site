@@ -46,10 +46,10 @@ const TIERS = [
   {
     name: "Exit-Grade",
     price: "$7,500",
-    for: "$850K+/mo or selling within 36 months · + CFO",
+    for: "$850K+/mo or selling within 36 months · + exit prep",
     features: [
       "Everything in Command",
-      "Fractional CFO: monthly board-style review",
+      "Senior controller: monthly executive review of your numbers",
       "Budget vs actual + NWC management",
       "Maintained addback schedule",
       "Annual data-room refresh",
