@@ -64,7 +64,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         />
       </article>
 
-      <CtaBand source={`article-${a.slug}`} heading="Want this handled for you?" sub="Exit-grade books for $1M+ brands in your own QuickBooks, Xero or NetSuite, closed by day 10, guaranteed. Start with the $2,500 Diligence Readiness Assessment." />
+      <CtaBand source={`article-${a.slug}`} heading="Want this handled for you?" sub="Exit-grade books for $100K+/mo brands in your own QuickBooks, Xero or NetSuite, closed by day 10, guaranteed. Start with the $2,500 Diligence Readiness Assessment." />
 
       <script
         type="application/ld+json"

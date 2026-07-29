@@ -32,8 +32,8 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Monthly Bookkeeping",
     metaTitle: "Monthly Ecommerce Bookkeeping Services | eMerchant Books",
     metaDescription:
-      "Monthly accrual accounting for $1M+ ecommerce brands. Landed-cost COGS, channel P&L, books closed by the 10th business day, guaranteed. Published pricing from $1,250/mo.",
-    h1: "Monthly accounting built for $1M+ ecommerce brands",
+      "Monthly accrual accounting for $100K+/mo ecommerce brands. Landed-cost COGS, channel P&L, books closed by the 10th business day, guaranteed. Published pricing from $1,250/mo.",
+    h1: "Monthly accounting built for $100K+/mo ecommerce brands",
     lead: "Accrual books with true landed-cost COGS for your Amazon, Shopify, eBay, Walmart and Etsy channels, closed in your own QuickBooks, Xero or NetSuite file by the 10th business day. Guaranteed in writing.",
     intro: [
       "Most bookkeepers treat an ecommerce business like a coffee shop with a website. They book the Amazon deposit as revenue, guess at COGS, and hand you a P&L that's off by thousands. We only do ecommerce, so your books reflect what actually happened: gross sales, marketplace fees, refunds, reserves, and the inventory you actually sold.",
@@ -66,7 +66,7 @@ export const SERVICES: ServiceContent[] = [
       {
         h2: "Published pricing, which no ecommerce-exclusive firm does",
         paras: [
-          "Foundation starts at $1,250/mo for $1M-$3M brands and the full rate card is public on our pricing page. Every specialist competitor at this tier hides pricing behind a sales call, and sellers notice. No quote-gate, no annual contract, month-to-month.",
+          "Foundation starts at $1,250/mo for brands doing $100K-$250K a month and the full rate card is public on our pricing page. Every specialist competitor at this tier hides pricing behind a sales call, and sellers notice. No quote-gate, no annual contract, month-to-month.",
           "The usual front door is our Diligence Readiness Assessment: $2,500, ten business days, a 40-point score of your books against what buyers and lenders actually check, credited in full against onboarding.",
         ],
       },
@@ -80,8 +80,8 @@ export const SERVICES: ServiceContent[] = [
     faqTitle: "Monthly bookkeeping FAQs",
     faqs: [
       {
-        q: "How much does ecommerce accounting cost at the $1M+ level?",
-        a: "Our Foundation tier starts at $1,250/mo for $1M-$3M brands, Command at $3,500/mo adds controller-level work for $3M-$10M, and Exit-Grade at $7,500/mo adds fractional CFO support. The full rate card is public on our pricing page, which no ecommerce-exclusive competitor offers. Market context: comparable firms run $1,500 to $15,000/mo, quoted only after a sales call.",
+        q: "How much does ecommerce accounting cost at the $100K+/mo level?",
+        a: "Our Foundation tier starts at $1,250/mo for brands doing $100K-$250K a month, Command at $3,500/mo adds controller-level work for $250K-$850K/mo, and Exit-Grade at $7,500/mo adds fractional CFO support. The full rate card is public on our pricing page, which no ecommerce-exclusive competitor offers. Market context: comparable firms run $1,500 to $15,000/mo, quoted only after a sales call.",
       },
       {
         q: "Do you use my QuickBooks account or yours?",
@@ -183,7 +183,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Amazon Bookkeeping",
     metaTitle: "Amazon Bookkeeping Services & Seller Accounting | eMerchant Books",
     metaDescription:
-      "Amazon accounting for $1M+ sellers by people who read settlement reports. FBA fees, reserves, refunds and landed-cost COGS done right in your own QuickBooks, Xero or NetSuite.",
+      "Amazon accounting for $100K+/mo sellers by people who read settlement reports. FBA fees, reserves, refunds and landed-cost COGS done right in your own QuickBooks, Xero or NetSuite.",
     h1: "Amazon bookkeeping by people who actually read settlement reports",
     lead: "Your Amazon deposit is not your revenue. We rebuild every settlement into real sales, fees, refunds and reserves inside your own QuickBooks or Xero file, so your margins finally mean something.",
     intro: [
@@ -253,7 +253,7 @@ export const SERVICES: ServiceContent[] = [
       },
       {
         q: "Do you work with new or small Amazon sellers?",
-        a: "No. We work exclusively with sellers doing $1M+ in trailing-twelve-month revenue, because our process is built for the operating complexity that starts there: multi-channel settlements, inventory financing, real COGS. Under $1M, join our waitlist and we'll introduce you to a vetted starter bookkeeper, then take over when you cross seven figures.",
+        a: "No. We work exclusively with sellers doing $100K+ a month in revenue, because our process is built for the operating complexity that starts there: multi-channel settlements, inventory financing, real COGS. Under $100K/mo, join our waitlist and we'll introduce you to a vetted starter bookkeeper, then take over when you cross seven figures.",
       },
       {
         q: "My last bookkeeper just categorized the deposits. How bad is it?",
@@ -266,7 +266,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Shopify Bookkeeping",
     metaTitle: "Shopify Bookkeeping Services & Accounting | eMerchant Books",
     metaDescription:
-      "Shopify accounting for $1M+ DTC brands: multi-gateway reconciliation, landed-cost COGS and channel P&L in your own QuickBooks, Xero or NetSuite. Closed by day 10, guaranteed.",
+      "Shopify accounting for $100K+/mo DTC brands: multi-gateway reconciliation, landed-cost COGS and channel P&L in your own QuickBooks, Xero or NetSuite. Closed by day 10, guaranteed.",
     h1: "Shopify bookkeeping for stores that take margins seriously",
     lead: "Shopify Payments, PayPal, Klarna, gift cards, refunds and chargebacks, reconciled into one honest P&L in your own QuickBooks or Xero file.",
     intro: [
@@ -323,7 +323,7 @@ export const SERVICES: ServiceContent[] = [
     faqs: [
       {
         q: "Do I need a bookkeeper for my Shopify store?",
-        a: "At $1M+ with inventory, unquestionably. The gateway reconciliation and COGS work is where DIY and generalist books quietly fall apart, usually discovered at tax time, or worse, in diligence when a buyer reprices the deal over it.",
+        a: "At $100K+ a month with inventory, unquestionably. The gateway reconciliation and COGS work is where DIY and generalist books quietly fall apart, usually discovered at tax time, or worse, in diligence when a buyer reprices the deal over it.",
       },
       {
         q: "QuickBooks or Xero for Shopify?",
@@ -409,7 +409,7 @@ export const SERVICES: ServiceContent[] = [
       },
       {
         q: "I sell on eBay part-time. Is this worth it?",
-        a: "We work with sellers doing $1M+ across their channels, so part-time eBay alone usually isn't a fit. If eBay is one channel of a larger operation, it absolutely is, and it gets the same settlement-level treatment as the rest.",
+        a: "We work with sellers doing $100K+ a month across their channels, so part-time eBay alone usually isn't a fit. If eBay is one channel of a larger operation, it absolutely is, and it gets the same settlement-level treatment as the rest.",
       },
       {
         q: "Can you handle eBay stores with thousands of small orders?",
@@ -539,7 +539,7 @@ export const SERVICES: ServiceContent[] = [
     faqs: [
       {
         q: "Do I need bookkeeping for my Etsy shop?",
-        a: "For the sellers we serve, Etsy is usually one channel of a $1M+ multi-channel operation, and yes, it needs real books: the IRS already sees your gross sales via the 1099-K, and buyers in diligence will ask about every channel, including the small ones.",
+        a: "For the sellers we serve, Etsy is usually one channel of a $100K+/mo multi-channel operation, and yes, it needs real books: the IRS already sees your gross sales via the 1099-K, and buyers in diligence will ask about every channel, including the small ones.",
       },
       {
         q: "How do I figure out COGS for handmade items?",
@@ -547,7 +547,7 @@ export const SERVICES: ServiceContent[] = [
       },
       {
         q: "Etsy is my side business. Is this overkill?",
-        a: "If Etsy is a side business, we're probably not your firm yet: we work with $1M+ operations. Join the waitlist and take our free close checklist, and we'll be here when the business crosses seven figures.",
+        a: "If Etsy is a side business, we're probably not your firm yet: we work with $100K+/mo operations. Join the waitlist and take our free close checklist, and we'll be here when the business crosses seven figures.",
       },
     ],
   },
@@ -832,11 +832,11 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Integrations & Ops Engineering",
     metaTitle: "Custom Integrations & Ops Automation for Ecommerce | eMerchant Books",
     metaDescription:
-      "The accounting firm that also builds: custom integrations, workflow automation and ops tooling for $1M+ ecommerce brands. ERP, 3PL, marketplace and reporting glue.",
+      "The accounting firm that also builds: custom integrations, workflow automation and ops tooling for ecommerce brands doing $100K+ a month. ERP, 3PL, marketplace and reporting glue.",
     h1: "Custom integrations and ops engineering, from your accounting firm",
-    lead: "We're the accounting firm that also writes software. Custom integrations, workflow automation and operations tooling for $1M+ brands whose tool stack stopped fitting off-the-shelf connectors.",
+    lead: "We're the accounting firm that also writes software. Custom integrations, workflow automation and operations tooling for $100K+/mo brands whose tool stack stopped fitting off-the-shelf connectors.",
     intro: [
-      "Every established seller runs a stack: marketplaces, an ERP or accounting file, a 3PL or WMS, repricers, a returns pipeline, spreadsheets gluing it together. Somewhere around $1M the off-the-shelf connectors stop covering the gaps, and the ops team starts burning hours on exports, re-keying and reconciliation scripts someone's cousin wrote in 2022.",
+      "Every established seller runs a stack: marketplaces, an ERP or accounting file, a 3PL or WMS, repricers, a returns pipeline, spreadsheets gluing it together. Somewhere around $100K a month the off-the-shelf connectors stop covering the gaps, and the ops team starts burning hours on exports, re-keying and reconciliation scripts someone's cousin wrote in 2022.",
       "No other accounting firm can fix that; they don't employ engineers. We do. And because we also keep your books, the integrations we build are accounting-aware from day one: the data lands clean, reconciled and audit-ready instead of creating the next mess.",
     ],
     painHeading: "The gaps we get hired to close",

@@ -3,9 +3,9 @@ import Link from "next/link";
 import { Breadcrumbs, CtaBand, FaqBlock } from "@/components/Sections";
 
 export const metadata: Metadata = {
-  title: { absolute: "Published Pricing for $1M+ Ecommerce Brands | eMerchant Books" },
+  title: { absolute: "Published Pricing for $100K+/mo Ecommerce Brands | eMerchant Books" },
   description:
-    "The only ecommerce-exclusive accounting firm with published pricing. Foundation $1,250/mo, Command $3,500/mo, Exit-Grade $7,500/mo. $1M+ TTM revenue required.",
+    "The only ecommerce-exclusive accounting firm with published pricing. Foundation $1,250/mo, Command $3,500/mo, Exit-Grade $7,500/mo. $100K+/mo revenue required.",
   alternates: { canonical: "/pricing/" },
 };
 
@@ -13,7 +13,7 @@ const TIERS = [
   {
     name: "Foundation",
     price: "$1,250",
-    for: "$1M–$3M revenue · accounting",
+    for: "$100K–$250K/mo revenue · accounting",
     features: [
       "Accrual books, true landed-cost COGS",
       "Tariffs capitalized per ASC 330, not buried in opex",
@@ -30,7 +30,7 @@ const TIERS = [
   {
     name: "Command",
     price: "$3,500",
-    for: "$3M–$10M revenue · + controller",
+    for: "$250K–$850K/mo revenue · + controller",
     features: [
       "Everything in Foundation",
       "Controller review on every close",
@@ -46,7 +46,7 @@ const TIERS = [
   {
     name: "Exit-Grade",
     price: "$7,500",
-    for: "$8M–$30M or selling within 36 months · + CFO",
+    for: "$850K+/mo or selling within 36 months · + CFO",
     features: [
       "Everything in Command",
       "Fractional CFO: monthly board-style review",
@@ -64,8 +64,8 @@ const TIERS = [
 
 const FAQS = [
   {
-    q: "Why do you require $1M+ in revenue?",
-    a: "Because our process, accrual inventory accounting, landed-cost COGS, channel-level closes, controller review, is built for operating complexity that doesn't exist below seven figures, and diluting it downmarket would make us worse at the job you'd hire us for. Under $1M: take our free close checklist, use a vetted starter bookkeeper we can introduce you to, and come back when you cross the line. We never fire existing clients for a soft quarter; the gate applies at intake, on trailing-twelve-month revenue.",
+    q: "Why do you require $100K+ a month in revenue?",
+    a: "Because our process, accrual inventory accounting, landed-cost COGS, channel-level closes, controller review, is built for operating complexity that doesn't exist below seven figures, and diluting it downmarket would make us worse at the job you'd hire us for. Under $100K/mo: take our free close checklist, use a vetted starter bookkeeper we can introduce you to, and come back when you cross the line. We never fire existing clients for a soft quarter; the gate applies at intake, on your recent monthly run rate.",
   },
   {
     q: "What is the Diligence Readiness Assessment?",
@@ -103,9 +103,9 @@ export default function Pricing() {
             close guarantee.
           </p>
           <div className="mx-auto mt-6 max-w-2xl rounded-xl border border-navy-800 bg-navy-900 p-5 text-left">
-            <p className="text-sm font-bold text-white">We only work with sellers doing $1M+ in trailing-twelve-month revenue.</p>
+            <p className="text-sm font-bold text-white">We only work with sellers doing $100K+ a month in revenue.</p>
             <p className="mt-1.5 text-sm leading-relaxed text-slate-300">
-              Minimums exist because our process is built for the complexity that starts at seven figures. Under $1M?
+              Minimums exist because our process is built for the complexity that starts at seven figures. Under $100K/mo?
               Join the Foundations waitlist via the contact form and we&rsquo;ll introduce you to a vetted starter
               bookkeeper, then take over when you cross the line.
             </p>
@@ -177,7 +177,7 @@ export default function Pricing() {
       </section>
 
       <FaqBlock faqs={FAQS} title="Pricing FAQs" />
-      <CtaBand source="pricing-bottom" heading="Not sure which tier fits?" sub="Tell us your channels and trailing-twelve-month revenue. A partner answers with a specific recommendation, not a sales sequence, within one business day." />
+      <CtaBand source="pricing-bottom" heading="Not sure which tier fits?" sub="Tell us your channels and monthly revenue. A partner answers with a specific recommendation, not a sales sequence, within one business day." />
     </>
   );
 }

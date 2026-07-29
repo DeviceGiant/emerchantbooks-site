@@ -6,9 +6,9 @@ import { CtaBand, FaqBlock, Guarantees, TrustBar } from "@/components/Sections";
 import { pageImage } from "@/content/images";
 
 export const metadata: Metadata = {
-  title: { absolute: "Ecommerce Accounting Firm for $1M+ Sellers | eMerchant Books" },
+  title: { absolute: "Ecommerce Accounting Firm for $100K+/mo Sellers | eMerchant Books" },
   description:
-    "The ecommerce accounting firm for $1M+ Amazon, Shopify and multi-channel brands. Exit-grade accrual books, landed-cost COGS, closed by day 10, at a published price.",
+    "The ecommerce accounting firm for Amazon, Shopify and multi-channel brands doing $100K+ a month. Exit-grade accrual books, landed-cost COGS, closed by day 10, at a published price.",
   alternates: { canonical: "/" },
   openGraph: {
     images: [{ url: "/images/ecommerce-bookkeeping-services-desk.webp", width: 1600, height: 900, alt: "Ecommerce accounting workspace" }],
@@ -53,11 +53,11 @@ const STEPS = [
 const HOME_FAQS = [
   {
     q: "Who is eMerchant Books for?",
-    a: "Ecommerce sellers doing $1M+ in trailing-twelve-month revenue on Amazon, Shopify, eBay, Walmart, Etsy or a mix. Our process is built for the complexity that starts at seven figures: multi-channel settlements, inventory financing, real landed-cost COGS, and books that survive lender or buyer diligence. Under $1M, we'll point you to a vetted starter bookkeeper and a free close checklist, and take over when you cross the line.",
+    a: "Ecommerce sellers doing $100K+ a month on Amazon, Shopify, eBay, Walmart, Etsy or a mix. Our process is built for the complexity that starts at seven figures: multi-channel settlements, inventory financing, real landed-cost COGS, and books that survive lender or buyer diligence. Under $100K/mo, we'll point you to a vetted starter bookkeeper and a free close checklist, and take over when you cross the line.",
   },
   {
     q: "What does it cost?",
-    a: "Foundation (accounting) from $1,250/mo for $1M-$3M brands. Command (plus controller work) from $3,500/mo for $3M-$10M. Exit-Grade (plus fractional CFO) from $7,500/mo. The full rate card is public on our pricing page. We're the only ecommerce-exclusive firm that publishes pricing; everyone else makes you book a call to hear a number.",
+    a: "Foundation (accounting) from $1,250/mo for brands doing $100K-$250K a month. Command (plus controller work) from $3,500/mo for $250K-$850K/mo. Exit-Grade (plus fractional CFO) from $7,500/mo. The full rate card is public on our pricing page. We're the only ecommerce-exclusive firm that publishes pricing; everyone else makes you book a call to hear a number.",
   },
   {
     q: "What is the Diligence Readiness Assessment?",
@@ -85,10 +85,10 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-24">
           <div>
             <p className="inline-block rounded-full border border-brand-500/40 bg-brand-500/10 px-3 py-1 text-xs font-semibold text-brand-500">
-              $1M+ brands only · Published pricing · Day-10 close guarantee
+              $100K+/mo brands only · Published pricing · Day-10 close guarantee
             </p>
             <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl">
-              The ecommerce accounting firm for $1M+ sellers
+              The ecommerce accounting firm for $100K+/mo sellers
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-300">
               Exit-grade accrual books, true landed-cost COGS and channel-level P&L for established Amazon, Shopify
@@ -114,7 +114,7 @@ export default function Home() {
 
       {/* The problem */}
       <section className="mx-auto max-w-4xl px-4 py-20 text-center sm:px-6">
-        <h2 className="text-3xl font-bold text-navy-900">At $1M+, average books get expensive</h2>
+        <h2 className="text-3xl font-bold text-navy-900">At $100K+ a month, average books get expensive</h2>
         <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-slate-600">
           A 2% COGS error on $3M in sales is $60,000 of fiction in your margins. Working capital overstated by the
           typical 20 to 40% comes out of your sale price dollar for dollar. And buyers walk away from a third of
@@ -207,7 +207,7 @@ export default function Home() {
           <div className="grid items-center gap-10 rounded-2xl border border-slate-200 bg-white p-8 shadow-sm lg:grid-cols-2 lg:p-12">
             <div>
               <p className="text-xs font-bold uppercase tracking-wider text-brand-600">International sellers</p>
-              <h2 className="mt-2 text-3xl font-bold text-navy-900">Running a $1M+ US operation from abroad?</h2>
+              <h2 className="mt-2 text-3xl font-bold text-navy-900">Running a $100K+/mo US operation from abroad?</h2>
               <p className="mt-4 leading-relaxed text-slate-600">
                 Foreign-owned single-member LLCs face a $25,000 penalty for one missed Form 5472, and most US firms
                 won&rsquo;t take non-resident clients at all. We pair the same exit-grade marketplace accounting with

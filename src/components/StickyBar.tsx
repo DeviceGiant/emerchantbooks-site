@@ -24,7 +24,7 @@ export default function StickyBar() {
       {/* mobile sticky bottom bar */}
       <div className="fixed inset-x-0 bottom-0 z-30 flex items-center justify-between gap-3 border-t border-navy-800 bg-navy-900 px-4 py-3 lg:hidden">
         <div className="min-w-0">
-          <p className="truncate text-xs font-semibold text-white">For $1M+ ecommerce brands</p>
+          <p className="truncate text-xs font-semibold text-white">For $100K+/mo ecommerce brands</p>
           <p className="truncate text-[11px] text-slate-400">Day-10 close guarantee · published pricing</p>
         </div>
         <Link href="/contact/" className="shrink-0 rounded-lg bg-brand-500 px-4 py-2 text-sm font-bold text-white">

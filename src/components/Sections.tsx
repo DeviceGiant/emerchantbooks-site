@@ -47,7 +47,7 @@ export function CtaBand({ source, heading, sub }: { source: string; heading?: st
           <h2 className="text-3xl font-bold text-white">{heading || "Find out if your books would survive diligence"}</h2>
           <p className="mt-4 text-lg leading-relaxed text-slate-300">
             {sub ||
-              "The Diligence Readiness Assessment: $2,500, ten business days, your books scored against the 40 points buyers and lenders actually check. Credited in full against onboarding. For sellers doing $1M+ TTM."}
+              "The Diligence Readiness Assessment: $2,500, ten business days, your books scored against the 40 points buyers and lenders actually check. Credited in full against onboarding. For sellers doing $100K+/mo."}
           </p>
           <ul className="mt-6 space-y-2.5 text-sm text-slate-300">
             <li>✓ Books closed by day 10, guaranteed in writing</li>

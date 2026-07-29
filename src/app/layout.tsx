@@ -15,11 +15,11 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Ecommerce Accounting Firm for $1M+ Sellers | eMerchant Books",
+    default: "Ecommerce Accounting Firm for $100K+/mo Sellers | eMerchant Books",
     template: "%s | eMerchant Books",
   },
   description:
-    "The ecommerce accounting firm for $1M+ Amazon, Shopify and multi-channel brands. Exit-grade books, closed by day 10, at a published price.",
+    "The ecommerce accounting firm for Amazon, Shopify and multi-channel brands doing $100K+ a month. Exit-grade books, closed by day 10, at a published price.",
   openGraph: {
     siteName: "eMerchant Books",
     type: "website",
@@ -48,7 +48,7 @@ const ORG_SCHEMA = {
   priceRange: "From $1,250/mo",
   openingHours: "Mo-Fr 09:00-17:00",
   description:
-    "The ecommerce accounting firm for $1M+ sellers: exit-grade accrual books, landed-cost COGS and custom ops integrations, in the client's own QuickBooks, Xero or NetSuite file.",
+    "The ecommerce accounting firm for $100K+/mo sellers: exit-grade accrual books, landed-cost COGS and custom ops integrations, in the client's own QuickBooks, Xero or NetSuite file.",
 };
 
 export default function RootLayout({

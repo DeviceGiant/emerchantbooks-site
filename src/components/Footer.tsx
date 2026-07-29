@@ -52,7 +52,7 @@ export default function Footer() {
               eMerchant<span className="text-brand-500">Books</span>
             </p>
             <p className="mt-3 max-w-xs text-sm leading-relaxed">
-              The ecommerce accounting firm for $1M+ sellers. Exit-grade books plus custom ops integrations, in your
+              The ecommerce accounting firm for $100K+/mo sellers. Exit-grade books plus custom ops integrations, in your
               own QuickBooks, Xero or NetSuite file, closed by day 10.
             </p>
             <div className="mt-5 space-y-1.5 text-sm">

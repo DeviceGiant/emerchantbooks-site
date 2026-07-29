@@ -59,7 +59,7 @@ export default function About() {
           </p>
           <p>
             <strong className="text-navy-900">Focus beats volume.</strong> We work exclusively with sellers doing
-            $1M+ in trailing-twelve-month revenue, including international sellers on US platforms that most firms
+            $100K+ a month in revenue, including international sellers on US platforms that most firms
             won&rsquo;t touch. The gate isn&rsquo;t snobbery; it&rsquo;s what lets us hold an exit-grade standard on
             every file instead of running a bookkeeping assembly line. And unlike the roll-ups consolidating this
             industry, we&rsquo;re independent and intend to stay that way.

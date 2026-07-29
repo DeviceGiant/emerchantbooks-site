@@ -1,7 +1,7 @@
 export const SITE = {
   name: "eMerchant Books",
   url: "https://emerchantbooks.com",
-  tagline: "The ecommerce accounting firm for $1M+ sellers",
+  tagline: "The ecommerce accounting firm for $100K+/mo sellers",
   phone: "+1 (469) 294-1807",
   phoneHref: "tel:+14692941807",
   email: "hello@emerchantbooks.com",
