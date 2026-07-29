@@ -12,6 +12,8 @@ const NAV = [
       { href: "/catch-up-bookkeeping-services/", label: "Catch-Up & Cleanup" },
       { href: "/ecommerce-tax-services/", label: "Ecommerce Tax" },
       { href: "/international-sellers/", label: "International Sellers" },
+      { href: "/reseller-bookkeeping-services/", label: "Resellers" },
+      { href: "/content-creator-accounting-services/", label: "Content Creators" },
       { href: "/custom-integrations/", label: "Integrations & Ops Engineering" },
     ],
   },
@@ -23,6 +25,8 @@ const NAV = [
       { href: "/ebay-bookkeeping-services/", label: "eBay" },
       { href: "/walmart-bookkeeping-services/", label: "Walmart" },
       { href: "/etsy-bookkeeping-services/", label: "Etsy" },
+      { href: "/woocommerce-bookkeeping-services/", label: "WooCommerce" },
+      { href: "/who-we-serve/", label: "Other Platforms →" },
     ],
   },
   {

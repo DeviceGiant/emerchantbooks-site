@@ -9,6 +9,8 @@ const COLS: { heading: string; links: { href: string; label: string }[] }[] = [
       { href: "/catch-up-bookkeeping-services/", label: "Catch-Up & Cleanup" },
       { href: "/ecommerce-tax-services/", label: "Ecommerce Tax Services" },
       { href: "/international-sellers/", label: "International Sellers" },
+      { href: "/reseller-bookkeeping-services/", label: "Reseller Bookkeeping" },
+      { href: "/content-creator-accounting-services/", label: "Content Creator Accounting" },
       { href: "/custom-integrations/", label: "Custom Integrations" },
       { href: "/pricing/", label: "Pricing" },
     ],
@@ -21,6 +23,9 @@ const COLS: { heading: string; links: { href: string; label: string }[] }[] = [
       { href: "/ebay-bookkeeping-services/", label: "eBay Bookkeeping" },
       { href: "/walmart-bookkeeping-services/", label: "Walmart Bookkeeping" },
       { href: "/etsy-bookkeeping-services/", label: "Etsy Bookkeeping" },
+      { href: "/woocommerce-bookkeeping-services/", label: "WooCommerce Bookkeeping" },
+      { href: "/square-bookkeeping-services/", label: "Square Bookkeeping" },
+      { href: "/who-we-serve/", label: "Who We Serve" },
     ],
   },
   {

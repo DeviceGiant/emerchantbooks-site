@@ -127,6 +127,37 @@ export const IMAGES: Record<string, { src: string; alt: string }> = {
     src: "/images/custom-integrations-ops-engineering.webp",
     alt: "Refurbished electronics operations workstation with shipping boxes, where Back Market and Reebelo settlements get posted",
   },
+  // new service pages
+  "reseller-bookkeeping-services": {
+    src: "/images/ebay-bookkeeping-reseller-workspace.webp",
+    alt: "Reseller's packing station with shipping scale and mailers, ready for multi-platform bookkeeping across Poshmark, Mercari and eBay",
+  },
+  "woocommerce-bookkeeping-services": {
+    src: "/images/shopify-bookkeeping-storefront-analytics.webp",
+    alt: "Laptop showing online store analytics on a bookkeeper's desk during a WooCommerce gateway reconciliation",
+  },
+  "square-bookkeeping-services": {
+    src: "/images/catch-up-bookkeeping-paper-stack.webp",
+    alt: "Stack of receipts and statements being reconciled against Square transfer reports for a retail seller's books",
+  },
+  "content-creator-accounting-services": {
+    src: "/images/contact-ecommerce-bookkeeper-consultation.webp",
+    alt: "Phone and notebook on a desk during a content creator's accounting consultation about platform income and quarterly taxes",
+  },
+  // new articles
+  "reseller-taxes-bookkeeping-guide": {
+    src: "/images/article-bookkeeping-cost-calculator.webp",
+    alt: "Calculator and cash on a reseller's desk while working out taxes and sourcing costs across resale platforms",
+  },
+  "onlyfans-taxes-bookkeeping-guide": {
+    src: "/images/ecommerce-tax-accountant-documents.webp",
+    alt: "Organized tax documents and calculator prepared for a content creator's quarterly estimates and 1099 filing",
+  },
+  // hub page
+  "who-we-serve": {
+    src: "/images/ecommerce-accounting-team-review.webp",
+    alt: "Accounting team reviewing books for sellers across marketplaces, storefronts, resale platforms and creator platforms",
+  },
 };
 
 export function pageImage(key: string) {

@@ -904,6 +904,350 @@ export const SERVICES: ServiceContent[] = [
       },
     ],
   },
+  {
+    slug: "reseller-bookkeeping-services",
+    crumb: "Reseller Bookkeeping",
+    metaTitle: "Reseller Bookkeeping Services: Poshmark, Mercari, Depop, StockX, Whatnot | eMerchant Books",
+    metaDescription:
+      "Bookkeeping for resellers on Poshmark, Mercari, Depop, StockX, GOAT, Whatnot, Facebook Marketplace and eBay: 1099-K tie-outs, sourcing-run COGS and per-platform fee tracking in your own QuickBooks.",
+    h1: "Reseller bookkeeping for people who sell on everything",
+    lead: "Poshmark, Mercari, Depop, StockX, GOAT, Whatnot, Facebook Marketplace, eBay: every platform nets a different fee stack on a different schedule, and every one sends its own 1099-K. We turn the whole tangle into clean books, sourcing runs included.",
+    intro: [
+      "Reseller accounting is harder than most ecommerce accounting, not easier. A DTC brand buys 5,000 identical units with one invoice. You buy a $400 bin lot that yields 60 sellable one-of-one items, list them across four platforms, and get paid net of four different fee structures. Generalist bookkeepers don't have a category for that. We built one.",
+      "Whether you flip sneakers on StockX and GOAT, clothes on Poshmark and Depop, or run live Whatnot auctions three nights a week, the same three jobs decide whether your numbers mean anything: gross sales rebuilt per platform, sourcing costs allocated to the items they produced, and January's stack of 1099-Ks tied to the books.",
+    ],
+    painHeading: "The reseller problems generalist bookkeepers can't handle",
+    pains: [
+      {
+        title: "The 1099-K panic",
+        body: "Most reselling businesses grew out of a personal account, so the 1099-K that arrives reports your garage-sale history and your business inventory in one gross number. Filed wrong, you either pay tax on your own used furniture or claim business deductions against personal stuff. We separate the streams so each dollar gets its correct treatment, documented.",
+      },
+      {
+        title: "One thrift receipt, fifty future listings",
+        body: "A $85 thrift run produces nine items that sell over the next eight months on three platforms. Expense the receipt when you paid it and every month's profit reflects how much you sourced, not how much you sold. Real reseller COGS means allocating sourcing costs to items at intake and recognizing them as each item sells.",
+      },
+      {
+        title: "Five platforms, five fee mazes",
+        body: "Poshmark takes a flat $2.95 under $15 and 20% above it. StockX charges a seller fee plus 3% processing that drops as your level rises. Whatnot stacks an 8% commission on top of payment processing. Mercari rewrote its fee model twice in 2024 alone. Blend it all into one 'selling fees' line and you can't tell which platform actually pays you best.",
+      },
+      {
+        title: "Live selling breaks normal bookkeeping",
+        body: "A three-hour Whatnot stream can produce 240 sales, a dozen giveaways and a stack of bundle deals. Giveaways are marketing cost that looks like shrinkage, bundles scramble per-item pricing, and per-order posting would flood any accounting file. We post summary-level per stream night, with giveaway costs booked as the marketing they are.",
+      },
+    ],
+    deliverables: [
+      "Every platform's payouts rebuilt to gross sales, fees and refunds",
+      "Sourcing-run costs allocated across the items they produced",
+      "Per-platform P&L: Poshmark vs eBay vs StockX vs Whatnot",
+      "1099-K reconciliation for every platform that sends one",
+      "Personal-item sales separated from business inventory",
+      "Shipping label costs matched to the right platform",
+      "Death-pile tracking and aged-inventory write-downs",
+      "Books closed by the 10th business day in your own QuickBooks",
+    ],
+    body: [
+      {
+        h2: "Sourcing-run COGS, the heart of reseller accounting",
+        paras: [
+          "The method matters more than the tool. For lots and bulk runs, we allocate cost across sellable items at intake: by count when items are similar, by expected resale value when they're not, with the junk portion written off immediately. A $250 pallet with 40 sellable units carries $6.25 per unit; the vintage jacket from the $85 thrift run carries its own share. From then on, each sale recognizes its real cost, dead inventory shows its real loss, and you can finally answer whether bin lots or thrift racks earn more per sourcing hour.",
+          "That answer is worth actual money every weekend you go sourcing, and it's the number gut feel gets wrong most often. Sellers who track it usually discover one sourcing channel subsidizing another.",
+        ],
+      },
+      {
+        h2: "Built for the platforms nobody else supports",
+        paras: [
+          "Look for a bookkeeping firm with a Poshmark page or a Whatnot page. There aren't many, because specialist firms built for Shopify brands and treat resale platforms as rounding errors. Meanwhile the platforms themselves offer little accounting tooling: no A2X connector, exports that change format, payouts that mix sale proceeds with shipping credits. We do the settlement rebuild manually where tooling doesn't exist, the same way we do for refurbished-electronics marketplaces.",
+          "Most resellers we work with run four to six platforms off one inventory pool. Everything consolidates into one set of books with per-platform margins, which is the report that tells you where the next hour of listing effort should go.",
+        ],
+      },
+    ],
+    related: [
+      { href: "/bookkeeping-tips/reseller-taxes-bookkeeping-guide/", label: "Reseller Taxes & Bookkeeping Guide" },
+      { href: "/ebay-bookkeeping-services/", label: "eBay Bookkeeping" },
+      { href: "/catch-up-bookkeeping-services/", label: "Catch-Up Bookkeeping" },
+      { href: "/bookkeeping-tips/back-market-reebelo-seller-bookkeeping/", label: "Back Market & Reebelo Guide" },
+      { href: "/who-we-serve/", label: "Who We Serve" },
+      { href: "/pricing/", label: "Pricing" },
+    ],
+    faqTitle: "Reseller bookkeeping FAQs",
+    faqs: [
+      {
+        q: "Do I have to pay taxes on my Poshmark, Mercari or Depop sales?",
+        a: "If you're sourcing items to resell for profit, yes: that's a business, and net profit is taxable plus 15.3% self-employment tax, whether or not a 1099-K arrives. Selling your own used things at less than you paid isn't taxable income, but it may still show up in a 1099-K and needs to be reported correctly to avoid an IRS mismatch. Our reseller taxes guide covers the whole picture.",
+      },
+      {
+        q: "How do I track COGS from thrift stores and garage sales?",
+        a: "Keep every receipt, photograph the haul, and allocate the run's cost across the sellable items at intake, by count or by expected resale value. Cash buys with no receipt need a log entry made the same day: date, place, items, amount. We set up and maintain this allocation as part of the monthly work, and it's the difference between real margins and guesses.",
+      },
+      {
+        q: "I sell on six platforms. Can you consolidate all of them?",
+        a: "Yes, that's the standard reseller setup: one QuickBooks file, per-platform income and fee accounts, one monthly close. Poshmark, Mercari, Depop, StockX, GOAT, Whatnot, Facebook Marketplace, eBay and Amazon all land in the same books with their own margin lines.",
+      },
+      {
+        q: "What does a bookkeeper for resellers cost?",
+        a: "Our Books Lite tier runs $149 to $249 a month for growing resellers, and our specialist tiers start at $1,250/mo when you're doing $100K+ a month across platforms. The full rate card is public on our pricing page. Either way it's month-to-month, in a QuickBooks file you own.",
+      },
+      {
+        q: "I got a 1099-K on my personal account and I'm panicking. What now?",
+        a: "Don't ignore it: the IRS gets a copy. The fix is books that split business flips from personal-item sales, report each correctly, and reconcile to the form's gross number. If you've never kept books, that's a catch-up project, and it's much cheaper before a mismatch notice than after.",
+      },
+    ],
+  },
+  {
+    slug: "woocommerce-bookkeeping-services",
+    crumb: "WooCommerce Bookkeeping",
+    metaTitle: "WooCommerce Bookkeeping & Accounting Services | eMerchant Books",
+    metaDescription:
+      "WooCommerce accounting done properly: Stripe, PayPal and Square payouts reconciled to orders, self-hosted refund tracking, and a QuickBooks integration that doesn't wreck your file.",
+    h1: "WooCommerce bookkeeping for stores that own their stack",
+    lead: "You chose WordPress for control and lower fees. The cost is that nothing reconciles itself: Stripe, PayPal and Square each pay on their own schedule, and there's no native accounting layer at all. We close that gap every month.",
+    intro: [
+      "WooCommerce runs a quarter of the world's online stores and has no built-in bookkeeping story. Shopify sellers at least get one payments dashboard; a WooCommerce store typically runs two or three gateways at once, each netting its own fees before payout, plus whatever the plugin stack does to order data along the way.",
+      "We reconcile each gateway's payouts back to your WooCommerce order data, so your books, your admin dashboard and your bank finally agree, in a QuickBooks or Xero file you own.",
+    ],
+    painHeading: "Where WooCommerce books go wrong",
+    pains: [
+      {
+        title: "Gateway sprawl",
+        body: "Stripe settles on a rolling schedule net of 2.9% plus 30 cents, PayPal holds funds and charges differently for cross-border, Square runs its own cadence. Three gateways means three separate reconciliations against three fee structures. Booked as one 'sales' line from the bank feed, your revenue is understated and your processing costs are invisible.",
+      },
+      {
+        title: "No native accounting sync",
+        body: "There's no official WooCommerce accounting integration, so sellers install sync plugins that push every order into QuickBooks individually. The result is thousands of transactions that never match the netted payouts, duplicate customers, and a file that eventually gets abandoned. Summary-level posting per gateway payout is the pattern that stays reconcilable.",
+      },
+      {
+        title: "Plugin data you can't fully trust",
+        body: "A checkout plugin update changes how discounts export. A tax plugin double-counts one state for a quarter. Self-hosted means data quality is your problem, and books built on unvalidated exports inherit every glitch. We cross-check order data against gateway records monthly, which is how those bugs get caught while they're small.",
+      },
+      {
+        title: "Refunds you process yourself",
+        body: "On a marketplace, refunds flow through one settlement pipe. On WooCommerce you might refund through the order screen, through Stripe directly, or partially through either, and each path hits your records differently. Untracked, refunds inflate revenue and hide your true return rate.",
+      },
+    ],
+    deliverables: [
+      "Stripe, PayPal, Square and other gateways each reconciled to payout",
+      "Gateway fees broken out per processor",
+      "Order-data cross-checks against gateway records monthly",
+      "Refund and chargeback tracking across every refund path",
+      "COGS on inventory movement, with 3PL support",
+      "Sales tax collected kept out of revenue",
+      "Multi-channel consolidation if you also sell on marketplaces",
+      "Books closed by the 10th business day in your own file",
+    ],
+    body: [
+      {
+        h2: "The WooCommerce QuickBooks integration question",
+        paras: [
+          "Sellers searching for a WooCommerce QuickBooks integration usually mean 'make this automatic.' The honest answer: automatic per-order sync is the thing that ruins WooCommerce accounting files. The setup that works posts each gateway's payout as one summarized entry, gross sales, fees, refunds, with the deposit clearing against it. Order-level detail stays in WooCommerce where it belongs; the accounting file stays clean, fast and reconcilable.",
+          "We build that mapping once during onboarding, validate it against a full month of payouts, then run it monthly. If a previous setup left per-order wreckage in your QuickBooks file, cleaning it up is a catch-up project we do constantly.",
+        ],
+      },
+      {
+        h2: "WooCommerce plus marketplaces",
+        paras: [
+          "Most WooCommerce stores we serve also sell on Amazon or eBay, and the whole point of clean multi-channel books is comparing them: your own site might net 3% in processing where Amazon takes 15% in fees, but Amazon brings the traffic. Per-channel P&L turns that trade-off from a debate into a report, and it lives in the same monthly close.",
+        ],
+      },
+    ],
+    related: [
+      { href: "/shopify-bookkeeping-services/", label: "Shopify Bookkeeping" },
+      { href: "/square-bookkeeping-services/", label: "Square Bookkeeping" },
+      { href: "/quickbooks-for-ecommerce/", label: "QuickBooks for Ecommerce" },
+      { href: "/monthly-ecommerce-bookkeeping/", label: "Monthly Bookkeeping" },
+      { href: "/who-we-serve/", label: "Who We Serve" },
+      { href: "/pricing/", label: "Pricing" },
+    ],
+    faqTitle: "WooCommerce bookkeeping FAQs",
+    faqs: [
+      {
+        q: "How do I connect WooCommerce to QuickBooks?",
+        a: "Not with a per-order sync plugin, which floods the file with unreconcilable noise. Post each gateway's payouts as summarized entries instead: gross sales, fees and refunds in their own accounts, deposit clearing the balance. We set that structure up as part of onboarding and run it monthly.",
+      },
+      {
+        q: "Which payment gateways do you support?",
+        a: "Stripe, PayPal, Square, WooPayments, Authorize.net and the long tail. Each gateway gets its own reconciliation against its own payout reports; that's the core of the service, not an add-on.",
+      },
+      {
+        q: "My plugin stack changed mid-year and the data's a mess. Fixable?",
+        a: "Almost always. Gateway records are the ground truth: Stripe and PayPal keep complete transaction history, so we rebuild the affected months from processor data and reconcile back to whatever the store data shows. That's a catch-up project with a flat quote before we start.",
+      },
+      {
+        q: "Do you also handle sales tax for a WooCommerce store?",
+        a: "The bookkeeping side, yes: collected tax stays in a liability account and never inflates revenue, and we flag nexus exposure as your footprint grows. Unlike marketplace sales, your own site's sales tax is fully your obligation, so we coordinate with TaxJar, Avalara or your filing provider for registrations and remittance.",
+      },
+    ],
+  },
+  {
+    slug: "square-bookkeeping-services",
+    crumb: "Square Bookkeeping",
+    metaTitle: "Square Bookkeeping & Accounting Services | eMerchant Books",
+    metaDescription:
+      "Bookkeeping for Square sellers: processing fees broken out, instant transfers reconciled, Square loan repayments booked correctly, and POS plus online sales in one honest P&L.",
+    h1: "Square bookkeeping for sellers who run POS and online together",
+    lead: "Square nets its fees before the money lands, deducts loan repayments off the top, and blends your counter sales with your website. We keep all three straight, in your own QuickBooks file.",
+    intro: [
+      "Square is the rare platform that runs a retail counter, an online store, invoices and a lending product through one account, which is convenient everywhere except your books. The deposit that hits your bank has already absorbed processing fees, instant-transfer charges and a slice of your Square loan, and no bank feed will ever untangle that for you.",
+      "We rebuild Square activity from its transaction and transfer reports: gross sales by channel, fees broken out, loan repayments split correctly, cash sales reconciled to actual deposits.",
+    ],
+    painHeading: "The Square-specific accounting traps",
+    pains: [
+      {
+        title: "Fees netted before deposit",
+        body: "Square takes roughly 2.6% plus 10 cents on card-present sales and 2.9% plus 30 cents online, deducted before payout. Book deposits as revenue and you understate sales by your entire processing cost, which on $60,000 a month is around $1,700 of invisible expense, every month.",
+      },
+      {
+        title: "Instant transfers scrambling reconciliation",
+        body: "Instant and same-day transfers carry their own fee and break the tidy one-deposit-per-day pattern: three partial transfers on a busy Saturday, each net of different activity. Books that match deposits to days stop reconciling. Books built from Square's transfer reports don't care.",
+      },
+      {
+        title: "Square loan repayments hiding in payouts",
+        body: "Square Loans collects a fixed percentage of daily card sales before you're paid. Sellers routinely book the reduced deposits as revenue, which understates sales and hides the repayment entirely. Worse, the repayment isn't an expense: principal reduces the loan liability and only the fixed fee portion is a financing cost. Booked wrong, both your P&L and your balance sheet lie.",
+      },
+      {
+        title: "One 'Square' number hiding two businesses",
+        body: "A retail counter doing $45,000 a month and an online store doing $15,000 have different margins, different fees and different growth stories. Blended into one income line, you can't see that one is funding the other. We split POS from online so each channel shows its own P&L.",
+      },
+    ],
+    deliverables: [
+      "Square transfers rebuilt to gross sales, fees and adjustments",
+      "Processing fees broken out by channel and card type",
+      "Instant-transfer fees tracked separately",
+      "Square Loans split: principal to liability, fees to financing cost",
+      "POS vs online channel P&L",
+      "Cash sales reconciled from drawer to deposit",
+      "Sales tax collected kept out of revenue",
+      "Books closed by the 10th business day in your own QuickBooks",
+    ],
+    body: [
+      {
+        h2: "Square Capital and Square Loans, booked right",
+        paras: [
+          "The loan is where Square books most often go wrong. Proceeds arrive and get booked as income; repayments vanish inside reduced payouts; a year later the P&L shows phantom revenue and no financing cost, and the balance sheet shows no loan at all. The correct pattern is simple once set up: proceeds credit a loan liability, each day's withholding splits between principal and the fixed fee, and your books always show exactly what you still owe. That number matters, because Square's repayment eats your daily cash flow and lenders will ask about it.",
+        ],
+      },
+      {
+        h2: "Cash sales, the part software can't see",
+        paras: [
+          "Retail Square sellers take cash, and cash recorded in the POS never appears in a Square deposit. If nobody reconciles the drawer to the bank, cash sales drift: recorded but never deposited, deposited but never recorded, or quietly spent on supplies. We reconcile POS-recorded cash against actual bank deposits monthly, which keeps revenue complete and keeps the IRS conversation boring. For a business with real cash volume, this is the control that matters most.",
+        ],
+      },
+    ],
+    related: [
+      { href: "/woocommerce-bookkeeping-services/", label: "WooCommerce Bookkeeping" },
+      { href: "/shopify-bookkeeping-services/", label: "Shopify Bookkeeping" },
+      { href: "/quickbooks-for-ecommerce/", label: "QuickBooks for Ecommerce" },
+      { href: "/catch-up-bookkeeping-services/", label: "Catch-Up Bookkeeping" },
+      { href: "/who-we-serve/", label: "Who We Serve" },
+      { href: "/pricing/", label: "Pricing" },
+    ],
+    faqTitle: "Square bookkeeping FAQs",
+    faqs: [
+      {
+        q: "Does Square integrate with QuickBooks?",
+        a: "There's an official connector, and like most per-transaction syncs it posts noisy data that's hard to reconcile, especially with instant transfers and loan withholding in the mix. We post summary-level entries from Square's own reports instead: cleaner file, penny-perfect reconciliation, and the loan handled correctly.",
+      },
+      {
+        q: "How should Square loan repayments be recorded?",
+        a: "Proceeds as a loan liability, never income. Daily withholding splits between principal (reducing the liability) and the fixed fee (a financing cost). Your books then show true revenue, true financing cost and the real remaining balance, which is what a lender or buyer will want to see.",
+      },
+      {
+        q: "Can you split my retail location from my online store?",
+        a: "Yes, that's standard setup: POS and online each get their own revenue and fee tracking, so you see each channel's real margin. Multiple locations work the same way.",
+      },
+      {
+        q: "My Square deposits never match my sales reports. Why?",
+        a: "Because deposits are net of processing fees, instant-transfer fees, refunds, chargebacks and any loan withholding, and transfer timing crosses days. The fix isn't staring harder at the bank feed; it's books built from Square's transfer and transaction reports, where every deposit ties out to the penny.",
+      },
+    ],
+  },
+  {
+    slug: "content-creator-accounting-services",
+    crumb: "Content Creator Accounting",
+    metaTitle: "Accountant for Content Creators & Influencers | eMerchant Books",
+    metaDescription:
+      "Accounting for creators on OnlyFans, Patreon, YouTube, Twitch and TikTok: 1099 tie-outs, quarterly estimates, S-corp timing and payout reconciliation. Professional and judgment-free.",
+    h1: "Accounting for content creators, run like the business it is",
+    lead: "OnlyFans, Patreon, YouTube, Twitch, TikTok, brand deals: creator income arrives from everywhere with nothing withheld. We track every stream, keep the quarterly estimates honest, and never make you explain your content.",
+    intro: [
+      "A working creator's money is messier than most small businesses': seven income streams, three different 1099 forms, platforms that take their cut before you see a dollar, and zero tax withheld on any of it. The IRS treats every dollar as self-employment income the moment it's earned, whether or not a form ever arrives.",
+      "One more thing, said plainly: if you're an OnlyFans creator, you've probably been declined by a firm or made to feel like a liability. Not here. Creator platforms are legal businesses with real accounting needs, and we serve them the way we serve any other client: professionally, discreetly, and without commentary.",
+    ],
+    painHeading: "The creator problems we fix every month",
+    pains: [
+      {
+        title: "Six income streams, three kinds of paperwork",
+        body: "Brand deals arrive on 1099-NECs, platform payouts through processors arrive on 1099-Ks reporting gross before fees, and foreign brands and small deals arrive with no form at all. Every one is taxable. Books that track income by stream and payer are what make January reconcilable instead of terrifying.",
+      },
+      {
+        title: "Nothing is withheld, and April knows it",
+        body: "A creator netting $100,000 of profit owes $30,000 to $37,000 between income tax and 15.3% self-employment tax, due quarterly. Miss the estimates and penalties accrue even if you pay in full at filing. We calculate the safe-harbor number and keep a tax percentage moving to a separate account with every payout.",
+      },
+      {
+        title: "Deductions with no paper trail",
+        body: "Cameras, lighting, editing software, the home studio, contractor editors, agency commissions: all legitimate, all lost without documentation. And the reverse problem is just as expensive: everyday clothing and grooming claimed as business expenses is the deduction pattern that draws audits. We keep the list defensible in both directions.",
+      },
+      {
+        title: "Payouts that don't match your dashboard",
+        body: "OnlyFans holds 20% before payout. Twitch splits sub revenue. YouTube AdSense pays on its own cycle. Agencies deduct their percentage before wiring brand-deal money. If your books record what hit the bank, you're understating income and losing deductions at the same time, and your 1099s won't tie to anything.",
+      },
+    ],
+    deliverables: [
+      "Every income stream tracked in its own account",
+      "Platform fees and agency commissions broken out, gross to net",
+      "1099-NEC and 1099-K tie-out every January",
+      "Quarterly estimated tax numbers, calculated and calendared",
+      "Deduction documentation that survives scrutiny",
+      "Gifted products and comped trips logged at fair market value",
+      "S-corp payroll coordination once the math says switch",
+      "Books closed by the 10th business day, questions answered by text",
+    ],
+    body: [
+      {
+        h2: "The S-corp question, answered with math instead of hype",
+        paras: [
+          "Every creator with a growing channel hears 'you need an S-corp' from someone. Sometimes true: elect S-corp status, pay yourself a defensible salary, and profit above it escapes the 15.3% self-employment tax. A creator clearing $140,000 with a $70,000 salary saves roughly $9,000 a year, net of the added costs. Below about $60,000 to $80,000 of steady profit, payroll runs, a separate return and state fees usually eat the savings.",
+          "The timing matters as much as the threshold, because the election, the payroll setup and a reasonable-salary study all have to be in place before the savings are real. We run the numbers with your actual profit, not a TikTok rule of thumb, and coordinate the switch with your CPA when it clears.",
+        ],
+      },
+      {
+        h2: "Judgment-free is a policy here, not a slogan",
+        paras: [
+          "Adult-content creators get dropped by accountants, flagged by banks, and lectured by professionals who happily serve liquor stores and casinos. Meanwhile they're running six-figure businesses with chargebacks, platform fee accounting, international fan payments and real quarterly tax exposure. We treat that as what it is: a client profile we know well. Your engagement is confidential, your paperwork says what any business paperwork says, and the only thing we'll ever ask about your content is which platform pays out through which processor.",
+        ],
+      },
+    ],
+    related: [
+      { href: "/bookkeeping-tips/onlyfans-taxes-bookkeeping-guide/", label: "OnlyFans Taxes & Bookkeeping Guide" },
+      { href: "/bookkeeping-tips/content-creator-bookkeeping/", label: "Content Creator Bookkeeping Guide" },
+      { href: "/bookkeeping-tips/tiktok-shop-seller-bookkeeping/", label: "TikTok Shop Bookkeeping" },
+      { href: "/monthly-ecommerce-bookkeeping/", label: "Monthly Bookkeeping" },
+      { href: "/who-we-serve/", label: "Who We Serve" },
+      { href: "/pricing/", label: "Pricing" },
+    ],
+    faqTitle: "Content creator accounting FAQs",
+    faqs: [
+      {
+        q: "Do you work with OnlyFans creators?",
+        a: "Yes, as a core client type, not an exception we tolerate. Payout reconciliation net of the 20% platform fee, chargeback tracking, quarterly estimates, S-corp timing and a 1099-NEC tie-out every January, handled with the same discretion as every engagement. Our OnlyFans taxes guide covers the full picture if you want to see how we think first.",
+      },
+      {
+        q: "When should a creator switch to an S-corp?",
+        a: "When steady profit clears roughly $60,000 to $80,000 a year, the payroll-tax savings usually outrun the added costs, often by $5,000 to $10,000 annually at low six figures. It's a math decision we run with your real numbers before anything gets filed.",
+      },
+      {
+        q: "What can I actually deduct as a creator?",
+        a: "Equipment, editing software and subscriptions, a genuinely exclusive home studio space, contractors, agency commissions, the business share of phone and internet, and travel whose primary purpose is content. Not everyday clothing, general grooming or the family trip with one vlog attached. The paper trail is what makes a deduction real, and building it is part of the monthly work.",
+      },
+      {
+        q: "What does an accountant for content creators cost?",
+        a: "Books Lite starts at $149 to $249 a month for growing creators; specialist tiers start at $1,250/mo for six-figure-a-month operations. The rate card is public on our pricing page, it's month-to-month, and your QuickBooks file is yours.",
+      },
+      {
+        q: "I've never paid quarterly estimates. Am I in trouble?",
+        a: "Probably less than you fear, and the fix is mechanical: catch up the books, compute the safe-harbor amount (100% of last year's tax, 110% at higher incomes), and start paying on schedule. Penalties for past quarters are typically interest-scale, not catastrophe-scale. The expensive move is staying frozen for another year.",
+      },
+    ],
+  },
 ];
 
 export function getService(slug: string) {
