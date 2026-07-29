@@ -35,6 +35,7 @@ const COLS: { heading: string; links: { href: string; label: string }[] }[] = [
     heading: "Company",
     links: [
       { href: "/about-us/", label: "About Us" },
+      { href: "/ecommerce-accountant-dallas/", label: "Dallas–Fort Worth" },
       { href: "/faq/", label: "FAQ" },
       { href: "/bookkeeping-tips/", label: "Bookkeeping Tips" },
       { href: "/contact/", label: "Contact" },
