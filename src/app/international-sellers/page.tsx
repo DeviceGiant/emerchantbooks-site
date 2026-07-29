@@ -1,13 +1,17 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Image from "next/image";
 import LeadForm from "@/components/LeadForm";
 import { Breadcrumbs, CtaBand, FaqBlock, Guarantees } from "@/components/Sections";
+import { pageImage } from "@/content/images";
 
 export const metadata: Metadata = {
   title: { absolute: "Bookkeeping for International Sellers on US Platforms | eMerchant Books" },
   description:
     "US bookkeeping and compliance for non-resident sellers: monthly marketplace-grade books plus Form 5472, pro-forma 1120, W-8 and EIN/ITIN coordination. From the US.",
   alternates: { canonical: "/international-sellers/" },
+  openGraph: {
+    images: [{ url: "/images/international-seller-us-llc-compliance.webp", width: 1600, height: 900, alt: "US LLC compliance documents for international sellers" }],
+  },
 };
 
 const FAQS = [
@@ -59,6 +63,14 @@ export default function InternationalSellers() {
             same settlement-level work our American clients get, plus coordination of the entire non-resident
             compliance stack.
           </p>
+          <Image
+            src={pageImage("international-sellers").src}
+            alt={pageImage("international-sellers").alt}
+            width={1600}
+            height={900}
+            priority
+            className="mt-7 rounded-2xl border border-slate-200 shadow-sm"
+          />
 
           <h2 className="mt-12 text-2xl font-bold text-navy-900">The traps that catch foreign sellers</h2>
           <div className="mt-6 space-y-5">

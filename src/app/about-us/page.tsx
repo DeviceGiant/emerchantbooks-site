@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Breadcrumbs, CtaBand, Guarantees } from "@/components/Sections";
 import { SITE } from "@/lib/site";
+import { pageImage } from "@/content/images";
 
 export const metadata: Metadata = {
   title: "About Us — Ecommerce Bookkeeping Specialists",
@@ -29,6 +31,13 @@ export default function About() {
           platforms actually produce. Fifteen-plus years of ecommerce experience means your edge cases are our
           routine cases.
         </p>
+        <Image
+          src={pageImage("about-us").src}
+          alt={pageImage("about-us").alt}
+          width={1600}
+          height={900}
+          className="mt-8 rounded-2xl border border-slate-200 shadow-sm"
+        />
 
         <h2 className="mt-12 text-2xl font-bold text-navy-900">What we believe</h2>
         <div className="mt-6 space-y-5 leading-relaxed text-slate-600">

@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import LeadForm from "@/components/LeadForm";
 import { CtaBand, FaqBlock, Guarantees, TrustBar } from "@/components/Sections";
+import { pageImage } from "@/content/images";
 
 export const metadata: Metadata = {
   title: { absolute: "Ecommerce Bookkeeping Services for Amazon, eBay & Shopify Sellers | eMerchant Books" },
   description:
     "Done-for-you ecommerce bookkeeping in your own QuickBooks or Xero. Settlement-accurate books for Amazon, eBay, Shopify, Walmart and Etsy sellers, closed by the 15th, from $229/mo.",
   alternates: { canonical: "/" },
+  openGraph: {
+    images: [{ url: "/images/ecommerce-bookkeeping-services-desk.webp", width: 1600, height: 900, alt: "Ecommerce bookkeeping workspace" }],
+  },
 };
 
 const PLATFORM_CARDS = [
@@ -93,6 +98,13 @@ export default function Home() {
         <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">
           We only do ecommerce. Reading settlement reports is the job.
         </p>
+        <Image
+          src={pageImage("home-team").src}
+          alt={pageImage("home-team").alt}
+          width={1600}
+          height={900}
+          className="mx-auto mt-10 rounded-2xl border border-slate-200 shadow-sm"
+        />
       </section>
 
       {/* Platform cards */}

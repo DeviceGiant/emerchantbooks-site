@@ -1,7 +1,9 @@
 import Link from "next/link";
+import Image from "next/image";
 import LeadForm from "@/components/LeadForm";
 import { Breadcrumbs, CtaBand, FaqBlock, Guarantees } from "@/components/Sections";
 import type { ServiceContent } from "@/content/services";
+import { pageImage } from "@/content/images";
 
 export default function ServicePage({ s }: { s: ServiceContent }) {
   return (
@@ -12,6 +14,16 @@ export default function ServicePage({ s }: { s: ServiceContent }) {
         <div className="lg:col-span-3">
           <h1 className="text-4xl font-bold leading-tight text-navy-900">{s.h1}</h1>
           <p className="mt-5 text-lg leading-relaxed text-slate-600">{s.lead}</p>
+          {pageImage(s.slug) && (
+            <Image
+              src={pageImage(s.slug).src}
+              alt={pageImage(s.slug).alt}
+              width={1600}
+              height={900}
+              priority
+              className="mt-7 rounded-2xl border border-slate-200 shadow-sm"
+            />
+          )}
           {s.intro.map((p, i) => (
             <p key={i} className="mt-4 leading-relaxed text-slate-600">{p}</p>
           ))}
