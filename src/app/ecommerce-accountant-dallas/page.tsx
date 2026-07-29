@@ -79,7 +79,9 @@ export default function DallasPage() {
               We only do ecommerce. Settlement reconciliation, FBA inventory valuation, multi-channel COGS and
               marketplace 1099-K ties are the everyday work, not the exception. If you&rsquo;re doing $100K+ a
               month from anywhere in the metroplex, you can sit down with the people who keep your books, this
-              week.
+              week. West of the Trinity? We run a dedicated practice for{" "}
+              <Link href="/bookkeeping-services-fort-worth/" className="font-medium text-brand-600 underline">bookkeeping services in Fort Worth</Link>{" "}
+              and the Alliance corridor.
             </p>
           </div>
 
@@ -130,7 +132,10 @@ export default function DallasPage() {
             <p className="font-semibold text-white">Visit or call</p>
             <p className="mt-2">{SITE.address.street}, {SITE.address.city}, TX {SITE.address.zip}</p>
             <p className="mt-1"><a href={SITE.phoneHref} className="underline hover:text-white">{SITE.phone}</a> · {SITE.hours}</p>
-            <p className="mt-3 text-slate-400">Serving Dallas, Plano, Frisco, McKinney, Allen, Richardson, Addison, Carrollton, Irving, Arlington and Fort Worth.</p>
+            <p className="mt-3 text-slate-400">
+              Serving Dallas, Plano, Frisco, McKinney, Allen, Richardson, Addison, Carrollton, Irving and
+              Arlington, plus <Link href="/bookkeeping-services-fort-worth/" className="underline hover:text-white">Fort Worth and Tarrant County</Link>.
+            </p>
           </div>
         </aside>
       </section>

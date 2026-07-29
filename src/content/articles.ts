@@ -48,7 +48,7 @@ export const ARTICLES: Article[] = [
 <p><strong>5. Accrual vs cash books.</strong> Accrual with real COGS costs more than cash-basis category-sorting because it's more work. It's also the only version that tells an inventory business the truth. If a low quote assumes cash basis, you're not comparing the same product.</p>
 
 <h2>What DIY actually costs</h2>
-<p>QuickBooks Online Plus runs about $99/mo, A2X about $29–$89/mo, and the average seller spends 5 to 15 hours a month doing the work. At even $30/hour of your time, DIY costs $250 to $600 a month before the error risk. DIY makes sense under roughly $10k/mo in sales. Past that, the math flips fast, because the expensive part of bookkeeping isn't the subscription, it's getting COGS and settlement accounting wrong for a year.</p>
+<p>QuickBooks Online Plus runs $115/mo at 2026 list price (<a href="/bookkeeping-tips/quickbooks-online-pricing-ecommerce/">full plan-by-plan breakdown here</a>), A2X about $29–$89/mo, and the average seller spends 5 to 15 hours a month doing the work. At even $30/hour of your time, DIY costs $250 to $600 a month before the error risk. DIY makes sense under roughly $10k/mo in sales. Past that, the math flips fast, because the expensive part of bookkeeping isn't the subscription, it's getting COGS and settlement accounting wrong for a year.</p>
 
 <h2>The costs of bad bookkeeping (the number nobody quotes)</h2>
 <p>A 1099-K that doesn't match your filed return can trigger an IRS notice; resolving one typically costs more in professional fees than a year of bookkeeping. A lender or aggregator that can't verify your margins discounts your valuation or walks. And a mispriced product line can quietly lose money for years. Cheap books that are wrong are the most expensive option on this page.</p>
@@ -82,6 +82,7 @@ export const ARTICLES: Article[] = [
 <li><strong>Nexus from FBA inventory.</strong> Amazon placing your inventory in a state's warehouse can create physical nexus there. It matters mainly if you also sell direct.</li>
 <li><strong>Bookkeeping hygiene.</strong> Sales tax that flows through your account must sit in a liability account, not revenue. Booked as revenue, it inflates your sales and your tax bill.</li>
 </ul>
+<p>The state-by-state details vary more than sellers expect. Washington bills you a <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">gross-receipts B&amp;O tax even when Amazon collects everything</a>, while Florida ignores your marketplace volume entirely and has <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">a surtax cap most rate calculators miss</a>. If you ship into either state, those two guides are worth ten minutes.</p>
 
 <h2>Layer 3: The 1099-K, where returns go to die</h2>
 <p>Amazon reports your <strong>gross</strong> payment volume to the IRS on Form 1099-K. Gross means before fees, refunds, and everything else. Your bank deposits are net. The gap between them is routinely 25–35% of gross.</p>
@@ -179,7 +180,7 @@ export const ARTICLES: Article[] = [
 <li>5030 Inventory Shrinkage &amp; Write-offs</li>
 <li>5040 Fulfillment Supplies (boxes, tape, labels if you self-fulfill)</li>
 </ul>
-<p>And on the balance sheet: 1310 Inventory. Purchases go <em>to the balance sheet first</em>, then move to COGS as units sell. That single discipline separates books a lender trusts from books they don't.</p>
+<p>And on the balance sheet: 1310 Inventory. Purchases go <em>to the balance sheet first</em>, then move to COGS as units sell. That single discipline separates books a lender trusts from books they don't. If the mechanics behind it are fuzzy, <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">our COGS formula guide</a> works through the math with real landed-cost numbers.</p>
 
 <h2>Marketplace fees: itemized, because they creep</h2>
 <ul>
@@ -236,7 +237,7 @@ export const ARTICLES: Article[] = [
 <ul>
 <li><strong>Due date:</strong> April 15 for calendar-year entities, extendable to October 15 with Form 7004.</li>
 <li><strong>How it's filed:</strong> the pro-forma 1120 + 5472 goes by mail or fax to a dedicated IRS unit. It cannot be e-filed through consumer tax software, which is why DIY sellers miss it: TurboTax never mentions it.</li>
-<li><strong>You need an EIN.</strong> Foreign owners without an SSN get one via the mail/fax route (Form SS-4). Start early; it takes weeks.</li>
+<li><strong>You need an EIN.</strong> Foreign owners without an SSN get one via the mail/fax route (Form SS-4); <a href="/bookkeeping-tips/ein-tax-id-number-guide-sellers/">our tax ID guide</a> walks through the exact steps. Start early; it takes weeks.</li>
 <li><strong>Records:</strong> keep books sufficient to establish the reported transactions. That's a statutory requirement, not advice.</li>
 </ul>
 
@@ -899,6 +900,459 @@ export const ARTICLES: Article[] = [
 <p>Here's the part nobody puts on their website: OnlyFans creators get refused by accounting firms, dropped by banks and payment processors, and lectured by professionals who happily serve bars and gun shops. The result is predictable: creators running six-figure businesses do their own taxes badly, or trust a friend-of-a-friend, or just don't file, and every one of those paths costs multiples of what professional help would have.</p>
 <p>We serve OnlyFans creators as a core client type. That means payout reconciliation net of the 20% fee, chargeback tracking, quarterly estimate math, S-corp timing and the January Fenix tie-out, handled with the same discretion as any engagement, in a QuickBooks file you own. No commentary, no moral audit, no surprise offboarding email. What professional bookkeeping costs across the market is in our <a href="/bookkeeping-tips/how-much-does-ecommerce-bookkeeping-cost/">cost guide</a>; our own <a href="/pricing/">published pricing</a> starts at $149/mo with no annual contract.</p>
 <p>If you want proof before commitment, take the free teardown: we rebuild your most recent month properly, fee accounting, chargebacks and all, and send you a 10-minute video of what we found, missed deductions included. <a href="/contact/">Claim it here</a>. You keep everything either way, and nobody will ever make you explain your business.</p>
+`,
+  },
+  {
+    slug: "florida-sales-tax-ecommerce-guide",
+    title: "Florida Sales Tax for Ecommerce Sellers (2026 Guide)",
+    metaTitle: "Florida Sales Tax for Ecommerce Sellers (2026 Guide)",
+    metaDescription:
+      "Florida's 6% rate plus county surtaxes, the $100K economic nexus threshold, marketplace rules, FBA warehouse nexus, and how to register without an SSN.",
+    date: "2026-07-29",
+    readMinutes: 12,
+    excerpt: "Florida charges 6% plus a county surtax, makes Amazon collect for you, and sets economic nexus at $100,000 in taxable sales. Here's the whole system, including the parts sellers get wrong.",
+    html: `
+<p>Florida sales tax is 6% at the state level, plus a county surtax of 0% to 2% depending on where your customer takes delivery. Remote sellers must register once they pass $100,000 in taxable Florida sales in the previous calendar year, and marketplaces like Amazon and Walmart collect on your behalf. That's the system in three sentences. The details underneath are where ecommerce sellers get hurt, so let's walk through all of them.</p>
+
+<h2>The rate: 6% state, plus your customer's county</h2>
+<p>The statewide rate is 6%. On top of it, most Florida counties levy a discretionary sales surtax between 0.5% and 1.5% (the law allows up to 2%). Miami-Dade and Broward sit at 7% combined. Several counties charge more, a few charge nothing extra at all, and rates change as county referendums pass and expire. The Florida Department of Revenue publishes the current surtax table as Form DR-15DSS each December; pull the new one every January because counties do move.</p>
+<p>For an ecommerce order shipped to a Florida address, you charge the rate of the county where the customer takes delivery. Ship to Jacksonville and Orlando on the same day and you'll collect two different totals on identical carts. Any serious cart or tax engine (Shopify Tax, TaxJar, Avalara) handles this lookup automatically. Spreadsheet-based rate tables don't, and that's the first place DIY sellers drift out of compliance.</p>
+
+<h2>The $5,000 surtax cap almost nobody applies</h2>
+<p>Here's a Florida quirk that generic calculators miss: the county surtax only applies to the first $5,000 of a single sale of tangible personal property. Sell a $9,000 item into a 1% surtax county and the surtax applies to $5,000 of it, not all $9,000. The 6% state portion applies to the full price either way.</p>
+<p>For sellers of furniture, machinery, watches, collectibles or anything else with big single-item tickets, this cap is real money in your customer's favor, and over-collecting is its own compliance problem: tax collected from a customer must be remitted or refunded, never kept. If your platform can't apply the cap, you need to know which orders it affects.</p>
+
+<h2>Economic nexus: the $100,000 threshold</h2>
+<p>Since July 1, 2021, a remote seller with no physical presence in Florida must register and collect once <strong>taxable</strong> sales delivered into Florida exceed $100,000 in the <strong>previous calendar year</strong>. Three details matter more than the headline number:</p>
+<ul>
+<li><strong>It counts taxable sales, not gross sales.</strong> Exempt sales (groceries, most resale transactions with a valid certificate) don't count toward the threshold.</li>
+<li><strong>There's no transaction count.</strong> Unlike states that used a 200-transaction trigger, Florida only looks at dollars. 5,000 small orders totaling $80,000 create no obligation.</li>
+<li><strong>Marketplace sales don't count toward your own threshold.</strong> If Amazon sells $300,000 of your product into Florida, that volume belongs to Amazon's collection obligation, not yours. Your threshold is measured on direct sales: your Shopify store, your own site, B2B invoices you ship yourself.</li>
+</ul>
+<p>That last point is why plenty of seven-figure FBA sellers legitimately have no Florida registration: their direct channel into Florida stays under $100K. Measure it every January, and measure it on taxable direct sales only. If you can't produce that number by channel and by state, your books aren't giving you what a multichannel seller needs; it's one of the first things we build into <a href="/monthly-ecommerce-bookkeeping/">a proper monthly close</a>.</p>
+
+<h2>Marketplace facilitator rules: what Amazon handles, what it doesn't</h2>
+<p>Also since July 2021, marketplace facilitators over $100,000 in Florida sales must collect and remit tax on every marketplace order, including yours. Amazon, Walmart, eBay, Etsy and TikTok Shop all do. For marketplace orders into Florida, the tax is genuinely handled.</p>
+<p>What stays on your plate:</p>
+<ul>
+<li><strong>Your direct channel.</strong> Shopify, WooCommerce, BigCommerce, wholesale: if you have nexus, collection is yours.</li>
+<li><strong>Reporting hygiene if you're registered.</strong> A registered seller with only marketplace sales still files, reporting the marketplace volume as exempt or excluded per the DR-15 instructions rather than skipping returns. Unfiled returns on an open account generate estimated assessments, which are always wrong in the state's favor.</li>
+<li><strong>Your books.</strong> Facilitator-collected tax flows through your settlement reports and can inflate revenue if your bookkeeping posts deposits as sales. The tax belongs in a liability or pass-through account, never in income. It's one of the nine problems in our <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">Amazon bookkeeping guide</a>, and it quietly overstates revenue on every report you'll ever hand a lender.</li>
+</ul>
+
+<h2>FBA inventory in Florida: physical nexus</h2>
+<p>Amazon operates more than a dozen Florida fulfillment centers (Lakeland, Jacksonville, Ruskin and Ocala among them), and inventory sitting in one of them is a physical presence. Physical nexus has no dollar threshold: one pallet in Lakeland technically creates an obligation from dollar one of your direct sales.</p>
+<p>Since Amazon already collects on marketplace orders, FBA nexus matters in practice when you also sell direct. The common trap looks like this: a seller does $60,000 of Shopify sales into Florida, under the economic threshold, and assumes they're fine. But their FBA inventory has been rotating through Ruskin all year, so nexus exists anyway and those Shopify orders needed collection. Check your Inventory Event Detail report in Seller Central; where Amazon stores your goods is a fact, not a choice you made.</p>
+
+<h2>Registering, including without an SSN</h2>
+<p>You register with the Florida Department of Revenue on Form DR-1. Online registration is free; the paper route costs $5. You'll get a Certificate of Registration and a resale certificate, and the state assigns your filing frequency.</p>
+<p>International sellers: Florida's online application assumes a US identity, but you don't need an SSN to register. A foreign-owned company registers with its EIN using the paper DR-1, and getting that EIN without an SSN is a fax-and-phone process we've mapped in our <a href="/bookkeeping-tips/ein-tax-id-number-guide-sellers/">tax ID guide for sellers</a>. Foreign-owned single-member LLCs should also already be filing Form 5472 federally (<a href="/bookkeeping-tips/form-5472-foreign-owned-llc-guide/">the $25,000-penalty form</a>); if that's news, fix it before the state registrations. Our <a href="/international-sellers/">international sellers practice</a> coordinates the whole stack.</p>
+<p>One honest warning: register prospectively, not retroactively, without advice. If you crossed the threshold two years ago, registering today can invite questions about the gap. Florida offers voluntary disclosure with penalty relief for exactly this situation, and it generally beats quietly registering and hoping. Talk to someone first; our <a href="/ecommerce-tax-services/">ecommerce tax services</a> team handles these conversations weekly.</p>
+
+<h2>Filing: frequencies, deadlines and the collection allowance</h2>
+<p>Florida assigns filing frequency by how much tax you collect per year:</p>
+<table>
+<thead><tr><th>Annual tax collected</th><th>Filing frequency</th></tr></thead>
+<tbody>
+<tr><td>More than $1,000</td><td>Monthly</td></tr>
+<tr><td>$501 to $1,000</td><td>Quarterly</td></tr>
+<tr><td>$101 to $500</td><td>Semiannual</td></tr>
+<tr><td>$100 or less</td><td>Annual</td></tr>
+</tbody>
+</table>
+<p>Returns go in on Form DR-15. They're due the 1st of the month after the period and late after the 20th, and electronic payments must be initiated a business day early to land on time. Sellers who paid $5,000 or more in the prior state fiscal year must file and pay electronically.</p>
+<p>Now the pleasant surprise: Florida pays you to file on time. E-file and e-pay punctually and you keep a <strong>collection allowance of 2.5% of the first $1,200 of tax due, up to $30 per return</strong>. It's small, it's free, and it's an easy $360 a year for a monthly filer who simply doesn't miss deadlines. The stick is bigger than the carrot, though: late returns cost 10% of the tax due with a $50 minimum, plus floating interest, and a $50 minimum applies even to a late zero-due return.</p>
+
+<h2>What's changed recently</h2>
+<p>Two updates worth knowing in 2026. First, Florida repealed its sales tax on commercial rent effective October 1, 2025. If you lease a warehouse, office or retail space in Florida, that line item (2% at the end) came off your rent bill; make sure your landlord actually removed it. Second, Florida keeps expanding its sales tax holidays (back-to-school, disaster preparedness and others), during which certain products ship tax-free. Your tax engine should handle holidays automatically; manual setups routinely over-collect during them.</p>
+<p>And the perennial good news: Florida has no personal state income tax. Your Florida sales tax obligations are about your customers' location, not yours, but sellers relocating to Florida for the income tax picture should know the sales tax side is middle-of-the-road: not as simple as a no-sales-tax state, far simpler than <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">Washington, where a second tax hides behind the sales tax</a>.</p>
+
+<h2>Is shipping taxable in Florida?</h2>
+<p>Sometimes, and the rule is specific enough to get wrong. Shipping charges are exempt when two things are both true: the charge is separately stated on the invoice, and the customer had a real option to avoid it (picking the goods up, arranging their own carrier). If delivery is mandatory, which it is for essentially every ecommerce order, the shipping charge is part of the sales price and taxable at the same rate as the goods.</p>
+<p>In practice: that $6.99 shipping line on your Shopify orders into Florida should be collecting tax. "Free shipping" sidesteps the question entirely, since there's no charge to tax, which is one more quiet argument for building shipping into your price. Handling charges follow the same logic. If your cart's Florida tax settings exempt shipping by default, you've been under-collecting, and under-collected tax comes out of your margin, not your customer's pocket.</p>
+
+<h2>Buying inventory tax-free: the resale certificate</h2>
+<p>Registration comes with a genuine benefit: the Florida Annual Resale Certificate (DR-13). Hand it to suppliers and you buy inventory for resale without paying sales tax on the purchase. Florida reissues it every year, so calendar the renewal; suppliers will reject last year's certificate.</p>
+<p>Two rules keep it clean. Only use it for goods you'll actually resell. Packaging that ships with the product qualifies; your office chair and label printer don't. And when you pull inventory out for personal use, giveaways or influencer seeds, you owe use tax on your cost of those units. It's a small line on the DR-15 that auditors love checking precisely because nobody bothers with it. Your books should already be moving those units out of inventory at cost (that's ordinary <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">COGS discipline</a>), so the use-tax number falls out of a report instead of a guess.</p>
+<p>Keep exemption certificates from your own wholesale customers with the same seriousness. In a Florida audit, an untaxed B2B sale without a certificate on file becomes your tax, plus penalty, plus interest. Three years of records is the standard audit window; keep five to be comfortable.</p>
+
+<h2>If Florida writes to you first</h2>
+<p>Florida's Department of Revenue runs discovery programs, and marketplace data makes them easy: the state knows who ships meaningful volume into Florida. The usual opener is a nexus questionnaire asking about your inventory locations, sales channels and Florida volume. Don't ignore it (that converts a questionnaire into an assessment) and don't answer it casually either, because your answers set the scope of everything after. Answering with settlement-level books behind you is a 30-minute exercise; answering from bank statements is how sellers end up over-conceding nexus they never had. Loop in <a href="/ecommerce-tax-services/">a specialist</a> before you reply, and if registration turns out to be owed, negotiate it through voluntary disclosure rather than the questionnaire when the option still exists.</p>
+
+<h2>Florida sales tax FAQ</h2>
+<p><strong>What is the Florida sales tax rate in 2026?</strong> 6% statewide, plus a county surtax of 0% to 2%. Most orders land at 7% or 7.5% combined depending on the delivery county.</p>
+<p><strong>Are groceries and clothing taxable in Florida?</strong> Most groceries are exempt; clothing is fully taxable. Florida has no year-round clothing exemption, only the occasional holiday, which trips up apparel sellers who assume it works like Pennsylvania or Minnesota.</p>
+<p><strong>Are digital products and SaaS taxable in Florida?</strong> Generally no. Electronically delivered software and digital goods with nothing tangible attached sit outside Florida's sales tax, which makes it one of the friendlier states for digital sellers. Washington takes <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">exactly the opposite position</a>, so don't generalize from one state to the next.</p>
+<p><strong>I only sell through Amazon FBA. Do I need to register in Florida?</strong> If FBA inventory sits in a Florida warehouse, you have physical nexus and technically should register even though Amazon collects the tax on your orders. Many marketplace-only sellers register and file simple returns reporting the facilitator-handled volume; some accept the risk and don't. Know which choice you're making and why, ideally with advice.</p>
+<p><strong>Do I charge Florida tax on orders shipped out of Florida?</strong> No. Florida tax applies to Florida deliveries. An order shipped from your Tampa warehouse to Georgia is Georgia's question, not Florida's.</p>
+
+<h2>The bookkeeping that makes all of this easy</h2>
+<p>Every Florida obligation above gets answered by the same three numbers: direct taxable sales into Florida by calendar year, marketplace sales into Florida (for reporting, not collecting), and tax collected sitting in a liability account. Books that post settlement-level detail produce those numbers in minutes. Books that post bank deposits as revenue can't produce them at all, which turns a 20-minute DR-15 into an archaeology project, and turns our <a href="/bookkeeping-tips/amazon-1099-k-explained/">1099-K reconciliation</a> into guesswork too.</p>
+<p>That's the real pitch for doing this right: not fear of an audit, just the fact that clean channel-level books make every state's rules mechanical. If yours can't answer the three questions, our free Ecommerce Books Teardown will show you exactly where the gaps are; <a href="/contact/">request one here</a> and we'll go through your file with you. And if sales tax is the whole headache, <a href="/ecommerce-tax-services/">our tax services page</a> covers how we handle registrations, filings and the bookkeeping underneath them as one job.</p>
+`,
+  },
+  {
+    slug: "washington-sales-tax-ecommerce-guide",
+    title: "Washington Sales Tax for Ecommerce Sellers (2026 Guide)",
+    metaTitle: "Washington Sales Tax for Ecommerce Sellers (2026)",
+    metaDescription:
+      "Washington's 6.5% rate plus local taxes, destination sourcing, the $100K nexus threshold, and the B&O tax that hits sellers even when Amazon collects everything.",
+    date: "2026-07-29",
+    readMinutes: 12,
+    excerpt: "Washington layers a gross-receipts B&O tax on top of one of the country's highest sales tax rates, and it's owed even on marketplace sales Amazon already handled. Here's the full picture.",
+    html: `
+<p>Washington sales tax starts at 6.5% and climbs past 10% in much of the Seattle metro once local rates stack on. Remote sellers owe collection once they pass $100,000 in gross Washington sales. And then comes the part almost every out-of-state seller misses: Washington also charges a <strong>business and occupation (B&amp;O) tax</strong> on your gross receipts, and it's your bill even when Amazon collected every cent of the sales tax. Sellers who learn about B&amp;O from a Department of Revenue letter are the rule, not the exception. Let's make sure you're not one of them.</p>
+
+<h2>The rates: 6.5% state, up to 10.6% combined</h2>
+<p>The state rate is 6.5%. Cities, counties and transit districts add local rates on top, producing combined rates from about 7.5% in rural areas to 10.35% in Seattle and 10.6% in a few King and Snohomish County cities, among the highest in the country. There is no Washington equivalent of Florida's surtax cap; the full combined rate applies to the whole price.</p>
+<p>Washington is strictly <strong>destination-based</strong> for interstate sellers: you charge the rate where the customer takes delivery, down to the specific address, because rates change at city and district lines. The state's Tax Rate Lookup tool (and its free GIS API) resolves any address to the right rate and location code. That location code matters later: your return reports collected tax by code so the state can route the local share, which is why Washington returns are genuinely tedious by hand and why an automated tax engine earns its fee here faster than in most states.</p>
+
+<h2>Shipping is taxable here</h2>
+<p>Unlike states with carve-outs for separately stated freight, Washington taxes delivery charges whenever the sale itself is taxable. The $5.99 shipping line on a taxable order into Tacoma gets taxed at Tacoma's full combined rate, separately stated or not. If your cart's Washington settings exempt shipping, you're under-collecting on every order, and the shortfall is yours to absorb. Sales for resale and other exempt sales carry their shipping exemption with them, so wholesale freight stays untaxed.</p>
+
+<h2>Economic nexus: $100,000, measured on gross</h2>
+<p>You establish economic nexus once your <strong>cumulative gross receipts</strong> into Washington exceed $100,000 in the current or prior calendar year. Note the word gross: unlike <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">Florida, which counts only taxable sales</a>, Washington counts everything, including marketplace sales, wholesale sales and exempt sales. Amazon doing $90,000 of your Washington volume plus $15,000 through your Shopify store puts you over the line even though your direct channel alone never would.</p>
+<p>Washington dropped its old 200-transaction test back in 2019, so dollars are the only trigger. Crossing the threshold obligates you to register, collect sales tax on your direct retail sales, and, this is the trap, pay B&amp;O on the whole gross.</p>
+
+<h2>The B&amp;O tax: the bill nobody expects</h2>
+<p>Washington has no corporate or personal income tax. Instead it taxes <strong>gross receipts</strong> through the B&amp;O tax. Not profit. Gross. There are no deductions for inventory cost, ad spend, marketplace fees or anything else, which makes it a fundamentally different animal from income tax: you can lose money and still owe it.</p>
+<p>The classifications that matter to sellers:</p>
+<table>
+<thead><tr><th>Classification</th><th>Rate</th><th>Applies to</th></tr></thead>
+<tbody>
+<tr><td>Retailing</td><td>0.471%</td><td>Sales to consumers, including your marketplace and direct-channel retail sales</td></tr>
+<tr><td>Wholesaling</td><td>0.484%</td><td>Sales for resale, with a reseller permit on file</td></tr>
+<tr><td>Service &amp; other activities</td><td>1.5% and up</td><td>Services; 2025 legislation pushed rates higher for larger service businesses</td></tr>
+</tbody>
+</table>
+<p>Run the numbers and B&amp;O is small per dollar: $500,000 of Washington retail sales owes about $2,355 under retailing. What makes it dangerous is that nobody budgets for it, it applies to marketplace sales you thought were "handled," and unfiled periods pile up penalties (up to 29% of the tax) plus interest until the total stops being small. We've seen sellers open a DOR letter covering four years of unreported marketplace gross; none of the individual years hurt, the stack did.</p>
+<p>The relief valve: Washington's <strong>small business B&amp;O credit</strong> phases out the tax for low gross volumes, roughly the first $7,000-and-change per month of retailing gross for a monthly filer. Below that, the return still gets filed but the B&amp;O line nets to zero. Above it, you pay. Either way, the obligation to file exists, and "I owed nothing so I didn't file" is not a position the DOR accepts.</p>
+
+<h2>Marketplace sales: Amazon collects the sales tax, you still owe the B&amp;O</h2>
+<p>Washington was the first state in the country to force marketplace collection: Amazon has been collecting Washington sales tax on marketplace orders since January 1, 2018, and every major platform followed. So the sales tax on your FBA, Walmart, eBay, Etsy and TikTok Shop orders into Washington genuinely is collected and remitted by the platform.</p>
+<p>Here's how it actually flows on your combined excise return, because this is where sellers file wrong:</p>
+<ul>
+<li><strong>Retailing B&amp;O:</strong> report your full Washington gross, including marketplace sales. This tax is yours; no facilitator pays it for you.</li>
+<li><strong>Retail sales tax:</strong> report the same gross, then take the deduction for "retail sales tax collected by facilitator" so you're not remitting tax the platform already remitted. Your direct-channel sales get no such deduction; you collect and remit those yourself.</li>
+</ul>
+<p>Getting this right requires knowing your Washington gross by channel, which is a bookkeeping question before it's a tax question. Books that post settlement-level detail (the fix for <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">the deposit-as-revenue problem</a>) produce state-by-state gross from a report. Books built on bank deposits can't, and reconstructing Washington gross from two years of settlement CSVs at letter time is exactly as fun as it sounds. The same discipline is what keeps your federal numbers tied to <a href="/bookkeeping-tips/amazon-1099-k-explained/">the 1099-K</a>, so it pays for itself twice.</p>
+
+<h2>FBA inventory in Washington</h2>
+<p>Amazon's home state is dense with fulfillment centers (Kent, Sumner, DuPont, Spokane and more), and inventory in any of them is physical presence, with no dollar threshold attached. The practical consequence mirrors the economic-nexus one: register, pay B&amp;O on your Washington gross, and collect on direct sales from dollar one. If FBA has been placing your inventory in Washington for years and you've never registered, don't just quietly start filing; Washington runs a voluntary disclosure program that limits lookback to four years and waives the 29% penalty, and it's the better door to walk through. That's a conversation for <a href="/ecommerce-tax-services/">our tax services team</a> before it's a form.</p>
+
+<h2>Registering, including without an SSN</h2>
+<p>Registration is a Business License Application with the Department of Revenue (about $90, one time), which issues your UBI number and opens your excise tax account. You'll declare your estimated volume, and the DOR assigns a filing frequency from it.</p>
+<p>International sellers can register: the application accepts an EIN in place of an SSN, and a foreign entity without any US tax ID should get the EIN first via the fax-and-phone route in <a href="/bookkeeping-tips/ein-tax-id-number-guide-sellers/">our tax ID guide</a>. Expect the process to take a few weeks end to end. If you're a foreign-owned LLC, keep the federal side in view too; Washington registrations have a way of surfacing during the diligence our <a href="/international-sellers/">international sellers page</a> describes, usually right next to a missed Form 5472.</p>
+<p>Physical presence works the old-fashioned ways too, not just through FBA racks. An employee working from a Spokane home office, a rep who visits Washington retail buyers, inventory at a Kent 3PL, even regular trade-show selling in Seattle can each establish nexus on their own, threshold or no threshold. Remote teams make this one sneaky: plenty of sellers acquired Washington nexus the day a customer-service hire moved to Vancouver, and found out two years later. Keep a simple state-by-state list of where your people, inventory and property sit, and revisit it when anything moves.</p>
+<p>Registered businesses also get a <strong>reseller permit</strong>, Washington's version of a resale certificate, so you can buy inventory tax-free for resale. Unlike most states, the DOR issues it (you apply, they can decline), and it renews on a two-or-four-year cycle. Use tax applies when you pull inventory for personal use or promo giveaways, same as everywhere.</p>
+
+<h2>Filing: the combined excise tax return</h2>
+<p>Washington bundles sales tax and B&amp;O into one <strong>combined excise tax return</strong>, filed through MyDOR. Frequencies and due dates:</p>
+<table>
+<thead><tr><th>Frequency</th><th>Due date</th></tr></thead>
+<tbody>
+<tr><td>Monthly</td><td>25th of the following month</td></tr>
+<tr><td>Quarterly</td><td>Last day of the month after the quarter ends</td></tr>
+<tr><td>Annual</td><td>April 15</td></tr>
+</tbody>
+</table>
+<p>The DOR assigns your frequency based on estimated tax and adjusts it as your volume changes. Returns are due even for zero-activity periods once the account is open; skipping "nothing happened" periods is the most common way small sellers rack up late-filing penalties on tax they never owed. E-filing is required, and the return wants that by-location-code breakdown of collected tax, which your tax engine or settlement-level books should be producing for you.</p>
+<p>One more small levy for completeness: Washington's litter tax (0.015%) applies to sellers of certain product categories like food, beverages and toiletries. It's pocket change, it lives on the same return, and knowing it exists is most of the work.</p>
+<p>Keep your support records five years: settlement reports, the by-state sales detail behind each return, reseller permits from wholesale customers, and the location-code breakdowns. Washington's standard audit window is four years plus the current year, and DOR audits are famously data-driven; they'll ask for your marketplace reports and run the math themselves. An audit where your filed numbers regenerate from your books in an afternoon ends quickly. The other kind doesn't.</p>
+
+<h2>A worked example: what a typical seller actually owes</h2>
+<p>Say you're a Texas-based brand doing $900,000 a year nationally: $70,000 of Washington marketplace sales through Amazon and $15,000 direct through Shopify, so $85,000 of Washington gross this year, but $102,000 last year. Last year's number put you over the threshold, so you're in the system. Here's the annual damage:</p>
+<ul>
+<li><strong>Sales tax on marketplace orders:</strong> $0 out of pocket. Amazon collected and remitted it.</li>
+<li><strong>Sales tax on the $15,000 of Shopify orders:</strong> collected from customers at each delivery address, roughly $1,400 at typical combined rates, remitted on your returns. Cost to you if you collected properly: nothing. Cost if your cart wasn't set up: the full $1,400 out of margin.</li>
+<li><strong>Retailing B&amp;O on $85,000 gross:</strong> about $400 before the small business credit, likely less after it.</li>
+<li><strong>The filing itself:</strong> four quarterly combined excise returns, maybe an hour each with clean books.</li>
+</ul>
+<p>Total real cost: a few hundred dollars and a few hours, <em>if</em> handled on time. The same facts discovered by the DOR after three silent years: back B&amp;O, uncollected direct-channel sales tax you now eat yourself, penalties near 29%, and interest. Washington compliance is cheap; Washington non-compliance compounds.</p>
+
+<h2>Washington sales tax FAQ</h2>
+<p><strong>What is the sales tax rate in Seattle?</strong> 10.35% combined as of 2026: the 6.5% state rate plus Seattle-area local rates. A few nearby cities run 10.6%.</p>
+<p><strong>Are digital products taxable in Washington?</strong> Yes, broadly. Washington taxes digital products, streamed and downloaded goods, and much of what other states leave alone, and its 2025 legislation extended retail sales tax deeper into services (advertising, IT and others). Digital and hybrid sellers should assume taxable until proven otherwise, the reverse of <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">Florida's posture</a>.</p>
+<p><strong>Is the B&amp;O tax deductible on my federal return?</strong> Yes. State gross-receipts taxes are an ordinary business expense, deductible like any other. It softens the sting a little; it doesn't excuse not filing.</p>
+<p><strong>I sell only through Amazon. Do I really owe Washington anything?</strong> If you're over the $100,000 gross threshold or have FBA inventory in the state: yes, retailing B&amp;O on your Washington marketplace gross, filed on the combined excise return, even though Amazon remitted all the sales tax. This is the single most common Washington surprise for out-of-state sellers.</p>
+<p><strong>Are groceries taxable in Washington?</strong> Most food and food ingredients are exempt, but prepared foods, soft drinks and dietary supplements are taxable. Supplement sellers take note: your product is taxable here even though it feels like "food."</p>
+
+<h2>Washington vs Florida: a tale of two audits</h2>
+<p>Put this guide next to <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">our Florida guide</a> and the contrast is instructive. Florida measures only your direct taxable sales, ignores marketplace volume for your threshold, and even pays you a small allowance for filing on time. Washington measures gross everything, keeps a second tax running underneath the one the platforms handle, and wants the paperwork regardless of whether money is due. Neither is hard once your books produce channel-level, state-level gross on demand. Both are miserable without that, which is the actual lesson: multistate sales tax is a reporting problem wearing a tax costume.</p>
+
+<h2>Getting it handled</h2>
+<p>If you're past $100K into Washington, the to-do list is short: register, set your direct channels to collect at destination rates, report marketplace gross under retailing B&amp;O with the facilitator deduction, and file on your assigned cycle. If there are unfiled years behind you, voluntary disclosure first. And if your books can't tell you your Washington gross by channel in five minutes, that's the root problem: it's the kind of gap our free Ecommerce Books Teardown catches immediately (<a href="/contact/">request one here</a>), and fixing it is the first week of <a href="/monthly-ecommerce-bookkeeping/">a proper monthly bookkeeping engagement</a>. State tax filings, including combined excise returns, are part of <a href="/ecommerce-tax-services/">our ecommerce tax services</a>; the books and the returns are one job done right, not two done separately.</p>
+`,
+  },
+  {
+    slug: "quickbooks-online-pricing-ecommerce",
+    title: "QuickBooks Online Pricing 2026: What Ecommerce Sellers Actually Need",
+    metaTitle: "QuickBooks Online Pricing 2026 for Ecommerce Sellers",
+    metaDescription:
+      "Every QuickBooks Online plan's 2026 price, why most sellers need Plus, the hidden costs (payroll, A2X, annual hikes), and when Advanced is a waste of $275.",
+    date: "2026-07-29",
+    readMinutes: 11,
+    excerpt: "Plus at $115/mo is the right plan for almost every seller, Advanced is usually $160/mo of features you won't open, and the subscription is the smallest line in your real QuickBooks budget.",
+    html: `
+<p>Short version: QuickBooks Online costs $38 to $275 a month at 2026 list prices, most ecommerce sellers need the <strong>Plus plan at $115/mo</strong>, and the subscription itself is the smallest line in your real QuickBooks budget once payroll, connector apps and setup enter the picture. Here's every number, what actually matters for a seller, and where the money hides.</p>
+
+<h2>Do you need QuickBooks at all yet?</h2>
+<p>Honest answer: not on day one. A seller doing a couple thousand a month with one channel can run on a disciplined spreadsheet and a separate business bank account, and many should, because software recording wrong numbers is worse than a simple sheet recording right ones. The crossover comes fast, though: a second channel, the first 1099-K, an inventory order big enough to matter, or the moment you want monthly margins you'd act on. Past roughly $10,000 a month in sales, the spreadsheet stops being a system and starts being a liability, and that's when the plan question below becomes worth twenty minutes of your attention.</p>
+
+<h2>QuickBooks Online pricing in 2026</h2>
+<p>Current US list prices, per month:</p>
+<table>
+<thead><tr><th>Plan</th><th>Price/mo</th><th>Users</th><th>The one-line verdict for sellers</th></tr></thead>
+<tbody>
+<tr><td>Solopreneur</td><td>$25</td><td>1</td><td>Not real double-entry books; skip it</td></tr>
+<tr><td>Simple Start</td><td>$38</td><td>1</td><td>Workable for a brand-new, single-channel side hustle</td></tr>
+<tr><td>Essentials</td><td>$75</td><td>3</td><td>Adds bills and multicurrency, still no channel tracking</td></tr>
+<tr><td>Plus</td><td>$115</td><td>5</td><td>The seller plan: classes, locations, inventory, budgets</td></tr>
+<tr><td>Advanced</td><td>$275</td><td>25</td><td>Overkill until you're a finance team, not a founder</td></tr>
+</tbody>
+</table>
+<p>Intuit usually offers 50% off for the first three months <em>or</em> a 30-day free trial, not both. Take the discount, not the trial: you'll spend the first month setting up either way, and the discount is worth about $172 on Plus. Prices are per company file, so a second brand in its own LLC means a second subscription, full price. Multi-brand operators sometimes try to dodge that by running two businesses in one file with classes; don't. Separate legal entities need separate files, or you've built commingled books that no lender, buyer or tax preparer will enjoy untangling.</p>
+<p>One more number worth knowing: the trajectory. Plus was $90 in 2023, $99 in 2024, and $115 now. Intuit raises prices roughly annually, a point or two above inflation, and grandfathering is temporary. Budget for the line to creep.</p>
+
+<h2>Why Plus is the plan for almost every seller</h2>
+<p>The feature that decides it is <strong>class and location tracking</strong>, which only exists from Plus up. Classes are how a multichannel seller gets a per-channel P&amp;L out of QuickBooks: tag transactions Amazon, Shopify, eBay or Walmart, and you can finally answer "which channel actually makes money after fees and ads?" Without classes you get one blended P&amp;L, which is how sellers spend a year scaling a channel that loses money on every order. Our <a href="/bookkeeping-tips/ecommerce-chart-of-accounts/">ecommerce chart of accounts guide</a> shows the full structure classes plug into.</p>
+<p>Plus also brings inventory tracking, purchase orders and budgets. Honest note on the inventory feature: sellers running A2X or Link My Books usually post summary journal entries and track inventory outside QuickBooks (or in a dedicated tool like Cin7), because QBO's native inventory can't handle FBA's reality of multi-warehouse stock, removals and reimbursements. You still want Plus, for the classes, the budgets and the headroom; just don't expect the built-in inventory module to run an FBA operation. The COGS math it's supposed to automate is worth understanding yourself either way; <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">our COGS formula guide</a> covers it with worked numbers.</p>
+
+<h2>When the cheaper plans are enough</h2>
+<p><strong>Simple Start ($38)</strong> holds up for a single-channel seller doing a few thousand a month who wants clean books and nothing else: one bank feed, an A2X connection, basic reports. You'll outgrow it at the moment you add a second channel or want to see margins by anything.</p>
+<p><strong>Essentials ($75)</strong> earns its extra $37 in exactly two situations: you need to track and schedule supplier bills (real accounts payable, not just paying on receipt), or you need multicurrency because you sell on Amazon Canada or UK and want those settlements in native currency. If neither applies, Essentials is a strange middle child: too much for a starter, still no classes. Sellers who need multicurrency plus channel tracking need both Essentials' and Plus's features, which means Plus, since it includes everything downstream.</p>
+<p><strong>Solopreneur ($25)</strong> deserves its own warning. It's the renamed Self-Employed product: no balance sheet, no real chart of accounts, no path to upgrade your data into a proper QBO file. For anyone holding inventory it can't do the one thing your books exist to do, which is track it. The $13/mo you save versus Simple Start will cost you a full re-setup later.</p>
+
+<h2>When Advanced is worth $275, and when it's $160 of shelf-ware</h2>
+<p>Advanced is Plus with higher limits and finance-team features: 25 users, custom roles and permissions, workflow automation, batch transactions, revenue recognition schedules, automated backups, priority support and Intuit's analytics layer. Genuinely useful, at the right scale.</p>
+<p>The honest trigger points for upgrading are the <strong>usage limits</strong>, not the features. Plus caps you at 40 combined classes and locations, 250 accounts in your chart, and 5 users. A seller running 6 channels with sub-brands, three warehouses and a bookkeeper, a controller and two staff hits those walls; that's who Advanced is for. A founder-run brand doing even $5M through three channels usually sits nowhere near them. If you're upgrading for "better reporting," know that the reporting you actually want (channel contribution margin, real COGS, cash runway) comes from how the file is built and closed, not from the analytics tab. We keep eight-figure brands on Plus with no strain; the plan is rarely the constraint.</p>
+
+<h2>The hidden costs: where the real money goes</h2>
+<p>The subscription is a third or less of what QuickBooks actually costs a working seller. The rest:</p>
+<ul>
+<li><strong>Payroll.</strong> QuickBooks Payroll starts around $50/mo plus $6 per employee for Core, and roughly doubles for Premium. Two founders on payroll (hello, S-corp) is about $62/mo before Premium features. It's also where Intuit's bundle discounts quietly expire a year in; check the renewal price, not the promo.</li>
+<li><strong>QuickBooks Payments.</strong> Card rates run roughly 3% on invoiced and keyed transactions, 1% on ACH. Most ecommerce money never touches it (your platforms and gateways already processed the payment), so ignore the cross-sell unless you invoice wholesale customers, where 1% ACH is actually reasonable.</li>
+<li><strong>The connector you can't skip.</strong> A2X runs about $29 to $89/mo for most sellers (more at high order volume), Link My Books somewhat less. This is the non-negotiable one: without settlement-level posting, marketplace deposits land as revenue and you inherit <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">the whole problem list</a>, including books that can't survive a 1099-K match.</li>
+<li><strong>Inventory software, if you need it.</strong> Cin7, Finale and friends start around $99/mo and climb fast. Only multi-warehouse, multi-channel operations need them; a single-channel FBA brand can run on spreadsheets plus discipline for a long time.</li>
+<li><strong>The person driving.</strong> Software categorizes; it doesn't reconcile settlements, value inventory or close months. DIY costs your hours, and <a href="/bookkeeping-tips/how-much-does-ecommerce-bookkeeping-cost/">specialist bookkeeping costs real money</a>. Either way it dwarfs the subscription, which is why picking a plan to save $40 while your COGS is wrong is optimizing the wrong line.</li>
+</ul>
+<p>A realistic all-in stack for a two-channel, seven-figure seller doing it themselves: Plus $115 + A2X $69 + payroll $62 = about $246/mo before anyone touches the books. That's the number to compare against outsourcing, not $115. (Our own rate card is <a href="/pricing/">published here</a>, software included in every plan, if you want the comparison.)</p>
+
+<h2>QuickBooks Online vs Xero on price</h2>
+<p>Xero's US plans run $20 (Early), $47 (Growing) and $80 (Established), so the honest comparison, Xero Growing at $47 versus QBO Plus at $115, looks like a $68/mo win for Xero. Read the fine print first: Early caps invoices and bills to a handful a month (it's a trial pretending to be a tier), and Xero's tracking categories, its answer to classes, allow only two active categories versus enough class headroom on Plus for channels, brands and warehouses at once. Xero counters with unlimited users on every plan, versus five on Plus.</p>
+<p>Our take after running hundreds of seller files on both: pick based on your accountant and your integrations, not the $68. Both connect to A2X, both produce clean accrual books in skilled hands, and a well-built file in either beats a default file in the other by a mile. We work in both (<a href="/quickbooks-for-ecommerce/">QuickBooks setup</a>, <a href="/xero-for-ecommerce/">Xero for ecommerce</a>), and multicurrency-heavy international sellers sometimes fit Xero a bit better, US-centric marketplace sellers QBO.</p>
+
+<h2>How to actually pay less for QuickBooks</h2>
+<p>Four legitimate levers, in order of value:</p>
+<ul>
+<li><strong>Buy it through your accountant.</strong> Firms carry wholesale billing that discounts subscriptions for the life of the engagement, not just three months. If you're paying retail while also paying a bookkeeper, ask why. (Software is included in <a href="/pricing/">our plans</a>; the subscription line disappears entirely.)</li>
+<li><strong>Take the 50% promo, skip the trial.</strong> Worth about $172 on Plus over three months, and you'll be mid-setup for most of a trial anyway.</li>
+<li><strong>Audit the add-ons annually.</strong> The typical seller file we inherit carries at least one zombie subscription: a payroll module for a company with no employees, an apps stack with two tools doing one job, Payments enabled and unused. Intuit doesn't call to suggest you downgrade.</li>
+<li><strong>Don't over-plan.</strong> Advanced "to be safe" is $1,920 a year of safety you can buy later with one click. Upgrades are instant; there's no penalty for starting at Plus.</li>
+</ul>
+<p>The lever that isn't worth it: hunting resold licenses or regional pricing tricks. Files end up in billing limbo, and moving a company file out of a mismanaged subscription is a support-ticket saga you don't want attached to your books.</p>
+
+<h2>What about QuickBooks Desktop?</h2>
+<p>Functionally over for new buyers: Intuit stopped selling most Desktop products to new US subscribers in 2024, and the remaining Enterprise line starts north of $140/mo on subscription. If you're an existing Desktop holdout, the migration decision has been made for you; the only question is timing. The good news for sellers is that the ecommerce tooling (A2X, Link My Books, every cart integration) is built cloud-first anyway, so QBO is where you'd want to be regardless of Intuit's roadmap.</p>
+
+<h2>Sales tax inside QuickBooks: know what it is and isn't</h2>
+<p>QBO's automated sales tax calculates rates on invoices you create inside QuickBooks. It does not calculate, collect or file tax for your Shopify or marketplace orders; your channels do the collecting, and QuickBooks just needs to record collected tax as a liability rather than income. Sellers who buy a plan expecting it to "handle sales tax" are expecting the wrong product. What handles multistate complexity is your cart's tax engine plus correct bookkeeping, and for the state-side rules themselves, start with our <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">Florida</a> and <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">Washington</a> guides to see how different two states can be.</p>
+
+<h2>QuickBooks Online pricing FAQ</h2>
+<p><strong>How much is QuickBooks Online per month?</strong> $38 (Simple Start), $75 (Essentials), $115 (Plus) or $275 (Advanced) at 2026 US list prices, before promotional discounts.</p>
+<p><strong>Is there a free version of QuickBooks?</strong> No. There's a 30-day trial, and Intuit offers discounted subscriptions through accounting firms (ask your bookkeeper; ours come with the engagement). Free alternatives like Wave exist but lack class tracking and the connector ecosystem sellers depend on, so the savings tend to be repaid later as migration work.</p>
+<p><strong>Can I downgrade plans later?</strong> Upgrades are one click. Downgrades are possible but constrained: if you've used features the lower plan lacks (classes, inventory items, extra users), you'll have to unwind them first. Practical translation: start at Plus if you know you'll need it within six months; start lower only if you genuinely might stay small.</p>
+<p><strong>Which QuickBooks plan do I need for Amazon FBA?</strong> Plus, in almost every case: classes for channel P&amp;L and headroom for the accounts a real seller file needs. Pair it with a settlement connector or you'll have expensive software recording wrong numbers.</p>
+<p><strong>Does QuickBooks track inventory for FBA?</strong> Not well. QBO's inventory module assumes you control the warehouse; FBA's removals, reimbursements, multi-warehouse splits and lost units break its assumptions. Track quantities in Seller Central or dedicated software, value inventory monthly in the books, and use QBO for what it's good at: the ledger.</p>
+
+<h2>The cost that dwarfs all of it: a badly set up file</h2>
+<p>Whatever plan you buy, QuickBooks arrives as an empty shell with a generic chart of accounts, and a default file records an ecommerce business wrong: deposits as revenue, fees invisible, no COGS discipline, sales tax in income. Twelve months of that costs more to unwind (<a href="/bookkeeping-tips/how-much-does-ecommerce-bookkeeping-cost/">catch-up projects are quoted flat, and they're not small</a>) than a decade of the price difference between plans.</p>
+<p>So spend the money in this order: correct plan (usually Plus), settlement connector, proper chart of accounts, monthly close discipline. The first is $115; the other three are where books become an asset. Our <a href="/quickbooks-for-ecommerce/">QuickBooks for ecommerce service</a> covers setup through monthly close, in your file, which you keep if you ever leave. Not sure what state your current file is in? The free Ecommerce Books Teardown will tell you plainly; <a href="/contact/">request one here</a> and bring your ugliest month.</p>
+`,
+  },
+  {
+    slug: "cogs-formula-ecommerce-guide",
+    title: "COGS Formula for Ecommerce: Calculate It Right (With Examples)",
+    metaTitle: "COGS Formula for Ecommerce (With Worked Examples)",
+    metaDescription:
+      "The COGS formula with worked marketplace examples: landed cost, tariffs, periodic vs perpetual, the errors that wreck seller margins, and per-SKU math.",
+    date: "2026-07-29",
+    readMinutes: 11,
+    excerpt: "Beginning inventory plus purchases minus ending inventory. Four words each, and most sellers still get it wrong, because the hard part is what goes into 'purchases' and when. Worked examples inside.",
+    html: `
+<p>The COGS formula is: <strong>beginning inventory + purchases during the period − ending inventory = cost of goods sold</strong>. That's the whole thing. What you paid for the units you actually sold this period, no more, no less. The formula takes ten seconds to learn; the reasons seller margins are still wrong live in the three inputs, so this guide works through each one with real numbers, including landed cost, tariffs, and the per-SKU math that tells you whether a product deserves to exist.</p>
+
+<h2>Why the formula exists at all</h2>
+<p>Because what you <em>bought</em> this period and what you <em>sold</em> this period are different things. Buy $60,000 of inventory in March and sell a third of it, and your March cost isn't $60,000; it's the cost of the units that went out the door. The rest is an asset sitting on your balance sheet, waiting.</p>
+<p>The formula backs into that number by counting what's left. Start with what you had, add what you bought, subtract what remains: whatever's missing must have been sold (or lost, more on that later). This is the matching principle doing its job: revenue from a unit and the cost of that unit land in the same month, so your margin means something. Break the matching and every monthly P&amp;L you produce is fiction; buy-month profits crater, sell-month profits soar, and neither is true.</p>
+
+<h2>Worked example 1: a quarter of FBA sales</h2>
+<p>A seller runs one product line. On April 1, inventory on hand cost $42,000. During Q2 they received two POs totaling $55,000 in landed inventory. On June 30, a count (well, FBA inventory reports plus the 3PL's numbers) shows $38,500 of inventory remaining at cost.</p>
+<table>
+<thead><tr><th>Input</th><th>Amount</th></tr></thead>
+<tbody>
+<tr><td>Beginning inventory (Apr 1)</td><td>$42,000</td></tr>
+<tr><td>+ Purchases (landed, received in Q2)</td><td>$55,000</td></tr>
+<tr><td>− Ending inventory (Jun 30)</td><td>$38,500</td></tr>
+<tr><td><strong>= COGS for Q2</strong></td><td><strong>$58,500</strong></td></tr>
+</tbody>
+</table>
+<p>Against $150,000 of gross Q2 sales, that's a 39% product cost, a 61% gross margin before fees and ads. Notice what made the calculation possible: a real beginning number, purchases recorded at landed cost when <em>received</em> (not when paid for), and an actual ending count. Miss any one and the output is a guess wearing a percent sign.</p>
+
+<h2>Landed cost: what belongs in "purchases"</h2>
+<p>The most common ecommerce COGS error isn't the formula, it's feeding it factory price alone. Your true unit cost is <strong>landed cost</strong>: everything it took to get the unit to sellable condition at your warehouse or the FBA dock.</p>
+<ul>
+<li><strong>Factory/supplier price</strong> (after any volume discounts actually received)</li>
+<li><strong>Inbound freight</strong>: ocean or air, port fees, drayage, and inbound placement or freight to FBA</li>
+<li><strong>Duties and tariffs</strong>: at 2026 tariff levels on Chinese goods this is often the second-largest component, not a rounding error</li>
+<li><strong>Customs brokerage and inspection fees</strong></li>
+<li><strong>Prep and packaging</strong>: polybagging, labeling, kitting, inserts that ship with the product</li>
+</ul>
+<p>What stays out: selling fees, storage fees, outbound shipping to customers, and advertising. Those are real costs, but they're selling expenses, not product cost; mixing them into COGS makes your gross margin useless as a product-pricing signal. (Where each belongs in your ledger is exactly what <a href="/bookkeeping-tips/ecommerce-chart-of-accounts/">our ecommerce chart of accounts</a> lays out account by account.)</p>
+
+<h2>Worked example 2: landed cost with a tariff, down to per-SKU margin</h2>
+<p>You order 2,000 units of a kitchen gadget at $6.50 FOB. Ocean freight and drayage run $2,400. The goods carry a 30% combined tariff rate, applied to the $13,000 customs value: $3,900. Brokerage is $250, and FBA prep adds $0.35 a unit ($700).</p>
+<table>
+<thead><tr><th>Component</th><th>Total</th><th>Per unit</th></tr></thead>
+<tbody>
+<tr><td>Factory cost (2,000 × $6.50)</td><td>$13,000</td><td>$6.50</td></tr>
+<tr><td>Freight + drayage</td><td>$2,400</td><td>$1.20</td></tr>
+<tr><td>Tariff (30% of customs value)</td><td>$3,900</td><td>$1.95</td></tr>
+<tr><td>Brokerage</td><td>$250</td><td>$0.13</td></tr>
+<tr><td>Prep</td><td>$700</td><td>$0.35</td></tr>
+<tr><td><strong>Landed cost</strong></td><td><strong>$20,250</strong></td><td><strong>$10.13</strong></td></tr>
+</tbody>
+</table>
+<p>The "$6.50 product" costs $10.13, a 56% difference. Now finish the job, because landed cost is only half of per-SKU truth. Selling at $29.99 on Amazon: referral fee $4.50 (15%), FBA fulfillment $6.10, and say $2.40 of ad spend per unit sold. Contribution: $29.99 − $10.13 − $4.50 − $6.10 − $2.40 = <strong>$6.86 a unit</strong>, about 23% of price. The seller who prices off the $6.50 thinks they're making $19 a unit and can't figure out where the bank balance went. Run this table for every SKU quarterly; it's the single highest-value spreadsheet in ecommerce, and it's the margin math behind our <a href="/money-leak-checklist/">money leak checklist</a>.</p>
+<p>Tariff note: tariffs are part of inventory cost, capitalized and expensed as units sell, not a lump expense in the month the container lands. Expensing a $3,900 tariff hit in receipt month understates that month's profit and overstates the next several. At current tariff rates this error is big enough to distort quarterly results all by itself, and it's one of the first adjustments <a href="/bookkeeping-tips/quality-of-earnings-report-guide/">a quality of earnings analyst</a> makes when a buyer looks at your books.</p>
+
+<h2>Periodic vs perpetual: two ways to run the formula</h2>
+<p><strong>Periodic</strong> is the formula as written: count inventory at period end, back into COGS. It's simple and it's what most sellers under a few million in revenue actually run, with "counts" assembled from FBA inventory reports, 3PL records and a warehouse walk. Its weakness: COGS only exists when you count, and everything missing gets labeled "sold," including what was actually lost or stolen.</p>
+<p><strong>Perpetual</strong> updates inventory and COGS on every sale: each order posts revenue and simultaneously moves that unit's cost from inventory to COGS. This is what inventory software (Cin7, Finale) or a well-configured A2X-plus-costs setup approximates. You get real-time margins and month-end closes without a full count, and physical counts become a verification step that surfaces shrinkage as its own line instead of hiding it in COGS.</p>
+<p>Practical guidance: run periodic honestly (monthly, from reports, consistently) until SKU count and channel count make it painful, then graduate. A monthly periodic calculation done well beats a perpetual system fed garbage costs. What you can't do is neither, which is the December-only-count regime most DIY files are secretly running; it produces one true COGS number a year and eleven months of noise. A real <a href="/monthly-ecommerce-bookkeeping/">monthly close</a> does this arithmetic every month, which is most of the reason monthly financials from a specialist are believable and year-end reconstructions aren't.</p>
+
+<h2>FIFO, weighted average, and why your costs need a method</h2>
+<p>When you buy the same SKU at different prices (and with tariffs moving, you do), which cost leaves inventory when a unit sells? <strong>FIFO</strong> assumes oldest units sell first, so current inventory carries recent costs. <strong>Weighted average</strong> blends all purchases into one per-unit cost that updates with each receipt; it's what most inventory software defaults to and it smooths out purchase-price swings. LIFO exists, requires IRS commitment, and almost no ecommerce seller should touch it. Pick one, use it consistently, and don't switch because this quarter's answer looks better; consistency is half of what makes the number auditable.</p>
+<p>A quick illustration of why it matters: you hold 500 units bought at $9.40 and receive 1,000 more at $11.20 after a tariff bump. Sell 800 units this month. FIFO charges $7,760 to COGS (500 at $9.40, 300 at $11.20); weighted average charges $8,480 (800 at the blended $10.60). Same units, same cash spent, a $720 difference in this month's reported profit, all of it timing. Neither is wrong. Flip-flopping between them is.</p>
+<p>One bookkeeping housekeeping rule ties the whole formula together: this period's beginning inventory must equal last period's ending inventory, always. If someone "adjusts" an opening balance to make a month look right, every COGS number after it inherits the lie. When beginning and ending don't chain cleanly across months, that's the first thing to fix, and it's usually the fingerprint of books kept on a cash basis being massaged toward accrual once a year.</p>
+
+<h2>The errors that wreck seller COGS</h2>
+<ul>
+<li><strong>Expensing inventory when purchased.</strong> The big one. Cash-basis "COGS" makes buy months look terrible and sell months look great, and it's the first thing lenders and buyers reject. Purchases go to the balance sheet; the formula moves them to COGS as units sell.</li>
+<li><strong>Factory price as unit cost.</strong> As example 2 showed, that's a 30 to 60% understatement of true cost in the tariff era.</li>
+<li><strong>Ignoring returns.</strong> A resellable return goes back into inventory at cost, reversing its COGS. A destroyed return stays in COGS (and belongs in your margin math as a defect cost). Netting refunds against revenue while leaving COGS alone double-hits your margin.</li>
+<li><strong>Amazon reimbursements booked as revenue.</strong> When Amazon loses your inventory and pays you, that offsets inventory at cost; booking it as sales overstates revenue and leaves ghost units in your counts. One of the nine classics in <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">our Amazon bookkeeping problems guide</a>.</li>
+<li><strong>Shrinkage hiding inside COGS.</strong> Under periodic, lost and stolen units silently inflate COGS. Break shrinkage into its own account when counts reveal it; a 2% shrink trend is an operations problem you can't fix if you can't see it.</li>
+<li><strong>Samples and giveaways left in inventory.</strong> Units pulled for influencers, photos or personal use come out of inventory at cost, to marketing or draws, not COGS. (They can also trigger use tax; see <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">our Florida guide</a> for how states treat withdrawn inventory.)</li>
+</ul>
+
+<h2>The monthly COGS entry, step by step</h2>
+<p>Here's the actual mechanical routine, for the periodic method most sellers run. Once a month, after the channels are reconciled:</p>
+<ul>
+<li><strong>1. Value ending inventory.</strong> Pull FBA inventory (units by SKU) from Seller Central, your 3PL's stock report, and your own warehouse count. Multiply units by landed cost per SKU. Say it totals $71,200.</li>
+<li><strong>2. Check the inventory account's book balance.</strong> Beginning balance plus the month's capitalized purchases. Say the books show $79,300.</li>
+<li><strong>3. Post the adjustment.</strong> The $8,100 difference is what left inventory: debit COGS $8,100, credit Inventory $8,100. If counts show some of it wasn't sold but lost, split the debit between COGS and shrinkage.</li>
+<li><strong>4. Sanity-check the margin.</strong> COGS divided by the month's gross sales should sit near your expected blended product cost. A month that swings from 38% to 51% with no pricing change means a missed PO, a bad count, or units valued at factory instead of landed cost. Investigate before closing, not at year end.</li>
+</ul>
+<p>Fifteen minutes with good inputs. The inputs are the job: per-SKU landed costs maintained as containers arrive, and purchases capitalized instead of expensed. That routine, run every month without fail, is a core piece of <a href="/monthly-ecommerce-bookkeeping/">our monthly close</a>, and it's why our clients' margin trends are worth reading.</p>
+
+<h2>COGS for resellers: sourcing without invoices</h2>
+<p>Thrift, arbitrage and liquidation sellers run the same formula with a messier "purchases" input: garage-sale cash buys, estate lots, pallets bought sight unseen. The rules don't change, but the discipline does. Every sourcing trip needs a record (date, place, amount, what was bought), cash withdrawals need to map to purchases, and lot buys need a cost allocation across the units that came out of the pallet, usually in proportion to expected resale value. A $400 pallet that yields 30 sellable units at wildly different price points shouldn't carry $13.33 per unit; allocate by value and your per-item margins stop lying. The full tax picture for that business model is in <a href="/bookkeeping-tips/reseller-taxes-bookkeeping-guide/">our reseller taxes guide</a>, and it's the daily bread of our <a href="/reseller-bookkeeping-services/">reseller bookkeeping service</a>.</p>
+
+<h2>COGS formula FAQ</h2>
+<p><strong>Is COGS an expense?</strong> Functionally yes: it reduces income on the P&amp;L. It's presented as its own section above operating expenses because gross profit (revenue minus COGS) is the number that tells you whether the products themselves work before overhead enters the picture.</p>
+<p><strong>Does COGS include shipping?</strong> Inbound shipping (freight to you or to FBA), yes, it's part of landed cost. Outbound shipping to customers, no, that's a fulfillment expense. The direction of the truck decides.</p>
+<p><strong>Are Amazon fees part of COGS?</strong> No. Referral and FBA fees are selling expenses. Some sellers track a separate "cost per unit sold including fees" for pricing decisions, which is useful management math, but keep it out of the COGS line in your books.</p>
+<p><strong>Can COGS be higher than revenue?</strong> Yes, and it means you sold below cost: liquidation, clearance, or a pricing mistake. A month of negative gross margin on a SKU is information; a year of it unnoticed is a bookkeeping failure.</p>
+<p><strong>What's a good gross margin for ecommerce?</strong> After true landed COGS: private-label DTC brands typically want 65% or better, marketplace-first brands often run 40% to 60%, and resale and arbitrage models live lower and win on turns. If your "gross margin" is 80%, check whether freight and tariffs actually made it into your unit costs before celebrating.</p>
+
+<h2>COGS and your taxes</h2>
+<p>COGS is a deduction against revenue, which makes it the largest single number on most sellers' returns and the one the IRS expects you to support with inventory records. Inflating it by deducting unsold inventory purchases is both wrong and self-defeating (you're borrowing next year's deduction, badly). The Schedule C and 1120 both walk through the formula explicitly: beginning inventory, purchases, ending inventory. If your books already run the formula monthly, tax season is copying numbers; the wider tax picture for marketplace sellers is in <a href="/bookkeeping-tips/amazon-seller-taxes-guide/">our Amazon seller taxes guide</a>.</p>
+
+<h2>Getting the machinery built</h2>
+<p>Everything above is arithmetic once three pieces of machinery exist: purchases recorded at landed cost, an inventory asset account that's reconciled to reality monthly (with <a href="/quickbooks-for-ecommerce/">QuickBooks configured to support it</a>), and a consistent costing method. Building that machinery, then running it every month, is the core of what we do; it's included in <a href="/pricing/">every plan on our rate card</a>. If you'd like to know whether your current COGS number is close to true, the free Ecommerce Books Teardown answers exactly that, with your own numbers; <a href="/contact/">request one here</a>.</p>
+`,
+  },
+  {
+    slug: "ein-tax-id-number-guide-sellers",
+    title: "Tax ID Numbers for Ecommerce Sellers: EIN, ITIN, SSN Explained",
+    metaTitle: "EIN, ITIN or SSN? Tax ID Numbers for Ecommerce Sellers",
+    metaDescription:
+      "Which tax ID your ecommerce business needs and when: EIN vs ITIN vs SSN, getting an EIN without an SSN, marketplace tax interviews, and sole prop vs LLC.",
+    date: "2026-07-29",
+    readMinutes: 11,
+    excerpt: "A US sole prop can sell on their SSN, an LLC almost always wants an EIN, and international sellers can get an EIN with no SSN at all. Here's every tax ID, who needs which, and the exact steps.",
+    html: `
+<p>Here's the answer most sellers are looking for: a US sole proprietor can legally sell using just their SSN, an LLC or corporation should get an <strong>EIN</strong> (free, from the IRS, in minutes if you have an SSN), and an international seller can get an EIN with <strong>no SSN and no ITIN</strong> through a fax-and-phone process that costs nothing but patience. The ITIN, which people constantly confuse with a business tax ID, is a personal number most sellers never need. Now the details, because the details are where marketplaces suspend accounts and the IRS sends letters.</p>
+
+<h2>The three numbers, in one table</h2>
+<table>
+<thead><tr><th>Number</th><th>What it is</th><th>Who it identifies</th><th>How you get it</th></tr></thead>
+<tbody>
+<tr><td>SSN</td><td>Social Security number</td><td>A US citizen or authorized resident, personally</td><td>Social Security Administration</td></tr>
+<tr><td>EIN</td><td>Employer Identification Number</td><td>A business entity (or a sole prop who requests one)</td><td>IRS, free, Form SS-4 or online</td></tr>
+<tr><td>ITIN</td><td>Individual Taxpayer Identification Number</td><td>A person who must file US taxes but can't get an SSN</td><td>IRS, Form W-7 with identity documents</td></tr>
+</tbody>
+</table>
+<p>All three are TINs (taxpayer identification numbers), which is the umbrella term tax forms use. When Amazon's tax interview asks for your TIN, it's asking for whichever of these applies to you, and matching the right number to the right situation is the entire game.</p>
+
+<h2>Which one your business actually needs</h2>
+<p><strong>US sole proprietor, no employees:</strong> your SSN is legally sufficient. Get an EIN anyway. It's free, takes ten minutes, and means your SSN stops appearing on every W-9 you hand a supplier, wholesale customer or platform. Identity theft aside, an EIN is required the moment you hire an employee, and having one already makes wholesale applications and business banking smoother.</p>
+<p><strong>Single-member LLC (US owner):</strong> the IRS treats it as a disregarded entity, so taxes flow to your personal return either way. But banks require an EIN to open the business account that keeps your liability protection meaningful, and payroll requires one. In practice, every LLC should have its own EIN from day one.</p>
+<p><strong>Multi-member LLC, partnership, S-corp or C-corp:</strong> an EIN is mandatory, full stop. These entities file their own returns and can't do it on anyone's SSN.</p>
+<p><strong>Foreign-owned single-member LLC:</strong> an EIN is mandatory even with zero employees and zero US tax owed, because the LLC must file Form 5472 annually, and the 5472 requires an EIN. Missing that filing costs $25,000 per year; <a href="/bookkeeping-tips/form-5472-foreign-owned-llc-guide/">our Form 5472 guide</a> covers the whole obligation. If you formed a Wyoming or Delaware LLC from abroad and nobody mentioned the 5472, put this paragraph at the top of your list.</p>
+
+<h2>Getting an EIN with an SSN: ten minutes, zero dollars</h2>
+<p>The IRS online EIN application (weekdays, roughly 7am to 10pm Eastern) issues the number instantly. You'll name a <strong>responsible party</strong>, the human who controls the entity, and that person's SSN or ITIN goes on the application. Two rules trip people: the responsible party must be an individual, not another company, and the IRS issues only one EIN per responsible party per day, which matters if you're spinning up multiple LLCs.</p>
+<p>And it is <strong>free</strong>. The formation mills charging $75 to $300 for "EIN filing service" are charging you to type your own answers into a free government form. The only people with a legitimate reason to pay for help are foreign owners navigating the no-SSN route, and even that is doable solo.</p>
+
+<h2>Getting an EIN without an SSN: the international route</h2>
+<p>No SSN, no ITIN, no US address: you can still get an EIN, directly from the IRS. The online tool won't work for you (it demands an SSN or ITIN), so the path is Form SS-4 by fax or phone:</p>
+<ul>
+<li><strong>Fill out Form SS-4</strong> for the entity. On line 7b, where it asks for the responsible party's SSN or ITIN, write "Foreign". That's the officially sanctioned move, not a trick.</li>
+<li><strong>Fax it</strong> to the IRS's international EIN unit (the current fax number is on the SS-4 instructions). Faxed applications with a return fax number typically come back in roughly a week or two; mail takes a month or more.</li>
+<li><strong>Or phone it in:</strong> international applicants can call the IRS international EIN line (also listed in the SS-4 instructions; it's a Pennsylvania number, +1 267 941 1099, not toll-free) and receive the EIN during the call. Have the completed SS-4 in front of you; the agent walks through it line by line. Budget for hold time and US business hours.</li>
+</ul>
+<p>Total cost: a fax and a phone call. The "EIN for foreigners, $250" services are filling out this same form; some are competent, some file wrong entity types, and none are necessary. Once the EIN exists, it unlocks the rest of the stack: the marketplace tax interview, a US business bank account, and state registrations like <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">Florida's paper DR-1</a> or <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">Washington's business license</a>, both of which accept an EIN in place of an SSN. Setting up this whole sequence for non-US sellers is the daily work of our <a href="/international-sellers/">international sellers practice</a>.</p>
+
+<h2>The ITIN: probably not needed, occasionally essential</h2>
+<p>The ITIN gets oversold to international sellers as a must-have. It isn't. You do not need an ITIN to get an EIN, form an LLC, open many business bank accounts, or pass a marketplace tax interview as a foreign person (that's a W-8BEN, no US TIN required in most treaty situations, though providing your home-country TIN gets you treaty rates).</p>
+<p>When you genuinely need one: you personally must file a US return, most commonly a 1040-NR because your LLC's activity created US-taxable income, or you're claiming treaty benefits that require a US TIN on a withholding form. Then it's Form W-7, filed with a return, with certified identity documents, and six to ten weeks of waiting. The order matters: EIN first (fast, unlocks business operations), ITIN later if and only if a filing requires it. A good advisor decides the "if"; whether a foreign seller's marketplace income is US-taxable at all is a real analysis, not a checkbox, and it's covered in <a href="/bookkeeping-tips/amazon-seller-taxes-guide/">our Amazon seller taxes guide</a>.</p>
+
+<h2>Marketplace tax interviews: where the wrong number gets expensive</h2>
+<p>Every platform (Amazon, Walmart, eBay, Etsy, TikTok Shop, PayPal, Stripe) makes you complete a tax interview so they can file information returns. US persons complete a W-9; foreign persons a W-8BEN or W-8BEN-E. Three failure modes we see constantly:</p>
+<ul>
+<li><strong>Name/TIN mismatch.</strong> The platform runs your name and TIN against IRS records. A single-member LLC that enters the LLC's name with the owner's SSN (or the owner's name with the LLC's EIN) fails matching. The rule for a disregarded LLC on a W-9: the <em>owner's</em> name on line 1, the LLC name on line 2, and either the owner's SSN or the LLC's EIN works, but the name on line 1 has to match whichever number you give. Fail matching twice and platforms start <strong>24% backup withholding</strong> or freeze payouts.</li>
+<li><strong>Foreign owner completing a W-9.</strong> A foreign person who forms a US LLC is still a foreign person; a single-member US LLC with a foreign owner generally certifies foreign status (W-8BEN through to the owner), not a W-9. Getting this wrong misstates your status to the IRS, in writing.</li>
+<li><strong>Stale interviews after restructuring.</strong> Sole prop in 2023, LLC in 2024, S-corp election in 2026, and the marketplace still reports under your SSN. Now your <a href="/bookkeeping-tips/amazon-1099-k-explained/">1099-K</a> lands on the wrong taxpayer and your returns don't reconcile. Redo the tax interview the same week the entity changes.</li>
+</ul>
+
+<p>One number serves every platform, by the way. Sellers sometimes ask whether Walmart or TikTok Shop needs "its own" EIN: no. One entity, one EIN, entered identically in every tax interview. What multiplies is the interviews themselves, and keeping them consistent is the point; five platforms reporting the same TIN with the same name is what makes your <a href="/bookkeeping-tips/amazon-seller-taxes-guide/">annual tax filing</a> reconcile in one pass instead of five.</p>
+
+<h2>Sole prop vs LLC: what changes for your tax IDs</h2>
+<p>Forming an LLC doesn't change your income tax (a single-member LLC is disregarded; profit still lands on your Schedule C), but it does reshuffle your identifiers. The LLC gets its own EIN. The bank account moves to the LLC's name and EIN. The marketplace tax interview gets redone. Your suppliers get new W-9s. And if you later elect S-corp status, the LLC needs its own EIN regardless of what you used before, because it's now filing its own return, plus payroll accounts, because you're now an employee of your own company.</p>
+<p>Two more transitions with EIN consequences: a sole prop who incorporates needs a new EIN (the corporation is a new taxpayer), and a single-member LLC that adds a member becomes a partnership, also a new-EIN event. The EIN follows the taxpayer, not the brand name.</p>
+
+<h2>Don't confuse federal IDs with state ones</h2>
+<p>The EIN is federal. States issue their own registrations on top: sales tax permits (like <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">Florida's</a> and <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">Washington's</a>), state withholding accounts once you run payroll, and state entity registrations. "I have an EIN" and "I'm registered to collect sales tax in the states where I have nexus" are entirely different sentences, and sellers regularly have the first while assuming it covers the second. It doesn't; state registration is its own project, and it's part of what <a href="/ecommerce-tax-services/">our ecommerce tax services</a> handle.</p>
+
+<h2>The order of operations for a new seller</h2>
+<p>Sequencing saves weeks. For a US founder: form the LLC, get the EIN online the same day (the LLC must exist first; the application asks for its legal name and formation state), open the bank account with the formation documents and EIN letter, then complete the marketplace tax interview with the new entity before the first sale settles. Done in that order, it's a one-week project and every 1099-K ever issued lands on the right taxpayer.</p>
+<p>For an international founder the same chain runs longer, so start earlier: LLC formation (a few days), EIN by fax or phone (one to three weeks), bank or fintech account (days to weeks, and the EIN letter is the gating document), then the tax interview, then state registrations as nexus develops. Two months of calendar time is a realistic budget, and the EIN sits on the critical path for everything. The classic mistake is launching on a personal account "temporarily" while the paperwork catches up; six months later the books hold a tangle of personal and business activity that costs real money to unpick, and the platform is still reporting under the wrong identity.</p>
+
+<h2>Keeping the EIN's paperwork straight afterward</h2>
+<p>The IRS mails a CP 575 confirmation letter when it issues your EIN. Scan it and keep it forever; banks, wholesale suppliers and platforms ask for it, and the IRS never reissues it. Lose it and the replacement is a 147C verification letter, requested by phone, which takes a call and patience but works. Two ongoing duties come with the number: if your responsible party changes (a partner buys you out, ownership transfers), Form 8822-B is due within 60 days, and if the business address changes, the same form updates it. Neither is hard; both are the kind of thing that surfaces as a problem years later when IRS mail goes to an apartment you left in 2024.</p>
+<p>What doesn't require a new EIN, despite persistent internet folklore: moving states, changing your DBA or brand name, adding a new sales channel, or switching banks. The EIN tracks the taxpayer. As long as the entity and its tax classification are the same, the number rides along.</p>
+
+<h2>Tax ID FAQ for sellers</h2>
+<p><strong>How long does it take to get an EIN?</strong> Minutes online with an SSN or ITIN. Without one: same-day by phone if you get through, a week or two by fax, a month-plus by mail.</p>
+<p><strong>Does an EIN cost anything?</strong> No. The IRS charges nothing, ever. Anyone charging you is charging for typing.</p>
+<p><strong>Can I sell on Amazon without an SSN?</strong> Yes. Foreign sellers complete the tax interview with a W-8BEN, no US TIN required in most cases, and a US LLC owned by a foreign person runs on an EIN obtained without any SSN.</p>
+<p><strong>Is an EIN the same as a business license or a sales tax permit?</strong> No on both. The EIN is federal identification; licenses and sales tax permits are state and local registrations you obtain separately, where your operations require them.</p>
+<p><strong>Do I need an ITIN to open a US bank account?</strong> Usually not for a business account: banks and fintechs generally want the LLC's formation documents, the EIN letter and your passport. Requirements vary by institution, which is why this step is worth asking about before you pick a bank.</p>
+
+<h2>The 15-minute checkup</h2>
+<p>Pull up three things: your marketplace tax interview, your bank account title, and last year's 1099-Ks. All three should show the same name and the same TIN, and that pair should match your current entity. If they don't agree, you've found this year's cleanup project, and it's dramatically cheaper to fix before the IRS's matching computers or a platform's compliance team find it first. Whether you're a US reseller who leveled up from <a href="/bookkeeping-tips/reseller-taxes-bookkeeping-guide/">hobby to business</a> or an international founder with a Delaware LLC and a compliance stack you inherited from a YouTube video, we'll look at the whole picture in a free Ecommerce Books Teardown; <a href="/contact/">request one here</a>.</p>
 `,
   },
 ];

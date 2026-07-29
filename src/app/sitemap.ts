@@ -6,7 +6,7 @@ const BASE = "https://emerchantbooks.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const core = ["", "/pricing", "/international-sellers", "/ecommerce-accountant-dallas", "/money-leak-checklist", "/about-us", "/contact", "/faq", "/bookkeeping-tips", "/who-we-serve"].map(
+  const core = ["", "/pricing", "/international-sellers", "/ecommerce-accountant-dallas", "/bookkeeping-services-fort-worth", "/money-leak-checklist", "/about-us", "/contact", "/faq", "/bookkeeping-tips", "/who-we-serve"].map(
     (p) => ({
       url: `${BASE}${p}/`,
       lastModified: now,

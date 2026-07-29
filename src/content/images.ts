@@ -153,6 +153,31 @@ export const IMAGES: Record<string, { src: string; alt: string }> = {
     src: "/images/ecommerce-tax-accountant-documents.webp",
     alt: "Organized tax documents and calculator prepared for a content creator's quarterly estimates and 1099 filing",
   },
+  // July 2026 batch
+  "florida-sales-tax-ecommerce-guide": {
+    src: "/images/ecommerce-tax-accountant-documents.webp",
+    alt: "Sales tax documents and calculator laid out for a Florida ecommerce seller's DR-15 filing",
+  },
+  "washington-sales-tax-ecommerce-guide": {
+    src: "/images/walmart-marketplace-accounting-warehouse.webp",
+    alt: "Fulfillment boxes beside a calculator and laptop while working out Washington destination sales tax and B&O",
+  },
+  "quickbooks-online-pricing-ecommerce": {
+    src: "/images/quickbooks-ecommerce-setup-screen.webp",
+    alt: "QuickBooks Online plan selection on screen while an ecommerce seller compares subscription pricing",
+  },
+  "cogs-formula-ecommerce-guide": {
+    src: "/images/article-bookkeeping-cost-calculator.webp",
+    alt: "Calculator and cash on a desk while working through the COGS formula for an ecommerce product line",
+  },
+  "ein-tax-id-number-guide-sellers": {
+    src: "/images/international-seller-us-llc-compliance.webp",
+    alt: "Passport and IRS paperwork gathered for an ecommerce seller's EIN application",
+  },
+  "bookkeeping-services-fort-worth": {
+    src: "/images/about-ecommerce-accounting-firm-office.webp",
+    alt: "eMerchant Books accountants who serve Fort Worth and Tarrant County businesses",
+  },
   // hub page
   "who-we-serve": {
     src: "/images/ecommerce-accounting-team-review.webp",
