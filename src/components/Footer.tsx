@@ -42,6 +42,7 @@ const COLS: { heading: string; links: { href: string; label: string }[] }[] = [
       { href: "/about-us/", label: "About Us" },
       { href: "/ecommerce-accountant-dallas/", label: "Dallas–Fort Worth" },
       { href: "/bookkeeping-services-plano-frisco/", label: "Plano & Frisco" },
+      { href: "/bookkeeping-services-arlington-irving/", label: "Arlington & Mid-Cities" },
       { href: "/faq/", label: "FAQ" },
       { href: "/bookkeeping-tips/", label: "Bookkeeping Tips" },
       { href: "/glossary/", label: "Accounting Glossary" },

@@ -87,6 +87,8 @@ export default function FortWorthPage() {
               And it isn&rsquo;t remote-only. We&rsquo;re a DFW firm, based in Plano with a practice on both sides of
               the metroplex; the east-side story is on our <Link href="/ecommerce-accountant-dallas/" className="font-medium text-brand-600 underline">Dallas ecommerce accountant</Link> page,
               and the home office serves Collin County through our <Link href="/bookkeeping-services-plano-frisco/" className="font-medium text-brand-600 underline">Plano and Frisco practice</Link>.
+              East of the Trinity, the corridor from Arlington up to the airport has its own page:{" "}
+              <Link href="/bookkeeping-services-arlington-irving/" className="font-medium text-brand-600 underline">accounting in Arlington, Irving and the mid-cities</Link>.
               For Fort Worth clients, onboarding and quarterly reviews happen at your place. Warehouse walkthroughs
               included, and honestly encouraged; we learn more about a company&rsquo;s inventory accounting from
               twenty minutes on the floor than from a month of emails.

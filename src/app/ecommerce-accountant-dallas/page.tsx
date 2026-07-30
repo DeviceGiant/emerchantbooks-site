@@ -83,6 +83,8 @@ export default function DallasPage() {
               <Link href="/bookkeeping-services-fort-worth/" className="font-medium text-brand-600 underline">bookkeeping services in Fort Worth</Link>{" "}
               and the Alliance corridor. And up the tollway, our home turf has its own page:{" "}
               <Link href="/bookkeeping-services-plano-frisco/" className="font-medium text-brand-600 underline">accounting in Plano and Frisco</Link>.
+              The airport corridor and mid-cities, Arlington and Irving through Denton, get their own practice
+              at <Link href="/bookkeeping-services-arlington-irving/" className="font-medium text-brand-600 underline">bookkeeping services in Arlington and Irving</Link>.
             </p>
           </div>
 

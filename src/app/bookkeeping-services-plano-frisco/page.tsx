@@ -84,8 +84,10 @@ export default function PlanoFriscoPage() {
             <p>
               We cover the rest of the metroplex from here too: the wider east-side story is on our{" "}
               <Link href="/ecommerce-accountant-dallas/" className="font-medium text-brand-600 underline">Dallas ecommerce accountant</Link> page,
-              and Tarrant County has its own practice at{" "}
-              <Link href="/bookkeeping-services-fort-worth/" className="font-medium text-brand-600 underline">bookkeeping services in Fort Worth</Link>.
+              Tarrant County has its own practice at{" "}
+              <Link href="/bookkeeping-services-fort-worth/" className="font-medium text-brand-600 underline">bookkeeping services in Fort Worth</Link>,
+              and everything between the downtowns, Arlington through Denton, is covered on our{" "}
+              <Link href="/bookkeeping-services-arlington-irving/" className="font-medium text-brand-600 underline">mid-cities bookkeeping</Link> page.
             </p>
           </div>
 
