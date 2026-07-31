@@ -17,11 +17,13 @@ export const metadata: Metadata = {
 
 type Item = { href: string; anchor: string; desc: string };
 
-const GROUPS: { heading: string; blurb: string; items: Item[] }[] = [
+const GROUPS: { heading: string; blurb: string; intro?: string; items: Item[] }[] = [
   {
     heading: "Marketplaces",
     blurb:
       "Settlement-level accounting for the big five. Every deposit rebuilt to gross sales, fees and refunds, every 1099-K tied out.",
+    intro:
+      "Most sellers find us searching for bookkeeping services for Amazon sellers or an accountant for a Shopify store, then discover we hold every marketplace to the same settlement-level standard. Ready to hire an ecommerce bookkeeper for one channel or five? Start with the platform you lean on most.",
     items: [
       {
         href: "/amazon-bookkeeping-services/",
@@ -54,6 +56,8 @@ const GROUPS: { heading: string; blurb: string; items: Item[] }[] = [
     heading: "Storefronts",
     blurb:
       "Own your store, own your books. Gateway-by-gateway reconciliation for platforms with no settlement report to lean on.",
+    intro:
+      "Store owners often hire a bookkeeper for a WooCommerce or Square business expecting connectors to do the work, then learn that gateways don't reconcile themselves. Our bookkeeping services for online stores rebuild each payout stream against order data, so revenue, fees and refunds land where they belong.",
     items: [
       {
         href: "/woocommerce-bookkeeping-services/",
@@ -76,6 +80,8 @@ const GROUPS: { heading: string; blurb: string; items: Item[] }[] = [
     heading: "Recommerce & Refurbishers",
     blurb:
       "Graded devices, grading disputes, warranty reserves and per-unit COGS. Almost nobody writes about this. We sell on these platforms ourselves.",
+    intro:
+      "Try to hire an accountant for a Back Market or Reebelo business and you'll come back empty; the recommerce category barely exists in the accounting world. We're the exception: bookkeeping services for refurbishers and recommerce sellers, built by a team that sells on these platforms too.",
     items: [
       {
         href: "/bookkeeping-tips/back-market-reebelo-seller-bookkeeping/",
@@ -93,6 +99,8 @@ const GROUPS: { heading: string; blurb: string; items: Item[] }[] = [
     heading: "Resellers",
     blurb:
       "Poshmark, Mercari, Depop, StockX, GOAT, Whatnot, Facebook Marketplace: one inventory pool, six fee mazes, a stack of 1099-Ks.",
+    intro:
+      "If you've searched for a bookkeeper for resellers, or an accountant who can make sense of 1099-Ks from six platforms drawing on one inventory pool, you're in the right section. Reseller bookkeeping is a dedicated practice here, not an afterthought bolted onto someone's Amazon template.",
     items: [
       {
         href: "/reseller-bookkeeping-services/",
@@ -115,6 +123,8 @@ const GROUPS: { heading: string; blurb: string; items: Item[] }[] = [
     heading: "Content Creators",
     blurb:
       "OnlyFans, Patreon, YouTube, Twitch, TikTok. Multi-platform income, nothing withheld, and an accountant who won't flinch.",
+    intro:
+      "Creators who go to hire an accountant for OnlyFans or Twitch income often get turned away, or judged. We do neither. Our accounting services for content creators treat multi-platform income like the real business it is, with quarterly estimates so the tax bill never ambushes you.",
     items: [
       {
         href: "/content-creator-accounting-services/",
@@ -142,6 +152,8 @@ const GROUPS: { heading: string; blurb: string; items: Item[] }[] = [
     heading: "International Sellers",
     blurb:
       "Non-US residents selling on US platforms through US LLCs. Most firms won't take you. This is a core practice for us.",
+    intro:
+      "Non-residents trying to hire a US bookkeeper for an LLC hit the same wall everywhere: American firms that quietly decline foreign owners. We built bookkeeping services for international sellers as a full practice instead, marketplace-grade books with the 5472 and W-8 compliance stack included.",
     items: [
       {
         href: "/international-sellers/",
@@ -156,9 +168,11 @@ const GROUPS: { heading: string; blurb: string; items: Item[] }[] = [
     ],
   },
   {
-    heading: "Local: Dallas–Fort Worth",
+    heading: "Local: Dallas-Fort Worth",
     blurb:
       "A real DFW practice, not a distributed brand with a local landing page. Meet us in person if you want to.",
+    intro:
+      "Searching for an ecommerce accountant near me from Dallas, Plano or Fort Worth gets you both halves at once: national-grade specialist work and a local office in Plano where onboarding and quarterly reviews happen across a real table.",
     items: [
       {
         href: "/ecommerce-accountant-dallas/",
@@ -190,6 +204,7 @@ export default function WhoWeServe() {
             <div key={g.heading}>
               <h2 className="text-2xl font-bold text-navy-900">{g.heading}</h2>
               <p className="mt-2 max-w-3xl leading-relaxed text-slate-600">{g.blurb}</p>
+              {g.intro && <p className="mt-2 max-w-3xl text-sm leading-relaxed text-slate-600">{g.intro}</p>}
               <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {g.items.map((item) => (
                   <Link

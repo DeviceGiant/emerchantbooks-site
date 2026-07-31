@@ -75,6 +75,26 @@ const HOME_FAQS = [
     q: "Can you also build custom integrations and automation?",
     a: "Yes, and no other accounting firm can. We build custom integrations, workflow automations and ops tooling: connecting your ERP, 3PL, marketplaces and internal systems, custom reporting, and the operational glue software vendors don't sell. Accounting tells you what happened; our engineering work fixes the process that made it happen.",
   },
+  {
+    q: "What is the best ecommerce bookkeeping service?",
+    a: "The best ecommerce bookkeeping service is a specialist that works only with online sellers, does real accrual inventory accounting, and leaves you owning your own file. Judge any firm on four points: settlement-level marketplace reconciliation, true landed-cost COGS, a guaranteed close date, and published pricing. We built eMerchant Books to win on all four, and we're the only ecommerce-exclusive firm that puts its rate card on the site so you can verify.",
+  },
+  {
+    q: "How much do ecommerce bookkeeping services cost?",
+    a: "Across the industry, specialist ecommerce bookkeeping runs $500 to $15,000 a month depending on revenue and channel count. Our published tiers: Foundation from $1,250/mo for $100K-$250K/mo brands, Command from $3,500/mo, Exit-Grade from $7,500/mo. Smaller sellers start at $149/mo on Books Lite. Be wary of quotes under $400/mo for a seven-figure brand; at that price nobody is reconciling settlements.",
+  },
+  {
+    q: "Do I need an accountant for my online business?",
+    a: "Once you hold inventory or sell on more than one channel, yes. Marketplace deposits aren't revenue, cash-basis books misstate any business with inventory, and the IRS computer-matches your 1099-Ks against what you file. Under about $25K a month, software plus a quarterly review can carry you. Past $100K a month, the cost of DIY errors is usually a multiple of a specialist's fee.",
+  },
+  {
+    q: "What's the difference between a bookkeeper and an accountant for ecommerce?",
+    a: "A bookkeeper records and reconciles the monthly transactions; an accountant interprets them, builds accrual adjustments and financial statements, and a CPA files taxes from the result. In ecommerce the line blurs, because the recording itself takes judgment: settlement rebuilds and landed-cost COGS are accounting work, not data entry. We staff both roles on every engagement and coordinate with your CPA at year end.",
+  },
+  {
+    q: "Can you catch up my books if I'm behind?",
+    a: "Yes. Catch-up bookkeeping is a standard project here: months or years rebuilt from bank feeds, settlement reports and platform exports, quoted flat and in writing before we start, at a discount to monthly rates. Most catch-ups finish in one to three weeks. Then monthly service takes over so you never fall behind again.",
+  },
 ];
 
 export default function Home() {

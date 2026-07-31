@@ -39,6 +39,22 @@ const FAQS = [
     q: "Do you understand marketplace payouts, or just the compliance side?",
     a: "Marketplace bookkeeping is our core business for US clients too. You get the same settlement-level Amazon, Shopify, eBay, Walmart and Etsy accounting our domestic sellers get, with the non-resident stack layered on top. That combination is exactly what's missing in this market: filing shops don't do books, and bookkeeping firms don't take non-residents.",
   },
+  {
+    q: "Can a non-US resident hire a US bookkeeper?",
+    a: "Yes, nothing legally prevents it. The real obstacle is that most US firms decline non-resident clients because the compliance layer (5472, W-8s, ITINs) is unfamiliar to them. We take non-residents as a core practice. You need a US entity or marketplace account for us to keep books on, read-only access to your platforms and bank, and a WhatsApp number. Citizenship never comes into it.",
+  },
+  {
+    q: "How much does US accounting cost for foreign sellers?",
+    a: "Our International Starter plan is $499/mo and covers US bookkeeping plus sales-tax registrations and 5472/1120 coordination. Sellers past $100K a month move onto the standard published tiers from $1,250/mo. For comparison: a formation platform's filings-only tier runs about $1,999/yr with no real books, and a filing shop plus a separate bookkeeper lands around $2,800 to $6,000/yr, done by two teams that never talk.",
+  },
+  {
+    q: "Do you work with sellers in my time zone?",
+    a: "Almost certainly. Our clients run US stores from Europe, the Middle East, South Asia and East Asia, and the workflow is built for the gap: questions answered over WhatsApp asynchronously, close memos recorded on video you watch when you wake up, and live calls scheduled inside the overlap window. You'll never take a 3 a.m. call to get an answer.",
+  },
+  {
+    q: "Do I need a US bank account for the bookkeeping to work?",
+    a: "No, though it helps. We keep books from whatever your money runs through: Mercury or Relay if you have US banking, Payoneer or Wise if you don't, plus the marketplace settlement data itself. If you're still setting up, we'll tell you which structure makes bookkeeping and 5472 reporting cleanest before you commit to one.",
+  },
 ];
 
 export default function InternationalSellers() {
@@ -134,12 +150,12 @@ export default function InternationalSellers() {
                 <tr>
                   <td className="py-3 pr-4 font-medium">Formation platform (e.g. doola)</td>
                   <td className="py-3 pr-4">Filings bundle; software-first bookkeeping only at top tier</td>
-                  <td className="py-3">$1,999–$2,999/yr</td>
+                  <td className="py-3">$1,999-$2,999/yr</td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-medium">Filing shop + separate bookkeeper</td>
-                  <td className="py-3 pr-4">5472 filed ($399–$999) but books done by someone who's never seen a settlement report</td>
-                  <td className="py-3">$2,800–$6,000/yr combined</td>
+                  <td className="py-3 pr-4">5472 filed ($399-$999) but books done by someone who's never seen a settlement report</td>
+                  <td className="py-3">$2,800-$6,000/yr combined</td>
                 </tr>
                 <tr className="bg-brand-50/60">
                   <td className="py-3 pr-4 font-bold text-navy-900">eMerchant Books</td>

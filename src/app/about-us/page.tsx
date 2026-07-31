@@ -6,7 +6,7 @@ import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
 
 export const metadata: Metadata = {
-  title: "About Us — Ecommerce Bookkeeping Specialists",
+  title: "About Us ,  Ecommerce Bookkeeping Specialists",
   description:
     "eMerchant Books is a Texas-based bookkeeping firm that works only with ecommerce sellers. 15+ years in ecommerce, specialist tools, and books you always own.",
   alternates: { canonical: "/about-us/" },
@@ -26,10 +26,11 @@ export default function About() {
           describes most of the industry.
         </p>
         <p className="mt-4 leading-relaxed text-slate-600">
-          We went the other way. No restaurants, no law firms, no landscapers. Every client sells online, so every
-          process, template and tool we run is built for marketplace payouts, multi-channel COGS and the reports
-          platforms actually produce. Fifteen-plus years of ecommerce experience means your edge cases are our
-          routine cases.
+          We went the other way and built an ecommerce accounting firm in the strict sense. No restaurants, no law
+          firms, no landscapers. Every client sells online, so every process, template and tool we run is built for
+          marketplace payouts, multi-channel COGS and the reports platforms actually produce. Fifteen-plus years of
+          ecommerce experience means your edge cases are our routine cases. When you hire an outsourced bookkeeping
+          team here, that&rsquo;s what you get: specialists, not a generalist practice with an ecommerce page bolted on.
         </p>
         <Image
           src={pageImage("about-us").src}
@@ -58,9 +59,9 @@ export default function About() {
             If we're not the right fit, you find out in two minutes instead of two calls.
           </p>
           <p>
-            <strong className="text-navy-900">Focus beats volume.</strong> We work exclusively with sellers doing
-            $100K+ a month in revenue, including international sellers on US platforms that most firms
-            won&rsquo;t touch. The gate isn&rsquo;t snobbery; it&rsquo;s what lets us hold an exit-grade standard on
+            <strong className="text-navy-900">Focus beats volume.</strong> Our outsourced ecommerce bookkeeping
+            practice works exclusively with sellers doing $100K+ a month in revenue, including international
+            sellers on US platforms that most firms won&rsquo;t touch. The gate isn&rsquo;t snobbery; it&rsquo;s what lets us hold an exit-grade standard on
             every file instead of running a bookkeeping assembly line. And unlike the roll-ups consolidating this
             industry, we&rsquo;re independent and intend to stay that way.
           </p>
@@ -73,7 +74,10 @@ export default function About() {
 
         <h2 className="mt-12 text-2xl font-bold text-navy-900">Where we are</h2>
         <p className="mt-4 leading-relaxed text-slate-600">
-          We&rsquo;re based in {SITE.address.city}, Texas, and work with sellers across the US and worldwide. Reach
+          We&rsquo;re based in {SITE.address.city}, Texas, and work with sellers across the US and worldwide. Most
+          clients use us as a fully virtual accounting service: online bookkeeping in your cloud file, questions
+          answered by text or WhatsApp, close memos delivered on video. DFW clients get the in-person version of
+          the same thing whenever a real table helps. Reach
           us at <a className="font-medium text-brand-600 hover:underline" href={SITE.phoneHref}>{SITE.phone}</a>, at{" "}
           <a className="font-medium text-brand-600 hover:underline" href={`mailto:${SITE.email}`}>{SITE.email}</a>, or
           through the <Link href="/contact/" className="font-medium text-brand-600 hover:underline">contact page</Link>.

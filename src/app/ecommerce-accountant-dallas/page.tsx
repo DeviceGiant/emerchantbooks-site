@@ -7,7 +7,7 @@ import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
 
 export const metadata: Metadata = {
-  title: { absolute: "Ecommerce Accountant in Dallas–Fort Worth | eMerchant Books" },
+  title: { absolute: "Ecommerce Accountant in Dallas-Fort Worth | eMerchant Books" },
   description:
     "Plano-based accounting firm for DFW ecommerce sellers doing $100K+ a month. Bookkeeping services in Dallas, Plano and Frisco with exit-grade books and a day-10 close guarantee.",
   alternates: { canonical: "/ecommerce-accountant-dallas/" },
@@ -38,12 +38,28 @@ const FAQS = [
     q: "Do you handle Texas franchise tax?",
     a: "We keep the books franchise-tax ready and coordinate the filing with your CPA. Texas has no state income tax, but franchise tax applies above the no-tax-due threshold, and marketplace sellers routinely misreport revenue on it by using deposit totals. Ours tie to gross.",
   },
+  {
+    q: "Do you do QuickBooks cleanup in Dallas?",
+    a: "Yes, it's one of our most common starting projects. A QuickBooks cleanup for a Dallas ecommerce or hybrid business means rebuilding the chart of accounts, reclassifying deposits into settlement-level revenue and fees, fixing COGS and inventory balances, and reconciling every account. It's quoted flat after a short look at the file, and most cleanups run one to three weeks.",
+  },
+  {
+    q: "I searched 'ecommerce accountant near me' from Dallas. Are you actually local?",
+    a: "Yes. Our office is in Plano, about twenty minutes up the tollway from downtown Dallas, and we meet clients in person across the metroplex for onboarding and quarterly reviews. You get a specialist ecommerce accounting firm and a local one in the same engagement, which is a combination Dallas doesn't otherwise offer.",
+  },
+  {
+    q: "How do I hire an ecommerce accountant in Dallas?",
+    a: "Send us your channels and monthly revenue through the form on this page, or call (469) 294-1807 and a bookkeeper picks up. A partner replies within one business day with a specific recommendation. Most Dallas engagements start with the free Books Teardown or the $2,500 Diligence Readiness Assessment, so you see real work on your real books before committing to a monthly plan.",
+  },
+  {
+    q: "Can you catch up several years of books for a Dallas business?",
+    a: "Yes. Catch-up bookkeeping is quoted flat, in writing, before we start, and billed at a discount to monthly rates. We rebuild from bank feeds, marketplace settlement reports and POS exports, which matters in Dallas where so many operations run hybrid retail-plus-online. Two or three years behind is normal for us, not alarming.",
+  },
 ];
 
 export default function DallasPage() {
   return (
     <>
-      <Breadcrumbs items={[{ href: "/ecommerce-accountant-dallas/", label: "Dallas–Fort Worth" }]} />
+      <Breadcrumbs items={[{ href: "/ecommerce-accountant-dallas/", label: "Dallas-Fort Worth" }]} />
 
       <section className="mx-auto grid max-w-7xl items-start gap-12 px-4 py-12 sm:px-6 lg:grid-cols-5">
         <div className="lg:col-span-3">
@@ -69,7 +85,7 @@ export default function DallasPage() {
           <h2 className="mt-12 text-2xl font-bold text-navy-900">Why DFW sellers end up with us</h2>
           <div className="mt-6 space-y-5 leading-relaxed text-slate-600">
             <p>
-              Dallas–Fort Worth is one of the biggest ecommerce and wholesale corridors in the country: FBA
+              Dallas-Fort Worth is one of the biggest ecommerce and wholesale corridors in the country: FBA
               operations in Frisco garages that grew into Carrollton warehouses, wholesale distributors in Irving
               running marketplace channels on the side, DTC brands in Deep Ellum. What the metroplex doesn&rsquo;t
               have is accounting firms that understand any of it. The typical Dallas bookkeeper quotes $400/mo,

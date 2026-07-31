@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Breadcrumbs, CtaBand, FaqBlock } from "@/components/Sections";
 
 export const metadata: Metadata = {
-  title: "FAQ — Ecommerce Bookkeeping Questions Answered",
+  title: "FAQ ,  Ecommerce Bookkeeping Questions Answered",
   description:
     "Straight answers on pricing, software, catch-up work, sales tax, international sellers and how our ecommerce bookkeeping service works.",
   alternates: { canonical: "/faq/" },
@@ -56,6 +56,26 @@ const FAQS = [
   {
     q: "Who does the actual work?",
     a: "A dedicated bookkeeper who only works on ecommerce clients, with review by a senior. You get their direct line, and you'll notice the difference the first time you ask a question about a settlement report and get a real answer.",
+  },
+  {
+    q: "How do I switch bookkeepers without losing my history?",
+    a: "Grant us access and we handle the rest: we review the existing file, take it over (or rebuild it if it's unusable), collect statements and platform access, and map the chart of accounts to ecommerce reality. You don't have to confront your current bookkeeper until we've verified everything transfers cleanly. Most switches finish in two to three weeks, and your history stays intact because the file is yours.",
+  },
+  {
+    q: "Is outsourced bookkeeping worth it for an ecommerce business?",
+    a: "If you hold inventory or sell on multiple channels, yes, and usually earlier than sellers think. Owners who keep their own books tend to misstate COGS, book deposits as revenue and overpay at tax time; any one of those errors typically costs more than a year of service. The honest comparison isn't outsourcing versus free. It's outsourcing versus your hours plus your error rate.",
+  },
+  {
+    q: "Should I hire a virtual bookkeeper or a local one?",
+    a: "Hire for ecommerce expertise first, location second. A virtual bookkeeper who understands settlement reports beats a local generalist who doesn't, every time. We happen to be both: the work runs in the cloud for sellers nationwide, and DFW clients can meet us in person in Plano. What matters is that the person doing your books knows your platforms, not their zip code.",
+  },
+  {
+    q: "How long does onboarding take?",
+    a: "Two to three weeks for most sellers: access granted in the first few days, chart of accounts and settlement mapping in week one, then the first close run in parallel with your old process. If catch-up work is needed, it runs first and is quoted flat. Your first guaranteed day-10 close lands on the first full month after onboarding wraps.",
+  },
+  {
+    q: "Can I try the service before I commit?",
+    a: "Yes. The Free Ecommerce Books Teardown rebuilds your most recent month properly and sends you a 10-minute recorded video of every error and margin leak we found, no card required. You keep the work either way. It's a better test than any sales call, because you see actual work done on your actual books.",
   },
 ];
 

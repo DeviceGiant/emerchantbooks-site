@@ -38,6 +38,7 @@ export const SERVICES: ServiceContent[] = [
     intro: [
       "Most bookkeepers treat an ecommerce business like a coffee shop with a website. They book the Amazon deposit as revenue, guess at COGS, and hand you a P&L that's off by thousands. We only do ecommerce, so your books reflect what actually happened: gross sales, marketplace fees, refunds, reserves, and the inventory you actually sold.",
       "You keep full ownership of your accounting file. If you ever leave, everything stays with you. That's not how Bench worked out for 12,000 businesses, and it's not how the proprietary-ledger platforms work today.",
+      "The work is fully remote, so compare us the way you'd compare any outsourced ecommerce bookkeeping firm or online bookkeeping service: who owns the file, when do the books close, and what does it cost. Our answers are you, the 10th business day, and it's printed on the pricing page.",
     ],
     painHeading: "What goes wrong with generalist bookkeepers",
     pains: [
@@ -99,6 +100,26 @@ export const SERVICES: ServiceContent[] = [
         q: "What if my books are months behind right now?",
         a: "That's a catch-up project, and we do those at a discounted rate before your monthly service starts. Most catch-ups take one to three weeks depending on how many months and channels are involved.",
       },
+      {
+        q: "How do I hire a bookkeeper for my ecommerce business?",
+        a: "Start with a hard look at the last three months of books, which is what our Diligence Readiness Assessment does in ten business days for $2,500, credited in full against onboarding. Screening any firm? Ask three things: do they work from settlement reports or bank feeds, do they book COGS on inventory movement, and do you keep the file if you leave. A wrong answer on any of those costs real money later.",
+      },
+      {
+        q: "What does a monthly ecommerce bookkeeping service include?",
+        a: "Every channel reconciled from settlement reports, COGS booked on inventory movement, sales tax kept out of revenue, and a P&L, balance sheet and cash flow delivered by the 10th business day. Add a monthly video walkthrough and a bookkeeper you can text. It's full outsourced bookkeeping for ecommerce, not software with a support inbox.",
+      },
+      {
+        q: "Is virtual bookkeeping safe for a seven-figure store?",
+        a: "It's the norm at this level. Searching 'ecommerce accountant near me' mostly surfaces generalists, because the specialists work remotely. The work happens inside your own QuickBooks, Xero or NetSuite file with read-level channel access, so nothing sensitive lives on our side. The real risk is a proprietary ledger you can't export. Ask Bench's 12,000 stranded customers how that ended.",
+      },
+      {
+        q: "What's the best accounting software for an ecommerce business?",
+        a: "QuickBooks Online Plus for most US sellers, Xero if you're multi-currency, NetSuite once multi-entity structures or acquirer diligence demand it. The setup matters more than the software: A2X-style settlement posting and a marketplace-ready chart of accounts fix more problems than switching platforms ever will. We work in all three.",
+      },
+      {
+        q: "When should I switch from DIY bookkeeping to a service?",
+        a: "When the cost of an error passes the cost of the service, which for most sellers happens between $50K and $100K a month. At that size a 2% COGS mistake is $12,000 to $24,000 a year of fiction in your margins, more than a year of bookkeeping fees. Already there and behind? Start with catch-up, then go monthly.",
+      },
     ],
   },
   {
@@ -111,7 +132,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Behind on your books, or sitting on books you don't trust? We rebuild them month by month, settlement by settlement, and hand you a clean file your CPA can actually use.",
     intro: [
       "Falling behind is normal. You were busy running the business, the DIY spreadsheet stopped keeping up, or a previous bookkeeper left a mess that made things worse than nothing. It only becomes a real problem when tax season, a loan application, or a potential buyer shows up and the books can't answer basic questions.",
-      "We do catch-up work at a discounted rate compared to monthly service, with a fixed quote before we start. No hourly meter running.",
+      "Sellers call this work different things: bookkeeping cleanup services, historical bookkeeping, a QuickBooks cleanup, getting caught up before tax season. Same job. We rebuild what's missing and fix what's wrong, at a discounted rate compared to monthly service, with a fixed quote before we start. No hourly meter running.",
     ],
     painHeading: "Why ecommerce catch-up is different",
     pains: [
@@ -176,6 +197,30 @@ export const SERVICES: ServiceContent[] = [
         q: "How far back can you go?",
         a: "As far as the data exists. Marketplace settlement history, bank statements and processor exports typically cover several years. Multi-year rebuilds are common before a sale or an audit.",
       },
+      {
+        q: "Can you clean up my books before tax season?",
+        a: "Yes, and the earlier you start, the more options you have. A single-channel cleanup begun in January is comfortably done for a March deadline; a multi-year, multi-channel rebuild begun in March means your CPA files an extension. Extensions are fine. Filing off wrong books is the expensive choice.",
+      },
+      {
+        q: "What's the difference between catch-up and cleanup bookkeeping?",
+        a: "Catch-up fills months that were never done; cleanup fixes months that were done wrong. Most ecommerce projects are both: the DIY era is missing and the previous-bookkeeper era is wrong. We quote them together after looking at your file, and the deliverable is the same either way: books you and your CPA can trust.",
+      },
+      {
+        q: "Do I need clean books to get a loan or line of credit?",
+        a: "Yes. Lenders ask for financial statements, and inventory lenders specifically check whether COGS ties to actual inventory movement. Books built off bank deposits get applications declined or priced worse. A catch-up project before you apply typically takes one to three weeks, which is faster than most underwriting anyway.",
+      },
+      {
+        q: "Will years of messy books trigger an IRS audit?",
+        a: "Messy books don't trigger audits; mismatches do. The IRS computer compares your 1099-Ks to your return, and net-deposit bookkeeping guarantees those numbers disagree. Rebuilding from settlement reports makes gross sales tie to the forms, which keeps the matching program quiet. If a letter already arrived, clean books are how you answer it.",
+      },
+      {
+        q: "Can you catch up books across multiple sales channels?",
+        a: "Yes, that's most of our catch-up work: Amazon plus Shopify plus eBay, each rebuilt from its own settlement reports into one accounting file with per-channel numbers. Channel count mostly affects the quote, not the feasibility, and single-channel projects simply finish faster.",
+      },
+      {
+        q: "Who is this catch-up bookkeeping service for?",
+        a: "Ecommerce and marketplace sellers, which is the whole firm's focus. If the backlog belongs to a restaurant or a law practice, a generalist will serve you better. If it's two years of Amazon settlements, a gateway tangle and an inventory question nobody can answer, that's exactly the mess we rebuild every month.",
+      },
     ],
   },
   {
@@ -188,7 +233,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Your Amazon deposit is not your revenue. We rebuild every settlement into real sales, fees, refunds and reserves inside your own QuickBooks or Xero file, so your margins finally mean something.",
     intro: [
       "Amazon pays you every two weeks in a lump that mixes last period's sales with this period's refunds, a dozen fee types, reserve holds and the occasional reimbursement. A bookkeeper who doesn't sell on Amazon sees one deposit. We see the 40-plus transaction types underneath it.",
-      "That difference is why sellers leave generalists. As one r/FulfillmentByAmazon seller put it: \"My CPA doesn't know what Amazon is, so sometimes it's harder asking related questions.\" You shouldn't have to teach your bookkeeper your own business.",
+      "That difference is why sellers leave generalists. As one r/FulfillmentByAmazon seller put it: \"My CPA doesn't know what Amazon is, so sometimes it's harder asking related questions.\" You shouldn't have to teach your bookkeeper your own business. That's the gap dedicated Amazon bookkeeping services close: a bookkeeper for Amazon sellers who already knows what a reserve hold is, works in your file, and never needs the acronyms explained.",
     ],
     painHeading: "The three Amazon accounting mistakes we fix constantly",
     pains: [
@@ -259,6 +304,26 @@ export const SERVICES: ServiceContent[] = [
         q: "My last bookkeeper just categorized the deposits. How bad is it?",
         a: "Common, and fixable. We rebuild past periods from settlement reports as a catch-up project, then keep it right going forward. You'll likely discover your real margins for the first time.",
       },
+      {
+        q: "How much does Amazon bookkeeping cost?",
+        a: "Our Foundation tier starts at $1,250/mo for sellers doing $100K to $250K a month, and the full rate card is public on our pricing page. Specialist Amazon accounting firms typically run $1,500 to $15,000 a month, quoted only after a sales call. We're month-to-month with no annual contract, and catch-up months bill at a discount to the monthly rate.",
+      },
+      {
+        q: "What does an Amazon accountant do that a regular bookkeeper doesn't?",
+        a: "Reads settlement reports. That one habit drives everything else: gross sales rebuilt from the 40-plus transaction types, fees broken out by category, reserves tracked as money you've earned but don't hold, and COGS tied to FBA inventory movement. A generalist categorizes deposits. An Amazon accountant reconstructs what the deposits are hiding.",
+      },
+      {
+        q: "How do I record Amazon sales in QuickBooks?",
+        a: "Post each settlement as a summary entry: gross sales, refunds, each fee category and the reserve change, with the deposit clearing the balance. A2X or Link My Books automates exactly that. Don't let a per-order sync app import thousands of transactions, and don't book deposits straight to a sales account. We set the mapping up during onboarding and run it monthly.",
+      },
+      {
+        q: "Can you clean up my existing Amazon books?",
+        a: "Yes, and it's how most clients start: we rebuild past periods from settlement reports, fix COGS, and reconcile every 1099-K, with a flat quote before we begin. Most cleanup projects take one to three weeks. Monthly service afterward keeps the backlog from ever rebuilding.",
+      },
+      {
+        q: "Cash or accrual accounting for Amazon sellers?",
+        a: "Accrual, without much debate at your size. Amazon's two-week settlement lag and rolling reserves mean cash-basis books put January's sales in February and hide money you've earned. Accrual with real inventory accounting is also what lenders, aggregators and the IRS expect from a seven-figure seller.",
+      },
     ],
   },
   {
@@ -271,7 +336,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Shopify Payments, PayPal, Klarna, gift cards, refunds and chargebacks, reconciled into one honest P&L in your own QuickBooks or Xero file.",
     intro: [
       "A Shopify store looks simpler to account for than a marketplace business. It isn't. Revenue arrives through three or four gateways on different payout schedules, discounts and gift cards muddy gross sales, and the official Shopify-QuickBooks connector is notorious for quietly mangling inventory and COGS.",
-      "We reconcile each gateway's payouts to Shopify's own reports, so what your books say matches what your dashboard says, and both match your bank.",
+      "We reconcile each gateway's payouts to Shopify's own reports, so what your books say matches what your dashboard says, and both match your bank. That reconciliation is the core of our Shopify bookkeeping service and the exact piece DIY setups skip. Hire a bookkeeper for a Shopify store without asking about gateway tie-outs and you'll get pretty reports built on the wrong revenue number.",
     ],
     painHeading: "Where Shopify books go wrong",
     pains: [
@@ -337,6 +402,30 @@ export const SERVICES: ServiceContent[] = [
         q: "What about Shopify's built-in tax reports?",
         a: "Useful, not sufficient. Shopify tracks what it collected, but nexus analysis, filings and remittance still have to happen. We keep collected tax out of your revenue and work alongside sales tax filing tools or your filing provider.",
       },
+      {
+        q: "How much does Shopify bookkeeping cost?",
+        a: "From $1,250/mo at the $100K-$250K monthly revenue tier, published on our pricing page instead of hidden behind a demo call. That's full monthly accounting: every gateway reconciled, COGS on inventory movement, per-channel P&L if you also sell on marketplaces, closed by the 10th business day. Month-to-month, no annual contract.",
+      },
+      {
+        q: "What does a Shopify accountant do each month?",
+        a: "Reconciles every gateway's payouts to Shopify's reports and your bank, books COGS from what actually shipped, tracks gift card liabilities, keeps collected sales tax out of revenue, and closes the file by the 10th business day with a video walkthrough. Your dashboard tells you sales. Your accountant tells you profit.",
+      },
+      {
+        q: "How do I record Shopify sales in QuickBooks?",
+        a: "Summary entries per gateway payout: gross sales, discounts, refunds and fees, with the deposit clearing the balance and gift cards parked in a liability account until redeemed. A2X or Link My Books posts it automatically. Per-order sync apps are the thing to avoid; they're the top reason Shopify QuickBooks files get abandoned and restarted.",
+      },
+      {
+        q: "Can you clean up my Shopify books?",
+        a: "Yes. If a connector app flooded your file or a previous bookkeeper booked payouts as revenue, we rebuild the affected months from gateway and Shopify reports at a flat quote, usually in one to three weeks. Cleanup then rolls into monthly service so the mess doesn't come back.",
+      },
+      {
+        q: "Cash or accrual for a Shopify store?",
+        a: "Accrual, because you carry inventory. Cash books expense a $60,000 stock order the month you pay for it, which wrecks that month's margin and flatters the next six. Accrual matches cost to the sale, which is the number you price by, borrow against, and eventually sell the company on.",
+      },
+      {
+        q: "When should a Shopify store hire a bookkeeper?",
+        a: "Once you're carrying real inventory and running more than one payment gateway, generally around $50K to $100K a month. Below that, disciplined DIY can hold. Above it, gateway reconciliation and COGS work take hours you don't have and punish errors you can't see. Most clients hire us about a year later than they wish they had.",
+      },
     ],
   },
   {
@@ -349,7 +438,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Most ecommerce accounting firms build for Shopify and Amazon and treat eBay as an afterthought. We reconcile eBay managed payments properly: fees, refunds, shipping labels, promoted listings and all.",
     intro: [
       "Look at the big ecommerce bookkeeping firms and count how many have an eBay page. Almost none. Meanwhile eBay sellers deal with managed-payments payouts that net out fees before the money ever hits the bank, per-order shipping labels bought inside eBay, promoted listing charges, and a 1099-K that reports gross while the bank shows net.",
-      "We treat eBay as a first-class channel, whether it's your whole business or one of five.",
+      "We treat eBay as a first-class channel, whether it's your whole business or one of five. Sellers usually land here after searching for eBay bookkeeping services or a bookkeeper for eBay sellers and finding almost nothing built for them. Fine by us. It's a specialty worth owning.",
     ],
     painHeading: "The eBay-specific traps",
     pains: [
@@ -415,6 +504,30 @@ export const SERVICES: ServiceContent[] = [
         q: "Can you handle eBay stores with thousands of small orders?",
         a: "Yes. We post summary-level, reconciled entries rather than per-order noise, so volume doesn't degrade your accounting file.",
       },
+      {
+        q: "How much does eBay bookkeeping cost?",
+        a: "From $1,250/mo for operations doing $100K to $250K a month across channels, with the full rate card on our pricing page. eBay-heavy businesses aren't priced differently from Amazon or Shopify ones; the work is settlement rebuilds either way. Catch-up months bill at a discount, and everything is month-to-month.",
+      },
+      {
+        q: "Do I need an accountant for my eBay business?",
+        a: "At six or seven figures, yes. eBay's netted payouts mean DIY books almost always understate both revenue and expenses, and the 1099-K reports gross, so the mismatch is built in. An eBay accountant who rebuilds from transaction reports fixes that and shows real per-item margins, which changes what you source next.",
+      },
+      {
+        q: "What's the best accounting software for eBay sellers?",
+        a: "QuickBooks Online, with eBay activity posted as summarized, reconciled entries from transaction reports. Xero works just as well if you're already on it. Spreadsheets hold up surprisingly long for listings and sourcing, but they can't produce the balance sheet a lender wants or the 1099-K reconciliation the IRS effectively demands.",
+      },
+      {
+        q: "How should eBay fees be recorded in my books?",
+        a: "By type, not as one lump: final value fees, per-order fees, promoted listings as advertising, shipping labels matched to orders. Each tells you something different. Promoted listings creeping from 2% to 8% of sales is a marketing decision you can only catch if the books keep it separate.",
+      },
+      {
+        q: "Cash or accrual for eBay sellers?",
+        a: "Accrual once inventory is significant, which for a reseller it always is. Sourcing costs need to sit in inventory until items sell, or every heavy sourcing month looks like a loss and every selling-down month looks like a windfall. Accrual also puts multi-month refund chains in the right periods.",
+      },
+      {
+        q: "Can you clean up my eBay books?",
+        a: "Yes. eBay keeps transaction-level history we can rebuild from, so even multi-year cleanups are routine: gross activity restored, fees broken out, label costs matched, every 1099-K reconciled. Flat quote before we start, one to three weeks for most projects, and monthly service after if you want it to stay fixed.",
+      },
     ],
   },
   {
@@ -427,7 +540,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Walmart settlements, WFS fees and referral charges reconciled properly, whether Walmart is your main channel or your fastest-growing experiment.",
     intro: [
       "Walmart Marketplace has grown into the second marketplace for thousands of Amazon-first sellers, and its accounting is its own animal: different settlement cadence, different fee structure, WFS storage and fulfillment charges, and reports that don't look like Amazon's. Most bookkeeping firms don't even mention Walmart on their sites.",
-      "We reconcile Walmart the way we reconcile Amazon: settlement by settlement, fee by fee, into your own QuickBooks or Xero file.",
+      "We reconcile Walmart the way we reconcile Amazon: settlement by settlement, fee by fee, into your own QuickBooks or Xero file. That makes this one of the few real Walmart bookkeeping services around: a bookkeeper for Walmart Marketplace sellers who works the channel's own reports every month, not an Amazon template with the logo swapped.",
     ],
     painHeading: "Walmart accounting pitfalls",
     pains: [
@@ -482,6 +595,34 @@ export const SERVICES: ServiceContent[] = [
         q: "Do you support Walmart Fulfillment Services (WFS)?",
         a: "Yes, including breaking out WFS fees so you can compare WFS economics against FBA or a 3PL per SKU.",
       },
+      {
+        q: "How much does Walmart Marketplace bookkeeping cost?",
+        a: "From $1,250/mo as part of our standard tiers, which cover all your channels rather than Walmart alone. The full rate card is public on our pricing page, month-to-month, no annual contract. Since nearly every Walmart seller we serve also runs Amazon or Shopify, pricing keys off total monthly revenue across channels.",
+      },
+      {
+        q: "Do I need a bookkeeper for my Walmart Marketplace business?",
+        a: "If Walmart has grown past experiment size, yes, and specifically one who reconciles Walmart's own settlement reports. The common failure is bolting Walmart onto an Amazon-shaped setup, which produces plausible-looking numbers that don't survive reconciliation. Clean per-channel books are also what tell you whether Walmart deserves more inventory next quarter.",
+      },
+      {
+        q: "How do I record Walmart sales in QuickBooks?",
+        a: "Summary entries per settlement: gross sales, referral fees, WFS charges, refunds and adjustments, with the deposit clearing the entry. A2X supports Walmart, which is what we typically configure. Booking Walmart deposits straight to revenue understates sales by your whole fee load and breaks the 1099-K tie-out.",
+      },
+      {
+        q: "Does Walmart Marketplace send a 1099-K?",
+        a: "Yes, reporting gross sales, while your deposits arrive net of fees and refunds. Books that rebuild gross activity reconcile the two; books built on deposits can't. That reconciliation is a standard January deliverable in our Walmart bookkeeping work, not an extra.",
+      },
+      {
+        q: "Can you catch up my Walmart books?",
+        a: "Yes. Walmart's settlement history covers what a rebuild needs: gross sales, fee detail, WFS charges, refunds. Catch-up is quoted flat, billed at a discount to monthly rates, and typically done in one to three weeks alongside whatever other channels need the same treatment.",
+      },
+      {
+        q: "Cash or accrual for Walmart sellers?",
+        a: "Accrual. Walmart's settlement lag shifts cash-basis sales into the wrong periods, and inventory sitting in WFS needs real inventory accounting or your margins are guesses. Every seller we work with runs accrual books; it's also what financing and diligence require.",
+      },
+      {
+        q: "Is WFS or FBA better for my margins?",
+        a: "Your books should answer that, not a forum thread. With WFS fees broken out and per-channel P&L in place, you can compare fulfillment cost per unit on the same SKU across both programs. We set the books up so that comparison is a report you can pull, and the answer genuinely differs by SKU size and velocity.",
+      },
     ],
   },
   {
@@ -494,7 +635,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Etsy's payment account is a running tangle of sales, fees, ads, refunds and deposits. We turn it into clean books, whether you make what you sell or source it.",
     intro: [
       "Etsy's fee structure nickels a shop a dozen ways: listing fees, transaction fees, payment processing, Offsite Ads (which you can't opt out of past $10k), Etsy Ads, shipping labels. The payment account nets everything continuously, so deposits have almost no relationship to any period's sales.",
-      "Makers add a second layer: materials-based COGS. Pricing handmade work without knowing your true cost per piece is how shops stay busy and broke.",
+      "Makers add a second layer: materials-based COGS. Pricing handmade work without knowing your true cost per piece is how shops stay busy and broke. An Etsy accountant earns the fee by fixing both layers: the payment-account rebuild and the per-piece costing. That's what our Etsy bookkeeping service does, monthly, in a file you own.",
     ],
     painHeading: "Etsy-specific accounting problems",
     pains: [
@@ -549,6 +690,34 @@ export const SERVICES: ServiceContent[] = [
         q: "Etsy is my side business. Is this overkill?",
         a: "If Etsy is a side business, we're probably not your firm yet: we work with $100K+/mo operations. Join the waitlist and take our free close checklist, and we'll be here when the business crosses seven figures.",
       },
+      {
+        q: "How much does Etsy bookkeeping cost?",
+        a: "Our specialist tiers start at $1,250/mo, priced on total revenue across your channels, with the full rate card on our pricing page. For most clients Etsy is one channel of a larger operation, so there's no separate Etsy fee: the shop gets the same settlement-level treatment as everything else, inside one monthly close.",
+      },
+      {
+        q: "What does an Etsy accountant do?",
+        a: "Rebuilds the payment account into gross sales, fees by type, ad costs and refunds, then ties deposits to the bank. For makers, they also maintain materials costing so each piece carries a real cost. The output is a P&L that says what the shop earns, which Etsy's own stats can't, because they don't know your costs.",
+      },
+      {
+        q: "How do I record Etsy sales in QuickBooks?",
+        a: "Monthly summary entries built from Etsy's CSVs: gross sales, then listing, transaction, processing and ad fees each to their own account, refunds separate, deposits clearing the balance. Never book deposits as revenue; the payment account nets so much activity that deposits barely correlate with any month's sales. We run this rebuild every month.",
+      },
+      {
+        q: "Does Etsy report my sales to the IRS?",
+        a: "Yes, on a 1099-K showing gross sales for the year. Your bank deposits will run thousands lower after fees, ads and refunds, and a return filed off deposits won't match the form. Books that rebuild gross activity reconcile the two, which is what keeps the IRS matching program from generating a letter.",
+      },
+      {
+        q: "What's the best accounting software for an Etsy shop?",
+        a: "QuickBooks Online for most US shops, Xero if you're multi-currency or outside the US. Either works once Etsy activity is posted as monthly summaries instead of per-order noise. The software choice matters less than the discipline of rebuilding the payment account monthly, which is the step shops skip.",
+      },
+      {
+        q: "Can you clean up my Etsy books?",
+        a: "Yes. Etsy's CSV history lets us rebuild past months completely: gross sales, every fee type, Offsite Ads costs, refunds and deposit tie-outs. Cleanup is quoted flat and billed at a discount to monthly rates. Multi-year rebuilds ahead of a tax deadline or a loan application are common.",
+      },
+      {
+        q: "Cash or accrual for an Etsy shop?",
+        a: "Accrual once inventory or materials spending is significant. Expensing a bulk materials order the month you buy it makes that month look bad and the next several look better than they were. Accrual with per-piece costing shows the real margin on each sale, which is the number you should price from.",
+      },
     ],
   },
   {
@@ -561,7 +730,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "QuickBooks can handle a multi-channel ecommerce business beautifully. Out of the box, it's set up for none of it. We configure it right and run it for you.",
     intro: [
       "QuickBooks Online is the default accounting file for US small business, and it's what most sellers already have. The problem is never QuickBooks; it's the setup. A default chart of accounts has no idea what a settlement, a reserve, or an FBA storage fee is, and the app-store connectors that promise to fix that mostly flood the file with order-level junk.",
-      "We set up QBO with a marketplace-ready chart of accounts, summary-level posting through A2X, and clean class or location tracking per channel. Then we do the monthly work in your file, under your ownership.",
+      "We set up QBO with a marketplace-ready chart of accounts, summary-level posting through A2X, and clean class or location tracking per channel. Then we do the monthly work in your file, under your ownership. That's the difference between buying software and hiring a QuickBooks bookkeeping service that knows ecommerce: the setup is right, and someone accountable does the monthly work.",
     ],
     painHeading: "Common QuickBooks-for-ecommerce failures",
     pains: [
@@ -620,6 +789,30 @@ export const SERVICES: ServiceContent[] = [
         q: "Can you take over my existing messy QuickBooks file?",
         a: "Yes, that's most of our onboarding work. We audit, fix and keep your history rather than nuking the file, unless it's genuinely beyond saving, and then we'll show you why before doing anything.",
       },
+      {
+        q: "How much does QuickBooks bookkeeping for ecommerce cost?",
+        a: "From $1,250/mo for sellers doing $100K to $250K a month, with the full rate card public on our pricing page, plus your own QBO subscription paid to Intuit. Setup or rebuild work folds into onboarding rather than surprise line items. Month-to-month, and the file stays yours if you ever leave.",
+      },
+      {
+        q: "Do I need a bookkeeper if I have QuickBooks?",
+        a: "QuickBooks is a filing cabinet, not a bookkeeper. It won't rebuild settlements, book COGS on inventory movement, or keep collected sales tax out of revenue; someone has to do that work inside it. At $100K+ a month, that someone should be a specialist, because the ecommerce-specific work is exactly the part QBO can't automate.",
+      },
+      {
+        q: "How do I record marketplace sales in QuickBooks Online?",
+        a: "Summary journal entries that mirror each settlement report: gross sales, fees by type, refunds, reserves, deposit clearing the balance. A2X or Link My Books posts them automatically once mapped. That single pattern, settlement-mirroring summaries instead of per-order sync, decides whether a QBO file stays reconcilable for years or collapses in months.",
+      },
+      {
+        q: "Can you set up QuickBooks for my ecommerce business from scratch?",
+        a: "Yes: marketplace-ready chart of accounts, A2X mapping per channel, class or location tracking for per-channel P&L, bank feeds and rules, sales tax agencies, and an inventory approach that fits your size. Setup alone is a scoped project; most clients then have us run the file monthly, which is where the setup pays off.",
+      },
+      {
+        q: "Do you offer QuickBooks cleanup services?",
+        a: "Constantly. Connector wreckage, deposit-as-revenue history, duplicate customers, half-tracked inventory: we audit the file, quote the cleanup flat, and fix it while keeping your history. Most cleanups take one to three weeks. Nuking the file and starting over is the last resort, not the default recommendation.",
+      },
+      {
+        q: "QuickBooks Online or Desktop for an ecommerce seller?",
+        a: "Online. The integration ecosystem that makes ecommerce accounting work, from A2X to inventory tools to multi-user access for your bookkeeper and CPA, is built for QBO, and Intuit has been steering Desktop toward retirement for years. If you're on Desktop today, migration is a solved problem we handle inside onboarding.",
+      },
     ],
   },
   {
@@ -632,7 +825,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Xero is a first-class accounting platform for ecommerce, especially multi-currency businesses. We're one of the few US ecommerce bookkeeping firms that supports it as an equal to QuickBooks.",
     intro: [
       "Plenty of US firms are QuickBooks-only; LedgerGurus, for example, won't touch Xero. But if you're already on Xero, or you sell across currencies and countries where Xero's multi-currency handling shines, switching platforms just to hire a bookkeeper is backwards.",
-      "We run Xero and QBO side by side across our client base and treat both as first-class. Your books, your Xero subscription, our monthly work.",
+      "We run Xero and QBO side by side across our client base and treat both as first-class. Your books, your Xero subscription, our monthly work. If you've been hunting for a Xero bookkeeper for ecommerce, or a Xero accounting firm that won't open with a QuickBooks migration pitch, that gap is exactly what we fill.",
     ],
     painHeading: "What trips up ecommerce sellers on Xero",
     pains: [
@@ -687,6 +880,34 @@ export const SERVICES: ServiceContent[] = [
         q: "Can Xero handle US sales tax for ecommerce?",
         a: "Yes, with deliberate setup, and marketplace facilitator laws mean the platforms remit most marketplace sales tax anyway. Direct-channel sales need proper rates and filings, which we coordinate.",
       },
+      {
+        q: "How much does Xero bookkeeping for ecommerce cost?",
+        a: "The same as our QuickBooks engagements: from $1,250/mo at the $100K-$250K monthly tier, with the rate card public on our pricing page, month-to-month. There's no Xero surcharge because there's no Xero learning curve on our side; we run it daily across the client base.",
+      },
+      {
+        q: "How do I record Amazon sales in Xero?",
+        a: "Post each settlement as a summarized entry from A2X: gross sales, fees by category, refunds and reserve movements, with the payout clearing against it. The Xero-specific trap is a bank rule that auto-codes marketplace deposits to a sales account; it rebuilds the deposit-equals-revenue mistake automatically, so we remove those first.",
+      },
+      {
+        q: "Can you migrate me from QuickBooks to Xero, or the other way?",
+        a: "Yes, both directions, though we'll tell you first if the migration isn't worth it, and often it isn't. When it is, we bring balances, open items and comparative history across, validate a parallel month, and keep the close running through the cutover so there's no gap in your numbers.",
+      },
+      {
+        q: "Do I need a Xero-certified bookkeeper for my ecommerce business?",
+        a: "You need one fluent in ecommerce first and Xero second; certification badges don't teach settlement accounting. The rare combination is a bookkeeper who knows what an Amazon reserve is and how Xero's tracking categories, multi-currency and bank rules should be built around it. That combination is this service.",
+      },
+      {
+        q: "Do you offer Xero cleanup or catch-up services?",
+        a: "Yes. Half-matched bank rules, collected tax leaking into revenue, multi-currency drift: we rebuild the affected months from settlement and gateway reports at a flat quote, usually in one to three weeks. Xero's audit trail keeps every fix transparent, and monthly service afterward keeps the file clean.",
+      },
+      {
+        q: "Cash or accrual in Xero for an ecommerce business?",
+        a: "Accrual, with inventory accounting. Xero handles it well: settlement summaries land in the right periods, COGS follows inventory movement, and revaluation keeps foreign-currency balances honest. When your CPA wants a cash-basis view for the return, that's one click; the books themselves should stay accrual.",
+      },
+      {
+        q: "Is Xero better than QuickBooks for international sellers?",
+        a: "Often, yes. Xero's multi-currency handling is cleaner, and sellers from the UK, Australia and New Zealand usually arrive already fluent in it. A non-resident running a US LLC on American marketplaces with a Xero file is a combination we support end to end, including Form 5472 coordination on the tax side.",
+      },
     ],
   },
   {
@@ -699,7 +920,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "You moved to NetSuite for inventory depth and multi-entity control. We handle the monthly accounting work inside it, with the marketplace fluency your ERP consultant doesn't have.",
     intro: [
       "Brands usually land on NetSuite somewhere past $5M, when QuickBooks starts creaking under multi-entity structures, serious inventory, or an aggregator's due-diligence checklist. What they discover is that NetSuite expertise and ecommerce accounting expertise rarely live in the same person. The implementation partner knows saved searches; they've never read an Amazon settlement report.",
-      "We bring the marketplace side: channel reconciliation, settlement accounting, and COGS discipline, executed inside your NetSuite instance.",
+      "We bring the marketplace side: channel reconciliation, settlement accounting, and COGS discipline, executed inside your NetSuite instance. Call it outsourced NetSuite accounting with marketplace fluency built in: the monthly close run by people who've actually read the settlement reports feeding it.",
     ],
     painHeading: "Where NetSuite ecommerce accounting breaks down",
     pains: [
@@ -754,6 +975,34 @@ export const SERVICES: ServiceContent[] = [
         q: "What does NetSuite bookkeeping cost?",
         a: "More than QBO bookkeeping, less than a full-time senior accountant. Pricing depends on entities, channels and close scope, so it's quoted per engagement. Still month-to-month, still your system and your data.",
       },
+      {
+        q: "How is outsourced NetSuite bookkeeping different from hiring a staff accountant?",
+        a: "A staff accountant runs $75K to $95K plus benefits and typically knows NetSuite or marketplaces, rarely both. Outsourced NetSuite accounting gets you the close, the channel reconciliations and the workpapers for less than one salary, with coverage that doesn't take PTO. Most clients keep a controller for judgment and hand us the execution.",
+      },
+      {
+        q: "Can you clean up a messy NetSuite instance?",
+        a: "The accounting side, yes: unreconciled channel activity, COGS drift, item-mapping chaos, closes that stopped happening. We rebuild the affected periods and stand up a repeatable close process. Deep platform reconfiguration stays with your implementation partner, and we hand them a specific punch list rather than vague complaints.",
+      },
+      {
+        q: "How do you record Amazon and Shopify sales in NetSuite?",
+        a: "Summarized settlement-level entries per channel, mapped to your item and location structure, with payouts clearing against them. Depending on the instance that's a connector, a scheduled import, or entries we build from settlement reports directly. What we won't do is let order-level sync flood the GL; that pattern hurts in NetSuite too.",
+      },
+      {
+        q: "How fast should a NetSuite month-end close be?",
+        a: "The 10th business day, the same target we hold for every client. If your close currently lands in week four, the fix is usually process, not platform: a close checklist, reconciliations that run all month instead of piling up, and channel data arriving summarized. Most engagements shorten the close by a week or more.",
+      },
+      {
+        q: "Do you support multi-entity NetSuite setups?",
+        a: "Yes. Intercompany transactions, consolidated reporting and per-entity closes are standard in our NetSuite work. Multi-entity is usually why brands bought NetSuite in the first place, and it's where spreadsheet workarounds hurt most. Holding-company-plus-operating-company structures ahead of an exit are a pattern we see often.",
+      },
+      {
+        q: "Can you work alongside our controller or CFO?",
+        a: "That's the standard shape of the engagement: your controller keeps approvals, judgment and board reporting; we run the reconciliations, close checklist and channel accounting underneath. CFOs like it because the close stops depending on one overloaded person, and nobody pays controller rates for bookkeeping hours.",
+      },
+      {
+        q: "What do audit-ready workpapers actually include?",
+        a: "A reconciliation for every material balance-sheet account, settlement tie-outs per channel, inventory valuation support with landed costs, and a close checklist showing who did what and when. When a lender, auditor or acquirer asks a question, the answer is a workpaper, not an archaeology project. That's the deliverable every single close.",
+      },
     ],
   },
   {
@@ -766,7 +1015,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Tax problems are usually bookkeeping problems discovered in April. We keep the books tax-ready all year, coordinate sales tax, and work with your CPA or bring one in.",
     intro: [
       "Every ecommerce tax horror story starts the same way: the return was built on bad books. Gross sales that don't match the 1099-K. COGS with no inventory support. Sales tax collected and booked as income. The CPA can only file what the books say, and by tax season it's expensive to say something different.",
-      "Our tax work starts twelve months before the deadline: accrual books where the 1099-K ties out, inventory valuation that survives scrutiny, and collected tax sitting in a liability account where it belongs.",
+      "Our tax work starts twelve months before the deadline: accrual books where the 1099-K ties out, inventory valuation that survives scrutiny, and collected tax sitting in a liability account where it belongs. If you went looking for an ecommerce tax accountant because last April went badly, the books are almost always where the fix starts, and a tax accountant for online sellers is only as good as the file underneath them.",
     ],
     painHeading: "The expensive ecommerce tax mistakes",
     pains: [
@@ -825,6 +1074,30 @@ export const SERVICES: ServiceContent[] = [
         q: "I'm not a US resident but sell on US platforms. What do I file?",
         a: "Typically a pro-forma 1120 with Form 5472 for a foreign-owned single-member LLC, plus whatever your home country requires. The 5472 penalty for skipping it is $25,000. See our international sellers page; this is a core practice area for us, not an exception.",
       },
+      {
+        q: "How much do ecommerce tax services cost?",
+        a: "The books side is built into monthly service, from $1,250/mo with the rate card public on our pricing page. Return preparation is billed by the CPA who files, yours or one we introduce, typically a few thousand dollars for an ecommerce entity. Two specialist layers, each priced in the open, instead of one blended fee hiding a mediocre add-on.",
+      },
+      {
+        q: "Do I need an ecommerce tax accountant, or is my local CPA enough?",
+        a: "Keep your CPA; give them better inputs. Most tax-season pain comes from books that don't tie to the 1099-Ks or support COGS, not from the CPA's tax knowledge. If your CPA has never seen a settlement report, we cover that gap all year and hand over a clean file. And if you want a CPA who knows ecommerce cold, we'll introduce one.",
+      },
+      {
+        q: "Cash or accrual for ecommerce taxes?",
+        a: "Keep the books accrual and let your CPA pick the return's method; the IRS allows either for most sellers under roughly $30M in revenue. Accrual books convert down to a cash-basis return easily. Cash books can't convert up without a rebuild, and they misstate an inventory business all year no matter what the return says.",
+      },
+      {
+        q: "What triggers IRS attention for ecommerce sellers?",
+        a: "Mismatches, mostly: returns that don't tie to 1099-K gross, COGS with no inventory support, and year-over-year swings the filings don't explain. The matching is automated, so 'they probably won't notice' isn't a strategy. Books that reconcile to every form are the boring, effective defense, and boring is exactly the goal.",
+      },
+      {
+        q: "Can you get my books tax-ready before this year's deadline?",
+        a: "Usually, if you start now. A catch-up project runs one to three weeks for most sellers, and we can prioritize the periods your CPA needs first. If the calendar truly doesn't allow it, an extension filed on clean books beats an on-time return built on wrong ones; the extension is free, while the amended return is not.",
+      },
+      {
+        q: "How do quarterly estimated taxes work for an ecommerce seller?",
+        a: "Four payments a year, based on either 90% of this year's tax or the safe harbor of 100% of last year's (110% at higher incomes). The hard part isn't the rule; it's knowing your actual profit mid-year, which is precisely what monthly accrual books give you. We keep the estimate number current and your CPA blesses it.",
+      },
     ],
   },
   {
@@ -837,7 +1110,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "We're the accounting firm that also writes software. Custom integrations, workflow automation and operations tooling for $100K+/mo brands whose tool stack stopped fitting off-the-shelf connectors.",
     intro: [
       "Every established seller runs a stack: marketplaces, an ERP or accounting file, a 3PL or WMS, repricers, a returns pipeline, spreadsheets gluing it together. Somewhere around $100K a month the off-the-shelf connectors stop covering the gaps, and the ops team starts burning hours on exports, re-keying and reconciliation scripts someone's cousin wrote in 2022.",
-      "No other accounting firm can fix that; they don't employ engineers. We do. And because we also keep your books, the integrations we build are accounting-aware from day one: the data lands clean, reconciled and audit-ready instead of creating the next mess.",
+      "No other accounting firm can fix that; they don't employ engineers. We do. And because we also keep your books, the integrations we build are accounting-aware from day one: the data lands clean, reconciled and audit-ready instead of creating the next mess. If you've priced this work with dev shops or gone searching for ecommerce automation help, the difference here is simple: the people building your pipelines also close your books.",
     ],
     painHeading: "The gaps we get hired to close",
     pains: [
@@ -875,7 +1148,7 @@ export const SERVICES: ServiceContent[] = [
       {
         h2: "Where this pairs with accounting engagements",
         paras: [
-          "Integration clients don't have to be accounting clients, but the pairing is where the leverage is: the same team that closes your books by day 10 also owns the pipelines feeding them, so data problems get fixed at the source instead of patched every month. For Exit-Grade clients, clean automated data flows are themselves a diligence asset; buyers pay for operations that run without the founder's spreadsheets.",
+          "Integration clients don't have to be accounting clients, but the pairing is where the payoff is: the same team that closes your books by day 10 also owns the pipelines feeding them, so data problems get fixed at the source instead of patched every month. For Exit-Grade clients, clean automated data flows are themselves a diligence asset; buyers pay for operations that run without the founder's spreadsheets.",
         ],
       },
     ],
@@ -902,6 +1175,26 @@ export const SERVICES: ServiceContent[] = [
         q: "Can you fix the integration mess a previous developer left?",
         a: "Usually, and we'll tell you honestly when a rebuild beats a repair. The audit is the same either way: map what exists, find where the data breaks, and quote the fix flat.",
       },
+      {
+        q: "How long does a custom integration project take?",
+        a: "Small automations ship in one to two weeks; multi-system integrations typically run four to eight. Discovery sets the timeline in writing along with the fixed fee. We'd rather scope small, ship, and extend than sell a six-month roadmap on day one, so the first working piece usually lands fast.",
+      },
+      {
+        q: "Can you automate our settlement downloads and month-end data pulls?",
+        a: "Yes, and it's one of the most common builds: settlement and payout reports pulled automatically from every channel, normalized, and landed where your close process needs them, with reconciliation checks that flag mismatches instead of hiding them. It's the difference between a close that starts on day one and one that starts with three days of downloads.",
+      },
+      {
+        q: "We already have developers. Why hire you for this?",
+        a: "Your developers know your product; they usually don't know settlement accounting, fee mapping or cutoff discipline, and integration bugs in those areas surface as month-end mysteries rather than stack traces. We either build the accounting-critical pieces ourselves or spec them precisely for your team. Several clients use us exactly that way.",
+      },
+      {
+        q: "Can you connect our 3PL to QuickBooks or NetSuite?",
+        a: "Yes. Inventory movements, receipts and fulfillment costs flow from the 3PL into the accounting file with reconciliation checks built in, so the sync is trustworthy rather than merely automatic. That pipeline turns monthly landed-cost COGS into a report instead of a spreadsheet project, and it's a build we've done repeatedly.",
+      },
+      {
+        q: "Custom dashboard or an off-the-shelf BI tool?",
+        a: "Off-the-shelf BI runs $50 to $500 a month forever and still needs someone to model your data. A scoped custom dashboard is a one-time fixed fee, owned outright, built on your real reconciled numbers. Which wins depends on the ask, and we'll say so honestly when a $30/mo tool covers it.",
+      },
     ],
   },
   {
@@ -914,7 +1207,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Poshmark, Mercari, Depop, StockX, GOAT, Whatnot, Facebook Marketplace, eBay: every platform nets a different fee stack on a different schedule, and every one sends its own 1099-K. We turn the whole tangle into clean books, sourcing runs included.",
     intro: [
       "Reseller accounting is harder than most ecommerce accounting, not easier. A DTC brand buys 5,000 identical units with one invoice. You buy a $400 bin lot that yields 60 sellable one-of-one items, list them across four platforms, and get paid net of four different fee structures. Generalist bookkeepers don't have a category for that. We built one.",
-      "Whether you flip sneakers on StockX and GOAT, clothes on Poshmark and Depop, or run live Whatnot auctions three nights a week, the same three jobs decide whether your numbers mean anything: gross sales rebuilt per platform, sourcing costs allocated to the items they produced, and January's stack of 1099-Ks tied to the books.",
+      "Whether you flip sneakers on StockX and GOAT, clothes on Poshmark and Depop, or run live Whatnot auctions three nights a week, the same three jobs decide whether your numbers mean anything: gross sales rebuilt per platform, sourcing costs allocated to the items they produced, and January's stack of 1099-Ks tied to the books. That's what reseller bookkeeping services from a specialist look like: books built around sourcing runs and platform payouts, not a coffee-shop template with extra rows.",
     ],
     painHeading: "The reseller problems generalist bookkeepers can't handle",
     pains: [
@@ -991,6 +1284,26 @@ export const SERVICES: ServiceContent[] = [
         q: "I got a 1099-K on my personal account and I'm panicking. What now?",
         a: "Don't ignore it: the IRS gets a copy. The fix is books that split business flips from personal-item sales, report each correctly, and reconcile to the form's gross number. If you've never kept books, that's a catch-up project, and it's much cheaper before a mismatch notice than after.",
       },
+      {
+        q: "Do I need a bookkeeper for my reselling business?",
+        a: "Once reselling stops being pocket money, yes. The 1099-Ks arrive whether you're ready or not, sourcing-run COGS is genuinely hard to DIY, and five fee mazes hide which platform actually pays you. A bookkeeper for resellers earns the fee the first January you don't spend rebuilding a year of sales from screenshots.",
+      },
+      {
+        q: "What's the best accounting software for resellers?",
+        a: "QuickBooks Online, with platform activity posted as summarized monthly entries and sourcing runs tracked in a simple intake log we help you keep. Reseller apps handle listings and crosslisting well, but few produce real financial statements. The software is the easy part; the cost-allocation method is what most setups get wrong.",
+      },
+      {
+        q: "Cash or accrual for resellers?",
+        a: "Accrual for the books, because inventory is the whole business: sourcing costs sit in inventory until items sell, so monthly margins are real. Your CPA may still file the return cash-basis where allowed. Books that expense every sourcing run on purchase can't tell a good month from a big shopping weekend.",
+      },
+      {
+        q: "Can you catch up several years of reselling books?",
+        a: "Yes. Platform transaction histories go back years, and bank records fill the sourcing side where receipts are thin. We rebuild each platform's gross activity, allocate sourcing costs, separate personal-item sales and tie out every 1099-K, with a flat quote up front. Pre-audit and pre-mortgage rebuilds are both common.",
+      },
+      {
+        q: "How do I record Poshmark, Mercari or Whatnot sales in QuickBooks?",
+        a: "Summarized monthly entries per platform, built from each platform's own sales and fee reports: gross sales, fees by type, refunds and shipping labels, with payouts clearing against them. None of these platforms has an A2X-style connector, so the rebuild is manual. That's fine. It's our manual work, done monthly.",
+      },
     ],
   },
   {
@@ -1003,7 +1316,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "You chose WordPress for control and lower fees. The cost is that nothing reconciles itself: Stripe, PayPal and Square each pay on their own schedule, and there's no native accounting layer at all. We close that gap every month.",
     intro: [
       "WooCommerce runs a quarter of the world's online stores and has no built-in bookkeeping story. Shopify sellers at least get one payments dashboard; a WooCommerce store typically runs two or three gateways at once, each netting its own fees before payout, plus whatever the plugin stack does to order data along the way.",
-      "We reconcile each gateway's payouts back to your WooCommerce order data, so your books, your admin dashboard and your bank finally agree, in a QuickBooks or Xero file you own.",
+      "We reconcile each gateway's payouts back to your WooCommerce order data, so your books, your admin dashboard and your bank finally agree, in a QuickBooks or Xero file you own. It's a dedicated WooCommerce bookkeeping service from a firm that treats self-hosted stores as first-class, not as Shopify with extra steps.",
     ],
     painHeading: "Where WooCommerce books go wrong",
     pains: [
@@ -1075,6 +1388,30 @@ export const SERVICES: ServiceContent[] = [
         q: "Do you also handle sales tax for a WooCommerce store?",
         a: "The bookkeeping side, yes: collected tax stays in a liability account and never inflates revenue, and we flag nexus exposure as your footprint grows. Unlike marketplace sales, your own site's sales tax is fully your obligation, so we coordinate with TaxJar, Avalara or your filing provider for registrations and remittance.",
       },
+      {
+        q: "How much does WooCommerce bookkeeping cost?",
+        a: "From $1,250/mo at the $100K-$250K monthly revenue tier, with the full rate card public on our pricing page. Multi-gateway reconciliation is the core of the service, not an add-on. Month-to-month, no annual contract, and cleanup projects are quoted flat at a discount to monthly rates.",
+      },
+      {
+        q: "Do I need a bookkeeper for my WooCommerce store?",
+        a: "At real volume, yes, and arguably sooner than a Shopify seller does, because nothing on WooCommerce reconciles itself. Three gateways, plugin-dependent data and self-processed refunds mean DIY books drift quietly until tax season exposes them. A bookkeeper who reconciles each gateway monthly catches that drift while it's still small.",
+      },
+      {
+        q: "Cash or accrual for a WooCommerce store?",
+        a: "Accrual, because you carry inventory. Expensing stock purchases when paid wrecks monthly margins in both directions, and gateway settlement lag shifts revenue across periods on cash books. Accrual books also convert cleanly to a cash-basis return if that's how your CPA prefers to file.",
+      },
+      {
+        q: "What's the best accounting software for WooCommerce?",
+        a: "QuickBooks Online or Xero, fed by summarized per-gateway payout entries rather than a per-order sync plugin. Both handle multi-gateway stores well once the posting pattern is right. WooCommerce accounting plugins mostly automate the wrong pattern, which is why so many files we inherit need cleanup first.",
+      },
+      {
+        q: "Can you clean up my WooCommerce books?",
+        a: "Yes, and gateway records make it reliable: Stripe, PayPal and Square keep complete transaction history, so we rebuild affected months from processor data even when the store data is questionable. Flat quote before we start, one to three weeks for most projects, and monthly service afterward if you want it kept clean.",
+      },
+      {
+        q: "Do you handle WooCommerce subscription revenue?",
+        a: "Yes. Renewals through WooCommerce Subscriptions bring failed payments, prorations and dunning, so revenue needs to be recognized as earned and payouts reconciled against renewal batches. Booked as plain sales, involuntary churn hides inside topline noise. We break subscription revenue out so both numbers stay visible.",
+      },
     ],
   },
   {
@@ -1087,7 +1424,7 @@ export const SERVICES: ServiceContent[] = [
     lead: "Square nets its fees before the money lands, deducts loan repayments off the top, and blends your counter sales with your website. We keep all three straight, in your own QuickBooks file.",
     intro: [
       "Square is the rare platform that runs a retail counter, an online store, invoices and a lending product through one account, which is convenient everywhere except your books. The deposit that hits your bank has already absorbed processing fees, instant-transfer charges and a slice of your Square loan, and no bank feed will ever untangle that for you.",
-      "We rebuild Square activity from its transaction and transfer reports: gross sales by channel, fees broken out, loan repayments split correctly, cash sales reconciled to actual deposits.",
+      "We rebuild Square activity from its transaction and transfer reports: gross sales by channel, fees broken out, loan repayments split correctly, cash sales reconciled to actual deposits. If you've searched for Square bookkeeping services or an accountant who actually understands Square Loans, that's the specific service on this page, monthly, in a QuickBooks file you own.",
     ],
     painHeading: "The Square-specific accounting traps",
     pains: [
@@ -1158,6 +1495,30 @@ export const SERVICES: ServiceContent[] = [
         q: "My Square deposits never match my sales reports. Why?",
         a: "Because deposits are net of processing fees, instant-transfer fees, refunds, chargebacks and any loan withholding, and transfer timing crosses days. The fix isn't staring harder at the bank feed; it's books built from Square's transfer and transaction reports, where every deposit ties out to the penny.",
       },
+      {
+        q: "How much does Square bookkeeping cost?",
+        a: "From $1,250/mo at the $100K-$250K monthly revenue tier, with the rate card public on our pricing page, month-to-month. That covers the full Square rebuild: fees broken out, loans split correctly, POS and online separated, cash reconciled. Smaller sellers can start on our Books Lite tier at $149 to $249 a month.",
+      },
+      {
+        q: "Do I need a bookkeeper for my Square business?",
+        a: "If you run POS plus online, take cash, or have a Square loan outstanding, yes. Each of those is a place where deposits-as-revenue bookkeeping fails silently, and a loan booked wrong misstates the P&L and the balance sheet at the same time. A bookkeeper who rebuilds from Square's reports keeps all three honest.",
+      },
+      {
+        q: "Does Square send a 1099-K?",
+        a: "Yes, reporting gross card sales, while your deposits arrive net of processing fees, instant-transfer charges, refunds and any loan withholding. Cash sales add a second gap, since they never touch a Square deposit at all. Books rebuilt from Square's reports tie the 1099-K, the POS and the bank together, which is the January you want.",
+      },
+      {
+        q: "How do I record Square sales in QuickBooks?",
+        a: "Summarized entries from Square's transfer reports: gross sales by channel, fees, refunds, loan withholding split between principal and financing cost, with deposits clearing the balance. The official connector posts per-transaction noise that breaks down once instant transfers and loans enter the picture, so we post from the reports instead.",
+      },
+      {
+        q: "Can you catch up my Square books?",
+        a: "Yes. Square's transaction and transfer history covers everything a rebuild needs, including historical loan withholding, which is usually where DIY books went wrong first. Flat quote, one to three weeks for most projects, and if there's a loan involved we reconstruct the liability so it finally matches what Square says you owe.",
+      },
+      {
+        q: "Cash or accrual for a Square seller?",
+        a: "Accrual if you carry inventory, which most retail Square sellers do, and it handles the loan correctly: withholding splits between liability and financing cost instead of vanishing into net deposits. A pure service business on Square can defensibly run cash-basis. We'll tell you which fits, not just default to habit.",
+      },
     ],
   },
   {
@@ -1169,7 +1530,7 @@ export const SERVICES: ServiceContent[] = [
     h1: "Accounting for content creators, run like the business it is",
     lead: "OnlyFans, Patreon, YouTube, Twitch, TikTok, brand deals: creator income arrives from everywhere with nothing withheld. We track every stream, keep the quarterly estimates honest, and never make you explain your content.",
     intro: [
-      "A working creator's money is messier than most small businesses': seven income streams, three different 1099 forms, platforms that take their cut before you see a dollar, and zero tax withheld on any of it. The IRS treats every dollar as self-employment income the moment it's earned, whether or not a form ever arrives.",
+      "A working creator's money is messier than most small businesses': seven income streams, three different 1099 forms, platforms that take their cut before you see a dollar, and zero tax withheld on any of it. The IRS treats every dollar as self-employment income the moment it's earned, whether or not a form ever arrives. That's the case for hiring an accountant for content creators before the first big year, not after it, and it's why bookkeeping for influencers is now its own discipline instead of a footnote.",
       "One more thing, said plainly: if you're an OnlyFans creator, you've probably been declined by a firm or made to feel like a liability. Not here. Creator platforms are legal businesses with real accounting needs, and we serve them the way we serve any other client: professionally, discreetly, and without commentary.",
     ],
     painHeading: "The creator problems we fix every month",
@@ -1245,6 +1606,26 @@ export const SERVICES: ServiceContent[] = [
       {
         q: "I've never paid quarterly estimates. Am I in trouble?",
         a: "Probably less than you fear, and the fix is mechanical: catch up the books, compute the safe-harbor amount (100% of last year's tax, 110% at higher incomes), and start paying on schedule. Penalties for past quarters are typically interest-scale, not catastrophe-scale. The expensive move is staying frozen for another year.",
+      },
+      {
+        q: "Do I need an LLC or S-corp before hiring a creator accountant?",
+        a: "No. Plenty of clients start as sole proprietors, and the books work the same way. The entity question comes later, with math: an LLC adds liability separation cheaply, and the S-corp election starts paying for itself around $60,000 to $80,000 of steady profit. Clean bookkeeping comes first, because every entity decision depends on knowing real profit.",
+      },
+      {
+        q: "How do I do bookkeeping for YouTube and Twitch income?",
+        a: "Track each stream in its own income account at gross, with platform cuts and fees booked as expenses: AdSense payments, Twitch sub splits, bits, sponsorship invoices, affiliate payouts. Recording only what hits the bank understates income and erases deductions at the same time. We build that stream-by-stream structure and reconcile it monthly against each platform's reports.",
+      },
+      {
+        q: "Are gifted products and comped trips taxable?",
+        a: "Usually yes, when they're payment for content: a $2,000 camera sent in exchange for a review is $2,000 of income at fair market value, and brands increasingly issue 1099s for exactly that. Unsolicited freebies with no obligation attached are murkier. We log gifted items at fair market value as they arrive, so January isn't a guessing game.",
+      },
+      {
+        q: "Can you clean up years of untracked creator income?",
+        a: "Yes. Platform dashboards, processor records and bank history let us rebuild past years stream by stream, separate personal from business, and tie the totals to every 1099 that was issued, with a flat quote before we start. Creators usually call after a scary letter or before a mortgage application. Earlier is cheaper.",
+      },
+      {
+        q: "What's the best accounting software for content creators?",
+        a: "QuickBooks Online, with each income stream in its own account and a dedicated business bank account feeding it. Spreadsheets break the first month a brand deal, an agency commission and a platform payout all land at once. The structure matters more than the software, and building and running it is the service.",
       },
     ],
   },

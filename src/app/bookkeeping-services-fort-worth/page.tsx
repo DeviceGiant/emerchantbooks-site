@@ -38,6 +38,22 @@ const FAQS = [
     q: "Do you take Fort Worth retail and brick-and-mortar businesses?",
     a: "Yes. Alongside the national ecommerce practice, we run a local practice for established Tarrant County businesses: retail on Square, Clover, Toast or Shopify POS, showrooms, service businesses with real inventory. We take whatever your operation produces, register exports, supplier invoices, bank feeds, receipts, and organize it into a clean QuickBooks or Xero file, A to Z.",
   },
+  {
+    q: "Do you do QuickBooks cleanup in Fort Worth?",
+    a: "Yes. Fort Worth cleanups usually start the same way: deposits booked as revenue, inventory expensed on purchase, accounts unreconciled for years. We rebuild the file properly, with settlement-level revenue and landed-cost COGS, quoted flat before we start. If the old file is beyond saving, we'll say so honestly and start a clean one with your history preserved.",
+  },
+  {
+    q: "I searched 'bookkeeper near me' from Keller. Do you cover that?",
+    a: "Yes. Keller, Haslet and the whole Alliance corridor sit inside our regular Fort Worth rounds, and onboarding happens at your location. The monthly work runs in your cloud accounting file, so 'near me' matters most on day one and at quarterly reviews. For both of those, we drive to you.",
+  },
+  {
+    q: "Can you take over from my current Fort Worth bookkeeper?",
+    a: "Yes, and you don't have to have the awkward conversation first. Grant us access, we review what's there, and we'll tell you plainly whether the file is worth keeping or needs a rebuild. The handoff itself takes two to three weeks. Everything stays in a QuickBooks or Xero file you own, so nothing gets held hostage by the old firm.",
+  },
+  {
+    q: "Do you handle payroll and sales tax for Tarrant County businesses?",
+    a: "Both, as part of local full-service engagements. We coordinate payroll through your provider (Gusto, ADP or QuickBooks Payroll), file Texas sales tax returns, and keep collected tax in a liability account where it belongs. Marketplace sellers get nexus monitoring too, since facilitator laws cover some of your channels and not others.",
+  },
 ];
 
 export default function FortWorthPage() {

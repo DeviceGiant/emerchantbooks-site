@@ -40,7 +40,7 @@ const COLS: { heading: string; links: { href: string; label: string }[] }[] = [
     heading: "Company",
     links: [
       { href: "/about-us/", label: "About Us" },
-      { href: "/ecommerce-accountant-dallas/", label: "Dallas–Fort Worth" },
+      { href: "/ecommerce-accountant-dallas/", label: "Dallas-Fort Worth" },
       { href: "/bookkeeping-services-plano-frisco/", label: "Plano & Frisco" },
       { href: "/bookkeeping-services-arlington-irving/", label: "Arlington & Mid-Cities" },
       { href: "/faq/", label: "FAQ" },

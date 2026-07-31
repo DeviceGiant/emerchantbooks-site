@@ -14,12 +14,12 @@ const TIERS = [
   {
     name: "Foundation",
     price: "$1,250",
-    for: "$100K–$250K/mo revenue · accounting",
+    for: "$100K-$250K/mo revenue · accounting",
     features: [
       "Accrual books, true landed-cost COGS",
       "Tariffs capitalized per ASC 330, not buried in opex",
       "Channel-level P&L, every marketplace reconciled",
-      "Closed by day 10 — or that month is 50% off",
+      "Closed by day 10 ,  or that month is 50% off",
       "Monthly close memo + video walkthrough",
       "Dual-track: accrual books, cash-basis tax where allowed",
       "Sales tax nexus monitoring (filings +$150/state/mo)",
@@ -31,7 +31,7 @@ const TIERS = [
   {
     name: "Command",
     price: "$3,500",
-    for: "$250K–$850K/mo revenue · + controller",
+    for: "$250K-$850K/mo revenue · + controller",
     features: [
       "Everything in Foundation",
       "Controller review on every close",
@@ -87,6 +87,22 @@ const FAQS = [
   {
     q: "Do I have to sign an annual contract?",
     a: "No. Month-to-month, 30 days' notice, and your file leaves with you fully intact because it was always yours. Annual prepayment traps are how firms with bad service keep clients.",
+  },
+  {
+    q: "How much does an ecommerce bookkeeper cost per month?",
+    a: "For brands past $100K a month, expect $1,000 to $15,000 a month across the specialist market, depending on channels and complexity. Our card: Foundation $1,250/mo, Command $3,500/mo, Exit-Grade $7,500/mo, each with the adjustments printed on the tier. Smaller sellers pay $149 to $249/mo on Books Lite. A quote far below those bands usually means categorized deposits, not reconciled settlements.",
+  },
+  {
+    q: "Is outsourced ecommerce accounting worth the price?",
+    a: "For sellers past $100K a month, almost always. A single 2% COGS error on $3M of revenue is $60,000 of fictional margin, and unprepared books cost sellers $50,000 to $500,000 at exit. Set against $15,000 to $42,000 a year in fees, the math isn't close. Under that size, start with Books Lite or a good starter bookkeeper and graduate up.",
+  },
+  {
+    q: "Are there setup or onboarding fees?",
+    a: "No separate setup fee. Most engagements start with the $2,500 Diligence Readiness Assessment, and that fee is credited in full against onboarding, so the assessment effectively costs nothing if you join. If your books need catch-up work or an accrual conversion first, that project is quoted flat, in writing, before anything begins.",
+  },
+  {
+    q: "Can I change tiers as my revenue changes?",
+    a: "Yes, at any month boundary. Brands usually enter at Foundation, move to Command when contribution-margin reporting and cash-flow forecasting start to matter, and step up to Exit-Grade when a sale is within 36 months. Moving down works the same way. Everything is month-to-month, so a tier change is an email, not a renegotiation.",
   },
 ];
 
@@ -165,8 +181,8 @@ export default function Pricing() {
         <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {[
             { name: "DIY + Review", price: "$99/qtr", who: "You keep your own QuickBooks", items: ["Quarterly review, fixes and certification of your file", "Written punch list of what to change", "Priority upgrade path when you outgrow DIY"], offer: "First review half price" },
-            { name: "Books Lite", price: "$149–249/mo", who: "Simple businesses under $25K/mo", items: ["AI-automated feeds + human-reviewed monthly close", "P&L and balance sheet with a 3-minute video summary", "Year-end tax-ready package and 1099s"], offer: "First month free, no card" },
-            { name: "Local Full-Service (DFW)", price: "$299–1,200/mo", who: "Dallas–Fort Worth businesses, POS and brick-and-mortar welcome", items: ["A/P, A/R, payroll coordination, sales tax filings", "POS-to-QuickBooks data flow, organized A to Z", "We move you free: 3 months of catch-up + handled handoff"], offer: "Free 30-day trial + 90-day money-back guarantee" },
+            { name: "Books Lite", price: "$149-249/mo", who: "Simple businesses under $25K/mo", items: ["AI-automated feeds + human-reviewed monthly close", "P&L and balance sheet with a 3-minute video summary", "Year-end tax-ready package and 1099s"], offer: "First month free, no card" },
+            { name: "Local Full-Service (DFW)", price: "$299-1,200/mo", who: "Dallas-Fort Worth businesses, POS and brick-and-mortar welcome", items: ["A/P, A/R, payroll coordination, sales tax filings", "POS-to-QuickBooks data flow, organized A to Z", "We move you free: 3 months of catch-up + handled handoff"], offer: "Free 30-day trial + 90-day money-back guarantee" },
             { name: "International Starter", price: "$499/mo", who: "Non-US sellers entering US platforms", items: ["US bookkeeping + sales-tax registrations and filings", "Form 5472 / pro-forma 1120 coordination", "Graduates into specialist tiers as you scale"], offer: "Free 20-min US Launch Compliance Check" },
           ].map((t) => (
             <div key={t.name} className="flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -187,7 +203,7 @@ export default function Pricing() {
         <div className="mx-auto mt-10 max-w-4xl rounded-2xl border border-brand-500/40 bg-brand-50 p-7">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <p className="text-lg font-bold text-navy-900">Diligence Readiness Assessment — $2,500</p>
+              <p className="text-lg font-bold text-navy-900">Diligence Readiness Assessment ,  $2,500</p>
               <p className="mt-1 max-w-xl text-sm leading-relaxed text-slate-600">
                 Ten business days. Your books scored against the 40 points buyers and lenders actually check, with
                 every gap quantified in dollars. Credited in full against onboarding.

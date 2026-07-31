@@ -34,6 +34,22 @@ const FAQS = [
     q: "Is it ecommerce only, or do you take local Plano businesses?",
     a: "Both, locally. The national practice is ecommerce-only with a $100K/mo floor, but our Plano office also serves established North DFW brick-and-mortar and hybrid businesses: retail on Square or Shopify POS, med spas and clinics with product revenue, wholesale operations. Everything lands in a clean QuickBooks or Xero file you own, quoted flat.",
   },
+  {
+    q: "Do you do QuickBooks cleanup in Plano and Frisco?",
+    a: "Yes, constantly. The typical cleanup here is a fast-growing Frisco brand whose file didn't keep up: deposits as revenue, inventory in one lump, gateways never reconciled. We rebuild it to accrual with landed-cost COGS, quoted flat after a short look. Bring the file to the Plano office and we'll open it together this week.",
+  },
+  {
+    q: "I searched 'small business accountant near me' from Frisco. How close are you?",
+    a: "Ten to fifteen minutes from most of Frisco. The office is at 7700 Windrose in Plano, near Legacy West, and we treat Frisco, McKinney and Allen as home territory rather than a service radius. Same-day meetings are usually possible, and we'll come to your location when that's easier.",
+  },
+  {
+    q: "How do I switch accountants in Plano without losing my books?",
+    a: "You won't lose anything, because the work lives in your own QuickBooks or Xero file. Grant us access, we review the file's condition, take over the monthly close, and coordinate the handoff with your old firm if you'd like the buffer. Most Collin County switches complete inside three weeks with zero gaps in the record.",
+  },
+  {
+    q: "Do you handle sales tax for Collin County businesses?",
+    a: "Yes. Texas sales tax filings, correct local rates for Plano, Frisco, McKinney and Allen addresses, and nexus monitoring for anything you sell into other states. Collected tax sits in a liability account, never revenue, and marketplace-facilitator channels are separated from direct sales so you don't remit tax Amazon already remitted.",
+  },
 ];
 
 export default function PlanoFriscoPage() {

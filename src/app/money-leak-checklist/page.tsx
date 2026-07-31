@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { CtaBand } from "@/components/Sections";
+import { CtaBand, FaqBlock } from "@/components/Sections";
 
 export const metadata: Metadata = {
   title: "The 27-Point Ecommerce Money Leak Checklist",
@@ -75,6 +75,25 @@ const SECTIONS: { title: string; why: string; items: string[] }[] = [
   },
 ];
 
+const CHECKLIST_FAQS = [
+  {
+    q: "How do I find errors in my books?",
+    a: "Work this checklist top to bottom with your accounting file open. The fastest single check: tie your books' gross revenue to your 1099-Ks. If they don't match within rounding, deposits are being booked as revenue, and every number downstream of that is wrong. After that, spot-check fees on ten SKUs and confirm inventory bought this quarter isn't sitting in COGS.",
+  },
+  {
+    q: "How much money do sellers lose to bookkeeping errors?",
+    a: "More than the bookkeeping would cost, usually by a wide margin. A 2% COGS error on $3M in sales is $60,000 of misstated margin. Unclaimed FBA reimbursements typically run 1-3% of revenue. And at exit, unprepared books cost sellers $50,000 to $500,000 off the price. Most new clients find their first four-figure leak in section one of this list.",
+  },
+  {
+    q: "What's the most common bookkeeping mistake ecommerce sellers make?",
+    a: "Booking marketplace deposits as revenue. A deposit is gross sales minus fees, refunds and reserves, so booking it as income understates revenue and hides your fees entirely. It also breaks the 1099-K match the IRS runs by computer. Nearly every generalist-kept file we audit has this error, and it's the first thing we fix.",
+  },
+  {
+    q: "How often should I audit my ecommerce books for leaks?",
+    a: "Run the full 27 points quarterly, and three of them monthly: settlement-to-payout reconciliation, the running 1099-K tie, and reimbursement claims, because Amazon's claim windows expire. If your books close by the 10th every month, most of this happens automatically and the checklist becomes verification instead of discovery.",
+  },
+];
+
 export default function Checklist() {
   return (
     <>
@@ -130,6 +149,8 @@ export default function Checklist() {
           </div>
         </div>
       </section>
+
+      <FaqBlock faqs={CHECKLIST_FAQS} title="Money leak questions, answered" />
 
       <CtaBand source="checklist-bottom" />
     </>

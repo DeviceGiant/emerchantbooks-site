@@ -71,9 +71,9 @@ export default function PriceCalculator() {
           <select id="calc-rev" className={input} value={a.revenue} onChange={set("revenue")}>
             <option value="" disabled>Select…</option>
             <option value="under25">Under $25K</option>
-            <option value="25to100">$25K–$100K</option>
-            <option value="100to250">$100K–$250K</option>
-            <option value="250to850">$250K–$850K</option>
+            <option value="25to100">$25K-$100K</option>
+            <option value="100to250">$100K-$250K</option>
+            <option value="250to850">$250K-$850K</option>
             <option value="over850">Over $850K</option>
           </select>
         </div>
@@ -106,8 +106,8 @@ export default function PriceCalculator() {
           <label className={label} htmlFor="calc-behind">Months behind</label>
           <select id="calc-behind" className={input} value={a.behind} onChange={set("behind")}>
             <option value="0">Up to date</option>
-            <option value="1-3">1–3</option>
-            <option value="4-12">4–12</option>
+            <option value="1-3">1-3</option>
+            <option value="4-12">4-12</option>
             <option value="12+">12+</option>
           </select>
         </div>

@@ -122,9 +122,9 @@ export default function LeadForm({
           <label className={label} htmlFor={`${source}-rev`}>Monthly sales</label>
           <select id={`${source}-rev`} name="monthlyRevenue" className={input} defaultValue="">
             <option value="" disabled>Select range</option>
-            <option>$100K–$250K/mo</option>
-            <option>$250K–$850K/mo</option>
-            <option>$850K–$2.5M/mo</option>
+            <option>$100K-$250K/mo</option>
+            <option>$250K-$850K/mo</option>
+            <option>$850K-$2.5M/mo</option>
             <option>Over $2.5M/mo</option>
             <option>Under $100K/mo (join waitlist)</option>
           </select>

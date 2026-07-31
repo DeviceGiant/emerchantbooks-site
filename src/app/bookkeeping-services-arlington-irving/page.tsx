@@ -34,6 +34,22 @@ const FAQS = [
     q: "Which mid-cities do you actually cover?",
     a: "Arlington, Irving, Grand Prairie, Denton, Carrollton, Garland, Grapevine and Lewisville are the core, and everything between them. We're based in Plano, so nothing on this list is more than about forty minutes out. Distance never changes the service or the price; it changes which highway we take.",
   },
+  {
+    q: "Do you do QuickBooks cleanup in Arlington and Irving?",
+    a: "Yes. Mid-cities cleanups usually involve a POS, a marketplace channel and a bank feed that stopped agreeing with each other years ago. We rebuild the file to accrual, reconcile every account and separate storefront from online revenue, quoted flat before we start. If the existing file is beyond repair, we build a clean one and preserve your history.",
+  },
+  {
+    q: "I need a small business accountant near me in Grand Prairie. Do you come out?",
+    a: "Yes. Grand Prairie's warehouse rows along 161 are a regular stop for us, and onboarding always happens at your location. After that, the monthly work runs in your cloud file with in-person quarterly reviews. Nothing in the mid-cities is more than about forty minutes from our Plano office.",
+  },
+  {
+    q: "How much does a bookkeeper cost in Arlington?",
+    a: "Generalist Arlington bookkeepers run $300-800/mo. Our local engagements are quoted flat after a look at your systems and usually land in a similar range, with inventory, POS and channel accounting done correctly. Ecommerce brands doing $100K+ a month follow the published rate card from $1,250/mo. Either way, the number is in writing before work starts.",
+  },
+  {
+    q: "Can you catch up years of books for a mid-cities business?",
+    a: "Yes. We rebuild past years from bank feeds, POS exports, settlement reports and supplier invoices, quoted flat and billed at a discount to monthly rates. Distribution businesses near the airport often need this after outgrowing a part-time bookkeeper. Most catch-ups finish in a few weeks, and monthly service starts the moment the backlog clears.",
+  },
 ];
 
 export default function ArlingtonIrvingPage() {

@@ -35,7 +35,7 @@ export const ARTICLES: Article[] = [
 <tr><td>Acuity</td><td>~$599/mo</td><td>Pricing not published</td></tr>
 <tr><td>Bean Ninjas</td><td>$995/mo</td><td>Specialist, published pricing, 7-figure focus</td></tr>
 <tr><td>LedgerGurus</td><td>Not published</td><td>Generally requires ~$3M+ annual revenue</td></tr>
-<tr><td>Freelance bookkeeper</td><td>$300–$800/mo</td><td>Quality varies enormously; ecommerce skills rare</td></tr>
+<tr><td>Freelance bookkeeper</td><td>$300-$800/mo</td><td>Quality varies enormously; ecommerce skills rare</td></tr>
 </tbody>
 </table>
 <p>Notice how many rows say "not published" or "requires a call." Hidden pricing usually means the number depends on how the sales conversation goes. When comparing, always ask what the price becomes at your order volume next year, not just today.</p>
@@ -48,13 +48,13 @@ export const ARTICLES: Article[] = [
 <p><strong>5. Accrual vs cash books.</strong> Accrual with real COGS costs more than cash-basis category-sorting because it's more work. It's also the only version that tells an inventory business the truth. If a low quote assumes cash basis, you're not comparing the same product.</p>
 
 <h2>What DIY actually costs</h2>
-<p>QuickBooks Online Plus runs $115/mo at 2026 list price (<a href="/bookkeeping-tips/quickbooks-online-pricing-ecommerce/">full plan-by-plan breakdown here</a>), A2X about $29–$89/mo, and the average seller spends 5 to 15 hours a month doing the work. At even $30/hour of your time, DIY costs $250 to $600 a month before the error risk. DIY makes sense under roughly $10k/mo in sales. Past that, the math flips fast, because the expensive part of bookkeeping isn't the subscription, it's getting COGS and settlement accounting wrong for a year.</p>
+<p>QuickBooks Online Plus runs $115/mo at 2026 list price (<a href="/bookkeeping-tips/quickbooks-online-pricing-ecommerce/">full plan-by-plan breakdown here</a>), A2X about $29-$89/mo, and the average seller spends 5 to 15 hours a month doing the work. At even $30/hour of your time, DIY costs $250 to $600 a month before the error risk. DIY makes sense under roughly $10k/mo in sales. Past that, the math flips fast, because the expensive part of bookkeeping isn't the subscription, it's getting COGS and settlement accounting wrong for a year.</p>
 
 <h2>The costs of bad bookkeeping (the number nobody quotes)</h2>
 <p>A 1099-K that doesn't match your filed return can trigger an IRS notice; resolving one typically costs more in professional fees than a year of bookkeeping. A lender or aggregator that can't verify your margins discounts your valuation or walks. And a mispriced product line can quietly lose money for years. Cheap books that are wrong are the most expensive option on this page.</p>
 
 <h2>Bottom line</h2>
-<p>Budget $400–$1,500/mo for real specialist work depending on scale and inventory complexity, more at controller depth. Insist on: accrual books, settlement-level reconciliation, transparent pricing, your own QuickBooks or Xero file, and no annual contract. Our <a href="/pricing/">full rate card is public</a>, from $149/mo Books Lite to specialist tiers, and the books audit is free.</p>
+<p>Budget $400-$1,500/mo for real specialist work depending on scale and inventory complexity, more at controller depth. Insist on: accrual books, settlement-level reconciliation, transparent pricing, your own QuickBooks or Xero file, and no annual contract. Our <a href="/pricing/">full rate card is public</a>, from $149/mo Books Lite to specialist tiers, and the books audit is free.</p>
 `,
   },
   {
@@ -85,7 +85,7 @@ export const ARTICLES: Article[] = [
 <p>The state-by-state details vary more than sellers expect. Washington bills you a <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">gross-receipts B&amp;O tax even when Amazon collects everything</a>, while Florida ignores your marketplace volume entirely and has <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">a surtax cap most rate calculators miss</a>. If you ship into either state, those two guides are worth ten minutes.</p>
 
 <h2>Layer 3: The 1099-K, where returns go to die</h2>
-<p>Amazon reports your <strong>gross</strong> payment volume to the IRS on Form 1099-K. Gross means before fees, refunds, and everything else. Your bank deposits are net. The gap between them is routinely 25–35% of gross.</p>
+<p>Amazon reports your <strong>gross</strong> payment volume to the IRS on Form 1099-K. Gross means before fees, refunds, and everything else. Your bank deposits are net. The gap between them is routinely 25-35% of gross.</p>
 <p>If your return shows revenue that looks like your deposits, the IRS computer sees a mismatch against the 1099-K and mismatches generate notices. The fix is books built from settlement reports, where gross sales tie to the 1099-K and fees are properly deducted as expenses. Same tax owed, no letter. The trap isn't Amazon-specific either: <a href="/bookkeeping-tips/tiktok-shop-seller-bookkeeping/">TikTok Shop sellers</a> and <a href="/bookkeeping-tips/content-creator-bookkeeping/">content creators</a> paid through payment platforms get the same gross-figure 1099-Ks.</p>
 
 <h2>Deductions Amazon sellers commonly miss</h2>
@@ -163,11 +163,11 @@ export const ARTICLES: Article[] = [
 
 <h2>Revenue: by channel, gross and honest</h2>
 <ul>
-<li>4010 Sales – Amazon</li>
-<li>4020 Sales – Shopify</li>
-<li>4030 Sales – eBay</li>
-<li>4040 Sales – Walmart</li>
-<li>4050 Sales – Etsy</li>
+<li>4010 Sales - Amazon</li>
+<li>4020 Sales - Shopify</li>
+<li>4030 Sales - eBay</li>
+<li>4040 Sales - Walmart</li>
+<li>4050 Sales - Etsy</li>
 <li>4910 Refunds &amp; Returns (contra-revenue, also by channel if volume justifies)</li>
 <li>4920 Discounts &amp; Promotions (contra-revenue)</li>
 </ul>
@@ -184,7 +184,7 @@ export const ARTICLES: Article[] = [
 
 <h2>Marketplace fees: itemized, because they creep</h2>
 <ul>
-<li>6010 Referral / Commission Fees – by channel</li>
+<li>6010 Referral / Commission Fees - by channel</li>
 <li>6020 FBA / Fulfillment Fees</li>
 <li>6030 Storage Fees (watch long-term storage separately if FBA)</li>
 <li>6040 Payment Processing (Shopify Payments, PayPal, Stripe)</li>
@@ -195,10 +195,10 @@ export const ARTICLES: Article[] = [
 
 <h2>Advertising: split by platform</h2>
 <ul>
-<li>6110 Advertising – Amazon PPC</li>
-<li>6120 Advertising – Meta</li>
-<li>6130 Advertising – Google</li>
-<li>6140 Advertising – Other (TikTok, influencers, Etsy/Offsite ads)</li>
+<li>6110 Advertising - Amazon PPC</li>
+<li>6120 Advertising - Meta</li>
+<li>6130 Advertising - Google</li>
+<li>6140 Advertising - Other (TikTok, influencers, Etsy/Offsite ads)</li>
 </ul>
 <p>Blended ad spend can't tell you where the next dollar should go. Split it.</p>
 
@@ -248,7 +248,7 @@ export const ARTICLES: Article[] = [
 <p>The 5472 travels with a family: W-8BEN or W-8BEN-E for platform tax interviews (get the wrong one and platforms may withhold), BOI reporting where applicable, state annual reports and franchise taxes, sales tax registrations, and, depending on your country's treaty and your activity, a 1040-NR or treaty-position filing. Whether you owe US income tax at all is the famous "engaged in a US trade or business" question, on which reasonable professionals disagree; what nobody disagrees about is that the 5472 is due regardless.</p>
 
 <h2>Getting this handled</h2>
-<p>The cheap route is a filing shop ($399–$999 per year) that files the form using whatever numbers you give them, plus a separate bookkeeper who has never seen an Amazon settlement report. The expensive route is a formation platform's $1,999/yr compliance bundle with software-first books underneath. The route we built: <a href="/international-sellers/">marketplace-grade monthly bookkeeping plus coordination of the full compliance stack</a>, so the numbers on the form come from books that can defend them. From $229/mo, first month free, and your books live in your own QuickBooks or Xero file either way.</p>
+<p>The cheap route is a filing shop ($399-$999 per year) that files the form using whatever numbers you give them, plus a separate bookkeeper who has never seen an Amazon settlement report. The expensive route is a formation platform's $1,999/yr compliance bundle with software-first books underneath. The route we built: <a href="/international-sellers/">marketplace-grade monthly bookkeeping plus coordination of the full compliance stack</a>, so the numbers on the form come from books that can defend them. From $229/mo, first month free, and your books live in your own QuickBooks or Xero file either way.</p>
 `,
   },
   {
@@ -1304,7 +1304,7 @@ export const ARTICLES: Article[] = [
 
 <h2>Getting an EIN with an SSN: ten minutes, zero dollars</h2>
 <p>The IRS online EIN application (weekdays, roughly 7am to 10pm Eastern) issues the number instantly. You'll name a <strong>responsible party</strong>, the human who controls the entity, and that person's SSN or ITIN goes on the application. Two rules trip people: the responsible party must be an individual, not another company, and the IRS issues only one EIN per responsible party per day, which matters if you're spinning up multiple LLCs.</p>
-<p>And it is <strong>free</strong>. The formation mills charging $75 to $300 for "EIN filing service" are charging you to type your own answers into a free government form. The only people with a legitimate reason to pay for help are foreign owners navigating the no-SSN route, and even that is doable solo.</p>
+<p>And it is <strong>free</strong>. The formation mills charging $75 to $300 for "EIN filing service" are charging you to type your own answers into a free government form. The only people with a legitimate reason to pay for help are foreign owners working through the no-SSN route, and even that is doable solo.</p>
 
 <h2>Getting an EIN without an SSN: the international route</h2>
 <p>No SSN, no ITIN, no US address: you can still get an EIN, directly from the IRS. The online tool won't work for you (it demands an SSN or ITIN), so the path is Form SS-4 by fax or phone:</p>
@@ -1708,7 +1708,7 @@ export const ARTICLES: Article[] = [
 <p>Total real cost of compliance: modest and predictable. The alternative compounds the way state problems always do: an eight-year lookback applies to sellers who never filed, versus three years for those who did, which is among the strongest arguments in any state for registering once the threshold is genuinely crossed.</p>
 
 <h2>If the CDTFA writes to you first</h2>
-<p>California finds sellers; it doesn't wait for them. Marketplace data, customs records and FBA inventory reports all feed discovery, and the standard opener is a letter or questionnaire about your California activity: inventory locations, channels, sales volume, dates. Three rules for that moment. Don't ignore it; silence converts a questionnaire into an estimated assessment, computed generously in the state's favor. Don't answer it casually either, because your answers define the scope of everything that follows, including how many years are on the table. And know your leverage before responding: out-of-state sellers who come forward through voluntary disclosure generally get the lookback capped at three years with penalty relief, an option that can evaporate once the state initiates contact, which is exactly why the order of operations matters. Answering with settlement-level books behind you is a half-hour exercise; answering from bank statements is how sellers concede nexus and years they never owed. Get <a href="/ecommerce-tax-services/">a specialist</a> into the conversation before your first reply, not after your second.</p>
+<p>California finds sellers; it doesn't wait for them. Marketplace data, customs records and FBA inventory reports all feed discovery, and the standard opener is a letter or questionnaire about your California activity: inventory locations, channels, sales volume, dates. Three rules for that moment. Don't ignore it; silence converts a questionnaire into an estimated assessment, computed generously in the state's favor. Don't answer it casually either, because your answers define the scope of everything that follows, including how many years are on the table. And know your use before responding: out-of-state sellers who come forward through voluntary disclosure generally get the lookback capped at three years with penalty relief, an option that can evaporate once the state initiates contact, which is exactly why the order of operations matters. Answering with settlement-level books behind you is a half-hour exercise; answering from bank statements is how sellers concede nexus and years they never owed. Get <a href="/ecommerce-tax-services/">a specialist</a> into the conversation before your first reply, not after your second.</p>
 
 <h2>California sales tax FAQ</h2>
 <p><strong>What is the California sales tax rate in 2026?</strong> 7.25% minimum statewide; combined rates with district taxes commonly run 8.75% to 10.25%, topping out around 10.75%. Always resolve the rate by delivery address, not by city name; district lines don't follow zip codes.</p>

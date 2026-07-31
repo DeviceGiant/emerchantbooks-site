@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Sections";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Talk to a Partner",
+  title: "Contact Us ,  Talk to a Partner",
   description:
     "Talk to the accounting firm for ecommerce brands doing $100K+ a month. Call (469) 294-1807 or send the form; a partner replies within one business day.",
   alternates: { canonical: "/contact/" },
