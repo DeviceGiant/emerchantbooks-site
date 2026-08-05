@@ -23,6 +23,15 @@ export const ARTICLES: Article[] = [
     html: `
 <p>Short answer: a specialist ecommerce bookkeeping service in 2026 runs between $229 and $995 per month for a small-to-midsize seller, and the wide range comes down to five factors covered below. Generalist bookkeepers charge less. They also tend to book your Amazon deposits as revenue, which is why sellers end up switching.</p>
 
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Specialist ecommerce bookkeeping services in 2026 charge between $229 and $995 per month for a small-to-midsize seller.</li>
+<li>eMerchant Books publishes its full rate card: $1,250 per month for $100K+/month brands, with a Books Lite tier at $149 per month.</li>
+<li>QuickBooks Online Plus costs $115 per month at 2026 list price, and the A2X connector adds roughly $29 to $89 per month.</li>
+<li>DIY ecommerce bookkeeping takes the average seller 5 to 15 hours a month, which works out to $250 to $600 a month at even $30 per hour.</li>
+<li>DIY bookkeeping makes sense under roughly $10,000 a month in sales; past that, the cost of getting COGS and settlement accounting wrong outweighs the savings.</li>
+<li>Bean Ninjas charges $995 per month and Finaloop starts at $245 per month, while LedgerGurus generally requires around $3 million in annual revenue.</li>
+</ul></div>
+
 <h2>What firms actually charge in 2026</h2>
 <p>Published entry prices, gathered July 2026:</p>
 <table>
@@ -55,6 +64,7 @@ export const ARTICLES: Article[] = [
 
 <h2>Bottom line</h2>
 <p>Budget $400-$1,500/mo for real specialist work depending on scale and inventory complexity, more at controller depth. Insist on: accrual books, settlement-level reconciliation, transparent pricing, your own QuickBooks or Xero file, and no annual contract. Our <a href="/pricing/">full rate card is public</a>, from $149/mo Books Lite to specialist tiers, and the books audit is free.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 28, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -68,6 +78,14 @@ export const ARTICLES: Article[] = [
     excerpt: "Amazon handles most sales tax for you now. Income tax, 1099-K matching and inventory accounting are still your problem. Here's the whole picture in plain English.",
     html: `
 <p>Do Amazon sellers pay taxes? Yes, on profit, like any business. But Amazon selling has three tax layers that confuse people because they work completely differently: income tax, sales tax, and the 1099-K information return that ties them together. Here's each one, plainly.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Amazon collects and remits sales tax on marketplace orders in every US state with a sales tax, under marketplace facilitator laws.</li>
+<li>Amazon's Form 1099-K reports gross payment volume, which routinely runs 25 to 35% higher than a seller's bank deposits.</li>
+<li>Sole proprietors and single-member LLC owners pay 15.3% self-employment tax on Amazon profit, on top of federal and state income tax.</li>
+<li>Quarterly estimated taxes for Amazon sellers are due in April, June, September and January, and paying 100% of last year's tax (110% at higher incomes) avoids penalties.</li>
+<li>A foreign-owned single-member US LLC selling on Amazon must file Form 5472 every year, and the penalty for skipping it is $25,000.</li>
+</ul></div>
 
 <h2>Layer 1: Income tax on your profit</h2>
 <p>You owe federal (and usually state) income tax on net profit: revenue minus cost of goods sold minus expenses. Sole proprietors and single-member LLCs report it on Schedule C; the profit also picks up 15.3% self-employment tax. S-corps and partnerships file their own returns and pass income through.</p>
@@ -105,6 +123,7 @@ export const ARTICLES: Article[] = [
 
 <h2>What to do before year end</h2>
 <p>Reconcile your books to your settlement reports, count or value your inventory as of December 31, pull your annual 1099-K when it drops, and hand your CPA a file where those three things agree. If they don't agree, fix the books before filing, not after the letter. That's the service we provide, starting with <a href="/catch-up-bookkeeping-services/">a catch-up</a> if you're behind.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 28, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -118,6 +137,14 @@ export const ARTICLES: Article[] = [
     excerpt: "The 1099-K says $487,000. Your bank says $342,000. Neither is wrong, and understanding the gap is the difference between a clean filing and an IRS notice.",
     html: `
 <p>Every January, Amazon sellers open their 1099-K and have the same reaction: "I never received this much money." Correct. You didn't. The 1099-K reports <strong>gross payment volume</strong>, before Amazon's fees, refunds and adjustments. Your bank received what was left. Both numbers are right; they're just answering different questions.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Amazon's 1099-K reports gross payment volume in Box 1a, before referral fees, FBA fees, refunds and advertising; bank deposits routinely come in 25 to 35% lower.</li>
+<li>The IRS matches every Amazon 1099-K against filed tax returns by computer, and a revenue gap typically triggers a CP2000 notice.</li>
+<li>An Amazon 1099-K showing $487,000 can sit beside roughly $333,000 of bank deposits after $28,000 of refunds, $73,000 of referral fees, $41,000 of FBA fees and $12,000 of ads.</li>
+<li>The correct filing method reports gross revenue that ties to the Amazon 1099-K, then deducts fees and refunds as expenses; the tax owed is identical and no mismatch flag is raised.</li>
+<li>Amazon, eBay, Walmart, Etsy and PayPal each issue their own 1099-K, and each form must tie to the seller's books individually.</li>
+</ul></div>
 
 <h2>What's actually in the 1099-K number</h2>
 <p>Box 1a is unadjusted gross sales processed through Amazon: product sales, shipping charged to buyers, gift wrap, and sales tax collected in some configurations. It does not subtract referral fees, FBA fees, storage, refunds, chargebacks, or advertising deducted from settlements.</p>
@@ -144,6 +171,7 @@ export const ARTICLES: Article[] = [
 
 <h2>The five-minute self-check</h2>
 <p>Take last year's 1099-K. Open your filed Schedule C (or P&L). If gross receipts are within rounding distance of Box 1a, you're fine. If gross receipts look like your bank deposits instead, your filing method has a mismatch problem, and it's worth fixing the books before the IRS asks. <a href="/catch-up-bookkeeping-services/">That's a catch-up project</a>, and it's much cheaper before the notice than after.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 28, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -157,6 +185,14 @@ export const ARTICLES: Article[] = [
     excerpt: "Default QuickBooks gives you 'Sales' and 'Fees.' Here's the account structure that shows channel margins, fee creep and real product costs, ready to copy.",
     html: `
 <p>Your chart of accounts decides which questions your books can answer. With QuickBooks' default COA, "how were sales?" gets an answer. "Which channel makes money?" and "why did margins drop in March?" do not. Here's the structure we set up for marketplace sellers, and you're welcome to copy it.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>An ecommerce chart of accounts should break out revenue by channel (Amazon, Shopify, eBay, Walmart, Etsy) with refunds in a separate contra-revenue account.</li>
+<li>Inventory purchases belong on the balance sheet first and move to cost of goods sold as units sell, not on the purchase date.</li>
+<li>Marketplace fees are most ecommerce sellers' second-largest cost after inventory, and itemized fee accounts are what make fee creep visible.</li>
+<li>In QuickBooks Online Plus, Classes produce a per-channel P&amp;L; in Xero, Tracking Categories do the same job.</li>
+<li>Sales tax collected belongs in a liability account such as 2250 Sales Tax Payable, never in revenue.</li>
+</ul></div>
 
 <h2>The design principle: one level of useful detail</h2>
 <p>Bad COAs fail in both directions. Five accounts tell you nothing; three hundred accounts never get categorized consistently and tell you less. The rule: break out an account only if you'll make a different decision based on its balance. Channel-level revenue? Different decisions. Separate accounts for blue pens and black pens? No.</p>
@@ -210,6 +246,7 @@ export const ARTICLES: Article[] = [
 
 <h2>Setting this up</h2>
 <p>Building this into a fresh file takes an afternoon. Restructuring a live file with history takes more care: account merges, remapped A2X postings, and reclassifying enough history that trends stay comparable. We do both as part of onboarding, and the <a href="/quickbooks-for-ecommerce/">QuickBooks setup</a> is included in every plan. Or take this template and build it yourself; either way, stop running a marketplace business on "Sales" and "Fees."</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 28, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -223,6 +260,14 @@ export const ARTICLES: Article[] = [
     excerpt: "If a non-US person owns a US LLC, Form 5472 is due every year even with zero tax owed. The penalty for missing it is $25,000 per form. Here's the whole picture.",
     html: `
 <p>If you're a non-US resident who formed a US LLC to sell on Amazon, Walmart or Shopify, one form matters more than every other piece of US paperwork combined: <strong>Form 5472</strong>, filed with a pro-forma Form 1120. It's due every year even if you owe zero US tax, and the penalty for not filing starts at <strong>$25,000 per form, per year</strong>.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>The Form 5472 penalty is $25,000 per missed form per year, assessed automatically, even when the LLC owes zero US tax.</li>
+<li>A US single-member LLC with a foreign owner must file Form 5472 with a pro-forma Form 1120 every year it has reportable transactions, and funding the LLC's bank account counts as one.</li>
+<li>Form 5472 is due April 15 for calendar-year entities, extendable to October 15 with Form 7004.</li>
+<li>Form 5472 cannot be e-filed through consumer tax software; it goes by mail or fax to a dedicated IRS unit, which is why TurboTax users miss it.</li>
+<li>Late Form 5472 filings with reasonable-cause statements regularly succeed for first-time voluntary corrections backed by clean books.</li>
+</ul></div>
 <p>That's not a scare-marketing number. It's the statutory penalty, it's assessed automatically, and we've studied a case of a seller with a Wyoming LLC who was hit for $50,000 across two missed years despite owing no tax at all.</p>
 
 <h2>Who has to file</h2>
@@ -230,7 +275,7 @@ export const ARTICLES: Article[] = [
 <p>Multi-member LLCs taxed as partnerships and LLCs that elected corporate taxation have different filing profiles, but foreign ownership triggers reporting in those structures too. If a non-US person owns 25% or more, assume forms are due until a professional confirms otherwise.</p>
 
 <h2>What the form actually reports</h2>
-<p>Not your profit. Form 5472 is an information return about money moving between the LLC and its foreign owner: capital contributions, distributions, loans, payments for services, rent, royalties. The IRS uses it to see cross-border flows. The pro-forma 1120 that wraps it is mostly a cover page.</p>
+<p>Form 5472 is an information return that reports money moving between the LLC and its foreign owner: capital contributions, distributions, loans, payments for services, rent, royalties. It does not report your profit. The IRS uses it to see cross-border flows. The pro-forma 1120 that wraps it is mostly a cover page.</p>
 <p>Here's the part sellers miss: to report those transactions accurately, you need books that actually track them. "I moved money between my personal account and the LLC whenever" is how reportable transactions get missed and forms get filed wrong. The 5472 is, quietly, a bookkeeping requirement.</p>
 
 <h2>Deadlines and mechanics</h2>
@@ -249,6 +294,7 @@ export const ARTICLES: Article[] = [
 
 <h2>Getting this handled</h2>
 <p>The cheap route is a filing shop ($399-$999 per year) that files the form using whatever numbers you give them, plus a separate bookkeeper who has never seen an Amazon settlement report. The expensive route is a formation platform's $1,999/yr compliance bundle with software-first books underneath. The route we built: <a href="/international-sellers/">marketplace-grade monthly bookkeeping plus coordination of the full compliance stack</a>, so the numbers on the form come from books that can defend them. From $229/mo, first month free, and your books live in your own QuickBooks or Xero file either way.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 28, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -262,6 +308,15 @@ export const ARTICLES: Article[] = [
     excerpt: "A QoE report is the financial exam your business takes before someone buys it. Here's what's inside one, what it costs, and the eight things that make ecommerce sellers fail it.",
     html: `
 <p>A quality of earnings report (QoE) is an independent analysis of how real your profits are. When someone offers to buy your business, their diligence team produces one to answer a single question: if we own this company next year, does the money keep showing up? It examines revenue quality, expense completeness, owner addbacks, and working capital, and it is the document that most often reprices or kills a deal.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>A quality of earnings (QoE) report typically runs 30 to 80 pages and is produced during the due diligence phase of a business sale or financing.</li>
+<li>A buy-side QoE report costs $5,000 to $15,000 from a boutique firm and $25,000 to $35,000 from a regional CPA firm; the buyer usually pays.</li>
+<li>Ecommerce sellers who arrive at diligence unprepared routinely lose 20 to 40% of their sale price to quality of earnings adjustments.</li>
+<li>Inventory-heavy brands routinely overstate working capital by 20 to 40%, and the difference comes out of the purchase price dollar for dollar.</li>
+<li>Buyers want 24 to 36 months of accrual-basis history, so quality of earnings preparation should start about 3 years before a planned sale.</li>
+<li>A quality of earnings report takes three to six weeks for SMB deals, longer when the books need reconstruction.</li>
+</ul></div>
 <p>If you sell online and ever plan to exit, raise debt, or take on a partner, understanding QoE analysis now is worth real money later. Sellers who show up prepared protect their multiple. Sellers who don't routinely lose 20 to 40% of the outcome, or the deal itself.</p>
 
 <h2>What a quality of earnings report actually contains</h2>
@@ -322,6 +377,7 @@ export const ARTICLES: Article[] = [
 <p><strong>Who prepares QoE reports?</strong> CPA firms and specialist transaction-advisory boutiques, independent of both parties even when one side pays.</p>
 <p><strong>How long does one take?</strong> Three to six weeks for SMB deals, longer if the books need reconstruction, which is the polite way diligence timelines die.</p>
 <p><strong>Do I need one to sell a business under $1M?</strong> A formal QoE, often not. QoE-style scrutiny, always: every serious buyer runs the same checks informally, and broker vetting applies the same standards.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -335,6 +391,14 @@ export const ARTICLES: Article[] = [
     excerpt: "Amazon bookkeeping fails in predictable ways: deposits booked as sales, fee blobs, ignored reserves, unclaimed reimbursements. Here are all nine problems and the fix for each.",
     html: `
 <p>Amazon seller bookkeeping goes wrong in nine predictable ways. We know because fixing them is most of our onboarding work: nearly every Amazon seller's books arrive with at least three of these problems, and the expensive ones hide until tax season, a loan application, or a buyer's diligence team finds them. Here's the complete list, why each happens, and the fix.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>An Amazon settlement deposit is gross sales minus referral fees, FBA fees, refunds, ad spend and reserve holds; a $50,000 deposit can hide $78,500 of actual sales.</li>
+<li>The gap between Amazon's 1099-K gross figure and a seller's bank deposits routinely runs 25 to 35% of sales.</li>
+<li>Unclaimed Amazon FBA reimbursements commonly total thousands of dollars a year for a seller doing $200,000 a month.</li>
+<li>Since the 2025 and 2026 tariff rounds, freight and duties left out of landed cost can turn a "30% margin" Amazon product into a 19% margin product.</li>
+<li>A2X and Link My Books post Amazon settlement reports so gross sales, each fee type and refunds land in their own accounts and the deposit just clears the balance.</li>
+</ul></div>
 
 <h2>1. The deposit is booked as revenue</h2>
 <p>The classic. Amazon pays every two weeks; the bookkeeper categorizes the deposit as "Amazon sales" and moves on. But a settlement deposit is gross sales minus referral fees, FBA fees, refunds, ad spend and reserve holds. A $50,000 deposit can hide $78,500 of actual sales. Book the net number and your revenue is understated, your fees are invisible, and your 1099-K reconciliation is broken before the year ends.</p>
@@ -375,6 +439,7 @@ export const ARTICLES: Article[] = [
 <h2>What clean Amazon books look like</h2>
 <p>Gross sales that tie to settlement reports and the 1099-K. Fees itemized by type. Reserves visible on the balance sheet. Reimbursements reconciled monthly. COGS on inventory movement with true landed cost. Sales tax in a liability account. Per-channel margins. Closed by the 10th business day, every month.</p>
 <p>That's the standard our <a href="/amazon-bookkeeping-services/">Amazon bookkeeping service</a> maintains for $100K+/mo sellers, and the fastest way to see how far your books are from it costs nothing: our free books teardown rebuilds your most recent month properly and sends you a 10-minute video of every problem on this list we found in your file, with dollar figures. <a href="/contact/">Claim it here</a>, no card, keep everything.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -388,6 +453,15 @@ export const ARTICLES: Article[] = [
     excerpt: "TikTok Shop pays you weeks after the sale, nets out creator commissions before you see a dime, and changes its fees faster than any platform in ecommerce. Here's how to keep books that survive it.",
     html: `
 <p>TikTok Shop bookkeeping breaks the moment you treat your payouts as revenue, because a TikTok Shop payout is what's left after referral fees, creator commissions, refunds and adjustments, and that gap is routinely 25 to 40% of your actual sales. TikTok Shop accounting done right starts from the settlement data, not the bank deposit. Here's how the platform actually moves money, the specific problems it creates in your books, and the fix for each one.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>A TikTok Shop payout is routinely 25 to 40% smaller than the gross sales behind it, after referral fees, creator commissions and refunds.</li>
+<li>TikTok Shop's US referral fee jumped from 2% plus $0.30 per order at launch to 6% in April 2024 and 8% by July 2024.</li>
+<li>TikTok Shop creator commissions typically run 10 to 20% and are deducted before payout, so deposit-based books never show them.</li>
+<li>TikTok Shop orders settle only after delivery plus the return window, so a March 28 sale can reach the bank in mid-April.</li>
+<li>On $120,000 of monthly TikTok Shop sales, five percentage points of creator commission equals $6,000 a month.</li>
+<li>A2X and Link My Books both support TikTok Shop settlement-summary posting into QuickBooks.</li>
+</ul></div>
 
 <h2>Problem 1: TikTok pays you long after the sale</h2>
 <p>On most marketplaces the delay between sale and payout is annoying. On TikTok Shop it's structural. An order doesn't settle when it's placed. It settles after the item is delivered and the return window closes, which means a sale on March 28 can hit your bank in mid-April. Sellers who book revenue when the cash lands are recording March sales in April, every single month, and their monthly P&amp;L is fiction. Ad spend from a big March push lands in March; the revenue it generated lands in April; the books show a terrible March and a great April, and neither is true.</p>
@@ -443,6 +517,7 @@ export const ARTICLES: Article[] = [
 <h2>When to hire an accountant for TikTok Shop sellers</h2>
 <p>The honest threshold: once you're past roughly $15,000 a month in sales, running creator affiliates, or selling on more than one channel, DIY books start costing more in errors than a bookkeeper for TikTok Shop costs in fees. The settlement lag, the commission netting and the fee changes are exactly the kind of detail that's cheap to handle monthly and expensive to reconstruct at tax time.</p>
 <p>Our <a href="/monthly-ecommerce-bookkeeping/">TikTok Shop bookkeeping services</a> handle settlement-level reconciliation, creator commission tracking and the 1099-K tie-out as part of every plan, with <a href="/pricing/">published pricing</a> from $149/mo. Not sure your books have these problems? Our free teardown answers that: we rebuild your most recent month properly and send you a 10-minute video of what we found, with dollar figures attached. <a href="/contact/">Claim it here</a>. No card, and you keep everything either way.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -456,6 +531,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Creator income arrives from six directions with three different tax forms and sometimes none at all. Here's the bookkeeping that keeps influencers out of trouble and the deductions that actually survive.",
     html: `
 <p>Content creator bookkeeping has one core problem: your income arrives from six directions, on different schedules, under different tax forms, and sometimes with no form at all, while the IRS treats every dollar of it as self-employment income the moment it's earned. Creators don't get in trouble for making money. They get in trouble for not tracking it. Here's how influencer taxes actually work, stream by stream, and the bookkeeping that keeps the whole thing boring in the best way.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>A brand or agency sends a creator a 1099-NEC at $600 or more of direct payment; payment platforms like PayPal send 1099-Ks reporting gross volume before their fees.</li>
+<li>Gifted products with agreed deliverables are taxable income at fair market value; a $3,500 press trip with two required posts is $3,500 of income.</li>
+<li>A content creator netting $100,000 of profit can owe $30,000 to $37,000 combined in income and self-employment tax, with nothing withheld.</li>
+<li>The S-corp election saves a creator with $140,000 of profit roughly $9,000 a year in payroll taxes, but below about $60,000 to $80,000 of steady profit the added costs eat the savings.</li>
+<li>A creator who pays an editor, thumbnail designer or VA $600 or more in a year owes that contractor a 1099-NEC.</li>
+<li>Everyday clothing is not deductible for content creators, even when worn on camera.</li>
+</ul></div>
 
 <h2>Problem 1: Six income streams, none of them labeled</h2>
 <p>A working creator's monthly income might look like this: a $4,500 brand deal paid by wire, $1,200 of YouTube AdSense, $800 in TikTok Creator Rewards, $650 of Amazon affiliate commissions, $1,500 in UGC fees from a brand that never posts your face, $300 in tips and channel memberships, and $250 of merch profit. Seven streams, seven payment processors, seven deposit patterns. Dumped into one "income" row, that's $9,200 you can't analyze. Which stream grew? Which one pays best per hour of work? Is UGC quietly becoming half your business? No idea.</p>
@@ -522,6 +606,7 @@ export const ARTICLES: Article[] = [
 <h2>When to hire an accountant for content creators</h2>
 <p>Rules of thumb that hold up: hire help when creator income passes roughly $5,000 a month, when a quarterly estimate surprises you, when the S-corp math might apply, or when gifted income and multi-platform 1099s make January feel dangerous. Below that, a clean separate account and disciplined tracking may be enough. Past it, professional bookkeeping services for content creators cost less than the missed deductions and penalty interest they prevent, usually by a wide margin. What that help costs across the market, with real published numbers, is in our <a href="/bookkeeping-tips/how-much-does-ecommerce-bookkeeping-cost/">bookkeeping cost guide</a>.</p>
 <p>Our <a href="/content-creator-accounting-services/">accounting service for content creators</a> handles per-stream income tracking, quarterly estimate math and year-end 1099 tie-out, with <a href="/pricing/">published pricing</a> from $149/mo and no annual contract. Want proof before commitment? We'll rebuild your most recent month free and send a 10-minute video of what we found, missed deductions included. <a href="/contact/">Grab the free teardown here</a>.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -535,6 +620,15 @@ export const ARTICLES: Article[] = [
     excerpt: "eBay's managed payments buried your fees, your shipping labels and your ad spend inside the payout. Here are the eleven bookkeeping problems that creates and how resellers fix each one.",
     html: `
 <p>eBay bookkeeping went wrong for most sellers the day managed payments arrived, because eBay now deducts final value fees, shipping labels, promoted listings charges, refunds and disputes before the payout ever reaches your bank, and a bank feed shows you none of it. Book the deposits as sales and your revenue is understated by 15 to 25%, your costs are invisible, and your 1099-K won't match your return. Here are the eleven problems, in the order they usually bite, and the fix for each.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Under eBay managed payments, booking deposits as sales understates revenue by 15 to 25%, because final value fees, shipping labels, ad fees and refunds come out before payout.</li>
+<li>eBay final value fees run around 13% for most categories, and shipping labels bought inside eBay are netted from payouts instead of charged to a card.</li>
+<li>eBay sellers commonly spend 5 to 12% of gross sales on Promoted Listings without ever seeing it as a line item.</li>
+<li>eBay's 1099-K reports gross payment volume; a $52,000-gross year booked from deposits shows $40,560 and reads to the IRS as $11,440 of unreported income.</li>
+<li>eBay store subscriptions range from $27.95 to $2,999 a month depending on tier.</li>
+<li>A $250 liquidation pallet yielding 40 sellable units carries $6.25 of cost per unit under lot-cost allocation.</li>
+</ul></div>
 
 <h2>1. The payout is not your sales number</h2>
 <p>Under managed payments, a $1,000 week of gross sales might pay out $780 after final value fees around 13%, a couple of shipping labels, an ad fee and one refund. Sellers who record the $780 as revenue understate sales by $220 and record zero expenses. Multiply by 52 weeks and a $52,000 gross year books as $40,560 with no visible costs. Every downstream number, margins, tax return, loan application, inherits the error.</p>
@@ -590,6 +684,7 @@ export const ARTICLES: Article[] = [
 <h2>When to hire a bookkeeper for eBay sellers</h2>
 <p>If eBay is a side hustle under about $2,000 a month, a spreadsheet and discipline can work. Past roughly $10,000 a month, or the moment reseller COGS, disputes and a 1099-K enter the picture, an eBay seller accountant stops being a luxury: the problems above compound monthly, and reconstructing a year of netted payouts costs multiples of what maintaining them would have. Sellers running eBay alongside Amazon inherit both platforms' problems at once; the Amazon side has <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">nine of its own</a>.</p>
 <p>Our <a href="/ebay-bookkeeping-services/">eBay bookkeeping services</a> handle managed-payments reconciliation, label and ad-fee breakouts, lot-cost COGS and the 1099-K tie-out, with <a href="/pricing/">published pricing</a> and no annual contract. The fastest way to see what your current books are missing costs nothing: we rebuild your most recent month free and send you a 10-minute video of every problem we found, dollar figures included. <a href="/contact/">Claim the free teardown</a>.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -603,6 +698,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Most Walmart sellers came from Amazon and brought their bookkeeping with them. That's the mistake. Walmart's settlements, fees and reports all work differently, and books built on Amazon assumptions get quietly wrong.",
     html: `
 <p>Walmart Marketplace bookkeeping fails for one main reason: almost every Walmart seller came from Amazon and assumed the accounting would transfer. It doesn't. Walmart settles on a different cadence, names and structures its fees differently, reports refunds differently, and runs WFS on a fee taxonomy that only half-resembles FBA. Books built on Amazon assumptions get quietly wrong in Walmart-specific ways, and "quietly" is the expensive part. Here are the problems, and the fix for each.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Walmart Marketplace referral fees run 8 to 15% for most categories, with different boundaries than Amazon's rate table.</li>
+<li>Walmart Marketplace charges no monthly subscription fee, so nearly all Walmart seller costs are variable.</li>
+<li>A Walmart settlement spanning January 28 to February 10 lands in one February deposit; for a $60,000-a-month seller, a mistimed settlement can move $25,000 of revenue into the wrong month.</li>
+<li>Walmart sellers scaling with Walmart Connect routinely spend 6 to 10% of Walmart gross on ads that deposit-based books never show.</li>
+<li>Walmart Fulfillment Services (WFS) runs its own weight tiers, storage calendar and surcharges, so a product profitable through Amazon FBA can lose money in WFS at the same retail price.</li>
+<li>A2X and Link My Books both support Walmart settlement-summary posting into QuickBooks.</li>
+</ul></div>
 
 <h2>Problem 1: Walmart's settlement cadence isn't Amazon's</h2>
 <p>Amazon pays roughly every 14 days on a rolling settlement. Walmart runs its own cycle: settlements close on Walmart's schedule, new sellers sit through longer payment holds, and the deposit that lands is net of referral fees, WFS charges, refunds, ad spend and adjustments. Sellers who learned to live with Amazon's rhythm assume the Walmart deposit maps to sales the same way, book it as revenue, and inherit every problem that comes with net-deposit accounting: understated sales, invisible fees, and a month boundary that never lines up with reality.</p>
@@ -654,6 +758,7 @@ export const ARTICLES: Article[] = [
 <h2>When to hire an accountant for Walmart sellers</h2>
 <p>The moment Walmart becomes a real second channel, roughly $10,000 a month, or the day you turn on WFS, the bookkeeping workload doubles in a way that generalist bookkeepers and Amazon-only setups don't handle: two settlement systems, two fee taxonomies, two 1099-Ks, one blended mess unless someone builds it right. Add a <a href="/bookkeeping-tips/shopify-bookkeeping-problems/">Shopify DTC channel</a> with its multi-gateway payouts and the case gets stronger still. An accountant for Walmart sellers earns their fee mostly by making the per-channel answer visible: which platform is actually growing your profit, not just your revenue.</p>
 <p>Our <a href="/walmart-bookkeeping-services/">Walmart Marketplace bookkeeping services</a> handle settlement reconciliation, WFS fee breakouts and true per-channel P&amp;L alongside your Amazon books, with <a href="/pricing/">published pricing</a> and no annual contract. Or start with the free teardown: we rebuild your most recent month, both channels, and send a 10-minute video of what we found, with dollar figures. <a href="/contact/">Claim it here</a>.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -667,6 +772,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Shopify hands you clean dashboards and a bookkeeping mess underneath: four payment gateways, sync apps that flood QuickBooks, gift cards booked as revenue. Here's each problem and its fix.",
     html: `
 <p>Shopify bookkeeping is harder than marketplace bookkeeping, not easier, because Shopify isn't one payment system. A typical store gets paid through Shopify Payments, PayPal, and one or two buy-now-pay-later providers at the same time, each with its own fees, payout schedule and refund path, while the most popular QuickBooks sync apps quietly wreck the books underneath. Here are the nine problems that show up in nearly every Shopify file we open, and the fix for each.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>A typical Shopify store is paid through three or four gateways at once: Shopify Payments at 2.9% plus 30 cents, PayPal around 3.5%, and BNPL providers at 5 to 6%.</li>
+<li>Buy-now-pay-later options routinely take 15 to 25% of Shopify checkout volume, at roughly double the processing cost of a card payment.</li>
+<li>Per-order QuickBooks sync apps inject about 24,000 transactions a year into the file of a Shopify store doing 2,000 orders a month.</li>
+<li>Shopify gift card sales are a liability, not revenue; revenue is recognized only when the card is redeemed.</li>
+<li>A chargeback rate creeping toward 1% threatens a store's Shopify Payments account itself.</li>
+<li>Shopify Payments reports gross volume to the IRS on a 1099-K, the same gross-versus-net trap marketplace sellers face.</li>
+</ul></div>
 
 <h2>Problem 1: The multi-gateway payout soup</h2>
 <p>One store, one dashboard, four money pipes. Shopify Payments deposits on its own rolling schedule, minus 2.9% plus 30 cents (or your plan's rate). PayPal holds its own balance and pays out when you tell it to, minus roughly 3.5%. Shop Pay Installments and other BNPL orders pay through the provider at a steeper rate, often 5 to 6%, on yet another schedule. A $10,000 sales day arrives in your bank as five deposits over nine days, from three sources, each net of different fees. And the BNPL slice is growing: stores routinely see 15 to 25% of checkout volume go through installment options, which means a quarter of revenue now carries roughly double the processing cost of a card payment. That's a margin fact worth seeing on its own line, not blended into "merchant fees."</p>
@@ -714,6 +828,7 @@ export const ARTICLES: Article[] = [
 <h2>When to hire a bookkeeper for your Shopify store</h2>
 <p>DIY with a well-mapped A2X setup is workable to roughly $20,000 a month if you enjoy it. Add a second gateway, a 3PL, gift cards, serious BNPL volume or a <a href="/bookkeeping-tips/tiktok-shop-seller-bookkeeping/">TikTok Shop channel</a> beside the store, and the hours climb past what the work is worth, which is when shopify bookkeeping services stop being an expense and start being margin: the leaks above, fee creep, discount creep, 3PL shrinkage, unredeemed liabilities, are each worth more than the monthly fee once someone's actually watching them.</p>
 <p>Our <a href="/shopify-bookkeeping-services/">Shopify accounting services</a> set up the gateway clearing structure, the A2X or Link My Books mapping and the monthly 3PL tie-out, then close your books by the 10th business day every month, with <a href="/pricing/">published pricing</a> from $149/mo. Want to see your file's problems first? We rebuild your most recent month free and send a 10-minute video of what we found, with dollar figures on each item. <a href="/contact/">Claim the free teardown here</a>.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -727,6 +842,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Nobody writes about recommerce accounting, so refurbishers copy new-goods bookkeeping and get burned by grading disputes, warranty tails and lot-cost COGS. Here's the guide, from people who sell on these platforms.",
     html: `
 <p>Selling on Back Market or Reebelo breaks normal ecommerce bookkeeping in three specific places: your COGS is per-unit and per-grade instead of per-SKU, your refund exposure runs twelve months instead of thirty days, and a grading dispute can reprice a sale weeks after you booked it. Almost nothing written about ecommerce accounting covers any of this, so refurbished electronics sellers copy new-goods bookkeeping and get quietly wrong numbers. We sell on these platforms ourselves, so this is the guide we wished existed: how the money actually moves, and how to book it.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Back Market commissions run roughly 10% for many electronics categories plus payment processing, so a $339 iPhone sale pays out around $300 before shipping.</li>
+<li>Back Market requires at least a twelve-month warranty on US sales, so a refurbisher's refund exposure runs a full year instead of 30 days.</li>
+<li>Refurbishers typically see 2.5 to 4% of revenue come back as warranty cost, which belongs in a monthly reserve accrued against the month of sale.</li>
+<li>A 100-unit carrier lot bought for $9,500 should be costed by grade, allocated by expected resale value, not lot cost divided by 100.</li>
+<li>A 3% grading-dispute rate on 800 monthly units at an average $38 adjustment costs $912 a month; at 6% it costs $1,824.</li>
+<li>Neither A2X nor Link My Books has a Back Market or Reebelo connector, so settlement posting is a manual monthly journal.</li>
+</ul></div>
 
 <h2>How Back Market and Reebelo actually pay you</h2>
 <p>Both platforms work the same basic way: you list refurbished devices by model, storage, carrier status and cosmetic grade, the platform takes a commission when you sell, and you receive a net payout on the platform's cycle. Back Market's commission varies by category and seller agreement, roughly 10% for many electronics, plus payment processing, and Reebelo runs its own category-based commission tiers. On a $339 iPhone sale with a 10% commission and payment fees, your payout is around $300 before shipping.</p>
@@ -768,6 +892,7 @@ export const ARTICLES: Article[] = [
 <h2>When to hire an accountant for Back Market and Reebelo sellers</h2>
 <p>If you're moving more than about 150 devices a month, running more than two marketplaces, or making sourcing decisions on gut feel because your unit costs are a mystery, professional Back Market seller accounting will pay for itself out of the first mispriced lot it catches. Warranty reserves, per-grade margin reporting and multi-channel consolidation aren't nice-to-haves at that scale; they're the difference between a refurb operation that knows its numbers and one that discovers them at tax time. Generalist bookkeepers won't build this. Most have never seen a grading dispute. And if your operation leans more reseller than refurbisher, one-of-one finds flipped across Poshmark, eBay and Whatnot rather than graded phone lots, our <a href="/reseller-bookkeeping-services/">reseller bookkeeping service</a> and <a href="/bookkeeping-tips/reseller-taxes-bookkeeping-guide/">reseller taxes guide</a> cover that side of the trade.</p>
 <p>Our <a href="/monthly-ecommerce-bookkeeping/">recommerce bookkeeping services</a> handle settlement posting for platforms without connectors, per-unit COGS for graded devices, warranty reserve accounting and per-channel P&amp;L across every marketplace you sell on, with <a href="/pricing/">published pricing</a> and no annual contract. Our free <a href="/money-leak-checklist/">27-Point Money Leak Checklist</a> covers the recommerce-specific leaks too. And the free teardown applies here like everywhere: we rebuild your most recent month, disputes, reserves and all, and send you a 10-minute video of what we found with dollar figures attached. <a href="/contact/">Claim it here</a>.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -781,6 +906,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Reselling across Poshmark, Mercari, Depop, StockX and Whatnot means five fee structures, five 1099-Ks, and COGS that starts at a thrift store. Here's the whole tax and bookkeeping picture, platform by platform.",
     html: `
 <p>Reseller taxes come down to one sentence: if you buy things to sell for profit, your net profit is taxable business income plus 15.3% self-employment tax, whether or not any platform sends you a form. Everything else, the 1099-K thresholds, the hobby rules, the garage-sale exception, decides how you report it, not whether you owe it. Here's the complete picture for people selling on Poshmark, Mercari, Depop, StockX, GOAT, Whatnot, Facebook Marketplace and eBay, including the bookkeeping that makes all of it manageable.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>The federal 1099-K threshold returned to $20,000 and 200 transactions under the 2025 law change, but Virginia, Maryland and Massachusetts report at $600.</li>
+<li>Reselling profit is taxable business income plus 15.3% self-employment tax whether or not any platform sends a 1099-K.</li>
+<li>Poshmark charges $2.95 flat on sales under $15 and 20% above; Depop dropped its 10% US selling fee in mid-2024; Whatnot charges 8% commission plus payment processing.</li>
+<li>Personal items sold at a loss create no taxable income and no deductible loss, but the sale still appears in 1099-K gross and must be zeroed out on the return.</li>
+<li>IRS hobby classification is the worst of both worlds: reselling income stays taxable while expenses stop being deductible.</li>
+<li>A reseller netting $40,000 of profit can owe $10,000 to $13,000 in combined income and self-employment tax, due in quarterly estimates.</li>
+</ul></div>
 
 <h2>The 1099-K: what the thresholds actually are now</h2>
 <p>The 1099-K is the form payment platforms file with the IRS reporting your gross payment volume. After years of whiplash (the threshold was scheduled to drop to $600, then got delayed, then phased), the 2025 law change restored the federal threshold to $20,000 and 200 transactions. So a casual seller who moved $4,000 of clothes on Poshmark may not get a federal form this year.</p>
@@ -831,6 +965,7 @@ export const ARTICLES: Article[] = [
 <h2>When to hire a reseller bookkeeper</h2>
 <p>Honest thresholds: under roughly $2,000 a month across platforms, a spreadsheet and discipline genuinely work. Past $5,000 to $10,000 a month, or the moment you're sourcing weekly, running three or more platforms, or staring at a 1099-K that includes personal sales, the math flips: reseller bookkeeping done professionally costs less than the mispriced sourcing, missed deductions and mismatch-notice risk of winging it. And if you've got employees, a warehouse, or serious Whatnot volume, it stopped being optional a while ago.</p>
 <p>Our <a href="/reseller-bookkeeping-services/">reseller bookkeeping service</a> handles every platform above: payout rebuilds, sourcing-run COGS, per-platform P&L and the January 1099-K tie-out, with <a href="/pricing/">published pricing</a> from $149/mo and no annual contract. Want proof before you commit? We'll rebuild your most recent month free, all platforms, and send you a 10-minute video of what we found, missed deductions and mystery fees included. <a href="/contact/">Claim the free teardown here</a>. Our free <a href="/money-leak-checklist/">27-Point Money Leak Checklist</a> covers the fastest leaks to check yourself in the meantime.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -844,6 +979,15 @@ export const ARTICLES: Article[] = [
     excerpt: "OnlyFans income is self-employment income, taxed at up to 40%+ combined, with nothing withheld and a 1099-NEC arriving every January. Here's the complete tax and bookkeeping picture, handled professionally.",
     html: `
 <p>OnlyFans income is self-employment income. You owe regular income tax plus 15.3% self-employment tax on your net profit, nothing is withheld from your payouts, and every January a 1099-NEC arrives from Fenix Internet LLC (OnlyFans' payment entity) if you earned $600 or more. That's the whole framework in one paragraph. The rest of this guide is the detail that decides whether you handle it cheaply and calmly or expensively and in a panic, written the way we work with creators: professionally, concretely, and without commentary about the content.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>OnlyFans issues US creators a 1099-NEC from Fenix Internet LLC once earnings reach $600 in a year, and the IRS receives a copy.</li>
+<li>OnlyFans keeps 20% of everything (subscriptions, tips, PPV and customs), so $10,000 of fan spending pays out $8,000.</li>
+<li>An OnlyFans creator netting $100,000 of profit typically owes $30,000 to $37,000 in combined federal income, self-employment and state taxes, with nothing withheld.</li>
+<li>The $600 figure is a form threshold, not a tax exemption: OnlyFans income is taxable from the first dollar, and filing is generally required past $400 of self-employment earnings.</li>
+<li>The S-corp election saves an OnlyFans creator with $140,000 of profit roughly $9,000 a year once steady profit clears $60,000 to $80,000.</li>
+<li>An OnlyFans creator earning $150,000 net pays the platform $37,500 a year, a bigger take rate than Amazon charges most sellers.</li>
+</ul></div>
 
 <h2>The 1099-NEC from Fenix Internet</h2>
 <p>OnlyFans doesn't send tax forms under its own name. US creators get a 1099-NEC from Fenix Internet LLC, which confuses people every year ("who is Fenix and why do they say they paid me?"). Same company, and the IRS gets a copy of everything on it.</p>
@@ -900,6 +1044,7 @@ export const ARTICLES: Article[] = [
 <p>Here's the part nobody puts on their website: OnlyFans creators get refused by accounting firms, dropped by banks and payment processors, and lectured by professionals who happily serve bars and gun shops. The result is predictable: creators running six-figure businesses do their own taxes badly, or trust a friend-of-a-friend, or just don't file, and every one of those paths costs multiples of what professional help would have.</p>
 <p>We serve OnlyFans creators as a core client type. That means payout reconciliation net of the 20% fee, chargeback tracking, quarterly estimate math, S-corp timing and the January Fenix tie-out, handled with the same discretion as any engagement, in a QuickBooks file you own. No commentary, no moral audit, no surprise offboarding email. What professional bookkeeping costs across the market is in our <a href="/bookkeeping-tips/how-much-does-ecommerce-bookkeeping-cost/">cost guide</a>; our own <a href="/pricing/">published pricing</a> starts at $149/mo with no annual contract.</p>
 <p>If you want proof before commitment, take the free teardown: we rebuild your most recent month properly, fee accounting, chargebacks and all, and send you a 10-minute video of what we found, missed deductions included. <a href="/contact/">Claim it here</a>. You keep everything either way, and nobody will ever make you explain your business.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -913,6 +1058,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Florida charges 6% plus a county surtax, makes Amazon collect for you, and sets economic nexus at $100,000 in taxable sales. Here's the whole system, including the parts sellers get wrong.",
     html: `
 <p>Florida sales tax is 6% at the state level, plus a county surtax of 0% to 2% depending on where your customer takes delivery. Remote sellers must register once they pass $100,000 in taxable Florida sales in the previous calendar year, and marketplaces like Amazon and Walmart collect on your behalf. That's the system in three sentences. The details underneath are where ecommerce sellers get hurt, so let's walk through all of them.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Florida sales tax is 6% statewide plus a county surtax of 0% to 2%; Miami-Dade and Broward sit at 7% combined.</li>
+<li>Florida's county surtax applies only to the first $5,000 of a single sale of tangible personal property.</li>
+<li>Florida's economic nexus threshold is $100,000 of taxable direct sales in the previous calendar year, and marketplace sales don't count toward it.</li>
+<li>Florida pays on-time e-filers a collection allowance of 2.5% of the first $1,200 of tax due, up to $30 per return.</li>
+<li>Amazon operates more than a dozen Florida fulfillment centers, and one pallet of FBA inventory in Lakeland creates physical nexus from dollar one of direct sales.</li>
+<li>Florida repealed its sales tax on commercial rent effective October 1, 2025.</li>
+</ul></div>
 
 <h2>The rate: 6% state, plus your customer's county</h2>
 <p>The statewide rate is 6%. On top of it, most Florida counties levy a discretionary sales surtax between 0.5% and 1.5% (the law allows up to 2%). Miami-Dade and Broward sit at 7% combined. Several counties charge more, a few charge nothing extra at all, and rates change as county referendums pass and expire. The Florida Department of Revenue publishes the current surtax table as Form DR-15DSS each December; pull the new one every January because counties do move.</p>
@@ -989,6 +1143,7 @@ export const ARTICLES: Article[] = [
 <h2>The bookkeeping that makes all of this easy</h2>
 <p>Every Florida obligation above gets answered by the same three numbers: direct taxable sales into Florida by calendar year, marketplace sales into Florida (for reporting, not collecting), and tax collected sitting in a liability account. Books that post settlement-level detail produce those numbers in minutes. Books that post bank deposits as revenue can't produce them at all, which turns a 20-minute DR-15 into an archaeology project, and turns our <a href="/bookkeeping-tips/amazon-1099-k-explained/">1099-K reconciliation</a> into guesswork too.</p>
 <p>That's the real pitch for doing this right: not fear of an audit, just the fact that clean channel-level books make every state's rules mechanical. If yours can't answer the three questions, our free Ecommerce Books Teardown will show you exactly where the gaps are; <a href="/contact/">request one here</a> and we'll go through your file with you. And if sales tax is the whole headache, <a href="/ecommerce-tax-services/">our tax services page</a> covers how we handle registrations, filings and the bookkeeping underneath them as one job.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1003,6 +1158,15 @@ export const ARTICLES: Article[] = [
     html: `
 <p>Washington sales tax starts at 6.5% and climbs past 10% in much of the Seattle metro once local rates stack on. Remote sellers owe collection once they pass $100,000 in gross Washington sales. And then comes the part almost every out-of-state seller misses: Washington also charges a <strong>business and occupation (B&amp;O) tax</strong> on your gross receipts, and it's your bill even when Amazon collected every cent of the sales tax. Sellers who learn about B&amp;O from a Department of Revenue letter are the rule, not the exception. Let's make sure you're not one of them.</p>
 
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Washington sales tax starts at 6.5% and reaches 10.35% in Seattle and 10.6% in a few King and Snohomish County cities.</li>
+<li>Washington's B&amp;O tax hits gross receipts at 0.471% for retailing, with no deductions for inventory, fees or ad spend, and it applies even to marketplace sales Amazon already handled.</li>
+<li>Washington's $100,000 economic nexus threshold counts gross receipts, including marketplace, wholesale and exempt sales.</li>
+<li>Amazon has collected Washington sales tax on marketplace orders since January 1, 2018, the first such requirement in the country.</li>
+<li>Washington taxes shipping charges whenever the sale itself is taxable, separately stated or not.</li>
+<li>Washington's voluntary disclosure program caps lookback at four years and waives the penalty that can otherwise reach 29% of the tax.</li>
+</ul></div>
+
 <h2>The rates: 6.5% state, up to 10.6% combined</h2>
 <p>The state rate is 6.5%. Cities, counties and transit districts add local rates on top, producing combined rates from about 7.5% in rural areas to 10.35% in Seattle and 10.6% in a few King and Snohomish County cities, among the highest in the country. There is no Washington equivalent of Florida's surtax cap; the full combined rate applies to the whole price.</p>
 <p>Washington is strictly <strong>destination-based</strong> for interstate sellers: you charge the rate where the customer takes delivery, down to the specific address, because rates change at city and district lines. The state's Tax Rate Lookup tool (and its free GIS API) resolves any address to the right rate and location code. That location code matters later: your return reports collected tax by code so the state can route the local share, which is why Washington returns are genuinely tedious by hand and why an automated tax engine earns its fee here faster than in most states.</p>
@@ -1015,7 +1179,7 @@ export const ARTICLES: Article[] = [
 <p>Washington dropped its old 200-transaction test back in 2019, so dollars are the only trigger. Crossing the threshold obligates you to register, collect sales tax on your direct retail sales, and, this is the trap, pay B&amp;O on the whole gross.</p>
 
 <h2>The B&amp;O tax: the bill nobody expects</h2>
-<p>Washington has no corporate or personal income tax. Instead it taxes <strong>gross receipts</strong> through the B&amp;O tax. Not profit. Gross. There are no deductions for inventory cost, ad spend, marketplace fees or anything else, which makes it a fundamentally different animal from income tax: you can lose money and still owe it.</p>
+<p>The B&amp;O tax is a tax on <strong>gross receipts</strong> that Washington charges instead of a corporate or personal income tax. Not profit. Gross. There are no deductions for inventory cost, ad spend, marketplace fees or anything else, which makes it a fundamentally different animal from income tax: you can lose money and still owe it.</p>
 <p>The classifications that matter to sellers:</p>
 <table>
 <thead><tr><th>Classification</th><th>Rate</th><th>Applies to</th></tr></thead>
@@ -1082,6 +1246,7 @@ export const ARTICLES: Article[] = [
 
 <h2>Getting it handled</h2>
 <p>If you're past $100K into Washington, the to-do list is short: register, set your direct channels to collect at destination rates, report marketplace gross under retailing B&amp;O with the facilitator deduction, and file on your assigned cycle. If there are unfiled years behind you, voluntary disclosure first. And if your books can't tell you your Washington gross by channel in five minutes, that's the root problem: it's the kind of gap our free Ecommerce Books Teardown catches immediately (<a href="/contact/">request one here</a>), and fixing it is the first week of <a href="/monthly-ecommerce-bookkeeping/">a proper monthly bookkeeping engagement</a>. State tax filings, including combined excise returns, are part of <a href="/ecommerce-tax-services/">our ecommerce tax services</a>; the books and the returns are one job done right, not two done separately.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1095,6 +1260,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Plus at $115/mo is the right plan for almost every seller, Advanced is usually $160/mo of features you won't open, and the subscription is the smallest line in your real QuickBooks budget.",
     html: `
 <p>Short version: QuickBooks Online costs $38 to $275 a month at 2026 list prices, most ecommerce sellers need the <strong>Plus plan at $115/mo</strong>, and the subscription itself is the smallest line in your real QuickBooks budget once payroll, connector apps and setup enter the picture. Here's every number, what actually matters for a seller, and where the money hides.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>QuickBooks Online costs $38 to $275 per month at 2026 US list prices, and the Plus plan at $115 per month fits almost every ecommerce seller.</li>
+<li>Class and location tracking, the feature that produces a per-channel P&amp;L, only exists on QuickBooks Online Plus ($115/mo) and Advanced ($275/mo).</li>
+<li>QuickBooks Online Plus rose from $90 in 2023 to $99 in 2024 to $115 in 2026; Intuit raises prices roughly annually.</li>
+<li>QuickBooks Online Plus caps a file at 40 combined classes and locations, 250 accounts and 5 users.</li>
+<li>A realistic all-in stack for a two-channel seller runs about $246 per month: QuickBooks Plus $115, A2X $69 and payroll $62.</li>
+<li>Xero's US plans run $20, $47 and $80 per month, but Xero allows only two active tracking categories versus the class headroom on QuickBooks Plus.</li>
+</ul></div>
 
 <h2>Do you need QuickBooks at all yet?</h2>
 <p>Honest answer: not on day one. A seller doing a couple thousand a month with one channel can run on a disciplined spreadsheet and a separate business bank account, and many should, because software recording wrong numbers is worse than a simple sheet recording right ones. The crossover comes fast, though: a second channel, the first 1099-K, an inventory order big enough to matter, or the moment you want monthly margins you'd act on. Past roughly $10,000 a month in sales, the spreadsheet stops being a system and starts being a liability, and that's when the plan question below becomes worth twenty minutes of your attention.</p>
@@ -1168,6 +1342,7 @@ export const ARTICLES: Article[] = [
 <h2>The cost that dwarfs all of it: a badly set up file</h2>
 <p>Whatever plan you buy, QuickBooks arrives as an empty shell with a generic chart of accounts, and a default file records an ecommerce business wrong: deposits as revenue, fees invisible, no COGS discipline, sales tax in income. Twelve months of that costs more to unwind (<a href="/bookkeeping-tips/how-much-does-ecommerce-bookkeeping-cost/">catch-up projects are quoted flat, and they're not small</a>) than a decade of the price difference between plans.</p>
 <p>So spend the money in this order: correct plan (usually Plus), settlement connector, proper chart of accounts, monthly close discipline. The first is $115; the other three are where books become an asset. Our <a href="/quickbooks-for-ecommerce/">QuickBooks for ecommerce service</a> covers setup through monthly close, in your file, which you keep if you ever leave. Not sure what state your current file is in? The free Ecommerce Books Teardown will tell you plainly; <a href="/contact/">request one here</a> and bring your ugliest month.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1181,6 +1356,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Beginning inventory plus purchases minus ending inventory. Four words each, and most sellers still get it wrong, because the hard part is what goes into 'purchases' and when. Worked examples inside.",
     html: `
 <p>The COGS formula is: <strong>beginning inventory + purchases during the period − ending inventory = cost of goods sold</strong>. That's the whole thing. What you paid for the units you actually sold this period, no more, no less. The formula takes ten seconds to learn; the reasons seller margins are still wrong live in the three inputs, so this guide works through each one with real numbers, including landed cost, tariffs, and the per-SKU math that tells you whether a product deserves to exist.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>The COGS formula is beginning inventory plus purchases during the period minus ending inventory.</li>
+<li>Landed cost includes factory price, inbound freight, duties, brokerage and prep; a $6.50 factory unit can carry a $10.13 landed cost, a 56% difference.</li>
+<li>Tariffs at 2026 rates (often 30% combined on Chinese goods) are frequently the second-largest component of landed cost after the factory price.</li>
+<li>Tariffs are capitalized into inventory and expensed as units sell, never lumped into the month the container lands.</li>
+<li>Inbound freight belongs in COGS as part of landed cost; outbound shipping to customers is a fulfillment expense.</li>
+<li>Private-label DTC brands typically target 65% or better gross margin after true landed COGS, while marketplace-first brands run 40 to 60%.</li>
+</ul></div>
 
 <h2>Why the formula exists at all</h2>
 <p>Because what you <em>bought</em> this period and what you <em>sold</em> this period are different things. Buy $60,000 of inventory in March and sell a third of it, and your March cost isn't $60,000; it's the cost of the units that went out the door. The rest is an asset sitting on your balance sheet, waiting.</p>
@@ -1271,6 +1455,7 @@ export const ARTICLES: Article[] = [
 
 <h2>Getting the machinery built</h2>
 <p>Everything above is arithmetic once three pieces of machinery exist: purchases recorded at landed cost, an inventory asset account that's reconciled to reality monthly (with <a href="/quickbooks-for-ecommerce/">QuickBooks configured to support it</a>), and a consistent costing method. Building that machinery, then running it every month, is the core of what we do; it's included in <a href="/pricing/">every plan on our rate card</a>. If you'd like to know whether your current COGS number is close to true, the free Ecommerce Books Teardown answers exactly that, with your own numbers; <a href="/contact/">request one here</a>.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1284,6 +1469,15 @@ export const ARTICLES: Article[] = [
     excerpt: "A US sole prop can sell on their SSN, an LLC almost always wants an EIN, and international sellers can get an EIN with no SSN at all. Here's every tax ID, who needs which, and the exact steps.",
     html: `
 <p>Here's the answer most sellers are looking for: a US sole proprietor can legally sell using just their SSN, an LLC or corporation should get an <strong>EIN</strong> (free, from the IRS, in minutes if you have an SSN), and an international seller can get an EIN with <strong>no SSN and no ITIN</strong> through a fax-and-phone process that costs nothing but patience. The ITIN, which people constantly confuse with a business tax ID, is a personal number most sellers never need. Now the details, because the details are where marketplaces suspend accounts and the IRS sends letters.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>An EIN is free from the IRS and takes about ten minutes online for anyone with an SSN or ITIN.</li>
+<li>International sellers can get an EIN with no SSN and no ITIN by writing "Foreign" on line 7b of Form SS-4 and faxing or phoning the IRS international unit at +1 267 941 1099.</li>
+<li>A foreign-owned single-member US LLC needs an EIN because it must file Form 5472 annually, and missing that filing costs $25,000 per year.</li>
+<li>Failing IRS name/TIN matching twice triggers 24% backup withholding on marketplace payouts.</li>
+<li>On a W-9 for a disregarded single-member LLC, the owner's name goes on line 1 and the LLC name on line 2.</li>
+<li>One EIN serves every platform: Amazon, Walmart, eBay and TikTok Shop don't need separate numbers.</li>
+</ul></div>
 
 <h2>The three numbers, in one table</h2>
 <table>
@@ -1353,6 +1547,7 @@ export const ARTICLES: Article[] = [
 
 <h2>The 15-minute checkup</h2>
 <p>Pull up three things: your marketplace tax interview, your bank account title, and last year's 1099-Ks. All three should show the same name and the same TIN, and that pair should match your current entity. If they don't agree, you've found this year's cleanup project, and it's dramatically cheaper to fix before the IRS's matching computers or a platform's compliance team find it first. Whether you're a US reseller who leveled up from <a href="/bookkeeping-tips/reseller-taxes-bookkeeping-guide/">hobby to business</a> or an international founder with a Delaware LLC and a compliance stack you inherited from a YouTube video, we'll look at the whole picture in a free Ecommerce Books Teardown; <a href="/contact/">request one here</a>.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1366,6 +1561,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Duties are inventory cost, not a shipping expense. Here's the accounting that keeps margins honest when tariffs move: landed cost per SKU, refund booking, repricing math and a cash plan for duty payments.",
     html: `
 <p>Import duties are part of your inventory cost. Under ASC 330 they get capitalized into the value of the goods you bought, sit on the balance sheet until those units sell, and hit your P&amp;L through cost of goods sold. They're not a shipping expense, not an "other cost," and not a lump you can dump into whatever month you happened to pay Customs. That one rule, applied consistently, is the difference between books that show what tariffs did to your margins and books that just show a scary freight number.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Under ASC 330, import duties are capitalized into inventory value and reach the P&amp;L through cost of goods sold as units sell.</li>
+<li>Duty rates that sat at 3% for a decade now run 10% to 30% or more, and the $800 de minimis exemption ended in August 2025.</li>
+<li>Duty drawback recovers 99% of duties paid on imported goods that are exported or destroyed under Customs supervision.</li>
+<li>Recovering a $2.40 tariff cost increase through an Amazon price with a 15% referral fee means dividing by 0.85: the price must rise $2.82.</li>
+<li>A Vietnam supplier quoting 7.5% above a China supplier can still win by 79 cents a unit once a 30% China tariff versus a 10% Vietnam duty is counted.</li>
+<li>US Customs duties are generally due within about ten days of entry, months before the related revenue arrives.</li>
+</ul></div>
 <p>In 2026 the difference is real money. Duty rates that sat at 3% for a decade now run 10% to 30%-plus depending on product and country, the $800 de minimis exemption that let small direct-import parcels skip duty entirely is gone as of August 2025, and every importer we work with is paying Customs more this year than in any prior year of their business. Here's the full accounting picture: capitalize vs expense, landed cost per SKU, refunds, repricing math, and the cash plan for duty payments.</p>
 
 <h2>Capitalize or expense? ASC 330 already answered it</h2>
@@ -1430,6 +1634,7 @@ export const ARTICLES: Article[] = [
 <h2>What to do this quarter</h2>
 <p>The list is short. Get duties out of your expense accounts and into inventory with a consistent policy. Build the per-SKU, per-origin landed cost sheet, then reprice the SKUs the math says to reprice. Pull your last twelve months of entry summaries and look for drawback and classification money. Put next quarter's duty on the cash forecast.</p>
 <p>If your books currently show tariffs as one growing lump in a freight account, that's fixable, and it's the kind of thing our free Books Teardown catches in the first pass; <a href="/contact/">request one here</a> and we'll show you what your real margins look like with duty where it belongs. Landed cost tracking and duty-aware COGS are standard in <a href="/monthly-ecommerce-bookkeeping/">our monthly bookkeeping plans</a>, and if lost import paperwork is part of the story, that's what <a href="/catch-up-bookkeeping-services/">a catch-up project</a> is for. Tariffs are expensive enough without your books making them look worse than they are.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 30, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1442,7 +1647,16 @@ export const ARTICLES: Article[] = [
     readMinutes: 11,
     excerpt: "Lenders and buyers won't take cash-basis books seriously, and for an inventory business they're right not to. Here's the conversion, adjustment by adjustment, with real numbers.",
     html: `
-<p>Cash to accrual conversion means restating your books so revenue is recorded when earned and costs when incurred, instead of when money moved. For an ecommerce business the work comes down to five adjustments: accounts receivable, accounts payable, inventory, deferred revenue, and prepaids. None of them is hard individually. Done together and carried forward consistently, they turn a cash ledger into financial statements a lender, buyer or broker will actually rely on.</p>
+<p>Cash to accrual conversion is the process of restating your books so revenue is recorded when earned and costs when incurred, instead of when money moved. For an ecommerce business the work comes down to five adjustments: accounts receivable, accounts payable, inventory, deferred revenue, and prepaids. None of them is hard individually. Done together and carried forward consistently, they turn a cash ledger into financial statements a lender, buyer or broker will actually rely on.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Cash to accrual conversion comes down to five adjustments: accounts receivable, accounts payable, inventory, deferred revenue and prepaids.</li>
+<li>Business brokers routinely require 24 months of accrual financials before listing an inventory business for sale.</li>
+<li>In one worked ecommerce example, a $45,000 cash-basis profit became $65,300 on accrual, a 45% difference worth roughly $70,000 of purchase price at a 3.5x multiple.</li>
+<li>IRS Form 3115 governs the tax method change; cash-to-accrual qualifies as automatic with no user fee, and income increases spread over four tax years under Section 481(a).</li>
+<li>Businesses under roughly $31 million in average annual gross receipts may keep accrual books while still filing taxes on cash basis.</li>
+<li>The QuickBooks cash/accrual report toggle only re-times entered invoices and bills; it cannot create an inventory asset or split gross sales out of a lump deposit.</li>
+</ul></div>
 <p>And that's usually why sellers show up asking. Nobody converts for fun; they convert because a broker said "we can't list you without 24 months of accrual financials," or a lender's underwriter bounced the package, or a buyer's diligence team started rebuilding the numbers themselves. Better to do it on your schedule than theirs.</p>
 
 <h2>Why cash basis fails an inventory business</h2>
@@ -1500,6 +1714,7 @@ export const ARTICLES: Article[] = [
 
 <h2>What it costs and where to start</h2>
 <p>A conversion is a bounded project: scoped from the state of your file, priced flat, done once, then maintained. The place to start is knowing exactly what's between your books and accrual-grade, and that's precisely what our free Books Teardown tells you; <a href="/contact/">request one here</a> and we'll walk your file and hand you the gap list. If the goal is a sale or financing, our <a href="/pricing/">Exit-Grade tier</a> maintains the converted books month over month so the history exists when the buyer shows up. The sellers who do this two years early sell from a position of strength. The ones who do it during diligence pay for it twice.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 30, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1513,6 +1728,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Amazon loses, damages and mis-measures seller inventory constantly, and auto-reimbursement doesn't catch all of it. What's claimable, the deadlines that got short, and how to book the money correctly.",
     html: `
 <p>Amazon owes most FBA sellers money right now. Warehouses lose and damage inventory, customers get refunds for items they never send back, and fee calculations run on wrong dimensions, and while Amazon reimburses much of this automatically, audits of seller accounts routinely surface unclaimed money equal to 1% to 3% of annual FBA revenue. On $800,000 of FBA sales, that's $8,000 to $24,000, sitting behind reports most sellers never open.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Audits of Amazon seller accounts routinely surface unclaimed FBA reimbursements equal to 1% to 3% of annual FBA revenue.</li>
+<li>Amazon cut FBA claim windows in October 2024: lost or damaged warehouse inventory must be claimed within 60 days, and customer-return claims close about 105 days after the refund.</li>
+<li>Since 2025, Amazon pays FBA reimbursement claims at manufacturing cost, and Amazon's own estimates skew low unless the seller files cost figures in Seller Central.</li>
+<li>FBA reimbursement services such as Getida, Refunds Manager and Carbon6 charge 20% to 25% of recovered funds on contingency.</li>
+<li>Amazon FBA reimbursements are not revenue; they offset inventory losses through the shrinkage account.</li>
+<li>A first-time audit of a $600,000-a-year FBA account found $11,150 of recoverable money, 1.9% of annual revenue.</li>
+</ul></div>
 <p>The catch: the window to claim it has gotten short. Amazon cut its claim deadlines dramatically in late 2024, and changed how much it pays in 2025. Here's the current state of play: what's reimbursable, the deadlines, DIY vs paying a service, and (the part everyone skips) how to book the money so it doesn't wreck your margins twice.</p>
 
 <h2>What Amazon actually owes you for</h2>
@@ -1586,6 +1810,7 @@ export const ARTICLES: Article[] = [
 <h2>The monthly reconciliation workflow, end to end</h2>
 <p>Pulling it together, the routine we run for clients looks like: reconcile settlements to gross sales, fees and refunds (the fix for <a href="/bookkeeping-tips/amazon-seller-bookkeeping-problems/">the nine classic Amazon bookkeeping problems</a>); tie inventory ledger movements to the books' inventory balance; flag and file every claimable event inside its window; post reimbursements received against shrinkage; and report unrecovered shrinkage as its own line so it can't hide. Sellers who run this loop keep the leak near zero and their COGS honest per <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">the COGS formula</a>. Sellers who don't fund Amazon's error rate out of margin, at a landed cost that tariffs just made 20% more expensive.</p>
 <p>If you've never audited your account, the historical sweep plus a monthly process is a solved problem: it's built into <a href="/monthly-ecommerce-bookkeeping/">our monthly bookkeeping plans</a>, and the free Books Teardown will tell you whether reimbursements are being booked as revenue right now (they usually are); <a href="/contact/">request one here</a>. Amazon runs the best logistics network on earth and still misplaces a measurable slice of everything it touches; the sellers who get paid for that are simply the ones who check. Amazon's own error rate is the one expense line you can actually send back.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 30, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1599,6 +1824,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Texas charges 6.25% plus local taxes up to 8.25%, sets economic nexus at $500,000 (the most generous threshold in the country), and offers remote sellers a flat-rate shortcut most never use. Here's the whole system.",
     html: `
 <p>Texas sales tax is 6.25% at the state level, with local jurisdictions adding up to 2% for a maximum combined rate of 8.25%. Remote sellers owe collection once their Texas revenue passes <strong>$500,000 in the preceding twelve months</strong>, the highest economic nexus threshold in the country. Marketplaces collect for you, remote sellers can elect a single flat local rate instead of tracking hundreds of jurisdictions, and there's no personal income tax waiting behind any of it, though a franchise tax is. That's the system in four sentences; the details are where the money is.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Texas sales tax is 6.25% at the state level, capped at 8.25% combined; Houston, Dallas, San Antonio and Austin all sit at the cap.</li>
+<li>Texas sets economic nexus at $500,000 in the preceding twelve months, the highest threshold in the country, measured on gross revenue including marketplace sales.</li>
+<li>Remote sellers in Texas can elect a single local use tax rate (1.75% in recent years, 8% combined) instead of tracking roughly 1,500 local jurisdictions.</li>
+<li>Texas pays punctual filers 0.5% of the tax due, plus another 1.25% for prepaying estimated liability.</li>
+<li>The Texas franchise tax carries its own $500,000 nexus threshold, but entities under about $2.47 million in annualized revenue owe no tax.</li>
+<li>Texas assesses a $50 late-filing penalty even on returns with zero tax due.</li>
+</ul></div>
 
 <h2>The rate: 6.25% state, capped at 8.25% combined</h2>
 <p>The state takes 6.25%. Cities, counties, transit authorities and special purpose districts can stack up to 2% more, and state law hard-caps the combined rate at 8.25%. Most urban Texas (Houston, Dallas, San Antonio, Austin) sits right at the cap; rural deliveries can come in lower. Compared with states where combined rates float past 10%, the cap makes Texas pleasantly predictable: you'll never charge more than 8.25%, period.</p>
@@ -1632,7 +1866,7 @@ export const ARTICLES: Article[] = [
 <p>Combined that's 1.75% of your tax liability back for being organized, real money for a high-volume seller and one of the better deals any state offers. The flip side: late filing costs $50 plus penalties of 5% to 10% of tax due, and Texas is quick with estimated assessments on silent accounts. Registration itself is free, done online through the Comptroller, and international sellers can register with an EIN rather than an SSN; getting that EIN without an SSN is its own fax-and-phone process, mapped in <a href="/bookkeeping-tips/ein-tax-id-number-guide-sellers/">our tax ID guide</a>, and the rest of the non-resident stack lives on <a href="/international-sellers/">our international sellers page</a>.</p>
 
 <h2>The franchise tax: what "no income tax" actually costs</h2>
-<p>Texas famously has no personal or corporate income tax. What it has instead is the <strong>franchise tax</strong>, a margin tax on entities doing business in Texas, and remote sellers keep discovering it the hard way because it uses its own $500,000 economic nexus threshold: cross it in Texas receipts and you owe a franchise tax filing even with no physical presence, entirely separate from sales tax.</p>
+<p>Texas famously has no personal or corporate income tax. The Texas <strong>franchise tax</strong> is a margin tax on entities doing business in Texas, and remote sellers keep discovering it the hard way because it uses its own $500,000 economic nexus threshold: cross it in Texas receipts and you owe a franchise tax filing even with no physical presence, entirely separate from sales tax.</p>
 <p>The saving grace is the no-tax-due threshold: entities under about $2.47 million in annualized revenue (indexed every two years) owe no franchise tax, and since 2024 they don't even file the No-Tax-Due Report anymore, just an information report (the Public Information Report for LLCs and corporations). Above the threshold, retailers and wholesalers pay 0.375% of taxable margin, half the general rate, and the margin calculation itself (revenue minus the best of several deductions, including cost of goods sold) rewards sellers whose <a href="/bookkeeping-tips/cogs-formula-ecommerce-guide/">COGS records are clean</a>. Reports are due May 15. If you're an out-of-state LLC over $500,000 in Texas receipts and this paragraph is news, that's a catch-up conversation for <a href="/ecommerce-tax-services/">our tax services team</a> before the Comptroller starts it.</p>
 
 <h2>The no-income-tax angle for sellers</h2>
@@ -1659,6 +1893,7 @@ export const ARTICLES: Article[] = [
 
 <h2>The bookkeeping that makes Texas easy</h2>
 <p>Every obligation above resolves to three numbers your books should produce on demand: rolling twelve-month Texas revenue (all channels), direct-channel Texas sales by delivery jurisdiction, and tax collected sitting in a liability account where it belongs. Settlement-level books produce them in minutes; deposit-based books can't produce them at all. If yours are the second kind, our free Books Teardown will show you the gap precisely, <a href="/contact/">request one here</a>, and registrations, elections and filings are all part of <a href="/ecommerce-tax-services/">our ecommerce tax services</a>. Texas is the easiest big state to comply with, but only from books that know what happened.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 30, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1672,6 +1907,15 @@ export const ARTICLES: Article[] = [
     excerpt: "California starts at 7.25%, stacks district taxes past 10% in some cities, and sets its threshold at $500,000 including marketplace sales. Plus the FBA back-tax saga every Amazon seller should know about.",
     html: `
 <p>California sales tax starts at 7.25%, the highest base rate in the country, and district taxes push combined rates past 10% in parts of the Bay Area and Los Angeles County. Remote sellers must register with the CDTFA once total California sales exceed <strong>$500,000</strong> in the current or preceding calendar year, marketplace sales included. Marketplaces collect on their own orders, districts add genuine complexity, and hanging over all of it is the FBA back-tax saga, the most aggressive state enforcement campaign ecommerce has seen. Here's the whole system, piece by piece.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>California's 7.25% base sales tax rate is the highest in the country, and district taxes push combined rates to 10.25% across much of LA County and up to 10.75% in parts of Alameda County.</li>
+<li>California's economic nexus threshold is $500,000 of total sales, marketplace sales included, in the current or preceding calendar year.</li>
+<li>Under California's AB 147, a seller past $500,000 statewide must collect every district's tax at every California delivery address.</li>
+<li>The CDTFA's FBA back-tax campaign claimed up to eight years of liability from sellers whose only California presence was inventory in Amazon warehouses.</li>
+<li>California's audit lookback is eight years for sellers who never filed versus three years for those who did, and voluntary disclosure caps it at three years with penalty relief.</li>
+<li>California sellers averaging $17,000 or more per month in taxable sales owe quarterly prepayments to the CDTFA.</li>
+</ul></div>
 
 <h2>The rate: what's inside 7.25%</h2>
 <p>The statewide base is 7.25%: 6% state, plus a mandatory 1.25% local portion (the Bradley-Burns rate) that goes to cities and counties. That's the floor everywhere in California; no address pays less. On top sit <strong>district taxes</strong>, voter-approved add-ons ranging from 0.10% to 1.5% or more each, and they stack. Combined rates run 7.25% in the few district-free areas to 10.25% in much of LA County and up to 10.75% in a handful of Alameda County cities. Rates shift as districts pass and expire, so use the CDTFA's address-level lookup (or a tax engine that does), not a county table from last year.</p>
@@ -1720,6 +1964,7 @@ export const ARTICLES: Article[] = [
 
 <h2>The bookkeeping that survives a CDTFA audit</h2>
 <p>California audits are thorough and data-driven: they'll want marketplace reports, by-district sales detail, resale certificates from wholesale customers, and books whose revenue ties to settlements and <a href="/bookkeeping-tips/amazon-1099-k-explained/">1099-Ks</a> rather than bank deposits. The three-year standard lookback (eight if you never filed) rewards sellers whose monthly close already produces state-and-district-level gross by channel; that's a first-week deliverable of <a href="/monthly-ecommerce-bookkeeping/">a real monthly bookkeeping engagement</a>. If your books can't tell you your California sales by channel for last year in five minutes, start with our free Books Teardown, <a href="/contact/">request one here</a>, and we'll show you exactly where the gaps are before the state does.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 30, 2026. emerchantbooks.com</em></p>
 `,
   },
   {
@@ -1733,6 +1978,15 @@ export const ARTICLES: Article[] = [
     excerpt: "Etsy nets its fees out before you ever see the money, charges six different fee types, and takes 12% or 15% on some orders but not others. Here are the eight problems that wreck shop books, with the fix for each.",
     html: `
 <p>Etsy bookkeeping fails the same way for almost every shop: the deposit hits the bank, the seller books it as sales, and from that moment the books understate revenue, hide fees, and can't compute a margin. Multiply that by six fee types, an advertising charge that hits some orders and not others, and the materials accounting that handmade goods require, and you get books that can't answer whether the shop actually makes money. Here are the eight problems we see in Etsy shops' books, and the fix for each.</p>
+
+<div class="key-facts"><p><strong>Key facts:</strong></p><ul>
+<li>Etsy charges six fee types: $0.20 listing fees, a 6.5% transaction fee on item price plus shipping, payment processing at 3% plus $0.25, Offsite Ads at 12% or 15%, a 2.5% currency conversion fee, and optional Etsy Plus at $10 a month.</li>
+<li>Etsy Offsite Ads takes 15% of attributed orders, drops to 12% once trailing twelve-month revenue passes $10,000, and participation becomes mandatory at that same threshold.</li>
+<li>On a $1,000 Etsy month, a shop banks $739.75 after fees, labels and one refund; Etsy's take before labels runs about 12.5% of gross.</li>
+<li>A sole proprietor maker's own labor never counts as COGS; the hours in a handmade piece are paid only through profit.</li>
+<li>The federal 1099-K threshold is back to $20,000 and 200 transactions, but Virginia, Maryland and Massachusetts trigger Etsy forms at $600.</li>
+<li>Etsy collects and remits sales tax on Etsy orders in every US state that has a sales tax.</li>
+</ul></div>
 
 <h2>Problem 1: The payment account nets everything before you see it</h2>
 <p>Etsy doesn't charge fees separately; it runs everything through your Etsy Payments account. Sales flow in, then listing fees, transaction fees, processing fees, ad charges, label costs and refunds all come out of the balance, and whatever's left lands in your bank on your deposit schedule. Sell $1,000 in a week and the deposit might be $840. Book that $840 as sales and you've understated revenue by 16% and recorded zero deductible fees; run a slow week where fees exceed sales and Etsy charges your card, producing a "negative deposit" your bank feed can't classify at all.</p>
@@ -1794,6 +2048,7 @@ export const ARTICLES: Article[] = [
 <h2>When to hire it out (and what it costs)</h2>
 <p>DIY is the right answer for a small shop: under roughly $3,000 a month in sales, a spreadsheet plus the monthly routine above genuinely suffices. Past that, and certainly once multiple channels or quarterly estimates enter the picture, the hours and the error risk start costing more than help does; the full market pricing is in <a href="/bookkeeping-tips/how-much-does-ecommerce-bookkeeping-cost/">our bookkeeping cost guide</a>, and our own rates start at $149 a month for Books Lite. We built <a href="/etsy-bookkeeping-services/">a bookkeeping service specifically for Etsy sellers</a>: gross-not-net revenue from the payment CSV, every fee type itemized, materials COGS handled, channels separated, books in your own QuickBooks or Xero file.</p>
 <p>Not sure which side of the line you're on? Two free tools answer it: our <a href="/money-leak-checklist/">money leak checklist</a> takes ten minutes and flags the expensive gaps (Offsite Ads math and fee creep are perennial finds for Etsy shops), and the free Books Teardown goes deeper: we'll walk your actual books with you and show you what they're hiding; <a href="/contact/">request one here</a>. A shop that knows its numbers prices with confidence, raises prices when materials costs say to, and drops the products that only felt profitable. Pricing is where handmade businesses live or die, and pricing runs on books.</p>
+<p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 30, 2026. emerchantbooks.com</em></p>
 `,
   },
 ];

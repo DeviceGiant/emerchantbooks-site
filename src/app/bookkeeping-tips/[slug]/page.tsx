@@ -59,7 +59,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           />
         )}
         <div
-          className="prose-emb mt-8 space-y-5 leading-relaxed text-slate-700 [&_a]:font-medium [&_a]:text-brand-600 [&_a]:underline [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-navy-900 [&_li]:ml-5 [&_li]:list-disc [&_strong]:text-navy-900 [&_table]:w-full [&_table]:border-collapse [&_table]:text-sm [&_td]:border [&_td]:border-slate-200 [&_td]:p-2.5 [&_th]:border [&_th]:border-slate-200 [&_th]:bg-slate-50 [&_th]:p-2.5 [&_th]:text-left [&_ul]:space-y-1.5"
+          className="prose-emb mt-8 space-y-5 leading-relaxed text-slate-700 [&_a]:font-medium [&_a]:text-brand-600 [&_a]:underline [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-navy-900 [&_li]:ml-5 [&_li]:list-disc [&_strong]:text-navy-900 [&_table]:w-full [&_table]:border-collapse [&_table]:text-sm [&_td]:border [&_td]:border-slate-200 [&_td]:p-2.5 [&_th]:border [&_th]:border-slate-200 [&_th]:bg-slate-50 [&_th]:p-2.5 [&_th]:text-left [&_ul]:space-y-1.5 [&_.key-facts]:rounded-xl [&_.key-facts]:border [&_.key-facts]:border-brand-500/40 [&_.key-facts]:bg-brand-50 [&_.key-facts]:p-5 [&_.article-source]:mt-8 [&_.article-source]:border-t [&_.article-source]:border-slate-200 [&_.article-source]:pt-4 [&_.article-source]:text-xs [&_.article-source]:text-slate-500"
           dangerouslySetInnerHTML={{ __html: a.html }}
         />
       </article>
