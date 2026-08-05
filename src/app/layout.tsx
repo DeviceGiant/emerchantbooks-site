@@ -67,6 +67,7 @@ export default function RootLayout({
         <StickyBar />
         <EmailPopup />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ORG_SCHEMA) }} />
+        <Script src="https://analytics.ahrefs.com/analytics.js" data-key="yDbtQqjLLqSaMNVgaVYeig" strategy="afterInteractive" />
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gtagId}`} strategy="afterInteractive" />
         <Script id="ga4" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
