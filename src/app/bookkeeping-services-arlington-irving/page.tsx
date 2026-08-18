@@ -5,12 +5,17 @@ import LeadForm from "@/components/LeadForm";
 import { Breadcrumbs, CtaBand, FaqBlock, Guarantees } from "@/components/Sections";
 import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const TITLE = "Accountant in Arlington, Irving & Denton | eMerchant Books";
+const DESCRIPTION =
+  "Bookkeeping for Arlington, Irving, Grand Prairie and Denton: ecommerce sellers, airport-corridor distributors and local shops. Accrual books, day-10 close.";
 
 export const metadata: Metadata = {
-  title: { absolute: "Accountant in Arlington, Irving & Denton | eMerchant Books" },
-  description:
-    "Bookkeeping and accounting for Arlington, Irving, Grand Prairie, Denton and the DFW mid-cities: ecommerce sellers, airport-corridor distributors and local shops. Accrual books, day-10 close.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: "/bookkeeping-services-arlington-irving/" },
+  openGraph: og(TITLE, DESCRIPTION, "/bookkeeping-services-arlington-irving/", pageImage("about-us")),
 };
 
 const FAQS = [
@@ -199,6 +204,7 @@ export default function ArlingtonIrvingPage() {
             "@type": "AccountingService",
             name: "eMerchant Books",
             url: "https://emerchantbooks.com/bookkeeping-services-arlington-irving/",
+            image: "https://emerchantbooks.com/images/about-ecommerce-accounting-firm-office.webp",
             telephone: "+14692941807",
             email: SITE.email,
             address: {

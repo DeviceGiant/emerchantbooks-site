@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import ServicePage from "@/components/ServicePage";
 import { SERVICES, getService } from "@/content/services";
 import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
 
 export function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
@@ -18,12 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: { absolute: s.metaTitle },
     description: s.metaDescription,
     alternates: { canonical: `/${s.slug}/` },
-    openGraph: {
-      title: s.metaTitle,
-      description: s.metaDescription,
-      url: `/${s.slug}/`,
-      images: pageImage(s.slug) ? [{ url: pageImage(s.slug).src, width: 1600, height: 900, alt: pageImage(s.slug).alt }] : undefined,
-    },
+    openGraph: og(s.metaTitle, s.metaDescription, `/${s.slug}/`, pageImage(s.slug)),
   };
 }
 

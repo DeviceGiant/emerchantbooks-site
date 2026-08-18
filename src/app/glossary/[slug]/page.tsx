@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs, CtaBand } from "@/components/Sections";
 import { GLOSSARY, getGlossaryTerm } from "@/content/glossary";
+import { og } from "@/lib/og";
 
 export function generateStaticParams() {
   return GLOSSARY.map((t) => ({ slug: t.slug }));
@@ -14,10 +15,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const t = getGlossaryTerm(slug);
   if (!t) return {};
+  // Keep the full title within 58 chars; drop the parenthetical from long terms like
+  // "ITIN (Individual Taxpayer Identification Number)".
+  let title = `What Is ${t.term}? | eMerchant Books`;
+  if (title.length > 58) {
+    title = `What Is ${t.term.replace(/\s*\([^)]*\)/g, "").trim()}? | eMerchant Books`;
+  }
+  const description = t.definition.length > 155 ? `${t.definition.slice(0, 152).trimEnd()}...` : t.definition;
   return {
-    title: { absolute: `What Is ${t.term}? | eMerchant Books` },
-    description: t.definition.length > 155 ? `${t.definition.slice(0, 152).trimEnd()}...` : t.definition,
+    title: { absolute: title },
+    description,
     alternates: { canonical: `/glossary/${t.slug}/` },
+    openGraph: og(title, description, `/glossary/${t.slug}/`),
   };
 }
 

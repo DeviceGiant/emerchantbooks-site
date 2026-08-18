@@ -85,11 +85,11 @@ export async function POST(req: NextRequest) {
     });
     if (!res.ok) {
       console.error("lead mail failed", res.status, await res.text().catch(() => ""));
-      return bad("failed to send ,  please email us directly at sales@emerchantbooks.com", 500);
+      return bad("failed to send: please email us directly at sales@emerchantbooks.com", 500);
     }
   } catch (e) {
     console.error("lead mail failed", e);
-    return bad("failed to send ,  please email us directly at sales@emerchantbooks.com", 500);
+    return bad("failed to send: please email us directly at sales@emerchantbooks.com", 500);
   }
 
   // magnet requests also get the checklist delivered to the lead
@@ -102,7 +102,7 @@ export async function POST(req: NextRequest) {
         to: [email],
         subject: "Your 27-Point Ecommerce Money Leak Checklist",
         text: [
-          "Here it is ,  the exact checks our accountants run on every new client's books:",
+          "Here it is: the exact checks our accountants run on every new client's books:",
           "",
           "https://emerchantbooks.com/money-leak-checklist/",
           "",
@@ -112,7 +112,7 @@ export async function POST(req: NextRequest) {
           "",
           "Claim it here: https://emerchantbooks.com/contact/",
           "",
-          ",  eMerchant Books",
+          ": eMerchant Books",
           "(469) 294-1807 · emerchantbooks.com",
         ].join("\n"),
       }),

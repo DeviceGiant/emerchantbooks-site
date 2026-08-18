@@ -36,6 +36,7 @@ const ORG_SCHEMA = {
   "@type": "AccountingService",
   name: "eMerchant Books",
   url: SITE.url,
+  image: "https://emerchantbooks.com/images/about-ecommerce-accounting-firm-office.webp",
   telephone: "+14692941807",
   email: SITE.email,
   address: {

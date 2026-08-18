@@ -2,12 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs, CtaBand, FaqBlock } from "@/components/Sections";
 import PriceCalculator from "@/components/PriceCalculator";
+import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const TITLE = "Published Pricing for $100K+/mo Ecommerce Brands | eMerchant Books";
+const DESCRIPTION =
+  "The only ecommerce-exclusive accounting firm with published pricing. Foundation $1,250/mo, Command $3,500/mo, Exit-Grade $7,500/mo. $100K+/mo revenue required.";
 
 export const metadata: Metadata = {
-  title: { absolute: "Published Pricing for $100K+/mo Ecommerce Brands | eMerchant Books" },
-  description:
-    "The only ecommerce-exclusive accounting firm with published pricing. Foundation $1,250/mo, Command $3,500/mo, Exit-Grade $7,500/mo. $100K+/mo revenue required.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: "/pricing/" },
+  openGraph: og(TITLE, DESCRIPTION, "/pricing/", pageImage("pricing")),
 };
 
 const TIERS = [
@@ -19,7 +25,7 @@ const TIERS = [
       "Accrual books, true landed-cost COGS",
       "Tariffs capitalized per ASC 330, not buried in opex",
       "Channel-level P&L, every marketplace reconciled",
-      "Closed by day 10 ,  or that month is 50% off",
+      "Closed by day 10: or that month is 50% off",
       "Monthly close memo + video walkthrough",
       "Dual-track: accrual books, cash-basis tax where allowed",
       "Sales tax nexus monitoring (filings +$150/state/mo)",
@@ -203,7 +209,7 @@ export default function Pricing() {
         <div className="mx-auto mt-10 max-w-4xl rounded-2xl border border-brand-500/40 bg-brand-50 p-7">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <p className="text-lg font-bold text-navy-900">Diligence Readiness Assessment ,  $2,500</p>
+              <p className="text-lg font-bold text-navy-900">Diligence Readiness Assessment: $2,500</p>
               <p className="mt-1 max-w-xl text-sm leading-relaxed text-slate-600">
                 Ten business days. Your books scored against the 40 points buyers and lenders actually check, with
                 every gap quantified in dollars. Credited in full against onboarding.

@@ -3,15 +3,17 @@ import Image from "next/image";
 import LeadForm from "@/components/LeadForm";
 import { Breadcrumbs, CtaBand, FaqBlock, Guarantees } from "@/components/Sections";
 import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const TITLE = "Bookkeeping for International Sellers | eMerchant Books";
+const DESCRIPTION =
+  "US bookkeeping for international sellers: marketplace-grade monthly books plus Form 5472, pro-forma 1120, W-8 and EIN/ITIN coordination.";
 
 export const metadata: Metadata = {
-  title: { absolute: "Bookkeeping for International Sellers on US Platforms | eMerchant Books" },
-  description:
-    "US bookkeeping and compliance for non-resident sellers: monthly marketplace-grade books plus Form 5472, pro-forma 1120, W-8 and EIN/ITIN coordination. From the US.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: "/international-sellers/" },
-  openGraph: {
-    images: [{ url: "/images/international-seller-us-llc-compliance.webp", width: 1600, height: 900, alt: "US LLC compliance documents for international sellers" }],
-  },
+  openGraph: og(TITLE, DESCRIPTION, "/international-sellers/", pageImage("international-sellers")),
 };
 
 const FAQS = [
@@ -203,7 +205,14 @@ export default function InternationalSellers() {
             "@context": "https://schema.org",
             "@type": "Service",
             name: "Bookkeeping for International Sellers on US Platforms",
-            provider: { "@type": "AccountingService", name: "eMerchant Books", url: "https://emerchantbooks.com" },
+            provider: {
+              "@type": "AccountingService",
+              name: "eMerchant Books",
+              url: "https://emerchantbooks.com",
+              image: "https://emerchantbooks.com/images/about-ecommerce-accounting-firm-office.webp",
+              telephone: "+14692941807",
+              address: { "@type": "PostalAddress", streetAddress: "7700 Windrose", addressLocality: "Plano", addressRegion: "TX", postalCode: "75024", addressCountry: "US" },
+            },
             areaServed: "Worldwide",
             description:
               "Monthly marketplace bookkeeping plus non-resident US compliance coordination (Form 5472, pro-forma 1120, W-8, EIN/ITIN) for foreign owners of US LLCs.",

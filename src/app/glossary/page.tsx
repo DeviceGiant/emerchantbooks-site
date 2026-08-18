@@ -2,12 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs, CtaBand } from "@/components/Sections";
 import { GLOSSARY } from "@/content/glossary";
+import { og } from "@/lib/og";
+
+const TITLE = "Ecommerce Accounting Glossary | eMerchant Books";
+const DESCRIPTION =
+  "Ecommerce accounting glossary: plain-English definitions of settlement reports, landed cost, SDE, sales tax nexus and 35 more terms, each with an example.";
 
 export const metadata: Metadata = {
-  title: { absolute: "Ecommerce Accounting Glossary | eMerchant Books" },
-  description:
-    "Plain-English definitions of 40 ecommerce accounting terms: settlement reports, landed cost, SDE, quality of earnings, sales tax nexus and more, each with a worked example.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: "/glossary/" },
+  openGraph: og(TITLE, DESCRIPTION, "/glossary/"),
 };
 
 function groupByLetter() {

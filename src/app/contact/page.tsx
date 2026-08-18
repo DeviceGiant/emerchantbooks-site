@@ -2,12 +2,17 @@ import type { Metadata } from "next";
 import LeadForm from "@/components/LeadForm";
 import { Breadcrumbs } from "@/components/Sections";
 import { SITE } from "@/lib/site";
+import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const DESCRIPTION =
+  "Talk to the accounting firm for ecommerce brands doing $100K+ a month. Call (469) 294-1807 or send the form; a partner replies within one business day.";
 
 export const metadata: Metadata = {
-  title: "Contact Us ,  Talk to a Partner",
-  description:
-    "Talk to the accounting firm for ecommerce brands doing $100K+ a month. Call (469) 294-1807 or send the form; a partner replies within one business day.",
+  title: "Contact Us: Talk to a Partner",
+  description: DESCRIPTION,
   alternates: { canonical: "/contact/" },
+  openGraph: og("Contact Us | eMerchant Books", DESCRIPTION, "/contact/", pageImage("contact")),
 };
 
 export default function Contact() {

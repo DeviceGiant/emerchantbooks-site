@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs, CtaBand } from "@/components/Sections";
 import { ARTICLES, getArticle } from "@/content/articles";
 import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
 
 export function generateStaticParams() {
   return ARTICLES.map((a) => ({ slug: a.slug }));
@@ -20,11 +21,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: a.metaDescription,
     alternates: { canonical: `/bookkeeping-tips/${a.slug}/` },
     openGraph: {
-      title: a.metaTitle,
-      description: a.metaDescription,
+      ...og(a.metaTitle, a.metaDescription, `/bookkeeping-tips/${a.slug}/`, pageImage(a.slug)),
       type: "article",
       publishedTime: a.date,
-      images: pageImage(a.slug) ? [{ url: pageImage(a.slug).src, width: 1600, height: 900, alt: pageImage(a.slug).alt }] : undefined,
     },
   };
 }

@@ -4,12 +4,16 @@ import Image from "next/image";
 import { Breadcrumbs, CtaBand, Guarantees } from "@/components/Sections";
 import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const DESCRIPTION =
+  "eMerchant Books is a Texas-based bookkeeping firm that works only with ecommerce sellers. 15+ years in ecommerce, specialist tools, and books you always own.";
 
 export const metadata: Metadata = {
-  title: "About Us ,  Ecommerce Bookkeeping Specialists",
-  description:
-    "eMerchant Books is a Texas-based bookkeeping firm that works only with ecommerce sellers. 15+ years in ecommerce, specialist tools, and books you always own.",
+  title: "About Us: Ecommerce Bookkeeping Specialists",
+  description: DESCRIPTION,
   alternates: { canonical: "/about-us/" },
+  openGraph: og("About Us | eMerchant Books", DESCRIPTION, "/about-us/", pageImage("about-us")),
 };
 
 export default function About() {

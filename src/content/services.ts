@@ -32,7 +32,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Monthly Bookkeeping",
     metaTitle: "Monthly Ecommerce Bookkeeping Services | eMerchant Books",
     metaDescription:
-      "Monthly accrual accounting for $100K+/mo ecommerce brands. Landed-cost COGS, channel P&L, books closed by the 10th business day, guaranteed. Published pricing from $1,250/mo.",
+      "Monthly ecommerce bookkeeping for $100K+/mo brands: accrual books, landed-cost COGS, channel P&L, closed by the 10th business day, guaranteed.",
     h1: "Monthly accounting built for $100K+/mo ecommerce brands",
     lead: "Accrual books with true landed-cost COGS for your Amazon, Shopify, eBay, Walmart and Etsy channels, closed in your own QuickBooks, Xero or NetSuite file by the 10th business day. Guaranteed in writing.",
     intro: [
@@ -128,7 +128,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Catch-Up & Cleanup",
     metaTitle: "Catch-Up & Cleanup Bookkeeping for Ecommerce | eMerchant Books",
     metaDescription:
-      "Months or years behind on your books? We rebuild ecommerce books channel by channel: settlements, COGS, sales tax. Fixed quote, discounted rate, fast turnaround.",
+      "Catch-up bookkeeping for ecommerce sellers months or years behind: settlements, COGS and sales tax rebuilt channel by channel at a fixed quote.",
     h1: "Catch-up and cleanup bookkeeping for ecommerce sellers",
     lead: "Behind on your books, or sitting on books you don't trust? We rebuild them month by month, settlement by settlement, and hand you a clean file your CPA can actually use.",
     intro: [
@@ -230,7 +230,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Amazon Bookkeeping",
     metaTitle: "Amazon Bookkeeping Services & Seller Accounting | eMerchant Books",
     metaDescription:
-      "Amazon accounting for $100K+/mo sellers by people who read settlement reports. FBA fees, reserves, refunds and landed-cost COGS done right in your own QuickBooks, Xero or NetSuite.",
+      "Amazon bookkeeping by people who read settlement reports: FBA fees, reserves, refunds and landed-cost COGS in your own QuickBooks or Xero.",
     h1: "Amazon bookkeeping by people who actually read settlement reports",
     lead: "Your Amazon deposit is not your revenue. We rebuild every settlement into real sales, fees, refunds and reserves inside your own QuickBooks or Xero file, so your margins finally mean something.",
     intro: [
@@ -334,7 +334,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Shopify Bookkeeping",
     metaTitle: "Shopify Bookkeeping Services & Accounting | eMerchant Books",
     metaDescription:
-      "Shopify accounting for $100K+/mo DTC brands: multi-gateway reconciliation, landed-cost COGS and channel P&L in your own QuickBooks, Xero or NetSuite. Closed by day 10, guaranteed.",
+      "Shopify bookkeeping for $100K+/mo DTC brands: multi-gateway reconciliation, landed-cost COGS and channel P&L. Closed by day 10, guaranteed.",
     h1: "Shopify bookkeeping for stores that take margins seriously",
     lead: "Shopify Payments, PayPal, Klarna, gift cards, refunds and chargebacks, reconciled into one honest P&L in your own QuickBooks or Xero file.",
     intro: [
@@ -1020,7 +1020,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Ecommerce Tax Services",
     metaTitle: "Ecommerce Tax Accountant & CPA Services | eMerchant Books",
     metaDescription:
-      "Tax-season-ready ecommerce accounting: 1099-K reconciliation, sales tax coordination, CPA-ready books and non-resident filings. Books and tax that finally agree.",
+      "Ecommerce tax services: 1099-K reconciliation, sales tax coordination, CPA-ready books and non-resident filings. Books and tax that finally agree.",
     h1: "Ecommerce tax services built on books that are actually right",
     lead: "Tax problems are usually bookkeeping problems discovered in April. We keep the books tax-ready all year, coordinate sales tax, and work with your CPA or bring one in.",
     intro: [
@@ -1116,7 +1116,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Integrations & Ops Engineering",
     metaTitle: "Custom Integrations & Ops Automation for Ecommerce | eMerchant Books",
     metaDescription:
-      "The accounting firm that also builds: custom integrations, workflow automation and ops tooling for ecommerce brands doing $100K+ a month. ERP, 3PL, marketplace and reporting glue.",
+      "Custom integrations and ops automation for ecommerce brands doing $100K+ a month: ERP, 3PL, marketplace and reporting glue, built by your accountants.",
     h1: "Custom integrations and ops engineering, from your accounting firm",
     lead: "We're the accounting firm that also writes software. Custom integrations, workflow automation and operations tooling for $100K+/mo brands whose tool stack stopped fitting off-the-shelf connectors.",
     intro: [
@@ -1212,9 +1212,9 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "reseller-bookkeeping-services",
     crumb: "Reseller Bookkeeping",
-    metaTitle: "Reseller Bookkeeping Services: Poshmark, Mercari, Depop, StockX, Whatnot | eMerchant Books",
+    metaTitle: "Reseller Bookkeeping Services & Taxes | eMerchant Books",
     metaDescription:
-      "Bookkeeping for resellers on Poshmark, Mercari, Depop, StockX, GOAT, Whatnot, Facebook Marketplace and eBay: 1099-K tie-outs, sourcing-run COGS and per-platform fee tracking in your own QuickBooks.",
+      "Reseller bookkeeping for Poshmark, Mercari, Depop, StockX, Whatnot and eBay: 1099-K tie-outs, sourcing-run COGS and per-platform fee tracking.",
     h1: "Reseller bookkeeping for people who sell on everything",
     lead: "Poshmark, Mercari, Depop, StockX, GOAT, Whatnot, Facebook Marketplace, eBay: every platform nets a different fee stack on a different schedule, and every one sends its own 1099-K. We turn the whole tangle into clean books, sourcing runs included.",
     intro: [
@@ -1324,7 +1324,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "WooCommerce Bookkeeping",
     metaTitle: "WooCommerce Bookkeeping & Accounting Services | eMerchant Books",
     metaDescription:
-      "WooCommerce accounting done properly: Stripe, PayPal and Square payouts reconciled to orders, self-hosted refund tracking, and a QuickBooks integration that doesn't wreck your file.",
+      "WooCommerce bookkeeping done properly: Stripe, PayPal and Square payouts reconciled to orders, plus a QuickBooks integration that holds up.",
     h1: "WooCommerce bookkeeping for stores that own their stack",
     lead: "You chose WordPress for control and lower fees. The cost is that nothing reconciles itself: Stripe, PayPal and Square each pay on their own schedule, and there's no native accounting layer at all. We close that gap every month.",
     intro: [
@@ -1433,7 +1433,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Square Bookkeeping",
     metaTitle: "Square Bookkeeping & Accounting Services | eMerchant Books",
     metaDescription:
-      "Bookkeeping for Square sellers: processing fees broken out, instant transfers reconciled, Square loan repayments booked correctly, and POS plus online sales in one honest P&L.",
+      "Square bookkeeping for sellers: processing fees broken out, instant transfers reconciled, and POS plus online sales in one honest P&L.",
     h1: "Square bookkeeping for sellers who run POS and online together",
     lead: "Square nets its fees before the money lands, deducts loan repayments off the top, and blends your counter sales with your website. We keep all three straight, in your own QuickBooks file.",
     intro: [
@@ -1541,7 +1541,7 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Content Creator Accounting",
     metaTitle: "Accountant for Content Creators & Influencers | eMerchant Books",
     metaDescription:
-      "Accounting for creators on OnlyFans, Patreon, YouTube, Twitch and TikTok: 1099 tie-outs, quarterly estimates, S-corp timing and payout reconciliation. Professional and judgment-free.",
+      "Accounting for creators on OnlyFans, Patreon, YouTube and Twitch: 1099 tie-outs, quarterly estimates, S-corp timing and payout reconciliation.",
     h1: "Accounting for content creators, run like the business it is",
     lead: "OnlyFans, Patreon, YouTube, Twitch, TikTok, brand deals: creator income arrives from everywhere with nothing withheld. We track every stream, keep the quarterly estimates honest, and never make you explain your content.",
     intro: [

@@ -5,12 +5,17 @@ import LeadForm from "@/components/LeadForm";
 import { Breadcrumbs, CtaBand, FaqBlock, Guarantees } from "@/components/Sections";
 import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const TITLE = "Bookkeeping Services in Fort Worth, TX | eMerchant Books";
+const DESCRIPTION =
+  "Bookkeeping services in Fort Worth and Tarrant County: ecommerce brands, distribution and local retail. Accrual books, day-10 close, in-person option.";
 
 export const metadata: Metadata = {
-  title: { absolute: "Bookkeeping Services in Fort Worth, TX | eMerchant Books" },
-  description:
-    "Bookkeeping services for Fort Worth and Tarrant County: ecommerce brands, Alliance-corridor distribution and local retail. Accrual books, day-10 close guarantee, in-person option.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: "/bookkeeping-services-fort-worth/" },
+  openGraph: og(TITLE, DESCRIPTION, "/bookkeeping-services-fort-worth/", pageImage("bookkeeping-services-fort-worth")),
 };
 
 const FAQS = [
@@ -190,6 +195,7 @@ export default function FortWorthPage() {
             "@type": "AccountingService",
             name: "eMerchant Books",
             url: "https://emerchantbooks.com/bookkeeping-services-fort-worth/",
+            image: "https://emerchantbooks.com/images/about-ecommerce-accounting-firm-office.webp",
             telephone: "+14692941807",
             email: SITE.email,
             address: {

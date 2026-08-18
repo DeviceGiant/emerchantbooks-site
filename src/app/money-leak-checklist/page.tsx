@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CtaBand, FaqBlock } from "@/components/Sections";
+import { og } from "@/lib/og";
+
+const DESCRIPTION =
+  "The exact 27 checks our accountants run on every new client's books: unclaimed FBA reimbursements, COGS errors, fee creep, sales tax overpayments. Free.";
 
 export const metadata: Metadata = {
   title: "The 27-Point Ecommerce Money Leak Checklist",
-  description:
-    "The exact 27 checks our accountants run on every new client's books: unclaimed FBA reimbursements, COGS errors, fee creep, sales tax overpayments. Free.",
+  description: DESCRIPTION,
   alternates: { canonical: "/money-leak-checklist/" },
+  openGraph: og("The 27-Point Ecommerce Money Leak Checklist | eMerchant Books", DESCRIPTION, "/money-leak-checklist/"),
 };
 
 const SECTIONS: { title: string; why: string; items: string[] }[] = [

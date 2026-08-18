@@ -50,7 +50,7 @@ export const ARTICLES: Article[] = [
 <p>Notice how many rows say "not published" or "requires a call." Hidden pricing usually means the number depends on how the sales conversation goes. When comparing, always ask what the price becomes at your order volume next year, not just today.</p>
 
 <h2>The five factors that actually drive your price</h2>
-<p><strong>1. Number of sales channels.</strong> Each marketplace or cart adds its own settlement reports, fee structures and reconciliation work. Amazon-only is the cheapest case. Amazon plus Shopify plus eBay plus Walmart roughly doubles the monthly work, not quadruples it, but it's real. Each platform brings its own problem list; our guides to <a href="/bookkeeping-tips/shopify-bookkeeping-problems/">Shopify</a>, <a href="/bookkeeping-tips/ebay-seller-bookkeeping-problems/">eBay</a> and <a href="/bookkeeping-tips/tiktok-shop-seller-bookkeeping/">TikTok Shop</a> bookkeeping show what that work involves.</p>
+<p><strong>1. Number of sales channels.</strong> Each marketplace or cart adds its own settlement reports, fee structures and reconciliation work. Amazon-only is the cheapest case. Amazon plus Shopify plus eBay plus Walmart roughly doubles the monthly work, not quadruples it, but it's real. Each platform brings its own problem list; our guides to <a href="/bookkeeping-tips/shopify-bookkeeping-problems/">Shopify</a>, <a href="/bookkeeping-tips/ebay-seller-bookkeeping-problems/">eBay</a>, <a href="/bookkeeping-tips/etsy-seller-bookkeeping-problems/">Etsy</a> and <a href="/bookkeeping-tips/tiktok-shop-seller-bookkeeping/">TikTok Shop</a> bookkeeping show what that work involves.</p>
 <p><strong>2. Order volume.</strong> More orders means more refunds, disputes, adjustments and edge cases, even with summary-level posting. Most honest pricing scales on this. Watch out for firms that price on <em>expenses</em> instead: growing sellers get punished for inventory purchases and ad spend.</p>
 <p><strong>3. Inventory complexity.</strong> Dropshipping is simple. FBA plus a 3PL plus a warehouse means multi-location inventory valuation, landed costs and shrinkage tracking. This is often the difference between a $300 engagement and a $700 one.</p>
 <p><strong>4. State of your books today.</strong> A clean file costs nothing extra. Twelve months of deposit-as-revenue bookkeeping needs a catch-up project first, typically quoted flat. Get that quote in writing before signing the monthly agreement.</p>
@@ -110,7 +110,7 @@ export const ARTICLES: Article[] = [
 <ul>
 <li><strong>Amazon's fee zoo:</strong> referral, FBA fulfillment, storage, long-term storage, removal fees. All deductible, all invisible if you book net deposits.</li>
 <li><strong>Ad spend</strong> (Sponsored Products et al.), often netted out of settlements and never surfaced.</li>
-<li><strong>Inventory shrinkage:</strong> lost and damaged units Amazon didn't reimburse.</li>
+<li><strong>Inventory shrinkage:</strong> lost and damaged units Amazon didn't reimburse. Our <a href="/bookkeeping-tips/amazon-fba-reimbursement-guide/">FBA reimbursement guide</a> covers how to claim them before the window closes.</li>
 <li><strong>Home office, mileage to source inventory, software subscriptions, education.</strong> Ordinary rules, commonly skipped.</li>
 <li><strong>Reimbursements handled backwards:</strong> Amazon lost-inventory reimbursements aren't revenue windfalls; they offset inventory losses.</li>
 </ul>
@@ -302,7 +302,7 @@ export const ARTICLES: Article[] = [
     title: "Quality of Earnings Report: What It Is, What It Costs, and How to Pass One",
     metaTitle: "Quality of Earnings Report Explained (Cost, Example, How to Pass)",
     metaDescription:
-      "What a quality of earnings (QoE) report is, what it costs ($5K-$35K), what's inside one, and how ecommerce sellers pass QoE analysis without losing 20-40% of their sale price.",
+      "Quality of earnings report explained: what it costs ($5K-$35K), what buyers check and how ecommerce sellers pass QoE without losing sale price.",
     date: "2026-07-29",
     readMinutes: 11,
     excerpt: "A QoE report is the financial exam your business takes before someone buys it. Here's what's inside one, what it costs, and the eight things that make ecommerce sellers fail it.",
@@ -413,7 +413,7 @@ export const ARTICLES: Article[] = [
 <p><strong>Fix:</strong> book reserves as a receivable so the balance sheet shows the truth: earned, not yet paid.</p>
 
 <h2>4. Unclaimed FBA reimbursements</h2>
-<p>Amazon loses and damages inventory constantly, and reimburses far from automatically. Claims expire, auto-reimbursements come in below your real cost, and refunded orders where the buyer never returned the item quietly become free products. For a seller doing $200K/mo this is commonly thousands per year of unclaimed money.</p>
+<p>Amazon loses and damages inventory constantly, and reimburses far from automatically. Claims expire, auto-reimbursements come in below your real cost, and refunded orders where the buyer never returned the item quietly become free products. For a seller doing $200K/mo this is commonly thousands per year of unclaimed money. Our <a href="/bookkeeping-tips/amazon-fba-reimbursement-guide/">FBA reimbursement guide</a> walks through the claim windows and what Amazon actually owes.</p>
 <p><strong>Fix:</strong> monthly reconciliation of inventory adjustments against reimbursements. It's section one of our <a href="/money-leak-checklist/">27-Point Money Leak Checklist</a> for a reason: it's where sellers find money fastest.</p>
 
 <h2>5. COGS booked on purchase date, not sale date</h2>
@@ -826,7 +826,7 @@ export const ARTICLES: Article[] = [
 <p>Gross sales, discounts and returns each visible, by month. Per-gateway clearing accounts that zero out. Fees itemized by gateway. Gift cards on the balance sheet as a liability. Inventory at landed cost, tied to the 3PL monthly, with COGS on sale. Sales tax in a liability account. A file small enough to open fast and clean enough to hand a lender without a preamble, built on the account structure in our free <a href="/bookkeeping-tips/ecommerce-chart-of-accounts/">ecommerce chart of accounts template</a>. That's the standard, and it's achievable for any store, usually within one catch-up cycle.</p>
 
 <h2>When to hire a bookkeeper for your Shopify store</h2>
-<p>DIY with a well-mapped A2X setup is workable to roughly $20,000 a month if you enjoy it. Add a second gateway, a 3PL, gift cards, serious BNPL volume or a <a href="/bookkeeping-tips/tiktok-shop-seller-bookkeeping/">TikTok Shop channel</a> beside the store, and the hours climb past what the work is worth, which is when shopify bookkeeping services stop being an expense and start being margin: the leaks above, fee creep, discount creep, 3PL shrinkage, unredeemed liabilities, are each worth more than the monthly fee once someone's actually watching them.</p>
+<p>DIY with a well-mapped A2X setup is workable to roughly $20,000 a month if you enjoy it. Add a second gateway, a 3PL, gift cards, serious BNPL volume or a <a href="/bookkeeping-tips/tiktok-shop-seller-bookkeeping/">TikTok Shop channel</a> beside the store, and the hours climb past what the work is worth, which is when shopify bookkeeping services stop being an expense and start being margin: the leaks above, fee creep, discount creep, 3PL shrinkage, unredeemed liabilities, are each worth more than the monthly fee once someone's actually watching them. Same story if an Etsy shop runs beside the store; that platform brings <a href="/bookkeeping-tips/etsy-seller-bookkeeping-problems/">its own list of bookkeeping problems</a>.</p>
 <p>Our <a href="/shopify-bookkeeping-services/">Shopify accounting services</a> set up the gateway clearing structure, the A2X or Link My Books mapping and the monthly 3PL tie-out, then close your books by the 10th business day every month, with <a href="/pricing/">published pricing</a> from $149/mo. Want to see your file's problems first? We rebuild your most recent month free and send a 10-minute video of what we found, with dollar figures on each item. <a href="/contact/">Claim the free teardown here</a>.</p>
 <p class="article-source"><em>Source: eMerchant Books, an ecommerce accounting firm serving $100K+/month sellers on Amazon, Shopify, eBay, Walmart, Etsy and recommerce marketplaces. Published July 29, 2026. emerchantbooks.com</em></p>
 `,
@@ -900,7 +900,7 @@ export const ARTICLES: Article[] = [
     title: "Reseller Taxes & Bookkeeping: The Complete Guide (Poshmark, Mercari, Depop, StockX, Whatnot)",
     metaTitle: "Reseller Taxes & Bookkeeping: The Complete Guide",
     metaDescription:
-      "1099-K thresholds, hobby vs business, thrift-run COGS and per-platform notes for Poshmark, Mercari, Depop, StockX, GOAT, Whatnot and Facebook Marketplace. Written for resellers.",
+      "Reseller taxes and bookkeeping: 1099-K thresholds, hobby vs business, thrift-run COGS and notes for Poshmark, Mercari, Depop, StockX and Whatnot.",
     date: "2026-07-29",
     readMinutes: 13,
     excerpt: "Reselling across Poshmark, Mercari, Depop, StockX and Whatnot means five fee structures, five 1099-Ks, and COGS that starts at a thrift store. Here's the whole tax and bookkeeping picture, platform by platform.",
@@ -943,7 +943,7 @@ export const ARTICLES: Article[] = [
 <p>Every platform nets its fees differently, and books that lump "selling fees" into one line can't tell you which platform pays best for your inventory. The quick tour:</p>
 <p><strong>Poshmark taxes and fees.</strong> The simplest structure in resale: $2.95 flat on sales under $15, 20% above. Simple doesn't mean cheap; 20% is one of the highest take rates going, offset by Poshmark covering shipping labels through buyer-paid shipping. Poshmark payouts are net, its 1099-K is gross, and the 20% between them is your deduction to capture.</p>
 <p><strong>Mercari taxes and fees.</strong> Mercari has rewritten its fee model more than once in recent years, dropping seller fees, adding buyer-side fees, then reversing course. That's exactly why itemized fee tracking matters: when a platform changes its take rate mid-year, blended books hide it, and you keep pricing against fees that no longer exist.</p>
-<p><strong>Depop taxes and fees.</strong> Depop dropped its 10% US selling fee in mid-2024, leaving payment processing around 3.3% plus 45 cents. Sellers who moved inventory toward Depop after that change made a smart margin move; sellers whose books couldn't show per-platform margins never noticed there was a move to make. Depop's 1099-K works like everyone else's: gross, reconciled against your net payouts.</p>
+<p><strong>Depop taxes and fees.</strong> Depop dropped its 10% US selling fee in mid-2024, leaving payment processing around 3.3% plus 45 cents. Sellers who moved inventory toward Depop after that change made a smart margin move; sellers whose books couldn't show per-platform margins never noticed there was a move to make. Depop's 1099-K works like everyone else's: gross, reconciled against your net payouts. Vintage sellers who cross-list on Etsy meet a different fee stack entirely; our guide to <a href="/bookkeeping-tips/etsy-seller-bookkeeping-problems/">Etsy bookkeeping problems</a> covers it.</p>
 <p><strong>StockX taxes and fees.</strong> StockX charges a seller fee that starts around 9% and steps down as your seller level rises, plus 3% payment processing. For sneaker and streetwear flippers, per-item COGS is usually clean (you know what you paid for each pair), but volume sellers hit the same 1099-K gross-versus-net gap, and StockX's level system means your fee rate changes over time, which your books should reflect rather than average away.</p>
 <p><strong>GOAT.</strong> Commission plus a regional seller fee, netted from payouts. Most StockX sellers cross-list here, which makes per-platform margin tracking the interesting number: same shoe, two fee stacks, one answer about where to sell the next pair.</p>
 <p><strong>Whatnot.</strong> Live selling: an 8% commission plus payment processing, deducted before payout, on volume that looks like nothing else in resale. A three-hour stream can produce 240 low-dollar sales, giveaways and bundles. Giveaways are marketing expense that looks like missing inventory; bundles need their allocated costs; and per-order bookkeeping would drown you. Summary posting per stream night, with a giveaway log, is the pattern that works.</p>
@@ -973,7 +973,7 @@ export const ARTICLES: Article[] = [
     title: "OnlyFans Taxes & Bookkeeping: What Creators Actually Need",
     metaTitle: "OnlyFans Taxes & Bookkeeping: What Creators Need",
     metaDescription:
-      "How OnlyFans income is taxed: the 1099-NEC from Fenix, the 20% fee, quarterly estimates, deductions that hold up, LLC vs S-corp, and chargebacks. Professional, judgment-free.",
+      "OnlyFans taxes and bookkeeping: the 1099-NEC from Fenix, the 20% fee, quarterly estimates and deductions that hold up. Judgment-free.",
     date: "2026-07-29",
     readMinutes: 12,
     excerpt: "OnlyFans income is self-employment income, taxed at up to 40%+ combined, with nothing withheld and a 1099-NEC arriving every January. Here's the complete tax and bookkeeping picture, handled professionally.",
@@ -1151,7 +1151,7 @@ export const ARTICLES: Article[] = [
     title: "Washington Sales Tax for Ecommerce Sellers (2026 Guide)",
     metaTitle: "Washington Sales Tax for Ecommerce Sellers (2026)",
     metaDescription:
-      "Washington's 6.5% rate plus local taxes, destination sourcing, the $100K nexus threshold, and the B&O tax that hits sellers even when Amazon collects everything.",
+      "Washington sales tax for ecommerce sellers: destination sourcing, the $100K threshold and the B&O tax that hits even when Amazon collects.",
     date: "2026-07-29",
     readMinutes: 12,
     excerpt: "Washington layers a gross-receipts B&O tax on top of one of the country's highest sales tax rates, and it's owed even on marketplace sales Amazon already handled. Here's the full picture.",
@@ -1555,7 +1555,7 @@ export const ARTICLES: Article[] = [
     title: "Tariff Accounting for Ecommerce Sellers: The 2026 Guide",
     metaTitle: "Tariff Accounting for Ecommerce Sellers (2026 Guide)",
     metaDescription:
-      "How to account for tariff costs: capitalizing duties into inventory under ASC 330, landed cost per SKU by country of origin, booking tariff refunds, and the repricing math.",
+      "Tariff accounting for ecommerce: capitalizing duties into inventory under ASC 330, landed cost per SKU by origin and booking tariff refunds.",
     date: "2026-07-30",
     readMinutes: 12,
     excerpt: "Duties are inventory cost, not a shipping expense. Here's the accounting that keeps margins honest when tariffs move: landed cost per SKU, refund booking, repricing math and a cash plan for duty payments.",
@@ -1613,7 +1613,7 @@ export const ARTICLES: Article[] = [
 <li><strong>Corrections and protests.</strong> Misclassified HTS codes and overstated customs values get fixed through post-summary corrections (available for roughly 300 days after entry) or protests (180 days after liquidation). Classification reviews are finding real money this year; a two-point rate difference on a year of imports adds up.</li>
 <li><strong>Litigation outcomes.</strong> Court challenges to specific tariff programs have periodically produced refunds for importers who paid under them and preserved their rights. Whether that applies to you is a customs-counsel question, not a bookkeeping one, but the accounting below still governs the day a check arrives.</li>
 </ul>
-<p>How to book a refund: it is not revenue. If the related units are still in inventory, reduce inventory (the goods now cost less). If they've sold, credit COGS in the period the refund becomes both probable and reasonably estimable, which for most sellers means when the claim is approved, not when it's filed. Don't book hoped-for refunds early; accounting treats contingent gains with a raised eyebrow, and so does every diligence analyst. Booked as revenue instead, a refund inflates your top line and overstates the very margin problem the tariff created, so the books lie twice.</p>
+<p>How to book a refund: it is not revenue, the same rule that governs <a href="/bookkeeping-tips/amazon-fba-reimbursement-guide/">Amazon FBA reimbursements</a>. If the related units are still in inventory, reduce inventory (the goods now cost less). If they've sold, credit COGS in the period the refund becomes both probable and reasonably estimable, which for most sellers means when the claim is approved, not when it's filed. Don't book hoped-for refunds early; accounting treats contingent gains with a raised eyebrow, and so does every diligence analyst. Booked as revenue instead, a refund inflates your top line and overstates the very margin problem the tariff created, so the books lie twice.</p>
 <p>The prerequisite for every refund path is the same paper trail: entry summaries tied to receipts tied to per-SKU landed costs. Sellers who kept that trail file drawback claims from a report. Sellers who didn't pay a consultant to reconstruct it for a cut of the recovery.</p>
 
 <h2>The repricing math: what a tariff actually does to your price</h2>
@@ -1642,7 +1642,7 @@ export const ARTICLES: Article[] = [
     title: "Cash to Accrual Conversion: Step-by-Step for Ecommerce",
     metaTitle: "Cash to Accrual Conversion for Ecommerce (Step-by-Step)",
     metaDescription:
-      "How to convert cash basis books to accrual: AR, AP, inventory and deferred revenue adjustments with a worked example, IRS Form 3115 basics, and the dual-track option.",
+      "Cash to accrual conversion for ecommerce, step by step: AR, AP, inventory and deferred revenue adjustments, plus IRS Form 3115 basics.",
     date: "2026-07-30",
     readMinutes: 11,
     excerpt: "Lenders and buyers won't take cash-basis books seriously, and for an inventory business they're right not to. Here's the conversion, adjustment by adjustment, with real numbers.",
@@ -1722,7 +1722,7 @@ export const ARTICLES: Article[] = [
     title: "Amazon FBA Reimbursements: Claim Every Dollar (2026)",
     metaTitle: "Amazon FBA Reimbursements: Claim Every Dollar (2026)",
     metaDescription:
-      "What Amazon owes FBA sellers, the shortened claim windows, manual claims vs 20-25% reimbursement services, and how to book reimbursements so they don't distort your margins.",
+      "Amazon FBA reimbursements: what Amazon owes sellers, the shortened claim windows, manual claims vs services and how to book recoveries.",
     date: "2026-07-30",
     readMinutes: 11,
     excerpt: "Amazon loses, damages and mis-measures seller inventory constantly, and auto-reimbursement doesn't catch all of it. What's claimable, the deadlines that got short, and how to book the money correctly.",
@@ -1818,7 +1818,7 @@ export const ARTICLES: Article[] = [
     title: "Texas Sales Tax for Ecommerce Sellers (2026 Guide)",
     metaTitle: "Texas Sales Tax for Ecommerce Sellers (2026)",
     metaDescription:
-      "Texas sales tax for online sellers: 6.25% plus local up to 8.25%, the $500K economic nexus threshold, the single local rate election, marketplace rules and franchise tax.",
+      "Texas sales tax for online sellers: 6.25% plus local up to 8.25%, the $500K nexus threshold, the single local rate election and franchise tax.",
     date: "2026-07-30",
     readMinutes: 12,
     excerpt: "Texas charges 6.25% plus local taxes up to 8.25%, sets economic nexus at $500,000 (the most generous threshold in the country), and offers remote sellers a flat-rate shortcut most never use. Here's the whole system.",
@@ -1901,7 +1901,7 @@ export const ARTICLES: Article[] = [
     title: "California Sales Tax for Ecommerce Sellers (2026 Guide)",
     metaTitle: "California Sales Tax for Ecommerce Sellers (2026)",
     metaDescription:
-      "California sales tax for online sellers: the 7.25% base rate, district taxes past 10%, the $500K threshold, CDTFA registration, marketplace rules and the FBA back-tax saga.",
+      "California sales tax for online sellers: the 7.25% base rate, district taxes past 10%, the $500K threshold and CDTFA registration.",
     date: "2026-07-30",
     readMinutes: 12,
     excerpt: "California starts at 7.25%, stacks district taxes past 10% in some cities, and sets its threshold at $500,000 including marketplace sales. Plus the FBA back-tax saga every Amazon seller should know about.",
@@ -1972,7 +1972,7 @@ export const ARTICLES: Article[] = [
     title: "Etsy Bookkeeping: 8 Problems That Wreck Shop Finances",
     metaTitle: "Etsy Bookkeeping: 8 Problems That Wreck Shop Finances",
     metaDescription:
-      "The 8 Etsy bookkeeping problems that ruin makers' numbers: payment account netting, six fee types, Offsite Ads, materials COGS, the 1099-K and multi-channel selling. With fixes.",
+      "Etsy bookkeeping problems that ruin makers' numbers: payment account netting, six fee types, Offsite Ads, materials COGS and the 1099-K.",
     date: "2026-07-30",
     readMinutes: 11,
     excerpt: "Etsy nets its fees out before you ever see the money, charges six different fee types, and takes 12% or 15% on some orders but not others. Here are the eight problems that wreck shop books, with the fix for each.",

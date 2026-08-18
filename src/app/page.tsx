@@ -4,15 +4,17 @@ import Image from "next/image";
 import LeadForm from "@/components/LeadForm";
 import { CtaBand, FaqBlock, Guarantees, TrustBar } from "@/components/Sections";
 import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const TITLE = "Ecommerce Accounting Firm for $100K+/mo Sellers | eMerchant Books";
+const DESCRIPTION =
+  "The ecommerce accounting firm for Amazon, Shopify and multi-channel brands doing $100K+ a month. Exit-grade accrual books, closed by day 10.";
 
 export const metadata: Metadata = {
-  title: { absolute: "Ecommerce Accounting Firm for $100K+/mo Sellers | eMerchant Books" },
-  description:
-    "The ecommerce accounting firm for Amazon, Shopify and multi-channel brands doing $100K+ a month. Exit-grade accrual books, landed-cost COGS, closed by day 10, at a published price.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: "/" },
-  openGraph: {
-    images: [{ url: "/images/ecommerce-bookkeeping-services-desk.webp", width: 1600, height: 900, alt: "Ecommerce accounting workspace" }],
-  },
+  openGraph: og(TITLE, DESCRIPTION, "/", pageImage("home")),
 };
 
 const PLATFORM_CARDS = [

@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import { Breadcrumbs, CtaBand, FaqBlock } from "@/components/Sections";
+import { og } from "@/lib/og";
+
+const DESCRIPTION =
+  "Straight answers on pricing, software, catch-up work, sales tax, international sellers and how our ecommerce bookkeeping service works.";
 
 export const metadata: Metadata = {
-  title: "FAQ ,  Ecommerce Bookkeeping Questions Answered",
-  description:
-    "Straight answers on pricing, software, catch-up work, sales tax, international sellers and how our ecommerce bookkeeping service works.",
+  title: "FAQ: Ecommerce Bookkeeping Questions Answered",
+  description: DESCRIPTION,
   alternates: { canonical: "/faq/" },
+  openGraph: og("Ecommerce Bookkeeping FAQ | eMerchant Books", DESCRIPTION, "/faq/"),
 };
 
 const FAQS = [

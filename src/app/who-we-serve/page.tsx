@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs, CtaBand } from "@/components/Sections";
+import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const TITLE = "Who We Serve: Ecommerce Seller Types | eMerchant Books";
+const DESCRIPTION =
+  "Ecommerce bookkeeping for every seller type: Amazon, Shopify, eBay, Walmart, Etsy, resellers, content creators and international sellers.";
 
 export const metadata: Metadata = {
-  title: { absolute: "Who We Serve: Every Platform, Marketplace & Seller Type | eMerchant Books" },
-  description:
-    "Ecommerce bookkeeping for every seller type: Amazon, Shopify, eBay, Walmart, Etsy, WooCommerce, Square, resellers on Poshmark and Whatnot, refurbishers, content creators and international sellers.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: "/who-we-serve/" },
-  openGraph: {
-    title: "Who We Serve | eMerchant Books",
-    description:
-      "Bookkeeping built per platform: marketplaces, storefronts, recommerce, resellers, content creators, international sellers and DFW locals.",
-    url: "/who-we-serve/",
-  },
+  openGraph: og(TITLE, DESCRIPTION, "/who-we-serve/", pageImage("who-we-serve")),
 };
 
 type Item = { href: string; anchor: string; desc: string };

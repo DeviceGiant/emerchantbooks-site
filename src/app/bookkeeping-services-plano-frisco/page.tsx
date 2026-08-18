@@ -5,12 +5,17 @@ import LeadForm from "@/components/LeadForm";
 import { Breadcrumbs, CtaBand, FaqBlock, Guarantees } from "@/components/Sections";
 import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const TITLE = "Accountant in Plano & Frisco, TX | eMerchant Books";
+const DESCRIPTION =
+  "Accountant in Plano and Frisco serving McKinney, Allen and Richardson. Ecommerce specialists, same-day in-person meetings, day-10 close guarantee.";
 
 export const metadata: Metadata = {
-  title: { absolute: "Accountant in Plano & Frisco, TX | eMerchant Books" },
-  description:
-    "Plano-headquartered accounting firm serving Frisco, McKinney, Allen and Richardson. Ecommerce specialists with same-day in-person meetings, accrual books and a day-10 close guarantee.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: "/bookkeeping-services-plano-frisco/" },
+  openGraph: og(TITLE, DESCRIPTION, "/bookkeeping-services-plano-frisco/", pageImage("about-us")),
 };
 
 const FAQS = [
@@ -190,6 +195,7 @@ export default function PlanoFriscoPage() {
             "@type": "AccountingService",
             name: "eMerchant Books",
             url: "https://emerchantbooks.com/bookkeeping-services-plano-frisco/",
+            image: "https://emerchantbooks.com/images/about-ecommerce-accounting-firm-office.webp",
             telephone: "+14692941807",
             email: SITE.email,
             address: {

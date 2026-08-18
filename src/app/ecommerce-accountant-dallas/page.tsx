@@ -5,12 +5,17 @@ import LeadForm from "@/components/LeadForm";
 import { Breadcrumbs, CtaBand, FaqBlock, Guarantees } from "@/components/Sections";
 import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
+import { og } from "@/lib/og";
+
+const TITLE = "Ecommerce Accountant in Dallas-Fort Worth | eMerchant Books";
+const DESCRIPTION =
+  "Ecommerce accountant in Dallas-Fort Worth for sellers doing $100K+ a month. Exit-grade books, landed-cost COGS and a day-10 close guarantee.";
 
 export const metadata: Metadata = {
-  title: { absolute: "Ecommerce Accountant in Dallas-Fort Worth | eMerchant Books" },
-  description:
-    "Plano-based accounting firm for DFW ecommerce sellers doing $100K+ a month. Bookkeeping services in Dallas, Plano and Frisco with exit-grade books and a day-10 close guarantee.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: { canonical: "/ecommerce-accountant-dallas/" },
+  openGraph: og(TITLE, DESCRIPTION, "/ecommerce-accountant-dallas/", pageImage("about-us")),
 };
 
 const FAQS = [
@@ -176,6 +181,7 @@ export default function DallasPage() {
             "@type": "AccountingService",
             name: "eMerchant Books",
             url: "https://emerchantbooks.com/ecommerce-accountant-dallas/",
+            image: "https://emerchantbooks.com/images/about-ecommerce-accounting-firm-office.webp",
             telephone: "+14692941807",
             email: SITE.email,
             address: {
