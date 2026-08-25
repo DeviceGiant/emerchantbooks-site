@@ -5,7 +5,7 @@ import PriceCalculator from "@/components/PriceCalculator";
 import { pageImage } from "@/content/images";
 import { og } from "@/lib/og";
 
-const TITLE = "Published Pricing for $100K+/mo Ecommerce Brands | eMerchant Books";
+const TITLE = "Ecommerce Bookkeeping Pricing | eMerchant Books";
 const DESCRIPTION =
   "The only ecommerce-exclusive accounting firm with published pricing. Foundation $1,250/mo, Command $3,500/mo, Exit-Grade $7,500/mo. $100K+/mo revenue required.";
 

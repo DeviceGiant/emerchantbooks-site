@@ -16,7 +16,7 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Ecommerce Accounting Firm for $100K+/mo Sellers | eMerchant Books",
+    default: "Ecommerce Accounting for $100K+/mo Sellers | eMerchant Books",
     template: "%s | eMerchant Books",
   },
   description:
