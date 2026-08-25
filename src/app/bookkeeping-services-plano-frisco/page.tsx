@@ -7,7 +7,7 @@ import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
 import { og } from "@/lib/og";
 
-const TITLE = "Plano Bookkeeper | Bookkeeping Services in Plano & Frisco";
+const TITLE = "Plano Bookkeeper | Accounting for Plano & Frisco Businesses";
 const DESCRIPTION =
   "Bookkeeper in Plano, TX serving Frisco, McKinney, Allen and Richardson. Ecommerce and small business bookkeeping services, same-day meetings, day-10 close.";
 
@@ -29,7 +29,11 @@ const FAQS = [
   },
   {
     q: "Do you serve McKinney and Allen, or just Plano and Frisco?",
-    a: "All of North DFW: Plano, Frisco, McKinney, Allen and Richardson are the core, and we have clients in Prosper, Celina and The Colony too. An accountant in McKinney or Allen is fifteen to twenty minutes from our office, so distance never changes the service.",
+    a: "All of North DFW: Plano, Frisco, McKinney, Allen and Richardson are the core, and we have clients in Prosper, Celina and The Colony too. If you've been searching for bookkeeping professionals in McKinney, TX or Allen, we're fifteen to twenty minutes from you, so distance never changes the service.",
+  },
+  {
+    q: "How do I compare bookkeeping firms in Plano and Frisco?",
+    a: "Ask three questions. How would they book a $50,000 Amazon deposit? When do they post COGS, on purchase or on sale? Who owns the QuickBooks file if you leave? Most bookkeeping firms in Frisco and Plano are generalist practices or franchise offices: good at bank-feed categorization, unprepared for inventory and settlement reports. Compare the answers, not the office decor.",
   },
   {
     q: "Do I need a bookkeeper or a CPA in Plano?",
@@ -70,7 +74,7 @@ export default function PlanoFriscoPage() {
         <div className="lg:col-span-3">
           <p className="text-xs font-bold uppercase tracking-wider text-brand-600">Plano · Frisco · McKinney · Allen · Richardson</p>
           <h1 className="mt-2 text-4xl font-bold leading-tight text-navy-900">
-            Bookkeeping services in Plano, TX, from a bookkeeper you can walk in on
+            Bookkeeping in Plano, TX, from an accountant you can walk in on
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-slate-600">
             Our headquarters is in Plano, ten minutes from Legacy West. That makes us the rare specialist firm
@@ -99,7 +103,7 @@ export default function PlanoFriscoPage() {
             </p>
             <p>
               Those businesses have inventory, channels and settlement reports, and the typical
-              &ldquo;bookkeeping services Plano TX&rdquo; result quotes them $400 a month to book deposits as
+              &ldquo;bookkeeping Plano TX&rdquo; result quotes them $400 a month to book deposits as
               revenue. We do the opposite: <Link href="/monthly-ecommerce-bookkeeping/" className="font-medium text-brand-600 underline">monthly bookkeeping</Link> built
               from settlement-level detail, true landed-cost COGS, and channel P&amp;L that shows which side of
               the business earns. If the books are already a mess,{" "}
@@ -141,7 +145,8 @@ export default function PlanoFriscoPage() {
               Collin County are solo practitioners and franchise offices doing bank-feed categorization for $300 to
               $800 a month. That&rsquo;s fine for a law practice or a landscaper. It falls apart the first month a
               business has inventory, a marketplace settlement or a second sales channel, which describes most of the
-              companies growing along the tollway.
+              companies growing along the tollway. The same goes for bookkeeping in Frisco: most results there are
+              Plano and Dallas firms with a Frisco landing page, not a Frisco office.
             </p>
             <p>
               We&rsquo;re a business bookkeeper, not a personal one. If you&rsquo;re looking for a personal bookkeeper

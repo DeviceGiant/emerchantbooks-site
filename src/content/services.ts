@@ -692,6 +692,13 @@ export const SERVICES: ServiceContent[] = [
           "Sales tax is the one thing Etsy handles for you. As a marketplace facilitator it collects and remits on every US order, so the accounting job is keeping that collected tax out of your revenue, not filing it. Shops that also sell on Shopify carry their own obligation there, which is where multi-channel books earn their keep.",
         ],
       },
+      {
+        h2: "Etsy accounting software: the choices, and why they matter less than the rebuild",
+        paras: [
+          "The Etsy accounting software question comes up on every onboarding call. QuickBooks Online is the answer for most US shops. Xero if you sell in more than one currency or already run a Xero file. Either way, add a connector such as Link My Books or A2X that posts the payment account as one monthly summary instead of a thousand orders. Etsy's own Shop Manager stats and the per-order sync apps in Etsy's app directory are fine for a glance; neither gives you gross sales, fees by type and per-piece cost in one place.",
+          "Etsy bookkeeping done well is a monthly habit, not a software feature: pull the payment account CSV, rebuild gross sales and each fee, post COGS on what sold, tie the deposits. The software holds the result. The habit is the service.",
+        ],
+      },
     ],
     related: [
       { href: "/shopify-bookkeeping-services/", label: "Shopify Bookkeeping" },
@@ -791,7 +798,7 @@ export const SERVICES: ServiceContent[] = [
       {
         h2: "Amazon Seller Central to QuickBooks: how the data should flow",
         paras: [
-          "Seller Central doesn't talk to QuickBooks directly, and the app-store connectors that claim to bridge Amazon FBA and QuickBooks mostly push every order in as an invoice. The pattern that holds up is settlement-level: A2X or Link My Books reads each Amazon settlement through the SP-API, splits it into gross sales, referral and FBA fees, refunds, reimbursements, reserves and sales tax collected, and posts one journal entry per settlement to accounts you mapped once. The deposit then matches that entry in the bank feed to the penny. Two weeks of Amazon activity becomes one clean entry instead of 4,000 invoices.",
+          "Seller Central doesn't talk to QuickBooks directly, and the app-store connectors that claim to bridge the two mostly push every order in as an invoice. The pattern that holds up is settlement-level: A2X or Link My Books reads each Amazon settlement through the SP-API, splits it into gross sales, referral and FBA fees, refunds, reimbursements, reserves and sales tax collected, and posts one journal entry per settlement to accounts you mapped once. The deposit then matches that entry in the bank feed to the penny. Two weeks of Amazon activity becomes one clean entry instead of 4,000 invoices.",
           "Same pattern for every other channel. Shopify Payments, Walmart, eBay and Etsy each get their own clearing account and their own mapping, tagged with a class or location so the per-channel P&L falls out of standard reports. Inventory quantities stay in Seller Central or an inventory tool; QuickBooks carries the dollar value and the monthly COGS entry.",
           "A note on QuickBooks Commerce: Intuit retired that product (the old TradeGecko) and folded a thin version of its channel connections into QuickBooks Online. Those built-in ecommerce connections still sync at the order level, so the advice stands. Use them for visibility if you like, but post revenue from settlements.",
         ],
@@ -826,7 +833,7 @@ export const SERVICES: ServiceContent[] = [
       },
       {
         q: "Do I need a bookkeeper if I have QuickBooks?",
-        a: "QuickBooks is a filing cabinet, not a bookkeeper. It won't rebuild settlements, book COGS on inventory movement, or keep collected sales tax out of revenue; someone has to do that work inside it. At $100K+ a month, that someone should be a specialist, because the ecommerce-specific work is exactly the part QBO can't automate.",
+        a: "The software is a filing cabinet, not a bookkeeper. It won't rebuild settlements, book COGS on inventory movement, or keep collected sales tax out of revenue; someone has to do that work inside it. At $100K+ a month, that someone should be a specialist, because the ecommerce-specific work is exactly the part QBO can't automate.",
       },
       {
         q: "How do I record marketplace sales in QuickBooks Online?",
@@ -846,7 +853,7 @@ export const SERVICES: ServiceContent[] = [
       },
       {
         q: "Does QuickBooks work for an Amazon FBA business?",
-        a: "Yes, on Plus, with a settlement connector doing the posting. Amazon FBA and QuickBooks pair well when the file mirrors settlement reports and tracks inventory value monthly. They pair badly when a per-order sync app tries to make QuickBooks the order management system. Set it up the first way and the file stays reconcilable for years.",
+        a: "Yes, on Plus, with a settlement connector doing the posting. The two pair well when the file mirrors settlement reports and tracks inventory value monthly. They pair badly when a per-order sync app tries to make the accounting file the order management system. Set it up the first way and the file stays reconcilable for years.",
       },
     ],
   },
@@ -1057,7 +1064,7 @@ export const SERVICES: ServiceContent[] = [
     metaDescription:
       "Ecommerce tax accountant services: 1099-K reconciliation, sales tax filing coordination, CPA-ready books, non-resident filings. Books and tax that agree.",
     h1: "Ecommerce tax accountant services built on books that are right",
-    lead: "Tax problems are usually bookkeeping problems discovered in April. We keep the books tax-ready all year, coordinate sales tax, and work with your CPA or bring one in.",
+    lead: "Tax problems are usually bookkeeping problems discovered in April. Our ecommerce tax services keep the books tax-ready all year, coordinate sales tax, and work with your CPA or bring one in.",
     intro: [
       "Every ecommerce tax horror story starts the same way: the return was built on bad books. Gross sales that don't match the 1099-K. COGS with no inventory support. Sales tax collected and booked as income. The CPA can only file what the books say, and by tax season it's expensive to say something different.",
       "Our tax work starts twelve months before the deadline: accrual books where the 1099-K ties out, inventory valuation that survives scrutiny, and collected tax sitting in a liability account where it belongs. If you went looking for an ecommerce tax accountant because last April went badly, the books are almost always where the fix starts, and a tax accountant for online sellers is only as good as the file underneath them.",
@@ -1429,6 +1436,7 @@ export const SERVICES: ServiceContent[] = [
         h2: "Accounting software for WooCommerce: what actually works",
         paras: [
           "QuickBooks Online or Xero, fed by summarized payout entries. Neither has a native WooCommerce connection worth relying on, and the plugins that promise one sync at the order level, which is the pattern that floods the file. The working stack is simpler: your gateways' payout reports are the source, a connector such as Synder posts each payout as one entry with gross sales, fees and refunds split out, and the bank feed matches the deposit. Order-level history stays in WooCommerce, where it's searchable and where it belongs.",
+          "On the WooCommerce accounting plugin question, there are two families and they behave nothing alike. Sync plugins (the QuickBooks and Xero connectors in the WordPress plugin directory, MyWorks, Zapier recipes) push each order into the accounting file as it happens. That looks tidy for a week and then never matches a single payout. The A2X-style family (A2X, Synder) works from the payout instead: one entry per Stripe or PayPal settlement, gross sales, fees and refunds split out, deposit matched. We set clients up on the second kind and pull the first kind out during cleanup. If you already run a sync plugin and the file still reconciles, keep it; that's rarer than the plugin reviews suggest.",
           "Inventory sits outside the accounting file too. WooCommerce's stock counts are fine for the storefront. For the books you need quantities valued at landed cost each month, which means a monthly export from WooCommerce or a 3PL count, posted as an inventory adjustment with COGS on what sold. Sellers who try to make QuickBooks the inventory system for a WooCommerce store spend more time fixing sync errors than they'd spend on the monthly entry.",
           "Choosing between QuickBooks and Xero for WooCommerce accounting: QuickBooks if your CPA lives there and you're US-only, Xero if you sell in more than one currency or come from a market where Xero is the default. Both handle multi-gateway stores well once the posting pattern is right.",
         ],
