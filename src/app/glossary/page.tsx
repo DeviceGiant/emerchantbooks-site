@@ -4,7 +4,7 @@ import { Breadcrumbs, CtaBand } from "@/components/Sections";
 import { GLOSSARY } from "@/content/glossary";
 import { og } from "@/lib/og";
 
-const TITLE = "Ecommerce Accounting Glossary | eMerchant Books";
+const TITLE = "Ecommerce Accounting Glossary: 40 Terms Sellers Should Know | eMerchant Books";
 const DESCRIPTION =
   "Ecommerce accounting glossary: plain-English definitions of settlement reports, landed cost, SDE, sales tax nexus and 35 more terms, each with an example.";
 

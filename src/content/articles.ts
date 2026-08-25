@@ -1746,7 +1746,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "amazon-fba-reimbursement-guide",
     title: "Amazon FBA Reimbursements: Claim Every Dollar (2026)",
-    metaTitle: "Amazon FBA Reimbursements: Claim Every Dollar (2026)",
+    metaTitle: "Amazon FBA Reimbursement Guide 2026: Claim Every Dollar Owed",
     metaDescription:
       "Amazon FBA reimbursements: what Amazon owes sellers, the shortened claim windows, manual claims vs services and how to book recoveries.",
     date: "2026-07-30",
@@ -1998,7 +1998,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "etsy-seller-bookkeeping-problems",
     title: "Etsy Bookkeeping: 8 Problems That Wreck Shop Finances",
-    metaTitle: "Etsy Bookkeeping: 8 Problems That Wreck Shop Finances",
+    metaTitle: "Etsy Bookkeeping Problems: 8 Fixes for Shop Finances (2026)",
     metaDescription:
       "Etsy bookkeeping problems that ruin makers' numbers: payment account netting, six fee types, Offsite Ads, materials COGS and the 1099-K.",
     date: "2026-07-30",

@@ -7,7 +7,7 @@ const DESCRIPTION =
   "The exact 27 checks our accountants run on every new client's books: unclaimed FBA reimbursements, COGS errors, fee creep, sales tax overpayments. Free.";
 
 export const metadata: Metadata = {
-  title: "The 27-Point Ecommerce Money Leak Checklist",
+  title: "27-Point Money Leak Checklist for Ecommerce Sellers (Free)",
   description: DESCRIPTION,
   alternates: { canonical: "/money-leak-checklist/" },
   openGraph: og("The 27-Point Ecommerce Money Leak Checklist | eMerchant Books", DESCRIPTION, "/money-leak-checklist/"),
