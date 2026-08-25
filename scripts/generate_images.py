@@ -16,7 +16,7 @@ STYLE = {
     "composition": "single clear subject, rule of thirds, 16:9, uncluttered, magazine-quality",
     "mood": "trustworthy, established, calm, high-end professional services",
     "palette": ["deep navy blue (#0b1b33)", "emerald green accents (#10b981)", "warm white (#fafafa)", "walnut wood tones"],
-    "negative": "text, words, letters, numbers, captions, typography, watermark, logo, brand name, readable screens, app UI, faces in sharp focus, cartoon, illustration, clipart, deformed hands, extra fingers, blurry, low quality, jpeg artifacts",
+    "negative": "text, words, letters, numbers, labels, captions, typography, handwriting, printed text, document text, screen text, UI labels, watermark, logo, brand name, readable screens, faces in sharp focus, cartoon, illustration, clipart, deformed hands, extra fingers, blurry, low quality, jpeg artifacts",
 }
 
 # seo-filename -> subject (house style appended). Filenames ARE the image SEO.
