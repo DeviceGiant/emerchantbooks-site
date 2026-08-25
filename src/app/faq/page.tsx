@@ -6,7 +6,7 @@ const DESCRIPTION =
   "Straight answers on pricing, software, catch-up work, sales tax, international sellers and how our ecommerce bookkeeping service works.";
 
 export const metadata: Metadata = {
-  title: "FAQ: Ecommerce Bookkeeping Questions Answered",
+  title: "Ecommerce Bookkeeping FAQ",
   description: DESCRIPTION,
   alternates: { canonical: "/faq/" },
   openGraph: og("Ecommerce Bookkeeping FAQ | eMerchant Books", DESCRIPTION, "/faq/"),

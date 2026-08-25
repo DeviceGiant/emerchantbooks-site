@@ -6,7 +6,7 @@ import { CtaBand, FaqBlock, Guarantees, TrustBar } from "@/components/Sections";
 import { pageImage } from "@/content/images";
 import { og } from "@/lib/og";
 
-const TITLE = "Ecommerce Accounting Firm for $100K+/mo Sellers | eMerchant Books";
+const TITLE = "Ecommerce Accounting for $100K+/mo Sellers | eMerchant Books";
 const DESCRIPTION =
   "The ecommerce accounting firm for Amazon, Shopify and multi-channel brands doing $100K+ a month. Exit-grade accrual books, closed by day 10.";
 

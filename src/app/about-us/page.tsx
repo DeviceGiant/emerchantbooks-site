@@ -10,7 +10,7 @@ const DESCRIPTION =
   "eMerchant Books is a Texas-based bookkeeping firm that works only with ecommerce sellers. 15+ years in ecommerce, specialist tools, and books you always own.";
 
 export const metadata: Metadata = {
-  title: "About Us: Ecommerce Bookkeeping Specialists",
+  title: "About Our Ecommerce Bookkeeping Firm",
   description: DESCRIPTION,
   alternates: { canonical: "/about-us/" },
   openGraph: og("About Us | eMerchant Books", DESCRIPTION, "/about-us/", pageImage("about-us")),
