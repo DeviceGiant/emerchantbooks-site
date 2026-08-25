@@ -7,9 +7,9 @@ import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
 import { og } from "@/lib/og";
 
-const TITLE = "Ecommerce Accountant in Dallas-Fort Worth | eMerchant Books";
+const TITLE = "Dallas Ecommerce Accountant & Bookkeeping | eMerchant Books";
 const DESCRIPTION =
-  "Ecommerce accountant in Dallas-Fort Worth for sellers doing $100K+ a month. Exit-grade books, landed-cost COGS and a day-10 close guarantee.";
+  "Ecommerce accountant and bookkeeping in Dallas-Fort Worth for sellers doing $100K+ a month. Exit-grade books, landed-cost COGS, day-10 close guarantee.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -48,7 +48,7 @@ const FAQS = [
     a: "Yes, it's one of our most common starting projects. A QuickBooks cleanup for a Dallas ecommerce or hybrid business means rebuilding the chart of accounts, reclassifying deposits into settlement-level revenue and fees, fixing COGS and inventory balances, and reconciling every account. It's quoted flat after a short look at the file, and most cleanups run one to three weeks.",
   },
   {
-    q: "I searched 'ecommerce accountant near me' from Dallas. Are you actually local?",
+    q: "I searched 'ecommerce accountant near me' or 'ecommerce bookkeeping near me' from Dallas. Are you actually local?",
     a: "Yes. Our office is in Plano, about twenty minutes up the tollway from downtown Dallas, and we meet clients in person across the metroplex for onboarding and quarterly reviews. You get a specialist ecommerce accounting firm and a local one in the same engagement, which is a combination Dallas doesn't otherwise offer.",
   },
   {
@@ -70,7 +70,7 @@ export default function DallasPage() {
         <div className="lg:col-span-3">
           <p className="text-xs font-bold uppercase tracking-wider text-brand-600">Dallas · Plano · Frisco · Fort Worth</p>
           <h1 className="mt-2 text-4xl font-bold leading-tight text-navy-900">
-            The ecommerce accountant Dallas sellers actually needed
+            The ecommerce accountant and bookkeeper Dallas sellers actually needed
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-slate-600">
             eMerchant Books is a Plano-based accounting firm built exclusively for ecommerce brands doing $100K+ a
@@ -106,6 +106,21 @@ export default function DallasPage() {
               <Link href="/bookkeeping-services-plano-frisco/" className="font-medium text-brand-600 underline">accounting in Plano and Frisco</Link>.
               The airport corridor and mid-cities, Arlington and Irving through Denton, get their own practice
               at <Link href="/bookkeeping-services-arlington-irving/" className="font-medium text-brand-600 underline">bookkeeping services in Arlington and Irving</Link>.
+            </p>
+          </div>
+
+          <h2 className="mt-12 text-2xl font-bold text-navy-900">&ldquo;Ecommerce bookkeeping near me,&rdquo; if you&rsquo;re anywhere in DFW</h2>
+          <div className="mt-6 space-y-5 leading-relaxed text-slate-600">
+            <p>
+              Sellers who search &ldquo;ecommerce bookkeeping near me&rdquo; from Dallas mostly find two things:
+              national remote firms with no office anywhere, and local generalists with an office but no idea what a
+              settlement report is. We&rsquo;re the third option. The office is in Plano, twenty minutes up the
+              tollway, and the practice is ecommerce-only: Amazon FBA settlements, Shopify Payments payouts, Walmart
+              and eBay reconciled to the penny, inventory valued at landed cost across Carrollton warehouses and FBA,
+              sales tax and Texas franchise tax kept honest. Onboarding and quarterly reviews happen across a table.
+              The monthly close runs in your own QuickBooks, Xero or NetSuite file, and if the books are behind, a{" "}
+              <Link href="/catch-up-bookkeeping-services/" className="font-medium text-brand-600 underline">QuickBooks cleanup</Link> is
+              quoted flat before we touch anything.
             </p>
           </div>
 

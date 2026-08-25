@@ -7,9 +7,9 @@ import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
 import { og } from "@/lib/og";
 
-const TITLE = "Accountant in Arlington, Irving & Denton | eMerchant Books";
+const TITLE = "Bookkeeping Services in Arlington, Irving & Denton, TX";
 const DESCRIPTION =
-  "Bookkeeping for Arlington, Irving, Grand Prairie and Denton: ecommerce sellers, airport-corridor distributors and local shops. Accrual books, day-10 close.";
+  "Bookkeeping services in Arlington, Irving, Grand Prairie and Denton from a small business bookkeeper who comes to you. Accrual books, day-10 close.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 const FAQS = [
   {
-    q: "I'm searching for an accountant in Arlington, TX. Is that you?",
+    q: "I'm searching for bookkeeping services in Arlington, TX. Is that you?",
     a: "If your business has inventory, channels or more than one revenue stream, yes. We're a DFW accounting firm with a bookkeeping-led practice covering Arlington, Grand Prairie and the mid-cities: accrual books, sales tax filings, and a year-end package your CPA files from directly. Onboarding happens at your shop or warehouse, not over a portal. If all you need is a personal 1040, a tax storefront will cost you less; we're built for operating businesses.",
   },
   {
@@ -48,7 +48,7 @@ const FAQS = [
     a: "Yes. Grand Prairie's warehouse rows along 161 are a regular stop for us, and onboarding always happens at your location. After that, the monthly work runs in your cloud file with in-person quarterly reviews. Nothing in the mid-cities is more than about forty minutes from our Plano office.",
   },
   {
-    q: "How much does a bookkeeper cost in Arlington?",
+    q: "How much does a small business bookkeeper cost in Arlington?",
     a: "Generalist Arlington bookkeepers run $300-800/mo. Our local engagements are quoted flat after a look at your systems and usually land in a similar range, with inventory, POS and channel accounting done correctly. Ecommerce brands doing $100K+ a month follow the published rate card from $1,250/mo. Either way, the number is in writing before work starts.",
   },
   {
@@ -66,7 +66,7 @@ export default function ArlingtonIrvingPage() {
         <div className="lg:col-span-3">
           <p className="text-xs font-bold uppercase tracking-wider text-brand-600">Arlington · Irving · Grand Prairie · Denton · Carrollton · Garland · Grapevine · Lewisville</p>
           <h1 className="mt-2 text-4xl font-bold leading-tight text-navy-900">
-            Bookkeeping &amp; accounting in Arlington, Irving &amp; the DFW mid-cities
+            Bookkeeping services in Arlington, Irving and the DFW mid-cities
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-slate-600">
             The mid-cities are where DFW actually does its work. Freight lands at the airport, moves through
@@ -106,15 +106,16 @@ export default function ArlingtonIrvingPage() {
             </p>
           </div>
 
-          <h2 className="mt-12 text-2xl font-bold text-navy-900">A small business accountant for Arlington, TX storefronts</h2>
+          <h2 className="mt-12 text-2xl font-bold text-navy-900">A small business bookkeeper for Arlington, TX storefronts</h2>
           <div className="mt-6 space-y-5 leading-relaxed text-slate-600">
             <p>
               Arlington built an economy on people showing up: the stadiums, the theme parks, and the miles of
               retail, restaurants and service businesses that feed off ten million visitors a year. That
               revenue is seasonal, cash-heavy and split across POS systems, which is exactly where generic
-              bookkeeping falls apart. Our local practice takes established Arlington and Grand Prairie
-              businesses whole: Square, Clover, Toast and Shopify POS reconciliation, A/P and A/R, sales tax
-              filings, payroll coordination, and a clean QuickBooks or Xero file you own. A shop that also
+              bookkeeping falls apart. Bookkeeping services in Arlington from us take established Arlington and
+              Grand Prairie businesses whole: Square, Clover, Toast and Shopify POS reconciliation, A/P and A/R,
+              sales tax filings, payroll coordination, bank reconciliation every month, and a clean QuickBooks or
+              Xero file you own. A shop that also
               sells online gets both sides in one set of books, set up in{" "}
               <Link href="/quickbooks-for-ecommerce/" className="font-medium text-brand-600 underline">QuickBooks built for ecommerce</Link> so
               the storefront and each channel stay visible separately.
@@ -220,7 +221,7 @@ export default function ArlingtonIrvingPage() {
             priceRange: "From $149/mo",
             openingHours: "Mo-Fr 09:00-17:00",
             description:
-              "Bookkeeping and accounting for Arlington, Irving, Grand Prairie, Denton and the DFW mid-cities: ecommerce sellers, airport-corridor distribution and local storefronts, with accrual books and a day-10 close guarantee.",
+              "Bookkeeping services for Arlington, Irving, Grand Prairie, Denton and the DFW mid-cities: a small business bookkeeper for ecommerce sellers, airport-corridor distribution and local storefronts, with accrual books and a day-10 close guarantee.",
           }),
         }}
       />

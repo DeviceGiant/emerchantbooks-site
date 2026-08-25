@@ -7,9 +7,9 @@ import { SITE } from "@/lib/site";
 import { pageImage } from "@/content/images";
 import { og } from "@/lib/og";
 
-const TITLE = "Accountant in Plano & Frisco, TX | eMerchant Books";
+const TITLE = "Plano Bookkeeper | Bookkeeping Services in Plano & Frisco";
 const DESCRIPTION =
-  "Accountant in Plano and Frisco serving McKinney, Allen and Richardson. Ecommerce specialists, same-day in-person meetings, day-10 close guarantee.";
+  "Bookkeeper in Plano, TX serving Frisco, McKinney, Allen and Richardson. Ecommerce and small business bookkeeping services, same-day meetings, day-10 close.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -24,7 +24,7 @@ const FAQS = [
     a: "Yes, often the same day you call. Our office is in Plano at 7700 Windrose, minutes from Legacy West, so onboarding, quarterly reviews and just-need-to-talk sessions happen across a real table. Clients in Frisco, McKinney, Allen and Richardson are a short drive out; we'll come to you if that's easier.",
   },
   {
-    q: "What does an accountant in Plano or Frisco cost?",
+    q: "What does a bookkeeper in Plano, TX cost?",
     a: "Our rate card is public. Ecommerce engagements start at $1,250/mo for brands doing $100K-$250K a month, with Books Lite at $149/mo for smaller sellers, and local brick-and-mortar work is quoted flat after a short look at your systems. A generalist bookkeeper in Collin County runs $300-800/mo; the difference buys you inventory accounting done right, which usually pays for itself at tax time.",
   },
   {
@@ -52,6 +52,10 @@ const FAQS = [
     a: "You won't lose anything, because the work lives in your own QuickBooks or Xero file. Grant us access, we review the file's condition, take over the monthly close, and coordinate the handoff with your old firm if you'd like the buffer. Most Collin County switches complete inside three weeks with zero gaps in the record.",
   },
   {
+    q: "I'm looking for a bookkeeper who can start this month. How fast is onboarding?",
+    a: "Two to three weeks from first meeting to a live monthly close, faster if your file is clean. We meet at the Plano office or your location, get access to your QuickBooks or Xero file and sales channels in week one, and take over the current month while we review what came before. If the books are behind, catch-up runs alongside at a flat quote.",
+  },
+  {
     q: "Do you handle sales tax for Collin County businesses?",
     a: "Yes. Texas sales tax filings, correct local rates for Plano, Frisco, McKinney and Allen addresses, and nexus monitoring for anything you sell into other states. Collected tax sits in a liability account, never revenue, and marketplace-facilitator channels are separated from direct sales so you don't remit tax Amazon already remitted.",
   },
@@ -66,11 +70,11 @@ export default function PlanoFriscoPage() {
         <div className="lg:col-span-3">
           <p className="text-xs font-bold uppercase tracking-wider text-brand-600">Plano · Frisco · McKinney · Allen · Richardson</p>
           <h1 className="mt-2 text-4xl font-bold leading-tight text-navy-900">
-            The accountant Plano and Frisco businesses can walk in on
+            Bookkeeping services in Plano, TX, from a bookkeeper you can walk in on
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-slate-600">
             Our headquarters is in Plano, ten minutes from Legacy West. That makes us the rare specialist firm
-            where &ldquo;meet your accountant&rdquo; means today, not a Zoom slot next Thursday. Accrual books
+            where &ldquo;meet your bookkeeper&rdquo; means today, not a Zoom slot next Thursday. Accrual books
             with landed-cost COGS, closed by the 10th business day, in your own QuickBooks, Xero or NetSuite
             file, built by people you can sit across from.
           </p>
@@ -130,6 +134,33 @@ export default function PlanoFriscoPage() {
             </p>
           </div>
 
+          <h2 className="mt-12 text-2xl font-bold text-navy-900">Searching &ldquo;bookkeeping services near me&rdquo; from Plano or Frisco?</h2>
+          <div className="mt-6 space-y-5 leading-relaxed text-slate-600">
+            <p>
+              Here&rsquo;s what you&rsquo;ll find, and where we fit. Most results for &ldquo;bookkeeper near me&rdquo; in
+              Collin County are solo practitioners and franchise offices doing bank-feed categorization for $300 to
+              $800 a month. That&rsquo;s fine for a law practice or a landscaper. It falls apart the first month a
+              business has inventory, a marketplace settlement or a second sales channel, which describes most of the
+              companies growing along the tollway.
+            </p>
+            <p>
+              We&rsquo;re a business bookkeeper, not a personal one. If you&rsquo;re looking for a personal bookkeeper
+              near me to handle household bills and a 1040, a tax storefront will serve you better and cheaper. If
+              you&rsquo;re looking for a bookkeeper for an operating business in Plano, Frisco, McKinney, Allen or
+              Richardson, the monthly work is the full list: bank and credit card reconciliation, accounts payable and
+              receivable, sales tax filings at the correct local rates, payroll coordination with Gusto or ADP, the{" "}
+              <Link href="/glossary/month-end-close/" className="font-medium text-brand-600 underline">month-end close</Link>,
+              and a year-end package your CPA files from directly. Everything lands in a QuickBooks Online or Xero file
+              you own.
+            </p>
+            <p>
+              The honest test for anyone you&rsquo;re considering: ask how they&rsquo;d book a $50,000 Amazon deposit,
+              and whether they post COGS when you buy inventory or when you sell it. A Plano bookkeeper who answers
+              &ldquo;as revenue&rdquo; and &ldquo;when you buy it&rdquo; will cost you far more than the fee difference
+              at tax time.
+            </p>
+          </div>
+
           <h2 className="mt-12 text-2xl font-bold text-navy-900">What a Plano or Frisco engagement includes</h2>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2">
             {[
@@ -157,7 +188,7 @@ export default function PlanoFriscoPage() {
 
         <aside className="lg:sticky lg:top-24 lg:col-span-2">
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-lg sm:p-8">
-            <p className="text-lg font-bold text-navy-900">Talk to an accountant down the road</p>
+            <p className="text-lg font-bold text-navy-900">Talk to a bookkeeper down the road</p>
             <p className="mb-5 mt-1 text-sm text-slate-500">Plano, Frisco, McKinney, Allen or Richardson. Reply within one business day.</p>
             <LeadForm source="plano-frisco-page" />
           </div>
@@ -180,10 +211,10 @@ export default function PlanoFriscoPage() {
         </div>
       </section>
 
-      <FaqBlock faqs={FAQS} title="Plano and Frisco accounting FAQs" />
+      <FaqBlock faqs={FAQS} title="Plano and Frisco bookkeeping FAQs" />
       <CtaBand
         source="plano-frisco-bottom"
-        heading="Your accountant, ten minutes up the tollway"
+        heading="Your bookkeeper, ten minutes up the tollway"
         sub="Tell us what you sell and where. We'll take a free look at your current books and, if it helps, put a meeting on the calendar at the Plano office this week."
       />
 
@@ -211,7 +242,7 @@ export default function PlanoFriscoPage() {
             priceRange: "From $149/mo",
             openingHours: "Mo-Fr 09:00-17:00",
             description:
-              "Plano-headquartered accounting firm serving Frisco, McKinney, Allen and Richardson: ecommerce specialists with same-day in-person meetings, accrual books and a day-10 close guarantee.",
+              "Plano bookkeeper and accounting firm serving Frisco, McKinney, Allen and Richardson: ecommerce and small business bookkeeping services with same-day in-person meetings, accrual books and a day-10 close guarantee.",
           }),
         }}
       />

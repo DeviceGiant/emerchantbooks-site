@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!t) return {};
   // Keep the full title within 58 chars; drop the parenthetical from long terms like
   // "ITIN (Individual Taxpayer Identification Number)".
-  let title = `What Is ${t.term}? | eMerchant Books`;
-  if (title.length > 58) {
+  let title = t.title ?? `What Is ${t.term}? | eMerchant Books`;
+  if (!t.title && title.length > 58) {
     title = `What Is ${t.term.replace(/\s*\([^)]*\)/g, "").trim()}? | eMerchant Books`;
   }
   const description = t.definition.length > 155 ? `${t.definition.slice(0, 152).trimEnd()}...` : t.definition;
@@ -46,14 +46,14 @@ export default async function GlossaryTermPage({ params }: { params: Promise<{ s
       />
 
       <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
-        <h1 className="text-4xl font-bold leading-tight text-navy-900">{t.term}</h1>
+        <h1 className="text-4xl font-bold leading-tight text-navy-900">{t.h1 ?? t.term}</h1>
 
         <p className="mt-6 rounded-xl border-l-4 border-brand-500 bg-brand-50 p-5 text-lg leading-relaxed text-navy-900">
           {t.definition}
         </p>
 
         <div
-          className="mt-8 space-y-5 leading-relaxed text-slate-600 [&_a]:font-medium [&_a]:text-brand-600 [&_a]:underline"
+          className="mt-8 space-y-5 leading-relaxed text-slate-600 [&_a]:font-medium [&_a]:text-brand-600 [&_a]:underline [&_h2]:mt-9 [&_h2]:text-xl [&_h2]:font-bold [&_h2]:text-navy-900 [&_strong]:text-navy-900"
           dangerouslySetInnerHTML={{ __html: t.body }}
         />
 

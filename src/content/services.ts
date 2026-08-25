@@ -30,10 +30,10 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "monthly-ecommerce-bookkeeping",
     crumb: "Monthly Bookkeeping",
-    metaTitle: "Monthly Ecommerce Bookkeeping Services | eMerchant Books",
+    metaTitle: "Monthly Bookkeeping Service for Ecommerce | eMerchant Books",
     metaDescription:
-      "Monthly ecommerce bookkeeping for $100K+/mo brands: accrual books, landed-cost COGS, channel P&L, closed by the 10th business day, guaranteed.",
-    h1: "Monthly accounting built for $100K+/mo ecommerce brands",
+      "Monthly bookkeeping service for ecommerce brands doing $100K+/mo: accrual books, landed-cost COGS, channel P&L, closed by the 10th business day.",
+    h1: "Monthly bookkeeping service for ecommerce brands doing $100K+/mo",
     lead: "Accrual books with true landed-cost COGS for your Amazon, Shopify, eBay, Walmart and Etsy channels, closed in your own QuickBooks, Xero or NetSuite file by the 10th business day. Guaranteed in writing.",
     intro: [
       "Most bookkeepers treat an ecommerce business like a coffee shop with a website. They book the Amazon deposit as revenue, guess at COGS, and hand you a P&L that's off by thousands. We only do ecommerce, so your books reflect what actually happened: gross sales, marketplace fees, refunds, reserves, and the inventory you actually sold.",
@@ -70,6 +70,14 @@ export const SERVICES: ServiceContent[] = [
         paras: [
           "Foundation starts at $1,250/mo for brands doing $100K-$250K a month and the full rate card is public on our pricing page. Every specialist competitor at this tier hides pricing behind a sales call, and sellers notice. No quote-gate, no annual contract, month-to-month.",
           "The usual front door is our Diligence Readiness Assessment: $2,500, ten business days, a 40-point score of your books against what buyers and lenders actually check, credited in full against onboarding.",
+        ],
+      },
+      {
+        h2: "What a monthly bookkeeping service for ecommerce should include",
+        paras: [
+          "Four things, every month, in this order. Settlement reconciliation: each Amazon, Shopify, Walmart and Etsy payout broken into gross sales, fees, refunds, reserves and sales tax collected, then tied to the bank deposit. Inventory and COGS: quantities pulled from FBA, your 3PL and your warehouse, valued at landed cost, with COGS posted on what sold. Accruals and review: ad invoices, prepaid software and freight booked to the right month, then every P&L line compared to the prior month before anything is called final. Statements: P&L, balance sheet and cash flow with per-channel detail, locked so the numbers stop moving.",
+          "What's missing from most ecommerce bookkeeping offers is the middle two. Plenty of services reconcile the bank feed and send a P&L. Far fewer post COGS on inventory movement or accrue the container that landed on the 28th, and those are the steps that decide whether your margin is a number or a guess. Ask any firm you're comparing which of the four they do, and how they handle a reserve hold or an FBA reimbursement. The answers separate a bookkeeping service built for ecommerce from a generalist with a Shopify connector.",
+          "Related work rides along: sales tax collected kept out of revenue, 1099-K tie-outs in January, a clean year-end package for your CPA, and a chart of accounts maintained so new channels land in the right buckets instead of 'Other Income'.",
         ],
       },
     ],
@@ -126,14 +134,14 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "catch-up-bookkeeping-services",
     crumb: "Catch-Up & Cleanup",
-    metaTitle: "Catch-Up & Cleanup Bookkeeping for Ecommerce | eMerchant Books",
+    metaTitle: "Ecommerce Catch-Up Bookkeeping & Cleanup | eMerchant Books",
     metaDescription:
       "Catch-up bookkeeping for ecommerce sellers months or years behind: settlements, COGS and sales tax rebuilt channel by channel at a fixed quote.",
     h1: "Catch-up and cleanup bookkeeping for ecommerce sellers",
     lead: "Behind on your books, or sitting on books you don't trust? We rebuild them month by month, settlement by settlement, and hand you a clean file your CPA can actually use.",
     intro: [
       "Falling behind is normal. You were busy running the business, the DIY spreadsheet stopped keeping up, or a previous bookkeeper left a mess that made things worse than nothing. It only becomes a real problem when tax season, a loan application, or a potential buyer shows up and the books can't answer basic questions.",
-      "Sellers call this work different things: bookkeeping cleanup services, historical bookkeeping, a QuickBooks cleanup, getting caught up before tax season. Same job. We rebuild what's missing and fix what's wrong, at a discounted rate compared to monthly service, with a fixed quote before we start. No hourly meter running.",
+      "Sellers call this work different things: bookkeeping cleanup services, historical bookkeeping, a QuickBooks cleanup, a books rebuild before a loan, getting caught up before tax season. Same job. We rebuild what's missing and fix what's wrong, at a discounted rate compared to monthly service, with a fixed quote before we start. No hourly meter running.",
           "This is outsourced catch-up at its most practical: a bookkeeper for the backlog you've been avoiding, an accountant for the questions the backlog raises, and online bookkeeping discipline afterward so it never rebuilds.",
 ],
     painHeading: "Why ecommerce catch-up is different",
@@ -228,7 +236,7 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "amazon-bookkeeping-services",
     crumb: "Amazon Bookkeeping",
-    metaTitle: "Amazon Bookkeeping Services & Seller Accounting | eMerchant Books",
+    metaTitle: "Amazon Bookkeeping & Seller Accounting | eMerchant Books",
     metaDescription:
       "Amazon bookkeeping by people who read settlement reports: FBA fees, reserves, refunds and landed-cost COGS in your own QuickBooks or Xero.",
     h1: "Amazon bookkeeping by people who actually read settlement reports",
@@ -435,7 +443,7 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "ebay-bookkeeping-services",
     crumb: "eBay Bookkeeping",
-    metaTitle: "eBay Bookkeeping Services & Seller Accounting | eMerchant Books",
+    metaTitle: "eBay Bookkeeping & Seller Accounting | eMerchant Books",
     metaDescription:
       "One of the few firms with a real eBay bookkeeping service: managed payments, fee breakdowns, refunds and 1099-K reconciliation in your QuickBooks or Xero.",
     h1: "eBay bookkeeping, done by a firm that didn't forget eBay exists",
@@ -538,7 +546,7 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "walmart-bookkeeping-services",
     crumb: "Walmart Bookkeeping",
-    metaTitle: "Walmart Marketplace Bookkeeping & Accounting | eMerchant Books",
+    metaTitle: "Walmart Marketplace Bookkeeping Services | eMerchant Books",
     metaDescription:
       "Bookkeeping for Walmart Marketplace sellers: settlement reconciliation, WFS fees, refunds and per-channel P&L in your own QuickBooks or Xero file.",
     h1: "Walmart Marketplace bookkeeping without the guesswork",
@@ -634,10 +642,10 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "etsy-bookkeeping-services",
     crumb: "Etsy Bookkeeping",
-    metaTitle: "Etsy Bookkeeping & Accounting for Shops | eMerchant Books",
+    metaTitle: "Etsy Accountant & Bookkeeping for Sellers | eMerchant Books",
     metaDescription:
-      "Etsy accountant service for serious shops: payment account reconciliation, fee breakdowns, materials COGS for makers, and clean books in QuickBooks or Xero.",
-    h1: "Etsy bookkeeping for shops that outgrew the spreadsheet",
+      "Accountant for Etsy sellers: payment account reconciliation, fee breakdowns, materials COGS for makers, and clean books in QuickBooks or Xero you own.",
+    h1: "Etsy bookkeeping, from an accountant for Etsy sellers who outgrew the spreadsheet",
     lead: "Etsy's payment account is a running tangle of sales, fees, ads, refunds and deposits. We turn it into clean books, whether you make what you sell or source it.",
     intro: [
       "Etsy's fee structure nickels a shop a dozen ways: listing fees, transaction fees, payment processing, Offsite Ads (which you can't opt out of past $10k), Etsy Ads, shipping labels. The payment account nets everything continuously, so deposits have almost no relationship to any period's sales.",
@@ -675,6 +683,13 @@ export const SERVICES: ServiceContent[] = [
         paras: [
           "A jewelry maker, a vintage reseller and a POD shop have three different COGS problems. Materials allocation, per-piece sourcing costs, and printer invoices matched to orders. We've set up all three, and the setup determines whether your margins are knowledge or folklore.",
           "Shops that grow usually add Shopify or a wholesale channel next. Your books come with us, one file, per-channel P&L, no re-platforming.",
+        ],
+      },
+      {
+        h2: "What an accountant for Etsy sellers does differently",
+        paras: [
+          "Three things a generalist skips. First, the payment account rebuild: Etsy nets listing fees, transaction fees, processing, Offsite Ads and shipping labels against sales continuously, so the monthly CSV has to be rebuilt into gross sales and each fee type before a deposit means anything. Second, the 1099-K tie-out: Etsy reports gross sales to the IRS, your deposits run well below that, and books that can't bridge the two invite a matching letter. Third, per-piece costing for makers, so the price on a listing is built from a real materials cost and not a feeling.",
+          "Sales tax is the one thing Etsy handles for you. As a marketplace facilitator it collects and remits on every US order, so the accounting job is keeping that collected tax out of your revenue, not filing it. Shops that also sell on Shopify carry their own obligation there, which is where multi-channel books earn their keep.",
         ],
       },
     ],
@@ -732,15 +747,15 @@ export const SERVICES: ServiceContent[] = [
     crumb: "QuickBooks for Ecommerce",
     metaTitle: "QuickBooks for Ecommerce & Amazon Sellers | eMerchant Books",
     metaDescription:
-      "QuickBooks Online set up and run properly for ecommerce: A2X integration, marketplace-ready chart of accounts, inventory and sales tax. Managed by specialists.",
-    h1: "QuickBooks Online, set up the way ecommerce actually works",
+      "QuickBooks for ecommerce and Amazon FBA sellers: Seller Central to QuickBooks via A2X, a marketplace chart of accounts, inventory and sales tax done right.",
+    h1: "QuickBooks for ecommerce businesses, set up the way sellers actually work",
     lead: "QuickBooks can handle a multi-channel ecommerce business beautifully. Out of the box, it's set up for none of it. We configure it right and run it for you.",
     intro: [
       "QuickBooks Online is the default accounting file for US small business, and it's what most sellers already have. The problem is never QuickBooks; it's the setup. A default chart of accounts has no idea what a settlement, a reserve, or an FBA storage fee is, and the app-store connectors that promise to fix that mostly flood the file with order-level junk.",
-      "We set up QBO with a marketplace-ready chart of accounts, summary-level posting through A2X, and clean class or location tracking per channel. Then we do the monthly work in your file, under your ownership. That's the difference between buying software and hiring a QuickBooks bookkeeping service that knows ecommerce: the setup is right, and someone accountable does the monthly work.",
+      "We set up QBO with a marketplace-ready chart of accounts, summary-level posting through A2X, and clean class or location tracking per channel. Then we do the monthly work in your file, under your ownership. That's the difference between buying software and hiring a QuickBooks bookkeeping service that knows online sellers: the setup is right, and someone accountable does the monthly work.",
           "Plenty of sellers want a bookkeeper for QuickBooks specifically: an accountant for the file they already own, outsourced monthly upkeep, online bookkeeping that keeps 1099-K reconciliation tight, and a catch-up when the file arrives behind. That's this service.",
 ],
-    painHeading: "Common QuickBooks-for-ecommerce failures",
+    painHeading: "Where QuickBooks and ecommerce go wrong together",
     pains: [
       {
         title: "Connector chaos",
@@ -773,13 +788,21 @@ export const SERVICES: ServiceContent[] = [
           "If you're choosing software today: QBO is the safe default for US sellers, and it's what your future CPA, lender or buyer expects to open.",
         ],
       },
+      {
+        h2: "Amazon Seller Central to QuickBooks: how the data should flow",
+        paras: [
+          "Seller Central doesn't talk to QuickBooks directly, and the app-store connectors that claim to bridge Amazon FBA and QuickBooks mostly push every order in as an invoice. The pattern that holds up is settlement-level: A2X or Link My Books reads each Amazon settlement through the SP-API, splits it into gross sales, referral and FBA fees, refunds, reimbursements, reserves and sales tax collected, and posts one journal entry per settlement to accounts you mapped once. The deposit then matches that entry in the bank feed to the penny. Two weeks of Amazon activity becomes one clean entry instead of 4,000 invoices.",
+          "Same pattern for every other channel. Shopify Payments, Walmart, eBay and Etsy each get their own clearing account and their own mapping, tagged with a class or location so the per-channel P&L falls out of standard reports. Inventory quantities stay in Seller Central or an inventory tool; QuickBooks carries the dollar value and the monthly COGS entry.",
+          "A note on QuickBooks Commerce: Intuit retired that product (the old TradeGecko) and folded a thin version of its channel connections into QuickBooks Online. Those built-in ecommerce connections still sync at the order level, so the advice stands. Use them for visibility if you like, but post revenue from settlements.",
+        ],
+      },
     ],
     related: [
       { href: "/xero-for-ecommerce/", label: "Xero for Ecommerce" },
       { href: "/monthly-ecommerce-bookkeeping/", label: "Monthly Bookkeeping" },
       { href: "/amazon-bookkeeping-services/", label: "Amazon Bookkeeping" },
     ],
-    faqTitle: "QuickBooks for ecommerce FAQs",
+    faqTitle: "QuickBooks Online for sellers: FAQs",
     faqs: [
       {
         q: "Which QuickBooks plan do I need for ecommerce?",
@@ -821,15 +844,19 @@ export const SERVICES: ServiceContent[] = [
         q: "QuickBooks Online or Desktop for an ecommerce seller?",
         a: "Online. The integration ecosystem that makes ecommerce accounting work, from A2X to inventory tools to multi-user access for your bookkeeper and CPA, is built for QBO, and Intuit has been steering Desktop toward retirement for years. If you're on Desktop today, migration is a solved problem we handle inside onboarding.",
       },
+      {
+        q: "Does QuickBooks work for an Amazon FBA business?",
+        a: "Yes, on Plus, with a settlement connector doing the posting. Amazon FBA and QuickBooks pair well when the file mirrors settlement reports and tracks inventory value monthly. They pair badly when a per-order sync app tries to make QuickBooks the order management system. Set it up the first way and the file stays reconcilable for years.",
+      },
     ],
   },
   {
     slug: "xero-for-ecommerce",
     crumb: "Xero for Ecommerce",
-    metaTitle: "Xero for Ecommerce & Amazon Sellers | eMerchant Books",
+    metaTitle: "Xero for Amazon FBA & Ecommerce Sellers | eMerchant Books",
     metaDescription:
-      "Xero bookkeeping for ecommerce sellers: A2X integration, multi-currency, marketplace chart of accounts. One of the few US firms fluent in both Xero and QBO.",
-    h1: "Xero for ecommerce, run by a firm fluent in it",
+      "Xero for Amazon FBA and ecommerce sellers: Seller Central to Xero via A2X, multi-currency, marketplace chart of accounts. Fluent in both Xero and QBO.",
+    h1: "Xero for ecommerce and Amazon sellers, run by a firm fluent in it",
     lead: "Xero is a first-class accounting platform for ecommerce, especially multi-currency businesses. We're one of the few US ecommerce bookkeeping firms that supports it as an equal to QuickBooks.",
     intro: [
       "Plenty of US firms are QuickBooks-only; LedgerGurus, for example, won't touch Xero. But if you're already on Xero, or you sell across currencies and countries where Xero's multi-currency handling shines, switching platforms just to hire a bookkeeper is backwards.",
@@ -867,6 +894,14 @@ export const SERVICES: ServiceContent[] = [
         paras: [
           "If you're US-only and your CPA lives in QuickBooks, QBO is the path of least resistance. If you're multi-currency, selling internationally, or coming from a country where Xero is standard (UK, Australia, New Zealand), Xero is often the better tool and there's no reason to switch. We support both, so our recommendation isn't a sales pitch.",
           "International sellers using a US LLC to sell on American platforms often arrive with Xero already. We're built for exactly that combination; see our international sellers service.",
+        ],
+      },
+      {
+        h2: "Amazon and Xero: how the Seller Central to Xero integration works",
+        paras: [
+          "There's no native Xero Amazon integration worth using. The apps in Xero's marketplace that sync individual orders create the same mess in Xero that they create in QuickBooks. The setup that works reads each settlement from Seller Central through A2X or Link My Books, splits it into sales, FBA and referral fees, refunds, reimbursements, reserves and sales tax, and posts one invoice or journal per settlement into a dedicated Amazon clearing account. The payout then reconciles against it in the bank feed, and Xero's find-and-match does the rest.",
+          "Xero's tracking categories carry the per-channel view. One category for channel, one for brand or region, since Xero allows two active categories, and every settlement entry is tagged on the way in. Multi-currency sellers post Amazon UK, EU and Canada settlements in their native currency and let Xero's revaluation handle the rest, which is where Xero pulls ahead of QuickBooks for international sellers.",
+          "The same clearing-account pattern extends to Shopify Payments, eBay and Walmart, and to FBA inventory: quantities live in Seller Central or an inventory tool, and Xero carries the dollar value plus the monthly COGS entry at landed cost.",
         ],
       },
     ],
@@ -1020,13 +1055,13 @@ export const SERVICES: ServiceContent[] = [
     crumb: "Ecommerce Tax Services",
     metaTitle: "Ecommerce Tax Accountant & CPA Services | eMerchant Books",
     metaDescription:
-      "Ecommerce tax services: 1099-K reconciliation, sales tax coordination, CPA-ready books and non-resident filings. Books and tax that finally agree.",
-    h1: "Ecommerce tax services built on books that are actually right",
+      "Ecommerce tax accountant services: 1099-K reconciliation, sales tax filing coordination, CPA-ready books, non-resident filings. Books and tax that agree.",
+    h1: "Ecommerce tax accountant services built on books that are right",
     lead: "Tax problems are usually bookkeeping problems discovered in April. We keep the books tax-ready all year, coordinate sales tax, and work with your CPA or bring one in.",
     intro: [
       "Every ecommerce tax horror story starts the same way: the return was built on bad books. Gross sales that don't match the 1099-K. COGS with no inventory support. Sales tax collected and booked as income. The CPA can only file what the books say, and by tax season it's expensive to say something different.",
       "Our tax work starts twelve months before the deadline: accrual books where the 1099-K ties out, inventory valuation that survives scrutiny, and collected tax sitting in a liability account where it belongs. If you went looking for an ecommerce tax accountant because last April went badly, the books are almost always where the fix starts, and a tax accountant for online sellers is only as good as the file underneath them.",
-          "Sellers land here searching for a bookkeeper for tax season, bookkeeping for an audit that's suddenly real, or outsourced online bookkeeping that keeps QuickBooks tax-ready all year instead of rebuilt every April. Prevention is the product.",
+          "Sellers land here searching for an ecommerce accountant for tax season, ecommerce bookkeeping services that keep QuickBooks tax-ready all year instead of rebuilt every April, or a way to handle sales tax filing without a CPA on retainer. Prevention is the product.",
 ],
     painHeading: "The expensive ecommerce tax mistakes",
     pains: [
@@ -1059,6 +1094,14 @@ export const SERVICES: ServiceContent[] = [
         paras: [
           "Bookkeeping firms that casually bolt on tax filing tend to do both halves averagely. We keep the boundary honest: we make the numbers right and tax-ready, coordinate filings, and partner with CPAs (yours or ours) for returns and strategy. You get specialists at both layers instead of one firm being mediocre at two jobs.",
           "For international sellers, that coordination includes the non-resident stack: pro-forma 1120 with Form 5472, W-8 forms for platform tax interviews, and ITIN or EIN paperwork. Details on the international sellers page.",
+        ],
+      },
+      {
+        h2: "Ecommerce sales tax filing without a CPA",
+        paras: [
+          "You don't need a CPA to file sales tax. Sales tax returns are a bookkeeping task, not a tax-strategy one: the state wants gross sales, exempt sales, taxable sales and tax collected for the period, by jurisdiction, and clean channel-level books already hold every one of those numbers. A filing tool like TaxJar or Avalara, or the state's own portal for a seller registered in one or two states, turns that into a return in minutes. What breaks the process is bad inputs: marketplace sales counted as your own, collected tax sitting in revenue, or a Shopify tax report that doesn't match the settlement data.",
+          "Where a CPA does earn the fee is the income tax return, the entity election and the audit letter. Our split follows that line. We keep the books tax-ready, produce the sales tax numbers by state each period, coordinate registrations and filings through your tool or ours, and hand the income tax side to a CPA who files from clean numbers. Sellers who want one firm for everything usually end up with a firm that's average at both halves.",
+          "Two situations still warrant a specialist before you file. You crossed a nexus threshold a year or more ago and never registered, where voluntary disclosure beats quiet registration. Or a state sent you a nexus questionnaire. Both are conversations we have weekly, and neither needs a CPA to start.",
         ],
       },
     ],
@@ -1114,7 +1157,7 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "custom-integrations",
     crumb: "Integrations & Ops Engineering",
-    metaTitle: "Custom Integrations & Ops Automation for Ecommerce | eMerchant Books",
+    metaTitle: "Custom Ecommerce Integrations & Automation | eMerchant Books",
     metaDescription:
       "Custom integrations and ops automation for ecommerce brands doing $100K+ a month: ERP, 3PL, marketplace and reporting glue, built by your accountants.",
     h1: "Custom integrations and ops engineering, from your accounting firm",
@@ -1161,6 +1204,13 @@ export const SERVICES: ServiceContent[] = [
         h2: "Where this pairs with accounting engagements",
         paras: [
           "Integration clients don't have to be accounting clients, but the pairing is where the payoff is: the same team that closes your books by day 10 also owns the pipelines feeding them, so data problems get fixed at the source instead of patched every month. For Exit-Grade clients, clean automated data flows are themselves a diligence asset; buyers pay for operations that run without the founder's spreadsheets.",
+        ],
+      },
+      {
+        h2: "Integrations we build most often",
+        paras: [
+          "The requests repeat. Settlement and payout pipelines that pull Amazon, Walmart, Shopify and eBay data nightly into a table the close can read. 3PL and WMS syncs that push receipts and shipments into QuickBooks or NetSuite with inventory reconciliation checks attached. Repricer feeds that respect a floor built from real landed cost instead of a guess. Returns pipelines that route RMAs, grade units and post the inventory adjustment in one pass. Exec dashboards that show contribution margin by SKU and channel from reconciled numbers rather than platform dashboards.",
+          "Every one of those starts as a spreadsheet someone on your team updates by hand. The build replaces the spreadsheet, keeps the person, and adds a check that fails loudly when the numbers stop agreeing.",
         ],
       },
     ],
@@ -1322,10 +1372,10 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "woocommerce-bookkeeping-services",
     crumb: "WooCommerce Bookkeeping",
-    metaTitle: "WooCommerce Bookkeeping & Accounting Services | eMerchant Books",
+    metaTitle: "WooCommerce Accounting & Bookkeeping | eMerchant Books",
     metaDescription:
-      "WooCommerce bookkeeping done properly: Stripe, PayPal and Square payouts reconciled to orders, plus a QuickBooks integration that holds up.",
-    h1: "WooCommerce bookkeeping for stores that own their stack",
+      "WooCommerce accounting done right: which accounting software fits WooCommerce, plus Stripe, PayPal and Square payouts reconciled to orders. File you own.",
+    h1: "WooCommerce accounting and bookkeeping for stores that own their stack",
     lead: "You chose WordPress for control and lower fees. The cost is that nothing reconciles itself: Stripe, PayPal and Square each pay on their own schedule, and there's no native accounting layer at all. We close that gap every month.",
     intro: [
       "WooCommerce runs a quarter of the world's online stores and has no built-in bookkeeping story. Shopify sellers at least get one payments dashboard; a WooCommerce store typically runs two or three gateways at once, each netting its own fees before payout, plus whatever the plugin stack does to order data along the way.",
@@ -1373,6 +1423,14 @@ export const SERVICES: ServiceContent[] = [
         h2: "WooCommerce plus marketplaces",
         paras: [
           "Most WooCommerce stores we serve also sell on Amazon or eBay, and the whole point of clean multi-channel books is comparing them: your own site might net 3% in processing where Amazon takes 15% in fees, but Amazon brings the traffic. Per-channel P&L turns that trade-off from a debate into a report, and it lives in the same monthly close.",
+        ],
+      },
+      {
+        h2: "Accounting software for WooCommerce: what actually works",
+        paras: [
+          "QuickBooks Online or Xero, fed by summarized payout entries. Neither has a native WooCommerce connection worth relying on, and the plugins that promise one sync at the order level, which is the pattern that floods the file. The working stack is simpler: your gateways' payout reports are the source, a connector such as Synder posts each payout as one entry with gross sales, fees and refunds split out, and the bank feed matches the deposit. Order-level history stays in WooCommerce, where it's searchable and where it belongs.",
+          "Inventory sits outside the accounting file too. WooCommerce's stock counts are fine for the storefront. For the books you need quantities valued at landed cost each month, which means a monthly export from WooCommerce or a 3PL count, posted as an inventory adjustment with COGS on what sold. Sellers who try to make QuickBooks the inventory system for a WooCommerce store spend more time fixing sync errors than they'd spend on the monthly entry.",
+          "Choosing between QuickBooks and Xero for WooCommerce accounting: QuickBooks if your CPA lives there and you're US-only, Xero if you sell in more than one currency or come from a market where Xero is the default. Both handle multi-gateway stores well once the posting pattern is right.",
         ],
       },
     ],
@@ -1539,15 +1597,15 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "content-creator-accounting-services",
     crumb: "Content Creator Accounting",
-    metaTitle: "Accountant for Content Creators & Influencers | eMerchant Books",
+    metaTitle: "Content Creator Accounting Services | eMerchant Books",
     metaDescription:
-      "Accounting for creators on OnlyFans, Patreon, YouTube and Twitch: 1099 tie-outs, quarterly estimates, S-corp timing and payout reconciliation.",
-    h1: "Accounting for content creators, run like the business it is",
+      "Content creator accounting and bookkeeping services for social media influencers on OnlyFans, Patreon, YouTube and Twitch: 1099 tie-outs, S-corp timing.",
+    h1: "Content creator accounting and bookkeeping, run like the business it is",
     lead: "OnlyFans, Patreon, YouTube, Twitch, TikTok, brand deals: creator income arrives from everywhere with nothing withheld. We track every stream, keep the quarterly estimates honest, and never make you explain your content.",
     intro: [
       "A working creator's money is messier than most small businesses': seven income streams, three different 1099 forms, platforms that take their cut before you see a dollar, and zero tax withheld on any of it. The IRS treats every dollar as self-employment income the moment it's earned, whether or not a form ever arrives. That's the case for hiring an accountant for content creators before the first big year, not after it, and it's why bookkeeping for influencers is now its own discipline instead of a footnote.",
       "One more thing, said plainly: if you're an OnlyFans creator, you've probably been declined by a firm or made to feel like a liability. Not here. Creator platforms are legal businesses with real accounting needs, and we serve them the way we serve any other client: professionally, discreetly, and without commentary.",
-          "Creators usually arrive searching for a bookkeeper for OnlyFans or YouTube income, outsourced creator bookkeeping, or online bookkeeping that handles multi-platform 1099s without judgment. How much does it cost? Published tiers, starting where your revenue actually is.",
+          "Creators usually arrive searching for accounting services for social media influencers, a bookkeeper for OnlyFans or YouTube income, or content creator bookkeeping services that handle multi-platform 1099s without judgment. How much does it cost? Published tiers, starting where your revenue actually is.",
 ],
     painHeading: "The creator problems we fix every month",
     pains: [
@@ -1642,6 +1700,10 @@ export const SERVICES: ServiceContent[] = [
       {
         q: "What's the best accounting software for content creators?",
         a: "QuickBooks Online, with each income stream in its own account and a dedicated business bank account feeding it. Spreadsheets break the first month a brand deal, an agency commission and a platform payout all land at once. The structure matters more than the software, and building and running it is the service.",
+      },
+      {
+        q: "What do accounting services for social media influencers include?",
+        a: "Income tracked by stream at gross: brand deals, sponsorships, affiliate payouts, AdSense, platform subscriptions and tips. Platform fees and agency commissions booked as expenses so they're deductible. Gifted products logged at fair market value. Quarterly estimate math, a defensible deduction list, and the 1099-NEC and 1099-K tie-out every January. Influencer accounting is Schedule C accounting with more payers and no withholding, and the structure is what keeps it calm.",
       },
     ],
   },

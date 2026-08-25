@@ -69,10 +69,10 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "amazon-seller-taxes-guide",
-    title: "Amazon Seller Taxes: What You Actually Owe in 2026",
-    metaTitle: "Amazon Seller Taxes Explained (2026 Guide)",
+    title: "Amazon Seller Taxes: Sales Tax on Amazon and What You Owe in 2026",
+    metaTitle: "Amazon Seller Taxes & Sales Tax on Amazon (2026 Guide)",
     metaDescription:
-      "Income tax, sales tax, 1099-K matching and deductions for Amazon sellers, explained plainly. What Amazon handles for you and what's still your problem.",
+      "Is there sales tax on Amazon? What tax rate Amazon charges, plus income tax, 1099-K matching and deductions for sellers, explained plainly.",
     date: "2026-07-28",
     readMinutes: 9,
     excerpt: "Amazon handles most sales tax for you now. Income tax, 1099-K matching and inventory accounting are still your problem. Here's the whole picture in plain English.",
@@ -102,9 +102,14 @@ export const ARTICLES: Article[] = [
 </ul>
 <p>The state-by-state details vary more than sellers expect. Washington bills you a <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">gross-receipts B&amp;O tax even when Amazon collects everything</a>, while Florida ignores your marketplace volume entirely and has <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">a surtax cap most rate calculators miss</a>. If you ship into either state, those two guides are worth ten minutes.</p>
 
+<h2>Is there sales tax on Amazon, and what rate does Amazon charge?</h2>
+<p>Yes. Every order shipped to a state with a sales tax gets taxed at checkout, and Amazon's tax engine sets the rate, not you. The rate is the buyer's destination rate: the state rate plus any county, city and district add-ons for the delivery address. That's why the tax rate on Amazon orders runs from 0% in the states with no statewide sales tax (Alaska, Delaware, Montana, New Hampshire and Oregon) to more than 10% in parts of Louisiana, Tennessee and Washington. A $100 order to Chicago carries about $10.25 of tax. The same order to Portland carries none.</p>
+<p>Sellers don't pick the tax rate for Amazon orders. What you do control is the product tax code on each listing. Groceries, clothing, supplements and digital goods are taxed differently from state to state, and a listing left on the generic "always taxable" code over-collects on a product that's exempt in New Jersey or Pennsylvania. Amazon remits whatever it collected either way, so the cost of a wrong code lands on your conversion rate rather than your bank account.</p>
+<p>How much tax does Amazon charge you, the seller? On product sales, nothing. The buyer pays it, Amazon collects it and remits it. Your settlement report shows the collected tax passing through, which is why it must never land in your revenue account. Amazon's own fees, referral and FBA, aren't taxes at all; they're deductible expenses. In a few states Amazon does add sales tax to certain seller fees, and if a tax-on-fees line shows up in your settlement, book it as an expense, not as collected tax.</p>
+
 <h2>Layer 3: The 1099-K, where returns go to die</h2>
 <p>Amazon reports your <strong>gross</strong> payment volume to the IRS on Form 1099-K. Gross means before fees, refunds, and everything else. Your bank deposits are net. The gap between them is routinely 25-35% of gross.</p>
-<p>If your return shows revenue that looks like your deposits, the IRS computer sees a mismatch against the 1099-K and mismatches generate notices. The fix is books built from settlement reports, where gross sales tie to the 1099-K and fees are properly deducted as expenses. Same tax owed, no letter. The trap isn't Amazon-specific either: <a href="/bookkeeping-tips/tiktok-shop-seller-bookkeeping/">TikTok Shop sellers</a> and <a href="/bookkeeping-tips/content-creator-bookkeeping/">content creators</a> paid through payment platforms get the same gross-figure 1099-Ks.</p>
+<p>If your return shows revenue that looks like your deposits, the IRS computer sees a mismatch against the 1099-K. Mismatches generate notices. The fix is books built from settlement reports, where gross sales tie to the 1099-K and fees are deducted as expenses. Same tax owed, no letter. The trap isn't Amazon-specific either: <a href="/bookkeeping-tips/tiktok-shop-seller-bookkeeping/">TikTok Shop sellers</a> and <a href="/bookkeeping-tips/content-creator-bookkeeping/">content creators</a> paid through payment platforms get the same gross-figure 1099-Ks.</p>
 
 <h2>Deductions Amazon sellers commonly miss</h2>
 <ul>
@@ -131,7 +136,7 @@ export const ARTICLES: Article[] = [
     title: "Amazon 1099-K: Why It Doesn't Match Your Deposits (And What To Do)",
     metaTitle: "Amazon 1099-K Explained: Gross vs Deposits",
     metaDescription:
-      "Your Amazon 1099-K reports gross sales; your bank shows net deposits. Here's how to reconcile them, what the IRS checks, and how to avoid a mismatch notice.",
+      "Your Amazon 1099-K reports gross sales; your bank shows net deposits. How to reconcile them, what the IRS checks, and how to avoid a mismatch notice.",
     date: "2026-07-28",
     readMinutes: 6,
     excerpt: "The 1099-K says $487,000. Your bank says $342,000. Neither is wrong, and understanding the gap is the difference between a clean filing and an IRS notice.",
@@ -179,7 +184,7 @@ export const ARTICLES: Article[] = [
     title: "The Ecommerce Chart of Accounts That Actually Answers Questions",
     metaTitle: "Ecommerce Chart of Accounts (With Full Template)",
     metaDescription:
-      "A chart of accounts built for marketplace sellers: per-channel revenue, fee breakdowns, real COGS structure. Copy the full template into QuickBooks or Xero.",
+      "A chart of accounts built for marketplace sellers: per-channel revenue, fee breakdowns, real COGS structure. Copy the template into QuickBooks or Xero.",
     date: "2026-07-28",
     readMinutes: 8,
     excerpt: "Default QuickBooks gives you 'Sales' and 'Fees.' Here's the account structure that shows channel margins, fee creep and real product costs, ready to copy.",
@@ -300,7 +305,7 @@ export const ARTICLES: Article[] = [
   {
     slug: "quality-of-earnings-report-guide",
     title: "Quality of Earnings Report: What It Is, What It Costs, and How to Pass One",
-    metaTitle: "Quality of Earnings Report Explained (Cost, Example, How to Pass)",
+    metaTitle: "Quality of Earnings Report: Cost, Example & How to Pass",
     metaDescription:
       "Quality of earnings report explained: what it costs ($5K-$35K), what buyers check and how ecommerce sellers pass QoE without losing sale price.",
     date: "2026-07-29",
@@ -385,7 +390,7 @@ export const ARTICLES: Article[] = [
     title: "Amazon Seller Bookkeeping: The 9 Problems That Wreck Sellers' Books",
     metaTitle: "Amazon Seller Bookkeeping: 9 Problems That Wreck Your Books",
     metaDescription:
-      "The 9 Amazon bookkeeping problems that ruin sellers' numbers: settlement reports, FBA fees, reserves, reimbursements, 1099-K mismatches and COGS. With fixes.",
+      "The 9 Amazon bookkeeping problems that ruin sellers' numbers: settlement reports, FBA fees, reserves, reimbursements, 1099-K mismatches, COGS. With fixes.",
     date: "2026-07-29",
     readMinutes: 9,
     excerpt: "Amazon bookkeeping fails in predictable ways: deposits booked as sales, fee blobs, ignored reserves, unclaimed reimbursements. Here are all nine problems and the fix for each.",
@@ -614,7 +619,7 @@ export const ARTICLES: Article[] = [
     title: "eBay Seller Bookkeeping: 11 Problems Managed Payments Creates",
     metaTitle: "eBay Seller Bookkeeping: 11 Managed Payments Problems",
     metaDescription:
-      "Net payouts vs gross sales, labels bought inside eBay, promoted listings, dispute timing and thrift-sourced COGS: the eBay bookkeeping problems, with fixes.",
+      "Net payouts vs gross sales, labels bought inside eBay, promoted listings, dispute timing, thrift-sourced COGS: the eBay bookkeeping problems, with fixes.",
     date: "2026-07-29",
     readMinutes: 11,
     excerpt: "eBay's managed payments buried your fees, your shipping labels and your ad spend inside the payout. Here are the eleven bookkeeping problems that creates and how resellers fix each one.",
@@ -692,7 +697,7 @@ export const ARTICLES: Article[] = [
     title: "Walmart Marketplace Bookkeeping: The Problems Amazon Habits Cause",
     metaTitle: "Walmart Marketplace Bookkeeping Problems (+ Fixes)",
     metaDescription:
-      "Walmart's settlement cadence, WFS fees and reports work differently than Amazon's. The bookkeeping problems that causes for sellers, and how to fix each one.",
+      "Walmart's settlement cadence, WFS fees and reports work differently than Amazon's. The bookkeeping problems that causes sellers, and how to fix each one.",
     date: "2026-07-29",
     readMinutes: 10,
     excerpt: "Most Walmart sellers came from Amazon and brought their bookkeeping with them. That's the mistake. Walmart's settlements, fees and reports all work differently, and books built on Amazon assumptions get quietly wrong.",
@@ -766,7 +771,7 @@ export const ARTICLES: Article[] = [
     title: "Shopify Bookkeeping Problems: Payout Soup, Connector Chaos, Gift Cards",
     metaTitle: "Shopify Bookkeeping Problems: Payouts, Connectors, Fixes",
     metaDescription:
-      "Multi-gateway payouts, per-order sync apps that wreck QuickBooks, gift card liabilities and inflated revenue: Shopify's real bookkeeping problems, with fixes.",
+      "Multi-gateway payouts, sync apps that wreck QuickBooks, gift card liabilities and inflated revenue: Shopify's real bookkeeping problems, with fixes.",
     date: "2026-07-29",
     readMinutes: 11,
     excerpt: "Shopify hands you clean dashboards and a bookkeeping mess underneath: four payment gateways, sync apps that flood QuickBooks, gift cards booked as revenue. Here's each problem and its fix.",
@@ -970,10 +975,10 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "onlyfans-taxes-bookkeeping-guide",
-    title: "OnlyFans Taxes & Bookkeeping: What Creators Actually Need",
-    metaTitle: "OnlyFans Taxes & Bookkeeping: What Creators Need",
+    title: "OnlyFans Taxes and Bookkeeping: the 1099 Form, Schedule C and What Creators Need",
+    metaTitle: "OnlyFans Taxes: 1099 Form, Schedule C & Bookkeeping",
     metaDescription:
-      "OnlyFans taxes and bookkeeping: the 1099-NEC from Fenix, the 20% fee, quarterly estimates and deductions that hold up. Judgment-free.",
+      "OnlyFans taxes explained: the 1099 form from Fenix, Schedule C, the 20% fee, quarterly estimates and deductions that hold up. Judgment-free.",
     date: "2026-07-29",
     readMinutes: 12,
     excerpt: "OnlyFans income is self-employment income, taxed at up to 40%+ combined, with nothing withheld and a 1099-NEC arriving every January. Here's the complete tax and bookkeeping picture, handled professionally.",
@@ -991,7 +996,7 @@ export const ARTICLES: Article[] = [
 
 <h2>The 1099-NEC from Fenix Internet</h2>
 <p>OnlyFans doesn't send tax forms under its own name. US creators get a 1099-NEC from Fenix Internet LLC, which confuses people every year ("who is Fenix and why do they say they paid me?"). Same company, and the IRS gets a copy of everything on it.</p>
-<p>Three things to know about the form. First, the $600 threshold: earn less and no form arrives, but the income is taxable anyway, from dollar one. Second, it reports what Fenix paid you, so it needs to reconcile against your bank deposits and your creator dashboard, and those three numbers rarely line up by accident: payout timing crosses year-end, chargebacks claw earnings back, and the platform fee sits between your gross and your net. Third, check which figure the form actually reports against your dashboard before filing. Your books should show your gross earnings, the 20% platform fee, and your net payouts as three separate numbers that tie to each other, so whatever the 1099-NEC says, you can reconcile to it exactly and never deduct the platform fee twice (or, just as bad, never deduct it at all).</p>
+<p>Three things to know about the form. First, the $600 threshold: earn less and no form arrives, but the income is taxable anyway, from dollar one. Second, it reports what Fenix paid you, so it needs to reconcile against your bank deposits and your creator dashboard. Those three numbers rarely line up by accident. Payout timing crosses year-end, chargebacks claw earnings back, and the platform fee sits between your gross and your net. Third, check which figure the form actually reports against your dashboard before filing. Your books should show your gross earnings, the 20% platform fee, and your net payouts as three separate numbers that tie to each other, so whatever the 1099-NEC says, you can reconcile to it exactly and never deduct the platform fee twice (or, just as bad, never deduct it at all).</p>
 <p>Creators who also get paid through PayPal, CashApp or other processors may receive 1099-Ks on top of the NEC, and the same dollars can appear to be reported twice. Books that track income by payer are what untangle that; the gross-versus-net mechanics are the same ones in our <a href="/bookkeeping-tips/amazon-1099-k-explained/">1099-K guide</a>.</p>
 
 <h2>The 20% platform fee, booked correctly</h2>
@@ -1001,6 +1006,12 @@ export const ARTICLES: Article[] = [
 <h2>What you'll actually owe: run the numbers once</h2>
 <p>A creator netting $100,000 of profit (after the platform fee and expenses) owes roughly $14,100 in self-employment tax, plus federal income tax that lands somewhere around $13,000 to $17,000 depending on filing status and deductions, plus state income tax in most states. Call it $30,000 to $37,000 all-in. The number isn't the scary part; the scary part is that no one withheld a cent of it, so an unprepared creator meets the whole figure at once in April.</p>
 <p>The fix costs nothing: move 25 to 30% of every payout into a separate savings account the day it lands. The money was never yours; moving it immediately just makes that true in your bank accounts instead of only on your tax return.</p>
+
+<h2>Where OnlyFans income goes on your return: Schedule C and Schedule SE</h2>
+<p>Search "only fans taxes" and the answers jump straight to deductions. The form question comes first. OnlyFans income lands on <strong>Schedule C</strong>, the profit-or-loss form for a sole proprietor, attached to your Form 1040. Line 1 takes gross receipts, which is the gross fan spending before the platform fee, not the net payout. The 20% platform fee goes in as an expense (commissions and fees works), along with everything in the deduction list below. Line 31 is your net profit, and that number drives everything after it.</p>
+<p><strong>Schedule SE</strong> takes the net profit and computes self-employment tax: 15.3% on 92.35% of profit, up to the Social Security wage base, then 2.9% for Medicare above it. Half of that tax comes back as an adjustment on the 1040, which softens it slightly. The net profit also flows to Form 1040 as ordinary income and, for most creators, qualifies for the 20% qualified business income deduction, which knocks a fifth of the profit off taxable income before the brackets apply.</p>
+<p>The OnlyFans 1099 form, the 1099-NEC from Fenix, doesn't attach to any of this. It's an information return: you use it to check your gross figure, then file from your books. If the NEC says $84,000 and your books say $91,000 because December's earnings paid out in January, your books win, with the timing difference noted. If they disagree by more than timing explains, find out why before you file, because the IRS matching computer compares the return to the form either way.</p>
+<p>Home studio expenses go on Form 8829 if you use the actual-expense method, and a camera you're expensing in full uses Form 4562 for the Section 179 election. Both ride along with Schedule C. An S-corp changes the whole stack: the business files Form 1120-S, you get a W-2 for salary and a K-1 for the rest, and Schedule C goes away.</p>
 
 <h2>Quarterly estimated taxes</h2>
 <p>The IRS wants that tax during the year, in estimated payments due April, June, September and January. Skip them and penalties accrue even if you pay in full at filing. The safe harbor makes it manageable: pay 100% of last year's total tax through estimates (110% if prior-year AGI topped $150,000) and you're penalty-proof, even if this year explodes past it. First profitable year, with no prior-year number to anchor on? Estimate from actual quarterly profit, which requires books that can state your quarterly profit, which is rather the theme of this guide.</p>
@@ -1049,15 +1060,15 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "florida-sales-tax-ecommerce-guide",
-    title: "Florida Sales Tax for Ecommerce Sellers (2026 Guide)",
-    metaTitle: "Florida Sales Tax for Ecommerce Sellers (2026 Guide)",
+    title: "What Is Florida's Ecommerce Sales Tax? The 2026 Seller Guide",
+    metaTitle: "What Is Florida's Ecommerce Sales Tax? (2026 Guide)",
     metaDescription:
       "Florida's 6% rate plus county surtaxes, the $100K economic nexus threshold, marketplace rules, FBA warehouse nexus, and how to register without an SSN.",
     date: "2026-07-29",
     readMinutes: 12,
     excerpt: "Florida charges 6% plus a county surtax, makes Amazon collect for you, and sets economic nexus at $100,000 in taxable sales. Here's the whole system, including the parts sellers get wrong.",
     html: `
-<p>Florida sales tax is 6% at the state level, plus a county surtax of 0% to 2% depending on where your customer takes delivery. Remote sellers must register once they pass $100,000 in taxable Florida sales in the previous calendar year, and marketplaces like Amazon and Walmart collect on your behalf. That's the system in three sentences. The details underneath are where ecommerce sellers get hurt, so let's walk through all of them.</p>
+<p>What is Florida's ecommerce sales tax? 6% at the state level, plus a county surtax of 0% to 2% depending on where your customer takes delivery. Remote sellers must register with the Florida Department of Revenue once they pass $100,000 in taxable Florida sales in the previous calendar year, and marketplace facilitators like Amazon and Walmart collect on your behalf. That's the system in three sentences. The details underneath are where ecommerce sellers get hurt, so let's walk through all of them.</p>
 
 <div class="key-facts"><p><strong>Key facts:</strong></p><ul>
 <li>Florida sales tax is 6% statewide plus a county surtax of 0% to 2%; Miami-Dade and Broward sit at 7% combined.</li>
@@ -1251,15 +1262,15 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "quickbooks-online-pricing-ecommerce",
-    title: "QuickBooks Online Pricing 2026: What Ecommerce Sellers Actually Need",
-    metaTitle: "QuickBooks Online Pricing 2026 for Ecommerce Sellers",
+    title: "QuickBooks Online Pricing 2026: What Every QBO Plan Costs Ecommerce Sellers",
+    metaTitle: "QuickBooks Online Pricing 2026: Plans, Cost & Which to Buy",
     metaDescription:
-      "Every QuickBooks Online plan's 2026 price, why most sellers need Plus, the hidden costs (payroll, A2X, annual hikes), and when Advanced is a waste of $275.",
+      "QuickBooks Online pricing 2026: Simple Start $38, Essentials $75, Plus $115, Advanced $275. What QBO costs a seller all-in, and when Advanced is a waste.",
     date: "2026-07-29",
     readMinutes: 11,
     excerpt: "Plus at $115/mo is the right plan for almost every seller, Advanced is usually $160/mo of features you won't open, and the subscription is the smallest line in your real QuickBooks budget.",
     html: `
-<p>Short version: QuickBooks Online costs $38 to $275 a month at 2026 list prices, most ecommerce sellers need the <strong>Plus plan at $115/mo</strong>, and the subscription itself is the smallest line in your real QuickBooks budget once payroll, connector apps and setup enter the picture. Here's every number, what actually matters for a seller, and where the money hides.</p>
+<p>Short version: QuickBooks Online costs $38 to $275 a month at 2026 list prices, and most ecommerce sellers need the <strong>Plus plan at $115/mo</strong>. The subscription itself is the smallest line in your real QuickBooks budget once payroll, connector apps and setup enter the picture. Here's every number, what actually matters for a seller, and where the money hides.</p>
 
 <div class="key-facts"><p><strong>Key facts:</strong></p><ul>
 <li>QuickBooks Online costs $38 to $275 per month at 2026 US list prices, and the Plus plan at $115 per month fits almost every ecommerce seller.</li>
@@ -1287,6 +1298,14 @@ export const ARTICLES: Article[] = [
 </table>
 <p>Intuit usually offers 50% off for the first three months <em>or</em> a 30-day free trial, not both. Take the discount, not the trial: you'll spend the first month setting up either way, and the discount is worth about $172 on Plus. Prices are per company file, so a second brand in its own LLC means a second subscription, full price. Multi-brand operators sometimes try to dodge that by running two businesses in one file with classes; don't. Separate legal entities need separate files, or you've built commingled books that no lender, buyer or tax preparer will enjoy untangling.</p>
 <p>One more number worth knowing: the trajectory. Plus was $90 in 2023, $99 in 2024, and $115 now. Intuit raises prices roughly annually, a point or two above inflation, and grandfathering is temporary. Budget for the line to creep.</p>
+
+<h2>How much does QuickBooks Online cost per year, plan by plan?</h2>
+<p>Monthly prices hide the annual number, and the annual number is what belongs in a budget. At 2026 list, the QuickBooks Online Simple Start price per month is $38, or $456 a year. Essentials is $75, or $900 a year. QuickBooks Online Plus pricing lands at $115 a month, $1,380 a year, and the Advanced plan costs $275 a month, $3,300 a year. Solopreneur, the renamed Self-Employed product, is $25 a month, $300 a year. Intuit bills monthly by default and doesn't offer a meaningful annual discount, so paying yearly mostly locks in a price before the next increase.</p>
+<p>Two numbers the official pricing page doesn't put next to each other: Plus costs three times Simple Start, and Advanced costs 2.4 times Plus. The first jump buys the features a seller needs. The second buys headroom most sellers never use.</p>
+
+<h2>QuickBooks bookkeeping pricing: Live Bookkeeping and the accountant discount</h2>
+<p>Two more prices come up when sellers look at the cost of QuickBooks. QuickBooks Live, Intuit's own bookkeeping add-on, runs from around $50 a month for expert-assisted help to several hundred a month for full-service bookkeeping, on top of the subscription. It's generalist by design: the Live bookkeeper categorizes and reconciles the bank feed, and doesn't rebuild Amazon settlements or post COGS on inventory movement. Sellers past a couple of channels usually outgrow it in a quarter.</p>
+<p>The second is QBO wholesale pricing. Accounting firms buy subscriptions through Intuit's ProAdvisor program at a discount that lasts as long as the firm bills the client, not just three months. That's where the "buy it through your accountant" lever below comes from, and it's why our own plans include the software line outright.</p>
 
 <h2>Why Plus is the plan for almost every seller</h2>
 <p>The feature that decides it is <strong>class and location tracking</strong>, which only exists from Plus up. Classes are how a multichannel seller gets a per-channel P&amp;L out of QuickBooks: tag transactions Amazon, Shopify, eBay or Walmart, and you can finally answer "which channel actually makes money after fees and ads?" Without classes you get one blended P&amp;L, which is how sellers spend a year scaling a channel that loses money on every order. Our <a href="/bookkeeping-tips/ecommerce-chart-of-accounts/">ecommerce chart of accounts guide</a> shows the full structure classes plug into.</p>
@@ -1333,7 +1352,10 @@ export const ARTICLES: Article[] = [
 <p>QBO's automated sales tax calculates rates on invoices you create inside QuickBooks. It does not calculate, collect or file tax for your Shopify or marketplace orders; your channels do the collecting, and QuickBooks just needs to record collected tax as a liability rather than income. Sellers who buy a plan expecting it to "handle sales tax" are expecting the wrong product. What handles multistate complexity is your cart's tax engine plus correct bookkeeping, and for the state-side rules themselves, start with our <a href="/bookkeeping-tips/florida-sales-tax-ecommerce-guide/">Florida</a> and <a href="/bookkeeping-tips/washington-sales-tax-ecommerce-guide/">Washington</a> guides to see how different two states can be.</p>
 
 <h2>QuickBooks Online pricing FAQ</h2>
-<p><strong>How much is QuickBooks Online per month?</strong> $38 (Simple Start), $75 (Essentials), $115 (Plus) or $275 (Advanced) at 2026 US list prices, before promotional discounts.</p>
+<p><strong>How much does QuickBooks Online cost in 2026?</strong> $25 (Solopreneur), $38 (Simple Start), $75 (Essentials), $115 (Plus) or $275 (Advanced) per month at US list price, before promotional discounts. Most ecommerce sellers land on Plus.</p>
+<p><strong>What is the QuickBooks Online Simple Start price in 2026?</strong> $38 a month, $456 a year, for one user. Fine for a single-channel starter; it has no class tracking, so channel P&amp;L is off the table.</p>
+<p><strong>What is QuickBooks Online Advanced pricing in 2026?</strong> $275 a month for up to 25 users. Upgrade when you hit Plus's 40-class or five-user limit, not before.</p>
+<p><strong>What happened to QuickBooks Self-Employed pricing?</strong> Intuit renamed the product Solopreneur, at $25 a month. Same limitations: no balance sheet and no inventory, so it's the wrong plan for anyone holding stock.</p>
 <p><strong>Is there a free version of QuickBooks?</strong> No. There's a 30-day trial, and Intuit offers discounted subscriptions through accounting firms (ask your bookkeeper; ours come with the engagement). Free alternatives like Wave exist but lack class tracking and the connector ecosystem sellers depend on, so the savings tend to be repaid later as migration work.</p>
 <p><strong>Can I downgrade plans later?</strong> Upgrades are one click. Downgrades are possible but constrained: if you've used features the lower plan lacks (classes, inventory items, extra users), you'll have to unwind them first. Practical translation: start at Plus if you know you'll need it within six months; start lower only if you genuinely might stay small.</p>
 <p><strong>Which QuickBooks plan do I need for Amazon FBA?</strong> Plus, in almost every case: classes for channel P&amp;L and headroom for the accounts a real seller file needs. Pair it with a settlement connector or you'll have expensive software recording wrong numbers.</p>
@@ -1460,8 +1482,8 @@ export const ARTICLES: Article[] = [
   },
   {
     slug: "ein-tax-id-number-guide-sellers",
-    title: "Tax ID Numbers for Ecommerce Sellers: EIN, ITIN, SSN Explained",
-    metaTitle: "EIN, ITIN or SSN? Tax ID Numbers for Ecommerce Sellers",
+    title: "Tax ID Numbers for Ecommerce Sellers and Freelancers: EIN, ITIN, SSN Explained",
+    metaTitle: "EIN, ITIN or SSN? Tax IDs for Sellers & Freelancers",
     metaDescription:
       "Which tax ID your ecommerce business needs and when: EIN vs ITIN vs SSN, getting an EIN without an SSN, marketplace tax interviews, and sole prop vs LLC.",
     date: "2026-07-29",
@@ -1495,6 +1517,10 @@ export const ARTICLES: Article[] = [
 <p><strong>Single-member LLC (US owner):</strong> the IRS treats it as a disregarded entity, so taxes flow to your personal return either way. But banks require an EIN to open the business account that keeps your liability protection meaningful, and payroll requires one. In practice, every LLC should have its own EIN from day one.</p>
 <p><strong>Multi-member LLC, partnership, S-corp or C-corp:</strong> an EIN is mandatory, full stop. These entities file their own returns and can't do it on anyone's SSN.</p>
 <p><strong>Foreign-owned single-member LLC:</strong> an EIN is mandatory even with zero employees and zero US tax owed, because the LLC must file Form 5472 annually, and the 5472 requires an EIN. Missing that filing costs $25,000 per year; <a href="/bookkeeping-tips/form-5472-foreign-owned-llc-guide/">our Form 5472 guide</a> covers the whole obligation. If you formed a Wyoming or Delaware LLC from abroad and nobody mentioned the 5472, put this paragraph at the top of your list.</p>
+
+<h2>An EIN number for freelancers, creators and side-hustle sellers</h2>
+<p>Freelancers ask a version of the sole-prop question constantly: "I'm one person with no employees, do I need an EIN?" Legally, no. Your SSN works on every W-9 a client sends. Practically, get one anyway, for the same three reasons a seller should. Clients and platforms stop seeing your SSN. A business bank account opens without an argument. And the day you hire a subcontractor, run payroll or elect S-corp status, the number already exists. Ten minutes, zero dollars.</p>
+<p>One wrinkle for freelancers who also sell products: one EIN per taxpayer. If your design work and your Etsy shop both run as sole proprietorships under your name, they share one EIN and file on separate Schedule Cs under the same number. Form an LLC for one of them and that LLC gets its own EIN, because it's a separate entity for banking and liability even while its taxes still flow to you. Creators paid through platforms carry the added 1099-NEC and 1099-K stack, which our <a href="/bookkeeping-tips/content-creator-bookkeeping/">creator bookkeeping guide</a> walks through.</p>
 
 <h2>Getting an EIN with an SSN: ten minutes, zero dollars</h2>
 <p>The IRS online EIN application (weekdays, roughly 7am to 10pm Eastern) issues the number instantly. You'll name a <strong>responsible party</strong>, the human who controls the entity, and that person's SSN or ITIN goes on the application. Two rules trip people: the responsible party must be an individual, not another company, and the IRS issues only one EIN per responsible party per day, which matters if you're spinning up multiple LLCs.</p>
@@ -1749,6 +1775,7 @@ export const ARTICLES: Article[] = [
 <li><strong>Disposals and removals gone wrong.</strong> Inventory destroyed without permission, or lost in transit during a removal order.</li>
 <li><strong>Fee overcharges.</strong> Fulfillment fees computed on wrong weights or dimensions, sometimes for months across thousands of units. Not a reimbursement in the inventory sense, but claimable money in the same workflow, and re-measurement requests fix it going forward.</li>
 </ul>
+<p>Amazon's FBA inventory reimbursement policy is the document that governs all of this, and it's worth reading once: it defines each claim type, the evidence Amazon expects, and the windows below. Two related workflows sit outside it. SAFE-T claims cover seller-fulfilled orders where Amazon issued a refund you disagree with. And the Inventory Adjustments report is where "found," "misplaced" and "damaged" events get logged before any Amazon FBA reimbursement appears, so it's the first place to look when a unit vanishes.</p>
 
 <h2>The deadlines: everything got shorter</h2>
 <p>For years sellers could claim up to 18 months back, which made "do a big cleanup annually" a workable strategy. That era ended in October 2024. The windows now run roughly like this: claims for inventory lost or damaged in fulfillment centers must be filed within <strong>60 days</strong>; customer-return claims sit in a window that opens after the return deadline passes and closes about <strong>105 days after the refund</strong>; removal-order claims run from 15 to 75 days after shipment creation; inbound discrepancies keep a longer window with a required waiting period while Amazon finishes receiving. Check the current policy in Seller Central before relying on any of these numbers, because Amazon shortened them once with modest notice and can do it again.</p>
@@ -1805,6 +1832,7 @@ export const ARTICLES: Article[] = [
 <p><strong>Do reimbursements show up on my 1099-K?</strong> No. The 1099-K reports gross buyer payments; reimbursements arrive inside settlements but aren't sales. They're one of the standard reconciling items between your settlement activity and the 1099-K figure, which is why the reconciliation needs line-level care.</p>
 <p><strong>Can I still claim losses from last year?</strong> Almost certainly not; the old 18-month lookback is gone and expired windows don't reopen. The rational response is to grieve briefly and set up the monthly cycle so it never happens again.</p>
 <p><strong>Is it worth filing a $14 claim?</strong> Individually, marginal. As a policy, yes: the workflow finds claims in batches, small ones ride along with big ones, and Amazon's error rate doesn't confine itself to cheap SKUs. Sellers who set a "worth my time" floor tend to discover the floor was hiding a pattern.</p>
+<p><strong>Where do I see what Amazon has already reimbursed?</strong> The Reimbursements report under Fulfillment reports in Seller Central, which lists every payout by reason code and, since 2025, the cost basis Amazon used. Reconcile it against the Inventory Ledger monthly; the gaps are your claims.</p>
 <p><strong>Will filing lots of claims hurt my account?</strong> Legitimate, well-documented claims are a normal part of the FBA relationship; Amazon's own policies invite them. What draws trouble is sloppy or duplicative claims, which is another reason evidence-first beats volume-first.</p>
 
 <h2>The monthly reconciliation workflow, end to end</h2>
