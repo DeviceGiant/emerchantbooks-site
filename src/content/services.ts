@@ -957,7 +957,7 @@ export const SERVICES: ServiceContent[] = [
   {
     slug: "netsuite-bookkeeping",
     crumb: "NetSuite Bookkeeping",
-    metaTitle: "NetSuite Bookkeeping Services for Ecommerce | eMerchant Books",
+    metaTitle: "NetSuite Bookkeeping Services | eMerchant Books",
     metaDescription:
       "Outsourced NetSuite bookkeeping for ecommerce: month-end close, marketplace reconciliation and inventory accounting for brands that graduated from QBO.",
     h1: "NetSuite bookkeeping for ecommerce brands",

@@ -8,7 +8,7 @@ const DESCRIPTION =
   "Practical accounting and tax guides for Amazon, eBay, Shopify, Walmart and Etsy sellers: 1099-K, COGS, chart of accounts, Form 5472 and more.";
 
 export const metadata: Metadata = {
-  title: "Ecommerce Bookkeeping Tips, Tax Guides & Seller Accounting",
+  title: "Ecommerce Bookkeeping Tips & Tax Guides",
   description: DESCRIPTION,
   alternates: { canonical: "/bookkeeping-tips/" },
   openGraph: og("Bookkeeping Tips for Ecommerce Sellers | eMerchant Books", DESCRIPTION, "/bookkeeping-tips/"),
