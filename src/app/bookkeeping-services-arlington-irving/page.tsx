@@ -121,6 +121,20 @@ export default function ArlingtonIrvingPage() {
               the storefront and each channel stay visible separately.
             </p>
             <p>
+              If you pay staff by the hour, the payroll entries in your books are only as good as the time
+              records behind them. The must-haves are short: hours recorded accurately so payroll entries are
+              right, time off tracked in the same place, and timesheets totaled without hand math. Local
+              service businesses such as{" "}
+              <a href="https://kloqk.com/for/hvac-plumbing" className="font-medium text-brand-600 underline">HVAC and plumbing shops</a>,{" "}
+              <a href="https://kloqk.com/for/landscaping" className="font-medium text-brand-600 underline">landscaping crews</a>, and{" "}
+              <a href="https://kloqk.com/for/salons-barbershops" className="font-medium text-brand-600 underline">salons and barbershops</a>{" "}
+              often run this on a shared tablet. Kloqk, a free time clock, is one way to do it, with{" "}
+              <a href="https://kloqk.com/features/pto-tracking" className="font-medium text-brand-600 underline">PTO tracking</a>{" "}
+              and a{" "}
+              <a href="https://kloqk.com/resources/tools/timesheet-calculator" className="font-medium text-brand-600 underline">free timesheet calculator</a>{" "}
+              for checking totals. Kloqk is built by the same team behind eMerchantBooks.
+            </p>
+            <p>
               Denton anchors the other end of the territory with a different character: a courthouse square of
               independent businesses and two universities feeding it customers and founders. First real
               bookkeeper for a growing Denton shop, or an accountant in Denton, TX for a maker brand that
